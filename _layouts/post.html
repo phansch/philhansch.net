@@ -1,22 +1,18 @@
----
-layout: post
----
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ site.title }}</title>
-    
-    <link rel="stylesheet" href="http://phansch.github.com/stylesheets/styles.css">
-    <link rel="stylesheet" href="http://phansch.github.com/stylesheets/pygment_trac.css">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div id="sidebar"> Posts: <br />{{ site.posts }} </div>
-    <div id="main">
-      {{content}}
-    </div>
-  </body>
-</html>
+<div id="post">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    {{ page.date | date_to_long_string }}
+    {% if user.location %}{{ user.location }}{% endif %}
+  </p>
+  {{ content }}
+</div>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
