@@ -150,7 +150,14 @@ pre {
 
 /* Header */
 #top a {
+  color:#C30000;
+  font-weight:200;
+  text-decoration:none;
   margin-right:10px;
+}
+
+#top a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
