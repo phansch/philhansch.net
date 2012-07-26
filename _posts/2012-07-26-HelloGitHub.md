@@ -1,8 +1,6 @@
 ---
 layout: post
 location: Berlin
-category: web
-tags: [github, jekyll, liquid, markdown]
 title: Hello GitHub!
 ---
 I came here after using Wordpress for over two years. 
