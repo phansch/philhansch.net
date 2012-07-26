@@ -2,23 +2,8 @@
 layout: default
 title: phansch.de
 ---
-
-  <div class="wrapper">
-    <header>
-      <h1 class="header">phansch.de</h1>
-      <p class="header">github</p>
-
-      <ul>
-        <li><a class="buttons github" href="https://github.com/phansch">GitHub Profile</a></li>
-      </ul>
-
-    </header>
     <section>
       {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </section>
-    <footer>
-      <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a></p>
-    </footer>
-  </div>
