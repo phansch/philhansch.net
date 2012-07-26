@@ -8,8 +8,8 @@ title: phansch.de
         {% for post in site.posts limit:3%}
           <h2>post.title</h2>
           <p class="meta">
-            {{ page.date | date_to_long_string }}
-            {% if page.location %} - {{ page.location }}{% endif %}
+            {{ post.date | date_to_long_string }}
+            {% if post.location %} - {{ post.location }}{% endif %}
           </p>
           {{ post.content }}
         {% endfor %}
