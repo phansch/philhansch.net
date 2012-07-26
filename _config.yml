@@ -1,3 +1,11 @@
+title : phansch.de
+
+author :
+  name : Philipp Hansch
+  email : philipp@phansch.de
+  github : phansch
+  twitter : plyturon
+
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
