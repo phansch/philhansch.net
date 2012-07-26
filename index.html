@@ -6,12 +6,14 @@ title: phansch.de
     <section>
       
         {% for post in site.posts limit:3%}
-          <h2>{{ post.title }}</h2>
-          <p class="meta">
-            {{ post.date | date_to_long_string }}
-            {% if post.location %} - {{ post.location }}{% endif %}
-          </p>
-          {{ post.content }}
+          <div class="post">
+            <h2>{{ post.title }}</h2>
+            <p class="meta">
+              by {{ site.author.name }} on {{ post.date | date_to_long_string }}
+              {% if post.location %} - {{ post.location }}{% endif %}
+            </p>
+            {{ post.content }}
+          </div>
         {% endfor %}
       
     </section>
