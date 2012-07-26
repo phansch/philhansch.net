@@ -65,13 +65,15 @@ h4, h5, h6 {
 }
 
 a {
-  color:#C30000;
-  font-weight:200;
-  text-decoration:none;
+  color: #00a;
 }
 
 a:hover {
-	text-decoration: underline;
+  color: black;
+}
+
+a:visited {
+  color: #a0a;
 }
 
 a small {
@@ -129,8 +131,7 @@ pre {
 
 #post img {
   border:4px solid #ccc;
-  margin-left:10px;
-  -moz-border-radius:5px;
+  margin-left:5px;
 }
 
 /* Wrapper */
