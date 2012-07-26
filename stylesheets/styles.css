@@ -127,6 +127,11 @@ pre {
 	margin-bottom: 32px;
 }
 
+#post img {
+  border:2px solid #ccc;
+  text-align:center;
+}
+
 /* Wrapper */
 #wrapper {
   width:650px;
@@ -150,7 +155,7 @@ pre {
 #footer {
   border-top:5px solid #ccc;
   padding-top:10px;
-  margin-bottom:40px;
+  margin-bottom:60px;
   font-family: Verdana;
   font-size: 12px;
   line-height: 16px;
