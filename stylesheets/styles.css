@@ -180,8 +180,8 @@ pre {
   float:left;
   width:150px;
 }
-.post-index {
-  border-bottom: 4px solid #ccc;
+.post-index h1, .post-index h2 {
+  border-bottom: 4px dashed #ccc;
 }
 
 .archive-date {
