@@ -164,6 +164,7 @@ pre {
 #footer {
   border-top:4px solid #ccc;
   margin-top:10px;
+  padding-top:10px;
   margin-bottom:60px;
   font-family: Verdana;
   font-size: 12px;
@@ -178,7 +179,7 @@ pre {
   float:left;
   width:150px;
 }
-.post-index h1, .post-index h2 {
+.post-index h1, .post-index h2, #post h1, #post h2 {
   border-bottom: 4px dotted #ddd;
 }
 
