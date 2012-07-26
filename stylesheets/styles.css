@@ -39,7 +39,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#232323;
-  margin:36px 0 10px;
+  margin:16px 0 5px;
 }
 
 p, ul, ol, table, dl {
@@ -202,7 +202,10 @@ td {
 }
 
 .meta {
-  font-variant:small-caps;
+  text-transform:uppercase;
+  font-family: "Helvetica", sans-serif;
+  font-size:11px;
+  color:rgb(153,153,153);
 }
 /* Section - for main page content */
 
@@ -211,8 +214,8 @@ section {
 }
 
 /* Header */
-#top {
-  
+#top a {
+  margin-right:10px;
 }
 
 .post {
