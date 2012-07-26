@@ -218,6 +218,17 @@ section {
   margin-right:10px;
 }
 
+/* Footer */
+#footer#left {
+  float: left;
+  width:50%;
+}
+
+#footer#right {
+  float: right;
+  width:50%;
+}
 .post-index {
   border-bottom: 1px solid #ccc;
 }
+
