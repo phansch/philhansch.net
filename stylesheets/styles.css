@@ -31,7 +31,7 @@ body {
 	font-size: 14px;
 	color: #232323;
 	background-color: #FBFAF7;
-	margin: 0 auto;
+	margin: 0;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
 
@@ -197,19 +197,19 @@ td {
 
 
 /* Wrapper */
-.wrapper {
-  width:960px;
+#wrapper {
+  width:650px;
+  margin:0 auto;
 }
 
 
 /* Section - for main page content */
 
 section {
-  width:650px;
   padding-bottom:50px;
 }
 
 /* Header */
 #top {
-  width:650px;
+  
 }
