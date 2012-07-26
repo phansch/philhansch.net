@@ -5,17 +5,16 @@ layout: post
 <html>
   <head>
     <meta charset="utf-8">
-    <title>phansch.de</title>
+    <title>{{ site.title }}</title>
     
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    post layout
-    <div id="sidebar"> ... </div>
+    <div id="sidebar"> Posts: <br />{{ site.posts }} </div>
     <div id="main">
       {{content}}
     </div>
