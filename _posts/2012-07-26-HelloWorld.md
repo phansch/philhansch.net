@@ -1,6 +1,6 @@
 ---
 layout: post
-page.location: Berlin
+location: Berlin
 title: Hello World
 ---
 Hello World.
