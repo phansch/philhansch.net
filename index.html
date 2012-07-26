@@ -2,10 +2,12 @@
 layout: default
 title: phansch.de
 ---
+    <h1>Recent posts</h1>
     <section>
-      <ul>
+      
         {% for post in site.posts limit:3%}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+          {{ post.content }}
+          <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
         {% endfor %}
-      </ul>
+      
     </section>
