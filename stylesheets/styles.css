@@ -218,6 +218,10 @@ section {
   margin-right:10px;
 }
 
-.post {
+.post-index {
   border-bottom: 1px solid #ccc;
+}
+
+ul#archive {
+  list-style: none;
 }
