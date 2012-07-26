@@ -31,7 +31,7 @@ body {
 	font-size: 14px;
 	color: #232323;
 	background-color: #FBFAF7;
-	margin: 0;
+	margin: 0 auto;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
 
@@ -206,17 +206,10 @@ td {
 
 section {
   width:650px;
-  float:right;
   padding-bottom:50px;
 }
 
-
-/* Footer */
-
-#footer {
-  width:170px;
-  float:left;
-  position:fixed;
-  bottom:10px;
-	padding-left: 50px;
+/* Header */
+#top {
+  width:650px;
 }
