@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World
-user.location: Berlin
+user:
+	location: Berlin
 ---
 Hello World.
