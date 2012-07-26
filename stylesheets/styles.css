@@ -224,15 +224,16 @@ section {
   padding-top:10px;
   font-family: Verdana;
   font-size: 12px;
+  line-height: 14px;
 }
 #footer #left {
   float: left;
-  width:50%;
+  width:150px;
 }
 
 #footer #right {
   float:right;
-  width:50%;
+  width:150px;
 }
 .post-index {
   border-bottom: 1px solid #ccc;
@@ -240,6 +241,6 @@ section {
 
 .archive-date {
   font-family: monospace;
-  color:#aaa;
-  font-size:10px;
+  color:#666666;
+  font-size:11px;
 }
