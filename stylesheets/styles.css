@@ -54,7 +54,6 @@ h1, h2, h3 {
 
 h1,h2, h3 {
 	display: block;
-	border-bottom: 1px solid #ccc;
 	padding-bottom: 5px;
 }
 
@@ -202,7 +201,9 @@ td {
   margin:0 auto;
 }
 
-
+.meta {
+  font-variant:small-caps;
+}
 /* Section - for main page content */
 
 section {
@@ -214,3 +215,6 @@ section {
   
 }
 
+#post {
+  border-bottom: 1px solid #ccc;
+}
