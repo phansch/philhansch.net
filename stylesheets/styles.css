@@ -47,11 +47,6 @@ h1, h2, h3 {
 	font-weight: normal;
 }
 
-h1,h2, h3 {
-	display: block;
-	padding-bottom: 5px;
-}
-
 h1 {
 	font-size: 30px;
 }
@@ -143,6 +138,7 @@ pre {
   font-family: Helvetica, sans-serif;
   font-size:11px;
   color:rgb(153,153,153);
+  margin-bottom:5px;
 }
 
 /* Header */
