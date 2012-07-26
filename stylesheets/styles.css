@@ -162,9 +162,7 @@ pre {
 
 /* Footer */
 #footer {
-  background-color:#ccc;
--moz-border-radius:30px;
--khtml-border-radius:30px;
+  border-top:4px solid #ccc;
   margin-top:10px;
   margin-bottom:60px;
   font-family: Verdana;
@@ -181,7 +179,7 @@ pre {
   width:150px;
 }
 .post-index h1, .post-index h2 {
-  border-bottom: 4px dashed #ccc;
+  border-bottom: 4px dotted #ddd;
 }
 
 .archive-date {
