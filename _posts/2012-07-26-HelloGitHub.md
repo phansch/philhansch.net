@@ -3,7 +3,7 @@ layout: post
 location: Berlin
 category: web
 tags: [github, jekyll, liquid, markdown]
-title: Hello GitHub
+title: Hello GitHub!
 ---
 I came here after using Wordpress for over two years. 
 I always want to keep stuff as simple as possible: I don't need a dashboard, plugins, a media library or a link database. Neither do I need a theme database, a user database or a WYSIWYG editor to create a blog post. That stuff is over-kill. And that was going through my mind the whole time. 
