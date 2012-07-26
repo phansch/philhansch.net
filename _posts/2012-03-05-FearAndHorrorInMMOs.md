@@ -34,4 +34,3 @@ Lastly, it all depends on how dark the dungeon would actually be. Obviously you 
 With that being said, I don't think it's possible to create a fully immersive horror part inside a dungeon in Guild Wars 2. But I do think it's possible to create some challenging encounters that include dark and eerie areas in a dungeon.
 
 Note: This is an extension of a post I made on GW2Guru a while ago. You can find the topic [here](http://www.guildwars2guru.com/forum/dark-dungeon-s-t25292.html?p=1041309#post1041309). Also I'm neither a psychologist nor a torturer in any way. I just enjoy thinking about the design choices behind great games like Amnesia, Minecraft and, of course, Guild Wars 2.
-> *The Sketchbook is the place where I am discussing different aspects of the game mechanics of Guild Wars 2, think about possible improvements to the game and give my opinion on interesting discussions.*

@@ -129,7 +129,7 @@ pre {
 	margin-bottom: 32px;
 }
 
-#post img {
+#post img, .post-index img  {
   border:4px solid #ccc;
   margin-left:5px;
 }
@@ -162,8 +162,10 @@ pre {
 
 /* Footer */
 #footer {
-  border-top:5px solid #ccc;
-  padding-top:10px;
+  background-color:#ccc;
+-moz-border-radius:30px;
+-khtml-border-radius:30px;
+  margin-top:10px;
   margin-bottom:60px;
   font-family: Verdana;
   font-size: 12px;
