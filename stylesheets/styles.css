@@ -154,6 +154,7 @@ pre {
 #footer {
   border-top:5px solid #ccc;
   padding-top:10px;
+  margin-bottom:40px;
   font-family: Verdana;
   font-size: 12px;
   line-height: 16px;
@@ -168,7 +169,7 @@ pre {
   width:150px;
 }
 .post-index {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 4px solid #ccc;
 }
 
 .archive-date {
