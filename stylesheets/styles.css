@@ -224,7 +224,7 @@ section {
   padding-top:10px;
   font-family: Verdana;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 16px;
 }
 #footer #left {
   float: left;
@@ -232,7 +232,7 @@ section {
 }
 
 #footer #right {
-  float:right;
+  float:left;
   width:150px;
 }
 .post-index {
@@ -243,4 +243,5 @@ section {
   font-family: monospace;
   color:#666666;
   font-size:11px;
+  vertical-align: 1px;
 }
