@@ -231,7 +231,7 @@ section {
 }
 
 #footer #right {
-  margin-left: 15px;
+  float:right;
   width:50%;
 }
 .post-index {
@@ -240,5 +240,6 @@ section {
 
 .archive-date {
   font-family: monospace;
-  color:#ccc;
+  color:#aaa;
+  font-size:10px;
 }
