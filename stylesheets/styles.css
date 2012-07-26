@@ -219,12 +219,12 @@ section {
 }
 
 /* Footer */
-#footer#left {
+#footer #left {
   float: left;
   width:50%;
 }
 
-#footer#right {
+#footer #right {
   float: right;
   width:50%;
 }
