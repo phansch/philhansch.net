@@ -1,6 +1,8 @@
 ---
 layout: post
 location: Berlin
+category: web
+tags: [github, jekyll, liquid, markdown]
 title: Hello GitHub!
 ---
 I came here after using Wordpress for over two years. 
@@ -17,7 +19,7 @@ The first documentation I found, was [this one](https://help.github.com/categori
 With the proper documentation at hand I quickly made progress and soon had my first template/page setup working. From there it was only a surprisingly small step to a blog.
 
 ### How this blog works ###
-[This markdown file](https://github.com/phansch/phansch.github.com/blob/master/_posts/2012-07-26-ILikeToMoveIt.md) contains all the text for the blog post. The YAML front matter at the top specifies the layout for the blog post, the category, tags and a title. [The layout file](https://github.com/phansch/phansch.github.com/blob/master/_layouts/post.html) contains html and a {% raw %}{{ content }}{% endraw %} variable that is replaced with the blog post by jekyll. You might notice that the *post.html* layout file has a layout defined. The [default layout](https://github.com/phansch/phansch.github.com/blob/master/_layouts/default.html)  will replace the content variable with the post layout.
+[This markdown file](https://github.com/phansch/phansch.github.com/blob/master/_posts/2012-07-26-ILikeToMoveIt.md) contains all the text for the blog post. The YAML front matter at the top specifies the layout for the blog post, the category, tags and a title. [The layout file](https://github.com/phansch/phansch.github.com/blob/master/_layouts/post.html) contains html and a content variable that is replaced with the blog post by jekyll. You might notice that the *post.html* layout file has a layout defined. The [default layout](https://github.com/phansch/phansch.github.com/blob/master/_layouts/default.html) will replace the content variable with the post layout.
 
 ### Publishing ###
 I'm using Sublime Text 2 to create the blog posts in markdown. Once I'm done writing a blog post I commit the file to the *_posts* folder in my [phansch.github.com repository](https://github.com/phansch/phansch.github.com). That's all there is to publishing. It might take a few minutes until the blog post shows up.
