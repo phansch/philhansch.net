@@ -15,37 +15,37 @@ Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine au
 Die Geister Wegfindung ist sehr einfach gehalten.
 Befindet sich ein Geist auf einer Kreuzung, wird eine zufällige Richtung ausgewählt. Ausgenommen ist dabei die Richtung aus der der Geist gekommen ist.
 
-```csharp
-public void GetPossibleDirections(Map map)
-{
-    _possibleDirections.Clear();
-    foreach (Direction dir in Enum.GetValues(typeof(Direction)))
+
+    public void GetPossibleDirections(Map map)
     {
-        if (CanMove(dir, map))
+        _possibleDirections.Clear();
+        foreach (Direction dir in Enum.GetValues(typeof(Direction)))
         {
-            _possibleDirections.Add(dir);
+            if (CanMove(dir, map))
+            {
+                _possibleDirections.Add(dir);
+            }
+        }
+
+        //Remove the opposite direction
+        if (this.CurrentDirection == Direction.Right)
+        {
+            _possibleDirections.Remove(Direction.Left);
+        }
+        else if (this.CurrentDirection == Direction.Left)
+        {
+            _possibleDirections.Remove(Direction.Right);
+        }
+        else if (this.CurrentDirection == Direction.Up)
+        {
+            _possibleDirections.Remove(Direction.Down);
+        }
+        else if (this.CurrentDirection == Direction.Down)
+        {
+            _possibleDirections.Remove(Direction.Up);
         }
     }
 
-    //Remove the opposite direction
-    if (this.CurrentDirection == Direction.Right)
-    {
-        _possibleDirections.Remove(Direction.Left);
-    }
-    else if (this.CurrentDirection == Direction.Left)
-    {
-        _possibleDirections.Remove(Direction.Right);
-    }
-    else if (this.CurrentDirection == Direction.Up)
-    {
-        _possibleDirections.Remove(Direction.Down);
-    }
-    else if (this.CurrentDirection == Direction.Down)
-    {
-        _possibleDirections.Remove(Direction.Up);
-    }
-}
-```
 Natürlich ist das noch keine große Herausforderung für den Spieler. Im Original hat jeder Geist seine eigene Persönlichkeit, so dass er zum Beispiel auf die Nähe Pacmans reagiert. 
 Dazu gibt es einige wunderbare Artikel im Netz:
 	
@@ -64,35 +64,35 @@ Die erstbeste Methode zur Kollisionserkennung auf die man stößt wenn man nach 
 
 Anhand des Bildes kann man das leicht erklären. Der Gegner (rot) befindet sich auf dem Weg nach oben und ist Pacman schon fast ein ganzes Feld voraus. Da sich jedoch die Rechtecke beider Objekte berühren, kommt es zur Kollision.
 
-```csharp
-public bool GetsEaten_Hardcore(List<ghost>)
-{
-    foreach (Ghost g in ghosts)
+
+    public bool GetsEaten_Hardcore(List<ghost>)
     {
-        if (this.RectBoundary.Intersects(g.RectBoundary))
+        foreach (Ghost g in ghosts)
         {
-            return true;
+            if (this.RectBoundary.Intersects(g.RectBoundary))
+            {
+                return true;
+            }
         }
+        return false;
     }
-    return false;
-}
-```
+
 
 Eine andere Möglichkeit: Während des Spiels wird von der Spielfigur und den Gegnern jeweils das aktuelle Feld erfasst. Befindet sich ein Geist mit Pacman auf demselben Feld, kommt es zu einer Kollision.
 
-```csharp
-public bool GetsEaten_Liberal(List<ghost>)
-{
-    foreach (Ghost g in ghosts)
+
+    public bool GetsEaten_Liberal(List<ghost>)
     {
-        if (this.CurrentField == g.CurrentField)
+        foreach (Ghost g in ghosts)
         {
-            return true;
+            if (this.CurrentField == g.CurrentField)
+            {
+                return true;
+            }
         }
+        return false;
     }
-    return false;
-}
-```
+
 
 
 
@@ -109,38 +109,35 @@ In der jetzigen Version kann Pacman die Gegner für eine bestimmte Zeit verlangs
 
 Alles fängt damit an, dass Pacman eine große Pille sammelt:
 
-```csharp
-if ((pointsGained = _pacman.EatBigPill(_map) == 30)
-{
-    GameData.AteBigPill = true;
-}
-```
+    if ((pointsGained = _pacman.EatBigPill(_map) == 30)
+    {
+        GameData.AteBigPill = true;
+    }
 
 
 Die Methode `Update_Ghosts()` überprüft ob `GameData.AteBigPill == true` ist und ändert entsprechend die Geschwindigkeit der Gegner.
 
-```csharp
-//Slow each ghost for GHOST_SLOWTIME in seconds if pacman ate a big pill
-if (GameData.AteBigPill == true)
-{
-    //Start counter
-    GameData.GhostSlowTimer -= gameTime.ElapsedGameTime.TotalSeconds;
-    foreach (Ghost g in _ghostList)
+    //Slow each ghost for GHOST_SLOWTIME in seconds if pacman ate a big pill
+    if (GameData.AteBigPill == true)
     {
-        g.Speed = MovingCreature.MovementSpeed.Slow; //Force effect on each ghost
+        //Start counter
+        GameData.GhostSlowTimer -= gameTime.ElapsedGameTime.TotalSeconds;
+        foreach (Ghost g in _ghostList)
+        {
+            g.Speed = MovingCreature.MovementSpeed.Slow; //Force effect on each ghost
+        }
+
+        if (GameData.GhostSlowTimer < = 0) //if time is over
+        {
+            GameData.GhostSlowTimer = GameData.GHOST_SLOWTIME; //reset timer
+            GameData.AteBigPill = false; //reset flag
+        }
+    }
+    else if(GameData.AteBigPill == false)
+    {
+        foreach (Ghost g in _ghostList)
+        {
+            g.Speed = MovingCreature.MovementSpeed.Fast; //Remove effect
+        }
     }
 
-    if (GameData.GhostSlowTimer < = 0) //if time is over
-    {
-        GameData.GhostSlowTimer = GameData.GHOST_SLOWTIME; //reset timer
-        GameData.AteBigPill = false; //reset flag
-    }
-}
-else if(GameData.AteBigPill == false)
-{
-    foreach (Ghost g in _ghostList)
-    {
-        g.Speed = MovingCreature.MovementSpeed.Fast; //Remove effect
-    }
-}
-```
