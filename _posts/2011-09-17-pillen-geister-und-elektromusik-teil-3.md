@@ -2,14 +2,14 @@
 comments: true
 date: 2011-09-17 09:00:40
 layout: post
-slug: pillen-geister-und-elektromusik-%e2%80%93-teil-3
-title: Pillen, Geister und Elektromusik – Teil 3
+slug: pillen-geister-und-elektromusik-teil-3
+title: Pillen, Geister und Elektromusik - Teil 3
 wordpress_id: 1013
 ---
 
 In den letzten zwei Wochen habe ich wieder Zeit für das [Pacman Spiel](http://blog.phansch.de/2010/12/pillen-geister-und-elektromusik-teil-2/) gefunden.
 
-Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine automatische Wegfindung. Außerdem können sie von Pacman durch das Sammeln von großen Pillen für 5 Sekunden verlangsamt werden. Was es sonst noch neues gibt, erfahrt ihr nach dem Jump
+Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine automatische Wegfindung. Außerdem können sie von Pacman durch das Sammeln von großen Pillen für 5 Sekunden verlangsamt werden.Was es sonst noch neues gibt, erfahrt ihr nach dem Jump
 
 
 
