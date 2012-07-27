@@ -49,7 +49,7 @@ public void GetPossibleDirections(Map map)
         _possibleDirections.Remove(Direction.Up);
     }
 }
-'''
+´´´
 Natürlich ist das noch keine große Herausforderung für den Spieler. Im Original hat jeder Geist seine eigene Persönlichkeit, so dass er zum Beispiel auf die Nähe Pacmans reagiert. 
 Dazu gibt es einige wunderbare Artikel im Netz:
 
