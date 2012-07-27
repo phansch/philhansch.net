@@ -2,6 +2,7 @@
 layout: post
 location: Berlin
 title: Fear and Horror in MMOs
+plyturonnet: true
 ---
 Being a huge fan of *Amnesia: The Dark Descent* and *Minecraft*, I wanted to talk about a very specific topic in my first sketchbook article: The feeling of fear and horror in games and how this could work in Guild Wars 2. Please turn off your lights, put on your headphones and plug-in some [dark ambient music](http://www.youtube.com/watch?v=ZTHSKEXbQ1c) before you are starting to read this article.
 
