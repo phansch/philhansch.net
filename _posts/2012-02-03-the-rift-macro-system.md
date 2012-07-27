@@ -11,10 +11,7 @@ As you may or may not know, I have a gaming section over at [games.phansch.de](h
 Most importantly, I wrote a [macro translator](http://games.phansch.de/rift/macro/index.html) that translates Rift macros written in English, to German and the other way around. Today, I want to talk about the pitfalls of Rift's macro and command system and possible solutions. 
 
 
-
 ### Introduction
-
-
 
 When I started playing Rift, I would usually use the English client because I preferred the English forums over the German forums for its up-to-date guides and tutorials. Still, I was playing on a German server because I preferred to play with people who speak my native language (being lazy here!).
 
@@ -23,10 +20,7 @@ As mentioned, I was always more in touch with the international community than t
 I quickly noticed that all my macros stopped working. Apparently Trion localized parts of the macro syntax into German! So I started to figure out what was going on ~
 
 
-
 ### What’s so wrong
-
-
 
 The way Rift macros are localized into the additional supported languages (German and French) is kind of weird.
 
@@ -34,11 +28,9 @@ First of all, when using a localized client, the macro system expects the locali
 
 And here the real trouble begins. Some parts aren't localized. Take the _/cas_t command. It works in the German client as well and there doesn't seem to be a translation for it. As well as the _suppressmacrofailures_ command. However, there once was a German translation available for it but stopped working a few updates ago.
 
-[caption id="attachment_1312" align="aligncenter" width="179" caption="Will work in the German client!"][![](http://wpimages.phansch.de/2012/02/macro.jpg)](http://wpimages.phansch.de/2012/02/macro.jpg)[/caption]
+[![](http://wpimages.phansch.de/2012/02/macro.jpg)](http://wpimages.phansch.de/2012/02/macro.jpg)
 
-Then there's certain emotes in the German client that allow you to use both the English and the German command: _/dance_ and _/tanzen_ will both work in the German client! These are just a few examples I stumbled across when I was writing up the [Commandlist](http://telarapedia.com/wiki/Commands) over at Telarapedia during beta. 
-
-
+Then there are certain emotes in the German client that allow you to use both the English and the German command: _/dance_ and _/tanzen_ will both work in the German client! These are just a few examples I stumbled across when I was writing up the [Commandlist](http://telarapedia.com/wiki/Commands) over at Telarapedia during beta. 
 
 ### Possible solutions
 

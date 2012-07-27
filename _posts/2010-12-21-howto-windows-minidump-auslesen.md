@@ -9,21 +9,9 @@ wordpress_id: 789
 
 Vor kurzem hat mich unter Windows 7 zum ersten mal ein BSOD erwischt. Das ist, zumindest bei mir, eine sehr seltene Angelegenheit. Leider war ich beim auftauchen des Bluescreens so perplex und habe die Fehlermeldung nicht wahrgenommen. Was also machen? 
 Es gibt verschiedene Möglichkeiten die Infos aus dem Bluescreen nachträglich einzusehen.
-
-
-
-
-
 	
   1. Eventviewer
-
-	
   2. WinDbg
-
-
-
-
-
 
 ## EventLog
 
@@ -31,22 +19,14 @@ Es gibt verschiedene Möglichkeiten die Infos aus dem Bluescreen nachträglich e
 Die erste Möglichkeit besteht darin, das EventLog von Windows zu durchsuchen.
 
 Das EventLog speichert verschiedene Arten von Ereignissen während des Windows Betriebes auf. Die Ereignisse sind in drei Kategorien aufgeteilt: **Information**, **Warnung**, **Fehler**. Diese Informationen werden ständig im Hintergrund gesammelt und im EventLog aufbereitet dargestellt. Aufgerufen wird das EventLog wie folgt:
-
-
-
 	
   1. Start -> Ausführen
-
-	
   2. "eventvwr" eingeben
-
-	
   3. Mit OK bestätigen
-
 
 Ein Bluescreen sollte unter die Kategorie "Fehler" bzw. "Kritisch" fallen. Mit einem Doppelklick auf das entsprechende Event und einem nachfolgendem Klick auf "Details" erhält man folgende Ansicht:
 
-[caption id="attachment_824" align="alignnone" width="300" caption="Detailansicht im Eventfenster"][![Detailansicht im Eventfenster](http://wpimages.phansch.de/2010/11/Bluescreen_01-300x205.png)](http://wpimages.phansch.de/2010/11/Bluescreen_01.png)[/caption]
+[![Detailansicht im Eventfenster](http://wpimages.phansch.de/2010/11/Bluescreen_01-300x205.png)](http://wpimages.phansch.de/2010/11/Bluescreen_01.png)
 
 Sowohl mit der Event-ID als auch dem BugCheckCode lassen sich über Google meistens weitere Informationen finden.
 
@@ -63,13 +43,13 @@ Natürlich ist WinDbg sehr komplex. Für unser Problem reicht es jedoch, wenn wi
 
 
 Für WinDbg werden die Windows Debugging Tools benötigt. Bei der Installation muss allerdings nur WinDbg installiert werden.
-Das Windows SDK, welches WinDbg beinhaltet, kann hier heruntergeladen werden: http://www.microsoft.com/whdc/devtools/debugging/default.mspx
+Das Windows SDK, welches WinDbg beinhaltet, kann [hier](http://www.microsoft.com/whdc/devtools/debugging/default.mspx) heruntergeladen werden.
 
 Bei der Installation ist es wichtig, die Debugging Tools auszuwählen:
-[caption id="attachment_955" align="alignnone" width="300" caption="Debugging Tools auswählen"][![Debugging Tools auswählen](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11-300x288.png)](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11.png)[/caption]
+[![Debugging Tools auswählen](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11-300x288.png)](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11.png)
 WinDbg kann anschließend über das Programmmenü gestartet werden:
 
-[caption id="attachment_840" align="alignnone" width="232" caption="WinDbg starten"][![WinDbg starten](http://wpimages.phansch.de/2010/12/startWinDbg.png)](http://wpimages.phansch.de/2010/12/startWinDbg.png)[/caption]
+[![WinDbg starten](http://wpimages.phansch.de/2010/12/startWinDbg.png)](http://wpimages.phansch.de/2010/12/startWinDbg.png)
 
 
 ### WinDbg benutzen um Minidump auszulesen
@@ -91,7 +71,7 @@ Um den Minidump auszulesen öffnen wir ihn in WinDbg über "File -> Open Crash D
 
 Nun befinden wir uns in der Debugging Ansicht. Es wird zunächst eine weile dauern bis die Symboldateien heruntergeladen wurden.
 Wenn der Download abgeschlossen ist, sieht das Debuggingfenster so aus:
-[caption id="attachment_967" align="alignnone" width="150" caption="Download der Symbole komplett"][![Download der Symbole komplett](http://wpimages.phansch.de/2010/12/winDbg_debug1-150x150.png)](http://wpimages.phansch.de/2010/12/winDbg_debug1.png)[/caption]
+[![Download der Symbole komplett](http://wpimages.phansch.de/2010/12/winDbg_debug1-150x150.png)](http://wpimages.phansch.de/2010/12/winDbg_debug1.png)
 
 Wir können bereits sehen wodurch der Fehler ausgelöst wurde: "Probably caused by : ntkrnlmp.exe"
 Um weitere Informationen zu bekommen, geben wir unten in der Kommandozeile den Befehl `!analyze -v` ein.
@@ -99,65 +79,61 @@ Um weitere Informationen zu bekommen, geben wir unten in der Kommandozeile den B
 Dies analysiert den Fehler bis ins Detail:
 
 
+        BAD_POOL_CALLER (c2)
+    The current thread is making a bad pool request.  Typically this is at a bad IRQL level or double freeing the same allocation, etc.
+    Arguments:
+    Arg1: 000000000000000b, type of pool violation the caller is guilty of.
+    Arg2: fffffa8005338728
+    Arg3: 0000000005338720
+    Arg4: fffffa8005338f38
 
-> **BAD_POOL_CALLER (c2)**
-The current thread is making a bad pool request.  Typically this is at a bad IRQL level or double freeing the same allocation, etc.
-Arguments:
-Arg1: 000000000000000b, type of pool violation the caller is guilty of.
-Arg2: fffffa8005338728
-Arg3: 0000000005338720
-Arg4: fffffa8005338f38
+    Debugging Details:
 
-Debugging Details:
-------------------
+    FAULTING_IP: 
+    nt!ExDeleteResourceLite+199
+    fffff800`02c690f9 eba0            jmp     nt!ExDeleteResourceLite+0x13b (fffff800`02c6909b)  
 
+        BUGCHECK_STR:  0xc2_b
 
-FAULTING_IP: 
-nt!ExDeleteResourceLite+199
-fffff800`02c690f9 eba0            jmp     nt!ExDeleteResourceLite+0x13b (fffff800`02c6909b)
+    CUSTOMER_CRASH_COUNT:  1  
 
-**BUGCHECK_STR:  0xc2_b**
+        DEFAULT_BUCKET_ID:  VISTA_DRIVER_FAULT
 
-CUSTOMER_CRASH_COUNT:  1
+    PROCESS_NAME:  System
 
-**DEFAULT_BUCKET_ID:  VISTA_DRIVER_FAULT**
+    CURRENT_IRQL:  0  
 
-PROCESS_NAME:  System
+    LAST_CONTROL_TRANSFER:  from fffff80002daf6b8 to fffff80002c7c740
 
-CURRENT_IRQL:  0
+    STACK_TEXT:  
+    [...]
 
-LAST_CONTROL_TRANSFER:  from fffff80002daf6b8 to fffff80002c7c740
+    STACK_COMMAND:  kb
 
-STACK_TEXT:  
-[...]
+    FOLLOWUP_IP: 
+    nt!ExDeleteResourceLite+199
+    fffff800`02c690f9 eba0            jmp     nt!ExDeleteResourceLite+0x13b (fffff800`02c6909b)
 
-STACK_COMMAND:  kb
+    SYMBOL_STACK_INDEX:  2
 
-FOLLOWUP_IP: 
-nt!ExDeleteResourceLite+199
-fffff800`02c690f9 eba0            jmp     nt!ExDeleteResourceLite+0x13b (fffff800`02c6909b)
+    SYMBOL_NAME:  nt!ExDeleteResourceLite+199
 
-SYMBOL_STACK_INDEX:  2
+    FOLLOWUP_NAME:  MachineOwner
 
-SYMBOL_NAME:  nt!ExDeleteResourceLite+199
+    MODULE_NAME: nt
 
-FOLLOWUP_NAME:  MachineOwner
+        IMAGE_NAME:  ntkrnlmp.exe
 
-MODULE_NAME: nt
+    DEBUG_FLR_IMAGE_TIMESTAMP:  4c1c44a9
 
-**IMAGE_NAME:  ntkrnlmp.exe**
+    FAILURE_BUCKET_ID:  X64_0xc2_b_nt!ExDeleteResourceLite+199
 
-DEBUG_FLR_IMAGE_TIMESTAMP:  4c1c44a9
+    BUCKET_ID:  X64_0xc2_b_nt!ExDeleteResourceLite+199
 
-FAILURE_BUCKET_ID:  X64_0xc2_b_nt!ExDeleteResourceLite+199
-
-BUCKET_ID:  X64_0xc2_b_nt!ExDeleteResourceLite+199
-
-Followup: MachineOwner
+    Followup: MachineOwner
 
 
-
-Mithilfe der (fett) hervorgehobenen Informationen können wir zum Beispiel über Google weitere Infos bekommen. In diesem Fall hat ein neuer Audiotreiber das Problem behoben.
+Mithilfe der eingerückten Informationen können wir zum Beispiel über Google weitere Infos bekommen. In diesem Fall hat ein neuer Audiotreiber das Problem behoben.
 
 Ich hoffe dieser Post war einer Hilfe und konnte eventuelle Probleme beheben.
   *[BSOD]: Bluescreen of death

@@ -9,7 +9,7 @@ plyturonnet: true
 
 Hello, and welcome to plyturon.net! Enjoy your stay.
 
-My name is Plyturon and this website is my contribution to the Guild Wars 2 community.
+My name is Plyturon and this blog is my contribution to the Guild Wars 2 community.
 I am trying to provide community spotlights, Guild Wars 2 design/mechanics discussions and weekly wrap-ups of Guild Wars 2 news.
 
 At a later date you will probably see guides and useful web applications for Guild Wars 2.

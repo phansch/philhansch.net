@@ -11,10 +11,6 @@ Hier ein kleines Tutorial wie man einen Linux Webserver auf einer Virtuellen Mas
 
 Es hat viele Nachteile, Projekte auf einem Produktivsystem zu entwickeln. Es macht daher Sinn, ein Testsystem aufzusetzen. Am sinnvollsten ist hier ein virtueller Webserver.
 
-[nggallery id=1]
-
-
-
 Als Software benutze benutzen wir VirtualBox und Ubuntu.
 
 Das Hostsystem ist Windows 7 x64.
@@ -31,13 +27,13 @@ Dazu wählt man die zu ändernde Maschine aus und öffnet das Einstellungsmenü.
 
 Dort lässt sich das entsprechende .iso image auswählen.
 
-[caption id="attachment_489" align="alignnone" width="300" caption="Einbindung des ISO Images"][![Einbindung des ISO Images](http://wpimages.phansch.de/2010/03/vbox-iso1-300x240.gif)](http://wpimages.phansch.de/2010/03/vbox-iso1.gif)[/caption]
+[![Einbindung des ISO Images](http://wpimages.phansch.de/2010/03/vbox-iso1-300x240.gif)](http://wpimages.phansch.de/2010/03/vbox-iso1.gif)
 
 Danach wird die Maschine gestartet und Ubuntu kann installiert werden.
 
 Bevor man sich an die Apache Installation macht, sollte man alle verfügbaren Updates installieren.
 
-[caption id="attachment_490" align="alignnone" width="300" caption="Xubuntu Updates"][![Xubuntu Updates](http://wpimages.phansch.de/2010/03/xubuntu-updates-300x247.gif)](http://wpimages.phansch.de/2010/03/xubuntu-updates.gif)[/caption]
+[![Xubuntu Updates](http://wpimages.phansch.de/2010/03/xubuntu-updates-300x247.gif)](http://wpimages.phansch.de/2010/03/xubuntu-updates.gif)
 
 Wenn alle Updates erfolgreich installiert sind, sollte die Maschine neu gestartet werden.
 
@@ -45,23 +41,17 @@ Nun kann man den eigentlichen Webserver installieren.
 
 
 ## Apache
-
-
-
     
     sudo apt-get install apache2
 
 
 Überprüft werden kann die apache Installation, indem man im Browser "localhost" eingibt. Wenn "It Works!" ausgegeben wird, war die Installation erfolgreich:
 
-[caption id="attachment_488" align="alignnone" width="300" caption="Apache wurde erfolgreich installiert"][![Apache wurde erfolgreich installiert](http://wpimages.phansch.de/2010/03/apache-it-works-300x247.gif)](http://wpimages.phansch.de/2010/03/apache-it-works.gif)[/caption]
+[![Apache wurde erfolgreich installiert](http://wpimages.phansch.de/2010/03/apache-it-works-300x247.gif)](http://wpimages.phansch.de/2010/03/apache-it-works.gif)
 
 
 ## PHP
 
-
-
-    
     sudo apt-get install php5 libapache2-mod-php5
 
 
@@ -88,18 +78,12 @@ Es sollten nun umfangreiche Informationen über PHP im Browserfenster erscheinen
 
 
 Weiter geht es mit MySQL.
-
     
     sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
 
-
-
-
 ## phpMyAdmin
 
-
 Installieren:
-
     
     sudo apt-get install phpmyadmin
 

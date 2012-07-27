@@ -18,13 +18,7 @@ You added the DirectX header to your main file and it didn't compile because the
     #include <d3dx11.h>
     #include <d3dx10.h>
 
-
-
-
-
 Fortunately, solving this problem is relatively straightforward.
-
-
 
 ## Downloading the DirectX SDK
 
@@ -36,34 +30,21 @@ When the download is complete, proceed by installing the DirectX SDK. Make sure 
 ## Installing the DirectX SDK
 
 
-[caption id="attachment_1150" align="aligncenter" width="513" caption="Installing DirectX"][![Installing DirectX](http://wpimages.phansch.de/2011/09/installation.png)](http://wpimages.phansch.de/2011/09/installation.png)[/caption]
+![Installing DirectX](http://wpimages.phansch.de/2011/09/installation.png)
 
 
 ## Add references to your project settings
 
 
-[caption id="attachment_1153" align="aligncenter" width="300" caption="Adding the include path"][![Adding the include path](http://wpimages.phansch.de/2011/09/include_path-300x212.png)](http://wpimages.phansch.de/2011/09/include_path.png)[/caption]
+![Adding the include path](http://wpimages.phansch.de/2011/09/include_path-300x212.png)
 
 In order to tell Visual Studio that your game requires DirectX, you will have to add the DirectX libraries and header files to your project.
-
-
-
-
 	
   1. Open your project setting
-
-	
   2. Navigate to _VC++ Directories_
-
-	
   3. On the right, select _Includepaths_
-
-	
   4. A new window will open, that lets you new include paths. Add a new include path by hitting the _New Row_ button in the top right.
-
-	
   5. Now you will have to navigate to your DirectX SDK installation directory and select the Include folder.
 
-
-[caption id="attachment_1183" align="aligncenter" width="300" caption="Include path"][![Include path](http://wpimages.phansch.de/2011/09/include_path2-300x199.png)](http://wpimages.phansch.de/2011/09/include_path2.png)[/caption]
+![Include path](http://wpimages.phansch.de/2011/09/include_path2.png)
 Do the same for the library path and you project should compile properly.

@@ -8,34 +8,22 @@ wordpress_id: 1236
 ---
 
 Before I moved to Berlin last year, I wanted to have a netbook which would allow me to do a few basic things:
-
-
-
 	
   * Take notes during class on Google Docs
-
-	
   * Capable of 3D graphics for basic game programming and gaming
-
-	
   * Lightweight
-
-	
   * Long battery life
-
 
 So I got myself an ASUS Eee PC 1215n about 5 months ago. This is a kind of a personal review on the netbook and how it was useful (or not) to me.
 
 
 ## Positive things to note
 
-
 The main purpose I bought the netbook was to **write down stuff** during classes. That just works perfect. Except math classes. To me, it's easier to write down formulas on paper rather than using the word formula editor. Pen and pencil is just way more efficient when it comes to formulas.
 
 It's a real **lightweight** and it's small enough to fit in my backpack. That's a huge benefit for me. Previously I would use an extra laptop bag for my father's laptop. Now I have all the stuff in my backpack which makes things a lot more comfortable.
 
 Another important thing to me is the **battery power**. My current university schedule includes days where I'm at university all the day. While there is always access to some power supply, I wanted to be sure my netbook could run all day, taking only notes on Google Docs. That's totally possible. I just have to make sure unnecessary program aren't running in the background and the screen brightness is turned to its lowest setting. Disabling wireless LAN and Bluetooth also saves a lot of battery power.
-
 
 ## What's not as good
 

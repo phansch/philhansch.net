@@ -9,8 +9,6 @@ wordpress_id: 611
 
 Für die Darstellung von Graphen und Diagrammen in einer Form gibt es verschiedene Werkzeuge. Der Großteil der Angebote ist allerdings nicht kostenlos oder nur gering konfigurierbar. Auf der Suche nach weiteren Bibliotheken bin ich auf **ZedGraph** gestoßen.
 
-[nggallery id=3]
-
 ZedGraph ist eine freie Bibliothek zum Erstellen von flexiblen Diagrammen und Graphen. Mit ZedGraph lassen sich alle Formen von 2D Diagrammen darstellen. Die Diagramme bieten Optionen zum Zoomen, drucken, kopieren und speichern.
 
 Während die ZedGraph Wiki bereits [viele Beispiele](http://www.zedgraph.org/wiki/index.php?title=Sample_Graphs) bietet, werde ich ebenfalls die Grundfunktionen von ZedGraph anhand eines kleinen Beispiels erläutern.
@@ -30,7 +28,6 @@ Mit
 
     
     using ZedGraph;
-    
 
 
 können wir jetzt auf sämtliche Funktionen von ZedGraph zurückgreifen. Um das _ZedGraphControl_ nutzen können, müssen wir das Element noch der [Toolbox hinzufügen](http://msdn.microsoft.com/en-us/library/ms165355%28VS.80%29.aspx). An dieser Stelle werde wir das Formdesign nicht näher betrachten. Wir gehen direkt in den Code.
@@ -40,7 +37,6 @@ Zunächst haben wir zwei Klassen auf die wir zurückgreifen:
     
             Random rNum = new Random();
             PointPairList randomData = new PointPairList();
-    
 
 
 [Random](http://msdn.microsoft.com/en-us/library/system.random.aspx) ist Teil des .net Frameworks und gibt uns eine zufällige Zahl zurück.
@@ -67,7 +63,6 @@ Nun die Methode zum Erzeugen von 200 zufälligen Zahlen:
         //Update the chart
         CreateChart(zedGraphControl1);
     }
-    
 
 
 Und die Methode CreateChart:
@@ -95,16 +90,15 @@ Und die Methode CreateChart:
         zgc.AxisChange();
         zgc.Refresh();
     }
-    
 
 
 Zunächst erstellen wir einen Verweis auf das ZedGraphControl. Mit _myPane_ könnten wir auf die zahlreichen Properties zugreifen.
 Wir nutzen es in diesem Beispiel aber nur um alte Daten im Falle einen Updates zu entfernen.
 
     
-        LineItem myCurve = myPane.AddCurve("Random Values", randomData,
-                                            Color.Black);
-    
+    LineItem myCurve = myPane.AddCurve("Random Values", randomData,
+                                        Color.Black);
+
 
 
 Hier erzeugen wir das Objekt _myCurve_. Es wird mit einem LineItem Objekt gefüllt, welches die Daten enthält die wir zuvor erzeugt haben.
@@ -112,10 +106,10 @@ Hier erzeugen wir das Objekt _myCurve_. Es wird mit einem LineItem Objekt gefül
 Anschließend werden noch einige Anpassungen an der Darstellung vorgenommen:
 
     
-        myCurve.Symbol.Type = SymbolType.Circle;
-        myCurve.Symbol.Size = 2f;
-        myCurve.Symbol.Fill.Type = FillType.Solid;
-    
+    myCurve.Symbol.Type = SymbolType.Circle;
+    myCurve.Symbol.Size = 2f;
+    myCurve.Symbol.Fill.Type = FillType.Solid;
+
 
 
 Diese Einstellungen sorgen dafür, dass die Datensymbole 2 Punkte große, gefüllte Kreise sind.

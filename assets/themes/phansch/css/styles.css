@@ -102,6 +102,7 @@ blockquote {
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
+  white-space: normal;
 }
 
 hr {
@@ -118,7 +119,9 @@ code, pre {
   color:#000;
   font-size:14px;
 }
-
+code {
+  
+}
 pre {
 	padding: 4px 12px;
   background: #FDFEFB;

@@ -3,7 +3,7 @@ comments: true
 date: 2010-07-22 20:00:09
 layout: post
 slug: c-sharp-quiz-fragen-auslesen-teil-3
-title: C# Quiz – Fragen auslesen (Teil 3)
+title: C# Quiz - Fragen auslesen (Teil 3)
 wordpress_id: 309
 ---
 
@@ -76,17 +76,17 @@ Der Konstruktor der abgeleiteten Klasse _Questions_ legt sämtliche Properties f
 
     
     
-            public Questions()
-            {
-                base.arr_data = new string[1];
-                base.Path = "Fragen.xml";
-                base.xmlElement = "fragen";
-                base.xmlSub = "frage";
-    
-                base.PopulateArray();
-    
-                this.arr_questions = base.arr_data;
-            }
+    public Questions()
+    {
+        base.arr_data = new string[1];
+        base.Path = "Fragen.xml";
+        base.xmlElement = "fragen";
+        base.xmlSub = "frage";
+
+        base.PopulateArray();
+
+        this.arr_questions = base.arr_data;
+    }
     
 
 
@@ -95,27 +95,26 @@ Die Methode _PopulateArray()_ liest die Fragen mittels [LINQ to XML](http://msdn
 
     
     
-            /// <summary>
-            /// Fills the array with the questions, found in the.xml file
-            /// </summary>
-            public virtual void PopulateArray()
-            {
-                XDocument xdoc = XDocument.Load(this.Path);
-    
-                var query = from xml in xdoc.Elements(this.xmlElement).Elements(this.xmlSub)
-                            select xml;
-    
-                foreach (XElement el in query)
-                {
-                    ExpandArray();
-                    int _id = Convert.ToInt32(el.FirstAttribute.Value);
-                    string _question = el.Value;
-    
-                    //Add the question the array
-                    this.arr_data[_id] = _id + ". " + _question;
-                }
-            }
-    
+    /// <summary>
+    /// Fills the array with the questions, found in the.xml file
+    /// </summary>
+    public virtual void PopulateArray()
+    {
+        XDocument xdoc = XDocument.Load(this.Path);
+
+        var query = from xml in xdoc.Elements(this.xmlElement).Elements(this.xmlSub)
+                    select xml;
+
+        foreach (XElement el in query)
+        {
+            ExpandArray();
+            int _id = Convert.ToInt32(el.FirstAttribute.Value);
+            string _question = el.Value;
+
+            //Add the question the array
+            this.arr_data[_id] = _id + ". " + _question;
+        }
+    }
 
 
 
@@ -123,57 +122,54 @@ Damit das Array nicht überläuft, wird die Methode _ExpandArray()_ aufgerufen. 
 
     
     
-            /// <summary>
-            /// Expands the array by one
-            /// </summary>
-            private void ExpandArray()
-            {
-                //Creates a temporary array wich is +1 bigger than the original questions array
-                string[] tempArray = new string[this.arr_data.Length + 1];
-    
-                //Original array gets copied to the temporary array
-                this.arr_data.CopyTo(tempArray, 0);
-    
-                //Temporary array gets assigned to the original array
-                this.arr_data = tempArray;
-            }
+    /// <summary>
+    /// Expands the array by one
+    /// </summary>
+    private void ExpandArray()
+    {
+        //Creates a temporary array wich is +1 bigger than the original questions array
+        string[] tempArray = new string[this.arr_data.Length + 1];
+
+        //Original array gets copied to the temporary array
+        this.arr_data.CopyTo(tempArray, 0);
+
+        //Temporary array gets assigned to the original array
+        this.arr_data = tempArray;
+    }
 
 
 Die Eigenschaft _Count_ gibt nur die Größe des Arrays zurück:
 
     
     
-            /// <summary>
-            /// Returns the number of questions wich are stored in the .xml file
-            /// </summary>
-            public int Count
-            {
-                get
-                {
-                    return arr_questions.Length;
-                }
-            }
+    /// <summary>
+    /// Returns the number of questions wich are stored in the .xml file
+    /// </summary>
+    public int Count
+    {
+        get
+        {
+            return arr_questions.Length;
+        }
+    }
 
 
 Zuletzt brauchen wir noch den Indexer:
 
     
     
-            /// <summary>
-            /// Returns a question
-            /// </summary>
-            /// <param name="index">Index of the question to be returned</param>
-            /// <returns>string question</returns>
-            public string this[int index]
-            {
-                get
-                {
-                    return arr_questions[index];
-                }
-            }
-
-
-
+    /// <summary>
+    /// Returns a question
+    /// </summary>
+    /// <param name="index">Index of the question to be returned</param>
+    /// <returns>string question</returns>
+    public string this[int index]
+    {
+        get
+        {
+            return arr_questions[index];
+        }
+    }
 
 
 ## Anwendung der Klasse im Fragebogen
@@ -194,30 +190,30 @@ Die Methode ShowQuestion() lässt eine bestimmte Frage ausgeben und erhöht dana
 
     
     
-            private void ShowQuestion()
-            {
-                Questions questions = new Questions();
-                if (questions.Count > questionIndex)
-                {
-                    //Display the question
-                    label_question.Text = questions[questionIndex];
-    
-                    //Increase the index
-                    questionIndex++;
-                }
-                else
-                {
-                    EndReached();
-                }
-            }
-    
-            private void EndReached()
-            {
-                button_next.Enabled = false;
-                label_question.Text = "Ende des Fragebogens erreicht.";
-                button_restart.Visible = true;
-            }
-    
+    private void ShowQuestion()
+    {
+        Questions questions = new Questions();
+        if (questions.Count > questionIndex)
+        {
+            //Display the question
+            label_question.Text = questions[questionIndex];
+
+            //Increase the index
+            questionIndex++;
+        }
+        else
+        {
+            EndReached();
+        }
+    }
+
+    private void EndReached()
+    {
+        button_next.Enabled = false;
+        label_question.Text = "Ende des Fragebogens erreicht.";
+        button_restart.Visible = true;
+    }
+
 
 
 Wann soll nun eine neue Frage geladen werden?
@@ -226,30 +222,28 @@ Wann soll nun eine neue Frage geladen werden?
 
 	
   * Beim Start des Programms
-
-        
   * Beim Klick auf den _Weiter-Button_
-
 
 Dazu brauchen wir die zwei EventHandler _Form1_Load_ und _button_weiter_Click_. Diese beiden EventHandler werden die Methode _ShowQuestion()_ aufrufen.
 
 
 Wer den ersten Teil gelesen hat, wird sich an unsere definierten Anforderungen erinnern. **Wir wollen den Test wiederholbar gestalten.**
 Dazu müssen wir einen neuen Button in der Form hinzufügen:
-[caption id="attachment_539" align="aligncenter" width="150" caption="Der Wiederholen-Button"][![Fragebogen](http://wpimages.phansch.de/2010/06/quiz_form-150x150.jpg)](http://wpimages.phansch.de/2010/06/quiz_form.jpg)[/caption]
+[![Fragebogen](http://wpimages.phansch.de/2010/06/quiz_form-150x150.jpg)](http://wpimages.phansch.de/2010/06/quiz_form.jpg)
+
 Den Wiederholen Button setzen wir zunächst über die IDE auf _Visible = false_.
 
 Jetzt brauchen wir nur noch die Methode _Restart()_:
 
     
     
-            private void Restart()
-            {
-                questionIndex = 1;
-                button_next.Enabled = false;
-                button_restart.Visible = false;
-                ShowQuestion();
-            }
+    private void Restart()
+    {
+        questionIndex = 1;
+        button_next.Enabled = false;
+        button_restart.Visible = false;
+        ShowQuestion();
+    }
     
 
 
