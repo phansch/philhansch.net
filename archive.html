@@ -1,10 +1,21 @@
 ---
 layout: page
-title : Archive
-header : Post Archive
-group: navigation
+title: Archive
 ---
-{% include JB/setup %}
+	<h1>Archive</h1>
+	<section>
+    {% for post in site.posts %}
+    {% unless post.wordpress_id %}
+      <span class="archive-date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />
+     {% endunless %}
+    {% endfor %}
+  	</section>
 
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
+  	<h1>phansch.de</h1>
+  	<section>
+	{% for post in site.posts %}
+	{% if post.wordpress_id %}
+      <span class="archive-date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  	</section>
