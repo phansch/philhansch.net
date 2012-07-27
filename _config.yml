@@ -2,20 +2,22 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
 auto: true
 pygments: true
+safe: true
+server: true
+markdown: rdiscount
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : phanch.de
+title : phansch.de
 author :
   name : Philipp Hansch
   email : philipp@phansch.de
   github : phansch
   twitter : plyturon
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -101,6 +103,3 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
 
-safe: true
-server: true
-markdown: rdiscount
