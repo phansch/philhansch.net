@@ -15,7 +15,7 @@ Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine au
 Die Geister Wegfindung ist sehr einfach gehalten.
 Befindet sich ein Geist auf einer Kreuzung, wird eine zufällige Richtung ausgewählt. Ausgenommen ist dabei die Richtung aus der der Geist gekommen ist.
 
-```ruby
+```csharp
 public void GetPossibleDirections(Map map)
 {
     _possibleDirections.Clear();
