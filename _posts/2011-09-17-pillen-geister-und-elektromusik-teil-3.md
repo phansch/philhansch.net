@@ -15,7 +15,7 @@ Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine au
 Die Geister Wegfindung ist sehr einfach gehalten.
 Befindet sich ein Geist auf einer Kreuzung, wird eine zufällige Richtung ausgewählt. Ausgenommen ist dabei die Richtung aus der der Geist gekommen ist.
 
-
+```csharp
     public void GetPossibleDirections(Map map)
     {
         _possibleDirections.Clear();
@@ -45,7 +45,7 @@ Befindet sich ein Geist auf einer Kreuzung, wird eine zufällige Richtung ausgew
             _possibleDirections.Remove(Direction.Up);
         }
     }
-
+```
 Natürlich ist das noch keine große Herausforderung für den Spieler. Im Original hat jeder Geist seine eigene Persönlichkeit, so dass er zum Beispiel auf die Nähe Pacmans reagiert. 
 Dazu gibt es einige wunderbare Artikel im Netz:
 	
