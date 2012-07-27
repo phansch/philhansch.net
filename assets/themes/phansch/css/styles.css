@@ -112,6 +112,10 @@ hr {
   margin:0 0 24px;
 }
 
+small {
+  font-size:12px;
+}
+
 /* Code blocks */
 
 code, pre {

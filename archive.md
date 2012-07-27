@@ -13,7 +13,7 @@ title: Archive
 </p>
 # phansch.de #
 
-All posts from my old blog on blog.phansch.de. The early ones are in German and I do not plan on translating them.
+<small>All posts from my old blog on blog.phansch.de. The early ones are in German and I do not plan on translating them.</small>
 <p id="phansch">
 {% for post in site.posts %}
   {% if post.wordpress_id != null and post.plyturonnet == null %}
@@ -23,6 +23,8 @@ All posts from my old blog on blog.phansch.de. The early ones are in German and 
 </p>
 
 # plyturon.net #
+
+<small>Posts from plyturon.net. My old gaming blog.</small>
 <p id="plyturon">
 {% for post in site.posts %}
   {% if post.plyturonnet %}
