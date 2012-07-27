@@ -5,20 +5,6 @@ layout: post
 slug: linux-webserver-mit-virtualbox
 title: Linux Webserver mit VirtualBox
 wordpress_id: 159
-categories:
-- General
-tags:
-- apache2
-- linux
-- mysql
-- php5
-- phpmyadmin
-- ubuntu
-- virtual machine
-- virtualBox
-- virtuelle maschine
-- webserver
-- xubuntu
 ---
 
 Hier ein kleines Tutorial wie man einen Linux Webserver auf einer Virtuellen Maschine erstellt.

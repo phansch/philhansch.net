@@ -5,9 +5,6 @@ layout: post
 slug: berufskolleg-c-aufgabe
 title: Berufskolleg - C# Aufgabe
 wordpress_id: 111
-categories:
-- C#
-- Programming
 ---
 
 Aufgabe:

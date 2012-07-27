@@ -5,11 +5,6 @@ layout: post
 slug: updated-blog-categories
 title: Updated the blog categories
 wordpress_id: 1267
-categories:
-- General
-tags:
-- blog
-- categories
 ---
 
 I updated the categories of my blog as I found myself writing stuff that didn’t fit into the existing categories anymore.

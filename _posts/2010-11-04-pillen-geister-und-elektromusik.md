@@ -5,14 +5,6 @@ layout: post
 slug: pillen-geister-und-elektromusik
 title: Pillen, Geister und Elektromusik - Teil 1
 wordpress_id: 747
-categories:
-- Game programming
-- XNA
-tags:
-- c sharp
-- c#
-- game
-- pacman
 ---
 
 Ich arbeite zur Zeit an einem Pacman ähnlichen Spiel, welches auf C# und dem [XNA Framework](http://msdn.microsoft.com/en-us/library/ff402531(v=VS.92).aspx) basiert.

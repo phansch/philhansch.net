@@ -5,12 +5,6 @@ layout: post
 slug: blog-moving
 title: Blog moving!
 wordpress_id: 1401
-categories:
-- General
-tags:
-- gaming
-- merge
-- plyturon.net
 ---
 
 English version below.

@@ -5,8 +5,6 @@ layout: post
 slug: google-plus-invites
 title: Google+ invites
 wordpress_id: 1145
-categories:
-- General
 ---
 
 Hi everyone, I still have about 150 Google plus invites to hand out.

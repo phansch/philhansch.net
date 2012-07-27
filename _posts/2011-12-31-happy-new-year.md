@@ -5,12 +5,6 @@ layout: post
 slug: happy-new-year
 title: Happy new year!
 wordpress_id: 1217
-categories:
-- General
-tags:
-- kidney
-- new year
-- pain
 ---
 
 The last few days have been quite a torture for me. 

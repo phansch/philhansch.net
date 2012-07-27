@@ -5,25 +5,6 @@ layout: post
 slug: c-sharp-quiz-fragen-auslesen-teil-3
 title: C# Quiz – Fragen auslesen (Teil 3)
 wordpress_id: 309
-categories:
-- C#
-- Programming
-tags:
-- .net
-- .net framework
-- '3.5'
-- auslesen
-- c sharp
-- c#
-- datenbank
-- fragebogen
-- fragen
-- fragen auslesen
-- linq
-- quiz
-- sql
-- teil 3
-- xml
 ---
 
 Im [vorherigen Tutorialteil](http://blog.phansch.de/2010/07/c-sharp-quiz-vorbereitung-teil-2/) haben wir das Fragebogenformular gebaut. Nun wollen wir die [Fragen](images/2010/06/Fragen.txt) auslesen lassen.

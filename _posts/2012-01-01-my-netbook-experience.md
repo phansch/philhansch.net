@@ -5,20 +5,6 @@ layout: post
 slug: my-netbook-experience
 title: My netbook experience
 wordpress_id: 1236
-categories:
-- Game programming
-- Programming
-- Reviews
-tags:
-- 1215n
-- asus
-- eee pc
-- essay
-- experience
-- netbook
-- personal
-- review
-- university
 ---
 
 Before I moved to Berlin last year, I wanted to have a netbook which would allow me to do a few basic things:

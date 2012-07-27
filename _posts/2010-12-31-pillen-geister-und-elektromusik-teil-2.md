@@ -5,13 +5,6 @@ layout: post
 slug: pillen-geister-und-elektromusik-teil-2
 title: Pillen, Geister und Elektromusik – Teil 2
 wordpress_id: 992
-categories:
-- Game programming
-- XNA
-tags:
-- c#
-- pacman
-- xna
 ---
 
 Ich habe wieder Zeit gefunden um an meinem [Pacman Spiel](Pillen, Geister und Elektromusik – Teil 1) weiter zu arbeiten.

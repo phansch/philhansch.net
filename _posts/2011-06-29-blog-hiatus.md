@@ -5,8 +5,6 @@ layout: post
 slug: blog-hiatus
 title: Blog Hiatus
 wordpress_id: 1024
-categories:
-- General
 ---
 
 Ich möchte an dieser Stelle kurz die lange Pause entschuldigen. Falls sich jemand über die Ruhe gewundert hat:

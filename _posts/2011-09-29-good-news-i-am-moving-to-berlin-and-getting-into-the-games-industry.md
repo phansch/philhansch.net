@@ -5,13 +5,6 @@ layout: post
 slug: good-news-i-am-moving-to-berlin-and-getting-into-the-games-industry
 title: 'Good news: I am moving to Berlin! And getting into the games industry!?'
 wordpress_id: 1192
-categories:
-- General
-tags:
-- berlin
-- games industry
-- move
-- programming
 ---
 
 Just wanted to let you readers know, that I'm now on the move to Berlin. 

@@ -5,14 +5,6 @@ layout: post
 slug: c-schiffe-versenken-uberlegungen
 title: C# Schiffe Versenken - Überlegungen (Teil 1)
 wordpress_id: 209
-categories:
-- C#
-- Programming
-tags:
-- c#
-- schiffe
-- schiffeversenken
-- versenken
 ---
 
 Vorwort: _Für diese Reihe wird [Visual  C# Express 2008](http://www.microsoft.com/germany/Express/product/visualcsharpexpress.aspx) oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur  für Visual C# Express verfügbar sein._

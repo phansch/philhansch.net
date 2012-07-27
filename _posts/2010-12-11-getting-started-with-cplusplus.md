@@ -5,15 +5,6 @@ layout: post
 slug: getting-started-with-cplusplus
 title: Getting started with C++
 wordpress_id: 871
-categories:
-- C / C++
-- Guides/Tutorials
-- Programming
-tags:
-- c#
-- euler
-- fibonacci
-- moivre-binet
 ---
 
 This post is a rough translation from german to english and is based on this post: [Mein Einstieg in C++](http://blog.phansch.de/2010/09/mein-einstieg-in-cplusplus/).

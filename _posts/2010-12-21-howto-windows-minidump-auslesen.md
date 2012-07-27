@@ -5,15 +5,6 @@ layout: post
 slug: howto-windows-minidump-auslesen
 title: 'Howto: Windows Minidump auslesen'
 wordpress_id: 789
-categories:
-- Guides/Tutorials
-tags:
-- bluescreen
-- bsod
-- eventvwr
-- minidump
-- windbg
-- windows
 ---
 
 Vor kurzem hat mich unter Windows 7 zum ersten mal ein BSOD erwischt. Das ist, zumindest bei mir, eine sehr seltene Angelegenheit. Leider war ich beim auftauchen des Bluescreens so perplex und habe die Fehlermeldung nicht wahrgenommen. Was also machen? 

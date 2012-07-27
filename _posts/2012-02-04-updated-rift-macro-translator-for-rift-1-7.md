@@ -5,13 +5,6 @@ layout: post
 slug: updated-rift-macro-translator-for-rift-1-7
 title: Updated Rift macro translator for Rift 1.7
 wordpress_id: 1318
-categories:
-- Gaming
-- Programming
-tags:
-- macro
-- rift
-- translator
 ---
 
 The [Rift macro translator](http://games.phansch.de/rift/macro/) has been updated for Rift 1.7.

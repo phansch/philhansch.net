@@ -5,12 +5,6 @@ layout: post
 slug: visual-studio-zeilennummern-anzeigen
 title: 'Visual Studio: Zeilennummern anzeigen'
 wordpress_id: 1049
-categories:
-- Guides/Tutorials
-- Programming
-tags:
-- visual studio
-- zeilennummern
 ---
 
 Nach der Installation von Visual Studio werden im Code zunächst keine Zeilennummern angezeigt. Damit die Zeilennummern für alle Programmiersprachen angezeigt werden, muss man wie folgt vorgehen:

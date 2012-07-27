@@ -5,19 +5,6 @@ layout: post
 slug: c-sharp-diagramme-und-graphen-mit-zedgraph
 title: C# - Diagramme und Graphen mit ZedGraph
 wordpress_id: 611
-categories:
-- C#
-- Programming
-tags:
-- .net
-- .net framework
-- c sharp
-- c#
-- charting
-- library
-- open source
-- windows forms
-- ZedGraph
 ---
 
 Für die Darstellung von Graphen und Diagrammen in einer Form gibt es verschiedene Werkzeuge. Der Großteil der Angebote ist allerdings nicht kostenlos oder nur gering konfigurierbar. Auf der Suche nach weiteren Bibliotheken bin ich auf **ZedGraph** gestoßen.

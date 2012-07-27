@@ -5,13 +5,6 @@ layout: post
 slug: blog-update-11-dezember-2010
 title: Blog Update 11. Dezember 2010
 wordpress_id: 853
-categories:
-- General
-tags:
-- blog
-- phansch.de
-- update
-- wordpress
 ---
 
 Heute habe ich den [Blog](http://blog.phansch.de) für zwei Stunden offline genommen um mehrere Probleme zu beheben. Letztendlich hat sich folgendes geändert:

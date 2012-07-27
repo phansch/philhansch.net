@@ -5,17 +5,6 @@ layout: post
 slug: c-sharp-quiz-planung-teil-1
 title: C# Quiz – Planung (Teil 1)
 wordpress_id: 292
-categories:
-- C#
-- Programming
-tags:
-- .net
-- anforderungen
-- c sharp
-- c#
-- fragebogen
-- planung
-- quiz
 ---
 
 Vorwort: _Für diese Reihe wird [Visual C# Express 2010](http://www.microsoft.com/express/downloads/#2010-Visual-CS) oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur für Visual C# Express 2010 verfügbar sein._
