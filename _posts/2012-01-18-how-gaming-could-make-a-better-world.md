@@ -9,5 +9,4 @@ wordpress_id: 1280
 
 > Games like World of Warcraft give players the means to save worlds, and incentive to learn the habits of heroes. What if we could harness this gamer power to solve real-world problems? Jane McGonigal says we can, and explains how.
 
-
-
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/jJECepNeCJ0&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/jJECepNeCJ0&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
