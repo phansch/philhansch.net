@@ -2,7 +2,7 @@
 layout: page
 title: Archive
 ---
-# Archive #
+## Archive ##
 
 <p>
 {% for post in site.posts %}
@@ -11,7 +11,7 @@ title: Archive
   {% endif %}
 {% endfor %}
 </p>
-# phansch.de #
+## phansch.de ##
 
 <small>All posts from my old blog on blog.phansch.de. The early ones are in German and I do not plan on translating them.</small>
 <p id="phansch">
@@ -22,7 +22,7 @@ title: Archive
 {% endfor %}
 </p>
 
-# plyturon.net #
+## plyturon.net ##
 
 <small>Posts from plyturon.net. My old gaming blog.</small>
 <p id="plyturon">
