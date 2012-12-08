@@ -23,11 +23,11 @@ time, mark, audio, video {
 
 /* Base text styles */
 body {
-  padding:10px 50px 0 0;
+  
   font-family:Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #232323;
-	background-color: #FBFAF7;
+	background-color: #E2E2DE;
 	margin: 0;
 	line-height: 1.5em;
 }
@@ -42,13 +42,15 @@ p, ul, ol, table, dl {
 }
 
 h1, h2, h3 {
-	font-family: Helvetica, serif;
+	font-family: UbuntuMono-B, consolas, monaco, monospace;
   line-height:1.3;
 	font-weight: normal;
+  font-weight: bold;
 }
 
 h1 {
 	font-size: 30px;
+  border-bottom:5px solid rgba(21, 25, 25, 0.8);
 }
 
 h2 {
@@ -143,57 +145,40 @@ pre {
 
 /* Wrapper */
 #wrapper {
-  width:650px;
+  width:820px;
+  min-height:1000px;
   margin:0 auto;
-}
-
-.meta {
-  text-transform:uppercase;
-  font-family: Helvetica, sans-serif;
-  font-size:11px;
-  color:rgb(153,153,153);
-  margin-bottom:5px;
+  background-color:#FBFAF7;
+  border-left:1px solid rgba(0, 0, 0, 0.2);
+  border-right:1px solid rgba(0, 0, 0, 0.2);
+  padding:10px 50px 40px 40px;
 }
 
 /* Header */
 #top a {
   color:#C30000;
-  font-weight:200;
+  font-weight:bold;
   text-decoration:none;
   margin-right:10px;
 }
 
-#top a:hover {
-  text-decoration: underline;
+#top a:hover, #top a#home:hover {
+  color:rgba(21, 25, 25, 0.8);
 }
 
-/* Footer */
-#footer {
-  border-top:4px solid #ccc;
-  margin-top:10px;
-  padding-top:10px;
-  margin-bottom:60px;
-  font-family: Verdana;
-  font-size: 12px;
-  line-height: 16px;
-}
-#footer #left {
-  float: left;
-  width:150px;
-}
-
-#footer #right {
-  float:left;
-  width:150px;
-}
-.post-index h1, .post-index h2, #post h1, #post h2 {
-  border-bottom: 4px dotted #ddd;
+#top a#home {
+  color:gray;
 }
 
 .archive-date {
-  font-family: monospace;
+  font-family: UbuntuMono-B, consolas, monaco, monospace;
   color:#666666;
-  font-size:11px;
-  vertical-align: 1px;
-  white-space:nowrap;
+  font-size:12px;
+  margin-bottom: 5px;
+  display:inline-block;
+}
+
+.archive-post-title {
+  font-family: UbuntuMono-B, consolas, monaco, monospace;
+  font-size:24px;
 }
