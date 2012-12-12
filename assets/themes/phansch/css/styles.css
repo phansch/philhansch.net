@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 /* Base text styles */
 body {
-  
+
   font-family:Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #232323;
@@ -124,7 +124,7 @@ code, pre {
   font-size:14px;
 }
 code {
-  
+
 }
 pre {
 	padding: 4px 12px;
@@ -165,10 +165,12 @@ pre {
   color:gray;
 }
 
-/* Post */
-#post img, .post-index img  {
-  border:4px solid #ccc;
-  margin-left:5px;
+/* Screenshot drop shadows do not work in IE */
+.post img.screenshot {
+  border:none;
+  -moz-box-shadow:    0px 0px 12px 3px rgba(21, 25, 25, 0.8);
+  -webkit-box-shadow: 0px 0px 12px 3px rgba(21, 25, 25, 0.8);
+  box-shadow:         0px 0px 12px 3px rgba(21, 25, 25, 0.8);
 }
 
 .archive-date {
