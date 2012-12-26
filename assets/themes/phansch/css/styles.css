@@ -166,7 +166,7 @@ pre {
 }
 
 /* Screenshot drop shadows do not work in IE */
-.post img.screenshot {
+.post img.screenshot, #post img.screenshot {
   border:none;
   -moz-box-shadow:    0px 0px 12px 3px rgba(21, 25, 25, 0.8);
   -webkit-box-shadow: 0px 0px 12px 3px rgba(21, 25, 25, 0.8);
