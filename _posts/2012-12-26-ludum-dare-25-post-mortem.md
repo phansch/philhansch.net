@@ -4,7 +4,7 @@ location: Rheda-Wiedenbrück
 title: Ludum Dare 25 Post Mortem
 ---
 
-This was my first time participating in a game jam. The jam was a blast, although I didn't like the theme: You are the villian. I spent the first hour brainstorming ideas for the theme. I ended with a space shooter where you shoot at defenseless transport ships.
+This was my first time participating in a game jam. The jam was a blast, although I didn't like the theme: *You are the villian*. I spent the first hour brainstorming ideas for the theme and ended with a space shooter where you shoot at defenseless transport ships.
 
 
 [The source](https://github.com/phansch/ludumdare25), [the timelapse](http://www.youtube.com/watch?v=eX7fsD3Hbmc). I didn't publish a playable version, yet. You can get it from github and swap out the music that's missing, to make it run.
