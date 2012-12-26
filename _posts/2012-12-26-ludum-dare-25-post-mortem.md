@@ -9,7 +9,7 @@ This was my first time participating in a game jam. The jam was a blast, althoug
 
 [The source](https://github.com/phansch/ludumdare25), [the timelapse](http://www.youtube.com/watch?v=eX7fsD3Hbmc). I didn't publish a playable version, yet. You can get it from github and swap out the music that's missing, to make it run.
 
-<a href="http://i.imgur.com/pMylx.png"><img src="http://i.imgur.com/pMylx.png" width="820" /></a>
+<a href="http://i.imgur.com/pMylx.png"><img class="screenshot" src="http://i.imgur.com/pMylx.png" width="820" /></a>
 
 ### What was good
  * This is my first game that I pretty much finished. On a single weekend! I did pacman, breakout and pong clones in C# and Lua before, but I never really created a game on my own in such a short amount of time. 
@@ -39,4 +39,4 @@ Maybe there are better way to do this, but a space shooter where you are the vil
 ##### The overall gameplay and mechanics are lacking
 Admittedly, I am not a game designer - rather a programmer. But I should put some more effort into this area next time.
 
-<a href="http://i.imgur.com/72RAX.png"><img src="http://i.imgur.com/72RAX.png" width="820" /></a>
+<a href="http://i.imgur.com/72RAX.png"><img class="screenshot" src="http://i.imgur.com/72RAX.png" width="820" /></a>
