@@ -7,11 +7,6 @@ auto: false
         <div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
           <a href="{{ post.url }}"><h1 itemprop="name headline">{{ post.title }}</h1></a>
           <span class="archive-date">
-            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-              <span itemprop="name">
-                  <a href="https://plus.google.com/107632143436210616775" itemprop="url" rel="author">{{site.author.name}}</a>,
-              </span>
-            </span>
             <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>
           </span>
           <div itemprop="articleBody">{{ post.content }}</div>
