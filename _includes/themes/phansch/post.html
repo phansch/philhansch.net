@@ -1,8 +1,15 @@
 <div id="post">
   <h1>{{ page.title }}</h1>
-  <p class="archive-date">
-    {{ page.date | date_to_long_string }}{% if page.location %}, {{ page.location }}{% endif %}
-  </p>
+    <span class="archive-date">
+      <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <span itemprop="name">
+            <a href="https://plus.google.com/107632143436210616775" itemprop="url" rel="author">Philipp Hansch</a>,
+        </span>
+      </span>
+      <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>,
+      {{ page.location }},
+      <a href="{{ page.url }}" title="Permalink">Permalink</a>
+    </span>
   {{ content }}
 </div>
 
