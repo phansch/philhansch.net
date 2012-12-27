@@ -3,23 +3,21 @@ layout: default
 title: Philipp Hansch
 auto: false
 ---
-    <div class="post"></div>
-    <section>
-        {% for post in site.posts limit:5%}
-          <div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-            <h1 itemprop="name headline">{{ post.title }}</h1>
-            <span class="archive-date">
-              <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-                <span itemprop="name">
-                    <a href="https://plus.google.com/107632143436210616775" itemprop="url" rel="author">Philipp Hansch</a>,
-                </span>
+    <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">based in Berlin, Germany - Student at HTW Berlin</div>
+      {% for post in site.posts limit:5%}
+        <div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <h1 itemprop="name headline">{{ post.title }}</h1>
+          <span class="archive-date">
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+              <span itemprop="name">
+                  <a href="https://plus.google.com/107632143436210616775" itemprop="url" rel="author">Philipp Hansch</a>,
               </span>
-              <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>,
-              {{ post.location }},
-              <a href="{{ post.url }}" title="Permalink">Permalink</a>
             </span>
-            <div itemprop="articleBody">{{ post.content }}</div>
-          </div>
-        {% endfor %}
-    </section>
+            <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>,
+            {{ post.location }},
+            <a href="{{ post.url }}" title="Permalink">Permalink</a>
+          </span>
+          <div itemprop="articleBody">{{ post.content }}</div>
+        </div>
+      {% endfor %}
     <a href="archive.html" title="Archive">More posts?</a> | <a href="#">Back to top</a>
