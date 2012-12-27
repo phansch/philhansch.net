@@ -11,11 +11,12 @@ auto: false
             <span class="archive-date">
               <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
                 <span itemprop="name">
-                    <a href="https://plus.google.com/107632143436210616775" itemprop="url" rel="author">Philipp Hansch</a>
+                    <a href="https://plus.google.com/107632143436210616775" itemprop="url" rel="author">Philipp Hansch</a>,
                 </span>
               </span>
-              , <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>
-              , <a href="{{ post.url }}" title="Permalink">Permalink</a>
+              <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>,
+              {{ post.location }},
+              <a href="{{ post.url }}" title="Permalink">Permalink</a>
             </span>
             <div itemprop="articleBody">{{ post.content }}</div>
           </div>
