@@ -3,13 +3,15 @@ layout: default
 title: Philipp Hansch
 auto: false
 ---
-      {% for post in site.posts limit:5%}
-        <div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-          <a href="{{ post.url }}"><h1 itemprop="name headline">{{ post.title }}</h1></a>
-          <span class="archive-date">
-            <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>
-          </span>
-          <div itemprop="articleBody">{{ post.content }}</div>
-        </div>
-      {% endfor %}
-    <a href="archive.html" title="Archive">More posts?</a> | <a href="#">Back to top</a>
+<br />
+{% for post in site.posts limit:3%}
+  <div class="post index">
+    <h1 class="front"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    {{ post.excerpt }}
+    <a href="{{post.url}}">Read more →</a>
+    <div class="date">— {{ post.date | date_to_string }}</div>
+  </div>
+  {% if forloop.last != true %}
+  <hr />
+  {% endif %}
+{% endfor %}

@@ -1,9 +1,8 @@
 <div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="name headline">{{ page.title }}</h1>
-    <span class="archive-date">
-      <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>
-    </span>
   <div itemprop="articleBody">{{ content }}</div>
-
+  <div class="date">
+    — <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>
+  </div>
 </div>
 
