@@ -1,5 +1,5 @@
 <div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <h1>{{ page.title }}</h1>
+  <h1 itemprop="name headline">{{ page.title }}</h1>
     <span class="archive-date">
       <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
         <span itemprop="name">
@@ -10,6 +10,6 @@
       {{ page.location }},
       <a href="{{ page.url }}" title="Permalink">Permalink</a>
     </span>
-  {{ content }}
+  <div itemprop="articleBody">{{ content }}</div>
 </div>
 
