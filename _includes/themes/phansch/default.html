@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 
-    <meta name="author" content="Philipp Hansch" />
+    <meta name="author" content="{{site.author.name}}" />
     <link rel="stylesheet" href="{{ASSET_PATH}}/css/styles.css">
     <link rel="stylesheet" href="{{ASSET_PATH}}/css/pygment_trac.css">
   </head>
   <body>
     <div id="wrapper" itemscope="" itemtype="http://schema.org/Blog">
       <div id="top">
-        <a href="/">Philipp Hansch</a>
+        <a href="/">{{ site.author.name }}</a>
         <a class="extra" href="/archive.html">Archive</a>
         <a id="home" href="/">home</a>
       </div>
@@ -20,6 +20,6 @@
       </div>
     </div>
 
-    <a href="https://github.com/phansch"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/{{site.author.github}}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
   </body>
 </html>
