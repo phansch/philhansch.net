@@ -83,7 +83,7 @@ Time flies. It's been almost over two weeks now since the first round of the bet
 • In this weeks ToT podcast Bridger and friends are talking about WvW, game economics, attributes and traits.
 
 [GuildMag: Heroes Are Made, Not Born](http://www.guildmag.com/heroes-are-made-not-born)
-• [@jcotney](twitter.com/jcotney) talks about the additional attributes, the trait system and gives an example on a possible Mesmer build.
+• [@jcotney](http://twitter.com/jcotney) talks about the additional attributes, the trait system and gives an example on a possible Mesmer build.
 
 [Tyria Talk: SWTOR vs. GW2 ](http://www.youtube.com/watch?v=ddz0uJYwjaI)
 • In his newest episode of Tyria Talk, Richie is talking about the differences between levelling in SW:TOR and GuildWars2.

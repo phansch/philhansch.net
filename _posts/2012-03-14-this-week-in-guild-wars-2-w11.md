@@ -44,7 +44,7 @@ plyturonnet: true
 [Kill Ten Rats: Momentary Deluxe](http://www.killtenrats.com/2012/03/14/gw2-momentary-deluxe/)
 • A word on the pricing and content of both, the Collector's edition and the Digital Deluxe edition. 
 
-[Yogscast: Charr Questing [Extra Footage]](www.youtube.com/watch?&v=pl0Bb063D5E)
+[Yogscast: Charr Questing [Extra Footage]](http://www.youtube.com/watch?&v=pl0Bb063D5E)
 • Somehow Yogscast managed to release yet another video of their press beta footage. Showcasing the 5 to 15 area again.
 
 [Guild Wars Insider Podcast EP11: The Return](http://www.guildwarsinsider.com/guild-wars-2-insider-podcast-ep11-return/)
