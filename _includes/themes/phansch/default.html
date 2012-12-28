@@ -13,7 +13,7 @@
   <body>
     <div id="wrapper" itemscope="" itemtype="http://schema.org/Blog">
       <div id="top">
-        <a href="/" title="me" itemprop="author">{{ site.author.name }}</a>
+        <a href="/" title="me">{{ site.author.name }}</a>
         <a class="extra" href="/archive.html" title="Archive">Archive</a>
         <a id="home" href="/" title="home">home</a>
       </div>
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div id="footer">
-      <div id="content" itemscope="" itemtype="http://data-vocabulary.org/Person">
+      <div id="content" itemscope="" itemprop="author" itemtype="http://data-vocabulary.org/Person">
         {% if page.title != 'Archive' %}
         Older posts are available in the <a href="/archive.html" title="Archive">archive</a>. <br /><br />{% endif %}
         <a href="http://feeds.feedburner.com/phansch" title="Feedburner">RSS</a>, <a href="http://twitter.com/phansch" title="Follow me on Twitter">Twitter</a>, <a itemprop="email" href="mailto:desk@phansch.net" title="desk@phansch.net">desk@phansch.net</a>, <a href="https://github.com/phansch" title="Fork me on GitHub">GitHub</a><br />
