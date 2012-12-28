@@ -47,10 +47,12 @@ h1, h2, h3 {
 
 h1 {
 	font-size: 32px;
+  line-height: 35px;
 }
 h1.front {
   margin:0;
   margin-bottom: 5px;
+
 }
 h1.front a {
   text-decoration: none;
@@ -187,9 +189,9 @@ ul.archive li span, .post .date {
 /* Screenshot drop shadows do not work in IE */
 .post img.screenshot {
   border:none;
-  -moz-box-shadow:    0px 0px 12px 3px rgba(21, 25, 25, 0.8);
+  -moz-box-shadow: 0px 0px 12px 3px rgba(21, 25, 25, 0.8);
   -webkit-box-shadow: 0px 0px 12px 3px rgba(21, 25, 25, 0.8);
-  box-shadow:         0px 0px 12px 3px rgba(21, 25, 25, 0.8);
+  box-shadow:  0px 0px 12px 3px rgba(21, 25, 25, 0.8);
 }
 
 ul.archive li {
@@ -209,4 +211,25 @@ ul.archive li {
 #footer #content {
   margin:0 auto;
   width:40%;
+}
+
+.key {
+  display:inline;
+  font-size: 12px;
+  font-family: monospace;
+  background:#eee;
+  color:black;
+  padding:2px 3px;
+  margin-right:1px;
+  border-radius: 3px;
+  vertical-align: 2px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  -moz-box-shadow: 1px 1px 0px 0px #888;
+  -webkit-box-shadow:1px 1px 0px 0px #888;
+  box-shadow: 1px 1px 0px 0px #888;
 }
