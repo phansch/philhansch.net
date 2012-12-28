@@ -5,7 +5,7 @@ title: "RE: My netbook experience"
 excerpt: "I have been using Linux Mint and XMonad on my netbook for a while now. This is a review of how I ended up with my current setup and what is left to improve."
 ---
 
-[A year ago]({% post_url 2012-01-01-my-netbook-experience %}), I wrote about my first experiences with the *Asus EeePC 1215N*. It's time that I do another review of my netbook usage.
+[A year ago](http://phansch.net/2012/01/01/my-netbook-experience/), I wrote about my first experiences with the *Asus EeePC 1215N*. It's time that I do another review of my netbook usage.
 
 I've been running Windows 8 for about two weeks before I removed it. I was unable to connect to my university's eduroam network due to faulty drivers. 
 Before that, my netbook was running on Windows 7. Running Windows 7 was quite effortless. The reason I gave Windows 8 a try was keyboard accessibility. The new <span class="key">Win</span> + <span class="key">X</span> keyboard shortcut is awesome. The new task manager and file transfer dialog are nice as well. But those just didn't cut it.
