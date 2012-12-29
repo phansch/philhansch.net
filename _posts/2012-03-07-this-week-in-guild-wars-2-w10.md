@@ -35,8 +35,9 @@ Time flies. It's been almost over two weeks now since the first round of the bet
 [Postmagazine: Audio for games](http://digital.copcomm.com/i/57245/47)
 • Jennifer Walder from the post magazine has an intereting article about audio in games. The first part is about Guild Wars 2, so be sure to check it out!
 
-![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner9.png)
+<!--![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner9.png)-->
 
+----
 
 #### Wednesday, March 07
 

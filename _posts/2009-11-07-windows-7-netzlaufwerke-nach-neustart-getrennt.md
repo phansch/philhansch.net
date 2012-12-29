@@ -15,7 +15,7 @@ Also blieb mir nur die manuelle Methode:
 
 **Computer -> Netzlaufwerk verbinden**
 
-[![Netzlaufwerk Verbinden](http://wpimages.phansch.de/2009/11/netzlaufwerk-verbinden-300x28.jpg)](http://wpimages.phansch.de/2009/11/netzlaufwerk-verbinden.jpg)
+<!--[![Netzlaufwerk Verbinden](http://wpimages.phansch.de/2009/11/netzlaufwerk-verbinden-300x28.jpg)](http://wpimages.phansch.de/2009/11/netzlaufwerk-verbinden.jpg)-->
 
 Nach einem Neustart kam jedoch folgende Nachricht:
 _"Netzlaufwerk konnte nicht wiederhergestellt werden"_

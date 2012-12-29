@@ -8,7 +8,7 @@ Being a huge fan of *Amnesia: The Dark Descent* and *Minecraft*, I wanted to tal
 
 I like scary games. What I like most about them are those moments of shock. I think Amnesia and Minecraft achieved this quite well. Let's see if we can achieve those moments in an MMO like Guild Wars 2.
 
-![Amnesia Banner](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner_amnesia.png)
+<!--![Amnesia Banner](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner_amnesia.png)-->
 ### Part 1: Darkness ###
 The point of darkness in games is to produce disorientation. The player doesn’t see the enemies coming, the player probably just hears them.
 
@@ -17,7 +17,7 @@ The point of darkness in games is to produce disorientation. The player doesn’
 Have torches placed on walls where players have to light them. Distribute a resource (let’s call it tinder) throughout the dungeon that allows the player to light up the torches. Tinder should be relatively rare and far apart. As players should get rewards for exploring the dungeon, have the tinder placed in hidden places, like behind a huge rock. Essentially, in Guild Wars 2 players should be encouraged to explore the dungeon to find more tinder, to light up the dungeon, to learn about the story or to get some other form of benefit.
 
 What would players get from lighting the torches? Well, as a start they gain more vision around them. While the main benefit is an increased brightness, there could be further benefits from an increased light intensity. Monsters could get some form of combat advantage in dark places. Monsters could also actively approach lightning, like in Minecraft. So setting a torch on fire could actually have bad consequences.
-![house dungeon mansion](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner8.png)
+<!--![house dungeon mansion](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner8.png)-->
 
 ### Part 2: Defenselessnes ###
 With the combat system of Guild Wars 2 consisting of skills, weapons and dodging, it's hard to generate a feeling of defenselessness. Players will always have a way to fight back, making dark and eerie areas not necessarily scary. So, we have to get rid of that system if we don't want the players to be able to fight back. How could this work?

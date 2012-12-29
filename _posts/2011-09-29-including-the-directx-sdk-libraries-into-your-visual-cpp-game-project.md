@@ -30,13 +30,13 @@ When the download is complete, proceed by installing the DirectX SDK. Make sure 
 ## Installing the DirectX SDK
 
 
-![Installing DirectX](http://wpimages.phansch.de/2011/09/installation.png)
+<!--![Installing DirectX](http://wpimages.phansch.de/2011/09/installation.png)-->
 
 
 ## Add references to your project settings
 
 
-![Adding the include path](http://wpimages.phansch.de/2011/09/include_path-300x212.png)
+<!--![Adding the include path](http://wpimages.phansch.de/2011/09/include_path-300x212.png)-->
 
 In order to tell Visual Studio that your game requires DirectX, you will have to add the DirectX libraries and header files to your project.
 	
@@ -46,5 +46,5 @@ In order to tell Visual Studio that your game requires DirectX, you will have to
   4. A new window will open, that lets you new include paths. Add a new include path by hitting the _New Row_ button in the top right.
   5. Now you will have to navigate to your DirectX SDK installation directory and select the Include folder.
 
-![Include path](http://wpimages.phansch.de/2011/09/include_path2.png)
+<!--![Include path](http://wpimages.phansch.de/2011/09/include_path2.png)-->
 Do the same for the library path and you project should compile properly.
