@@ -1,0 +1,18 @@
+
+<header>
+  <h1 class="front">{{ page.title }}</h1>
+  <h2 class="front">{{ page.subtitle }}</h2>
+</header>
+
+<section id="downloads" class="clearfix">
+  <a href="{{ page.zip }}" id="download-zip" class="button"><span>Download .zip</span></a>
+  <a href="{{ page.exe }}" id="download-exe" class="button"><span>Download .exe</span></a>
+  <a href="http://github.com/{{site.author.github}}/{{page.title}}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+</section>
+
+<br /><hr />
+
+<section id="main_content">
+
+  {{ content }}
+</section>

@@ -2,7 +2,9 @@
 layout: page
 title: Archive
 ---
-# {{ page.title }} #
+
+<h1 class="front">{{ page.title }}</h1>
+
 Browse all {{ site.posts | size }} archived posts below.
 <p>
 {% assign posts_collate = site.posts %}
