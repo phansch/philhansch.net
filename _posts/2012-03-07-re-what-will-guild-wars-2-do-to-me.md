@@ -17,7 +17,7 @@ Skyriar's article ends with a few questions left to answer:
 
 Here are my thoughts.
 
-![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner3.png)
+<!--![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner3.png)-->
 
 
 
@@ -35,8 +35,9 @@ Large scale PVP in EVE can be compared to raiding, it's only more people. I've s
 
 Delegating important tasks, getting at least 100 people together and actually moving out of your meeting place takes **at least an hour **. An additional 30 minutes until you arrive at the objective and depending on the situation either 1 hour of mindless repetition because the enemy didn't show up **OR** 1-5 hours of epic fights you would talk about until the next dawn.
 
-[caption id="attachment_393" align="aligncenter" width="600" caption="Farewell EVE Online"]![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner12.png)[/caption]
+<!--[caption id="attachment_393" align="aligncenter" width="600" caption="Farewell EVE Online"]![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner12.png)[/caption]-->
 
+----
 
 Okay, enough EVE talk! The point here is the **preparation time** and not knowing if the waiting time is worth it. If your are one of the many who aren't in control, you have nothing to do until everyone else is ready. You sit there and wait an hour for your fellow pilots to show up.
 
@@ -69,7 +70,7 @@ I think, Guild Wars 2 has kind of turned me into a more casual player but in a g
 
 Now I'm trying to pay attention to how I spend my time in games. And that is one of the lessons Guild Wars 2 has taught me.
 
-![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner7.png)
+<!--![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner7.png)-->
 
 
 ##### Do you feel GW2 is going to be as revolutionary to the genre as the hype suggests?

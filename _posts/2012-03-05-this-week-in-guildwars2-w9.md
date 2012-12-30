@@ -16,7 +16,10 @@ On **Tuesday** Yogscast released another part of their class spotlight: [The Ele
 
 **Wednesday** German fansite Wartower.de released a [new TowerTalk](http://www.wartower.de/news/news.php?id=4646) with Jeff Grubb talking about the Asura. The introduction is German but the interview itself is held in English. David North from mmorpg.com also gave a [preview of the Guardian](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6139/The-Guardian-Preview.html) class.
 
-![Asura City](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner1.png)
+<!--![Asura City](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner1.png)--> 
+
+-----
+
 
 **Thursday** TotalBiscuit published two new videos. One [details the jumping puzzle](http://www.youtube.com/watch?v=ZYj2QMEPRT0) we've seen in a previous video and the other one shows a little bit of [Warrior game-play](http://www.youtube.com/watch?v=Y4UWZ2XN9rs). Yogscast also released the last part of their class spotlights, [the Warrior Spotlight](http://www.youtube.com/watch?v=jA6TPoWWdV0). A good day for you Warriors out there! There's also an [article on the Elementalist](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6142/The-Elementalist-Preview.html) over at mmorpg.com
 

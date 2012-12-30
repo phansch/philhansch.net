@@ -20,7 +20,7 @@ Während die ZedGraph Wiki bereits [viele Beispiele](http://www.zedgraph.org/wik
 Um ZedGraph benutzen zu können, muss die aktuelle Bibliothek [hier](http://sourceforge.net/projects/zedgraph/files/) heruntergeladen und entpackt werden.
 Wir erstellen zunächst ein neues Windows Forms Projekt. Als erstes fügen wir einen Verweis zur _ZedGraph.dll_ hinzu. Dazu kopieren wir zunächst die ZedGraph.dll in das _bin/Debug_ Verzeichnis unseres Projektes.
 
-[![ZedGraph.dll im bin/Debug Verzeichnis](http://wpimages.phansch.de/2010/09/zedgraph_1.png)](http://wpimages.phansch.de/2010/09/zedgraph_1.png)
+<!--[![ZedGraph.dll im bin/Debug Verzeichnis](http://wpimages.phansch.de/2010/09/zedgraph_1.png)](http://wpimages.phansch.de/2010/09/zedgraph_1.png)-->
 
 Anschließend fügen wir im Projekt-Explorer einen Verweis zur ZedGraph.dll hinzu ([how-to](http://msdn.microsoft.com/de-de/library/wkze6zky.aspx)).
 
@@ -116,7 +116,7 @@ Diese Einstellungen sorgen dafür, dass die Datensymbole 2 Punkte große, gefül
 
 Zuletzt wird das ZedGraphControl aktualisiert um die neuen Daten anzuzeigen.
 
-Beispiel als Download: [ZedGraphExample](http://wpimages.phansch.de/2010/09/ZedGraphExample.zip). (Benötigt wird [Visual C# 2010 Express](http://www.microsoft.com/express/Downloads/#2010-Visual-CS))
+Beispiel als Download: <!--[ZedGraphExample](http://wpimages.phansch.de/2010/09/ZedGraphExample.zip). (Benötigt wird [Visual C# 2010 Express](http://www.microsoft.com/express/Downloads/#2010-Visual-CS))--> Beispiel entfernt.
 
 Weiterführende Links:
 [http://zedgraph.org/wiki/index.php?title=Main_Page](http://zedgraph.org/wiki/index.php?title=Main_Page)

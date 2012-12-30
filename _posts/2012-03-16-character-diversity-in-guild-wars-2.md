@@ -27,7 +27,7 @@ Firstly, I wanted to get the old things out of the way. You stumble about these 
 
 
 
-![Asura](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner6.png)
+<!--![Asura](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner6.png)-->
 
 
 
@@ -56,7 +56,7 @@ Another thing that plays into the character diversity in Guild Wars 2 is the act
 
 
 
-![Logan](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner3.png)
+<!--![Logan](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner3.png)-->
 
 
 

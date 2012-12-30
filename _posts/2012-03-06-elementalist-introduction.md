@@ -12,7 +12,7 @@ plyturonnet: true
 
 The Elementalist is one of the professions that is easy to get into but hard to master. Due to the sheer number of skills and weapon combinations there is a lot to keep in mind when trying to master the four elements.
 
-![](http://plyturon.net/wp-content/uploads/2012/03/blog_elementalist_banner.jpg)
+<!--![](http://plyturon.net/wp-content/uploads/2012/03/blog_elementalist_banner.jpg)-->
 
 This introduction will give you an overview over the Elementalist profession. I will talk about the basic playstyle as well as attributes and weapons.
 
@@ -26,7 +26,7 @@ The Elementalist is a **caster-type profession** that is mainly focused on **dam
 
 As an Elementalist you are wearing **light armor**, the least protective armor type in Guild Wars 2. That means you are mainly fighting from the backline to avoid taking damage.
 
-![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner5.png)
+<!--![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner5.png)-->
 
 
 ### Attributes
@@ -57,7 +57,7 @@ In addition to these four basic attributes, ArenaNet [recently introduced](http:
 
 **The Elementalist** can reduce the recharge time of the four elemental attunements by putting points into the new **Intelligence** attribute.
 
-![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner10.png)
+<!--![](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner10.png)-->
 
 
 ### Weapon combinations

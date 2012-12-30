@@ -52,17 +52,13 @@ h1 {
 h1.front {
   margin:0;
   margin-bottom: 5px;
-
 }
 h1.front a {
   text-decoration: none;
 }
 
-h1.front:hover {
-}
-
 h2 {
-	font-size: 24px;
+	font-size: 26px;
 }
 
 h3 {

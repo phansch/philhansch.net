@@ -9,7 +9,7 @@ plyturonnet: true
 
 > It’s almost here—the second Guild Wars 2 Beta Weekend Event begins this Friday! For three days, players from all over the world will experience the wonders and dangers of Tyria—and a ton of cool new content!
 
-![Divinity's Reach](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner7.png)
+<!--![Divinity's Reach](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner7.png)-->
 
 ArenaNet just published a new blog detailing what changes we can expect for BWE #2.
 

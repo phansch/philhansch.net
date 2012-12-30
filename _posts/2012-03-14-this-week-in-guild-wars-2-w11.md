@@ -32,8 +32,9 @@ plyturonnet: true
 [KillTenRats: Demand More](http://www.killtenrats.com/2012/03/15/gw2-demand-more/)
 • Why everyone should help building community. It's a great read, go check it out.
 
-![Sylvari concept art](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner5.png)
+<!--![Sylvari concept art](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner5.png)-->
 
+----
 
 #### Wednesday, March 14
 

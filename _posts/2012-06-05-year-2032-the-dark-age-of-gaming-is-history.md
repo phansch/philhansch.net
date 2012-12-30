@@ -17,7 +17,9 @@ People paid money for the service and then they wanted to get something out of t
 
 And the worst thing? They were not alone. MMOs being MMOs at that time, they had competitors! Every monster presented a competition as to who got rewarded for the quest. Every nook and cranny was designed in a way that players don't do what they actually like to do: Playing together with friends. They paid hoping to play together with their friends, to make new friends even. But how do you even make new friends in such a hostile environment? How do you make friends when you have to compete over every single entity in the game?
 
-![Sylvari concept art](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner4.png)
+<!--![Sylvari concept art](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner4.png)-->
+
+---
 
 Let's make a cut here and talk about <del>immersion</del> quest texts. Do you remember the last time you read an actual quest text and what it was about? No? Me neither! But do you remember the last time you completed that insanely difficult encounter, holding up against that elder dragon? I don't know about you but, well, I certainly remember! 
 
@@ -27,7 +29,10 @@ The next thing about NPCs and quest texts is that they didn't reflect reality. A
 
 By now you can probably imagine how boring most MMOs were at that time. You approach an NPC and proceed by killing 10 rats that were waiting for you to kill them. Enemies were not even running away from you but faced you head on! That's how stupid MMOs were back then.
 
-![Trebuchets](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner9.png)
+<!--![Trebuchets](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner9.png)-->
+
+---
+
 There lies another problem in the way quests are designed. Some of those NPC are _damn greedy_! If you were to ask an NPC how many ore he received from players at the end of the day, his answer would be a very huge amount. Every player did the same thing as the player before them. Nothing changed for the next player. If the NPC grateful accepts medicine you crafted to help his daughter, he would just stay there instead of running away and helping his daughter. 
 
 The game doesn't react on my actions - It doesn't care that I'm there. It doesn't care about anyone else either. NPCs, monsters and the environment can in some way compared to theme park attractions. That's where the term _theme park MMO_ came from. Everything was set up so that an unlimited amount of players can experience a very limited story.  

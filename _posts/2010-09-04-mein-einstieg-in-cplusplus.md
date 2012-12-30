@@ -7,11 +7,11 @@ title: Mein Einstieg in C++
 wordpress_id: 584
 ---
 
-![cplusplus](http://phansch.de/blog/wp-content/gallery/allgemein/cplusplus.png)Für meinen Einstieg in C++ habe ich mir das Problem #2 von [projecteuler.net](http://projecteuler.net) herausgesucht. Die Problembeschreibung befindet sich [hier](http://projecteuler.net/index.php?section=problems&id=2).
+<!--![cplusplus](http://phansch.de/blog/wp-content/gallery/allgemein/cplusplus.png)-->Für meinen Einstieg in C++ habe ich mir das Problem #2 von [projecteuler.net](http://projecteuler.net) herausgesucht. Die Problembeschreibung befindet sich [hier](http://projecteuler.net/index.php?section=problems&id=2).
 
 Für die Lösung muss man zunächst die Fibonacci Zahlen bestimmen. Dafür verwende ich die Formel von Moivre-Binet:
 
-![Formel von Moivre-Binet zur bestimmung von Fibonacci Zahlen](http://upload.wikimedia.org/math/1/6/e/16ea0dee516003a472c75c4e0b8b4154.png)
+<!--![Formel von Moivre-Binet zur bestimmung von Fibonacci Zahlen](http://upload.wikimedia.org/math/1/6/e/16ea0dee516003a472c75c4e0b8b4154.png)-->
 
 In C++ sieht das dann so aus:
 

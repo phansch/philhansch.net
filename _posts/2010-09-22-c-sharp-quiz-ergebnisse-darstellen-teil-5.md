@@ -73,7 +73,7 @@ Wie das geht kann in [diesem Blogeintrag](http://blog.phansch.de/2010/09/c-sharp
 
 Als nächstes verbreitern wir unsere Form und fügen das ZedGraphControl hinzu.
 In etwa so:
-[![QuizForm mit ZedGraphControl](http://wpimages.phansch.de/2010/06/quiz_teil5_1-300x126.png)](http://wpimages.phansch.de/2010/06/quiz_teil5_1.png)
+<!--[![QuizForm mit ZedGraphControl](http://wpimages.phansch.de/2010/06/quiz_teil5_1-300x126.png)](http://wpimages.phansch.de/2010/06/quiz_teil5_1.png)-->
 
 
 
@@ -126,7 +126,7 @@ Diese Methode wird nur einmal aufgerufen:
     }
 
 Wenn wir das Programm so ausführen erhalten wir folgendes Bild:
-[![Initialisiertes Diagramm ohne Balken](http://wpimages.phansch.de/2010/06/quiz_teil5_2-300x124.png)](http://wpimages.phansch.de/2010/06/quiz_teil5_2.png)
+<!--[![Initialisiertes Diagramm ohne Balken](http://wpimages.phansch.de/2010/06/quiz_teil5_2-300x124.png)](http://wpimages.phansch.de/2010/06/quiz_teil5_2.png)-->
 
 
 ### Update des Diagramms
@@ -177,7 +177,7 @@ Aufgerufen wir UpdateChart() im button_next_Click-Eventhandler:
 
 
 
-Das war es auch schon. Die fertige Solution gibt es auch als Download: [CSharpQuiz_5.zip](http://wpimages.phansch.de/2010/06/CSharpQuiz_5.zip)
+Das war es auch schon. Die fertige Solution gibt es auch als Download: <!--[CSharpQuiz_5.zip](http://wpimages.phansch.de/2010/06/CSharpQuiz_5.zip)--> Entfernt.
 
 Ich hoffe, dass meine erste Blogreihe eine gute Hilfestellung, auch für C# Anfänger, bietet.
 Anregungen und Wünsche können gerne in den Kommentaren geäußert werden. :)

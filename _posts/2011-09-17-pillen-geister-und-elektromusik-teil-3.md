@@ -56,11 +56,11 @@ Ich werde wenigstens eine Alternative Wegfindung für die Gegner implementieren.
 
 ### Collision Detection
 
-![](http://wpimages.phansch.de/2011/09/collisionDetection_1.jpg)
+<!--![](http://wpimages.phansch.de/2011/09/collisionDetection_1.jpg)-->
 
 Die erstbeste Methode zur Kollisionserkennung auf die man stößt wenn man nach "XNA collision detection" recherchiert, ist `Rectangle.Intersects(Rectangle r)`. Wenn sich Rechteck A mit Rechteck B treffen hat man eine Kollision. Hier stoßen wir beim Spielen aber früher oder später auf Schwierigkeiten.
 
-![](http://wpimages.phansch.de/2011/09/collisionDetection_2.jpg) 
+<!--![](http://wpimages.phansch.de/2011/09/collisionDetection_2.jpg) -->
 
 Anhand des Bildes kann man das leicht erklären. Der Gegner (rot) befindet sich auf dem Weg nach oben und ist Pacman schon fast ein ganzes Feld voraus. Da sich jedoch die Rechtecke beider Objekte berühren, kommt es zur Kollision.
 
@@ -96,7 +96,7 @@ Eine andere Möglichkeit: Während des Spiels wird von der Spielfigur und den Ge
 
 
 
-![](http://wpimages.phansch.de/2011/09/collisionDetection_3.jpg)
+<!--![](http://wpimages.phansch.de/2011/09/collisionDetection_3.jpg)-->
 
 Nun, damit entsteht ein Problem: Was passiert wenn sich Pacman und Gegner (rot) auf demselben Feld sind, sich aber nicht berühren? Genau: Die Methode gibt _true_ zurück und der Spieler hat ein Leben weniger.
 Einen optimalen Lösungsweg habe ich hiermit noch nicht gefunden. Ich werde mich nochmals mit der letzteren Methode beschäftigen, da die erste Methode zu frustrierend für den Spieler wäre. Immerhin kann der Spieler die Bounding Rectangles nicht sehen.

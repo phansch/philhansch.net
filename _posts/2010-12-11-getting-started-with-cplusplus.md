@@ -24,7 +24,7 @@ Basically, you have to find the sum of all even-valued terms in the fibonacci se
 
 In order to get a specific fibonacci number I used a formula made by Moivre-Binet.
 
-![Moivre-Binet's formula to get the n'th fibonacci number](http://upload.wikimedia.org/math/1/6/e/16ea0dee516003a472c75c4e0b8b4154.png)
+<!--![Moivre-Binet's formula to get the n'th fibonacci number](http://upload.wikimedia.org/math/1/6/e/16ea0dee516003a472c75c4e0b8b4154.png)-->
 
 What is amazing about this formula, is that it uses three square roots and still returns integer numbers.
 Don't believe me? I couldn't really believe it either so i simply implemented it in C++:
