@@ -6,6 +6,7 @@ slug: howto-windows-minidump-auslesen
 title: 'Howto: Windows Minidump auslesen'
 wordpress_id: 789
 ---
+*Anmerkung: Screenshots wurden entfernt.*
 
 Vor kurzem hat mich unter Windows 7 zum ersten mal ein BSOD erwischt. Das ist, zumindest bei mir, eine sehr seltene Angelegenheit. Leider war ich beim auftauchen des Bluescreens so perplex und habe die Fehlermeldung nicht wahrgenommen. Was also machen? 
 Es gibt verschiedene Möglichkeiten die Infos aus dem Bluescreen nachträglich einzusehen.
@@ -26,7 +27,7 @@ Das EventLog speichert verschiedene Arten von Ereignissen während des Windows B
 
 Ein Bluescreen sollte unter die Kategorie "Fehler" bzw. "Kritisch" fallen. Mit einem Doppelklick auf das entsprechende Event und einem nachfolgendem Klick auf "Details" erhält man folgende Ansicht:
 
-[![Detailansicht im Eventfenster](http://wpimages.phansch.de/2010/11/Bluescreen_01-300x205.png)](http://wpimages.phansch.de/2010/11/Bluescreen_01.png)
+<!--[![Detailansicht im Eventfenster](http://wpimages.phansch.de/2010/11/Bluescreen_01-300x205.png)](http://wpimages.phansch.de/2010/11/Bluescreen_01.png)-->
 
 Sowohl mit der Event-ID als auch dem BugCheckCode lassen sich über Google meistens weitere Informationen finden.
 
@@ -46,10 +47,10 @@ Für WinDbg werden die Windows Debugging Tools benötigt. Bei der Installation m
 Das Windows SDK, welches WinDbg beinhaltet, kann [hier](http://www.microsoft.com/whdc/devtools/debugging/default.mspx) heruntergeladen werden.
 
 Bei der Installation ist es wichtig, die Debugging Tools auszuwählen:
-[![Debugging Tools auswählen](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11-300x288.png)](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11.png)
+<!--[![Debugging Tools auswählen](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11-300x288.png)](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11.png)-->
 WinDbg kann anschließend über das Programmmenü gestartet werden:
 
-[![WinDbg starten](http://wpimages.phansch.de/2010/12/startWinDbg.png)](http://wpimages.phansch.de/2010/12/startWinDbg.png)
+<!--[![WinDbg starten](http://wpimages.phansch.de/2010/12/startWinDbg.png)](http://wpimages.phansch.de/2010/12/startWinDbg.png)-->
 
 
 ### WinDbg benutzen um Minidump auszulesen
@@ -71,7 +72,7 @@ Um den Minidump auszulesen öffnen wir ihn in WinDbg über "File -> Open Crash D
 
 Nun befinden wir uns in der Debugging Ansicht. Es wird zunächst eine weile dauern bis die Symboldateien heruntergeladen wurden.
 Wenn der Download abgeschlossen ist, sieht das Debuggingfenster so aus:
-[![Download der Symbole komplett](http://wpimages.phansch.de/2010/12/winDbg_debug1-150x150.png)](http://wpimages.phansch.de/2010/12/winDbg_debug1.png)
+<!--[![Download der Symbole komplett](http://wpimages.phansch.de/2010/12/winDbg_debug1-150x150.png)](http://wpimages.phansch.de/2010/12/winDbg_debug1.png)-->
 
 Wir können bereits sehen wodurch der Fehler ausgelöst wurde: "Probably caused by : ntkrnlmp.exe"
 Um weitere Informationen zu bekommen, geben wir unten in der Kommandozeile den Befehl `!analyze -v` ein.

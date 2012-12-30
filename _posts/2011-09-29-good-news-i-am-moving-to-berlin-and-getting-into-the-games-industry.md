@@ -9,7 +9,7 @@ wordpress_id: 1192
 
 Just wanted to let you readers know, that I'm now on the move to Berlin. 
 
-<a href="http://wpimages.phansch.de/2011/09/umzug.jpg"><img src="http://wpimages.phansch.de/2011/09/umzug-1024x768.jpg" alt="Packing up" width="512" height="384" /></a>
+<!--<a href="http://wpimages.phansch.de/2011/09/umzug.jpg"><img src="http://wpimages.phansch.de/2011/09/umzug-1024x768.jpg" alt="Packing up" width="512" height="384" /></a>-->
 
 I'll be studying [Applied Computer Science](http://www-en.htw-berlin.de/studying/study_programmes/programme.html?courseID=116) (Angewandte Informatik in German) at [HTW Berlin](http://www-en.htw-berlin.de/) for at least the next 3 years. 
 

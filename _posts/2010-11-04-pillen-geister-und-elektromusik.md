@@ -43,6 +43,6 @@ Die Feldtypen:
 
 
 Diese Datei wurde vorher mit dem Map Editor erstellt und gespeichert.
-[![](http://wpimages.phansch.de/2010/11/pacmanMapEditor1-300x156.png)](http://wpimages.phansch.de/2010/11/pacmanMapEditor1.png)
+<!--[![](http://wpimages.phansch.de/2010/11/pacmanMapEditor1-300x156.png)](http://wpimages.phansch.de/2010/11/pacmanMapEditor1.png)-->
 
 Als nächstes steht nun die Erstellung des Spielfeldes mithilfe des XNA Frameworks an.

@@ -11,7 +11,7 @@ Greetings!
 
 As you might have noticed, the blog has been silent for a few <del>days</del> weeks. It will stay that way for a little while, but do not fret! The content drought was mainly due to me being a lazy asuran engineer and also because of a boat load of news after the first press beta event that I just couldn't (or didn't want to) keep up with. Head past the jump to see what's up. 
 
-![Amnesia: The dark descent](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner_amnesia.png)
+<!--![Amnesia: The dark descent](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner_amnesia.png)-->
 
 I like lists, so here are three things that will change for plyturon.net, put into a list.
 

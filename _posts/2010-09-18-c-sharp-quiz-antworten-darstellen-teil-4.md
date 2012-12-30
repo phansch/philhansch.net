@@ -116,7 +116,7 @@ Die Anpassung der Form ist recht einfach. Wir fügen der Methode Form1_Load() fo
     this.Controls.AddRange(a.ArrAnswers);
 
 
-[![button_next](http://wpimages.phansch.de/2010/06/button_next.png)](http://wpimages.phansch.de/2010/06/button_next.png)
+<!--[![button_next](http://wpimages.phansch.de/2010/06/button_next.png)](http://wpimages.phansch.de/2010/06/button_next.png)-->
 
 Weiterhin soll man den Weiter-Button nicht benutzen können, bevor eine Antwort ausgewählt ist. Dazu wird die Eigenschaft _enabled_ des Buttons _button_next_ zunächst auf _false_ gesetzt.
 
@@ -201,4 +201,4 @@ Um zu verhinden, dass nach der letzten Frage die Antworten angezeigt werden, mü
 
 Das war's auch schon. Wir können nun beliebige Fragen und Antworten ausgeben lassen und den Test wiederholen. Damit haben wir schon über die Hälfte unserer Anforderungen an das Programm erfüllt. Nun fehlt nur noch eine grafische Darstellung der Testergebnisse.
 
-Die bisherige Lösung als .zip Datei: [CSharpQuiz_4](http://wpimages.phansch.de/2010/06/CSharpQuiz_4.zip)
+Die bisherige Lösung als .zip Datei: <!--[CSharpQuiz_4](http://wpimages.phansch.de/2010/06/CSharpQuiz_4.zip)--> Entfernt.

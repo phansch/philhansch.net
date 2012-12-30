@@ -229,7 +229,7 @@ Dazu brauchen wir die zwei EventHandler _Form1_Load_ und _button_weiter_Click_. 
 
 Wer den ersten Teil gelesen hat, wird sich an unsere definierten Anforderungen erinnern. **Wir wollen den Test wiederholbar gestalten.**
 Dazu müssen wir einen neuen Button in der Form hinzufügen:
-[![Fragebogen](http://wpimages.phansch.de/2010/06/quiz_form-150x150.jpg)](http://wpimages.phansch.de/2010/06/quiz_form.jpg)
+<!--[![Fragebogen](http://wpimages.phansch.de/2010/06/quiz_form-150x150.jpg)](http://wpimages.phansch.de/2010/06/quiz_form.jpg)-->
 
 Den Wiederholen Button setzen wir zunächst über die IDE auf _Visible = false_.
 
