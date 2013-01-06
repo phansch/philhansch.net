@@ -37,4 +37,4 @@ To run the game:
  * On Windows use `love C:\path\to\game.love` **or** drag the .love file onto love.exe
  * On Mac use `open -n -a love "/home/path/to/game"` **or** drag the .love file onto the Love.app application bundle
 
-Once the month is over, there will also be a .exe file for Windows users as well. 
+Once the month is over, there will also be a .exe file for Windows users. 
