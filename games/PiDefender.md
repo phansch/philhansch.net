@@ -1,6 +1,6 @@
 ---
 layout: game
-title: 1GAM-January
+title: PiDefender
 subtitle: My January entry for One Game A Month 2013
 zip: "#"
 exe: "#"
@@ -12,7 +12,12 @@ used: "Lua, Love2D"
 ## The game ##
 
 ### Description  ###
-TODO: Explain what the game is about
+>Your solar system is under attack!
+
+>Your scout ship is directing your people's only defense:
+>A giant defensive cannon that can obliberate dozens of ships at once.
+
+>Try not to get hit by enemy fire while killing as many as possible.
 
 ### Created using ###
 {{page.used}}
