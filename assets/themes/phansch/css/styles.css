@@ -71,7 +71,8 @@ h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #f1a135;
+  color: #fd5443;
+  text-shadow: none;
 }
 
 a:hover {
