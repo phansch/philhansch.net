@@ -1,7 +1,7 @@
 ---
 layout: post
 location: Rheda-Wiedenbrück
-title: Using Google Drive as a CDN
+title: Google Drive as a CDN
 excerpt: "This post describes how to use Google Drive for hosting static content like images or downloads"
 ---
 
