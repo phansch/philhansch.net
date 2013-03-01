@@ -143,13 +143,15 @@ ol > li {
   
 }
 ol > li:before {
-  content:counter(li); /* Use the counter as content */
+  content:counter(li)"."; /* Use the counter as content */
   counter-increment:li; /* Increment the counter by 1 */
   color: #FD5443;
   position:absolute;
   left: -20px;
   display: block;
   text-shadow: none;
+  font-weight: bold;
+  line-height: 24px;
 }
 
 blockquote {
