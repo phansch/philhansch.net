@@ -116,7 +116,7 @@ strong {
 /* List styling from http://sachagreif.com */
 ul {
   list-style-type: none;
-  padding-left: 35px;
+  margin-left: 35px;
 }
 ul li {
   position: relative;
@@ -131,12 +131,22 @@ ul li {
     font-size: 25px;
   }
 }
+/* Ordered-list styling taken from http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/ */
 ol {
-  padding-left: 35px;
+  counter-reset:li; /* Initiate a counter */
+  margin-left: 35px;
 }
-ol li {
-  list-style: decimal inside;
-  padding-left: 20px;
+ol > li {
+  position: relative;
+  list-style: none;
+  
+}
+ol > li:before {
+  content:counter(li); /* Use the counter as content */
+  counter-increment:li; /* Increment the counter by 1 */
+  position:absolute;
+  left: -20px;
+  display: block;
 }
 
 blockquote {
