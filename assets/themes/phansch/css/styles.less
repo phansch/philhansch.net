@@ -115,8 +115,18 @@ strong {
 }
 
 ul li {
-  list-style: inside;
+  list-style-type: none;
+  color: @textColor;
   padding-left: 25px;
+  &:before {
+    content:"•";
+    color: #FD5443;
+    position: absolute;
+    left: -20px;
+    display: block;
+    height: 20px;
+    width: 10px;
+  }
 }
 
 ol li {
