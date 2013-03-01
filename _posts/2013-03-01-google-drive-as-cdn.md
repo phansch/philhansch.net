@@ -1,8 +1,8 @@
 ---
 layout: post
 location: Rheda-Wiedenbrück
-title: Using Google Drive as a CDN
-excerpt: "This post describes how to use Google Drive for hosting static content like images or downloads"
+title: Google Drive as a CDN
+excerpt: "This post describes how to use Google Drive for hosting static content like images or downloads."
 ---
 
 When linking a publicly shared Google Drive folder or file, people are always forwarded to the Google Drive page, instead of the actual file.

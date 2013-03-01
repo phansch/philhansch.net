@@ -93,7 +93,7 @@ h2 {
 }
 
 h3 {
-  color: #d5000d;
+  color: #fd5443;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -112,15 +112,45 @@ em {
 strong {
   font-weight:700;
 }
-
-ul li {
-  list-style: inside;
-  padding-left: 25px;
+/* List styling from http://sachagreif.com */
+ul {
+  list-style-type: none;
+  margin-left: 35px;
 }
+ul li {
+  position: relative;
+  &:before {
+    content:"•";
+    color: #FD5443;
+    position: absolute;
+    left: -20px;
+    display: block;
+    height: 20px;
+    width: 10px;
+    font-size: 25px;
+    text-shadow: none;
+  }
+}
+/* Ordered-list styling taken from http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/ */
+ol {
+  counter-reset:li; /* Initiate a counter */
+  margin-left: 35px;
+}
+ol > li {
+  position: relative;
+  list-style: none;
 
-ol li {
-  list-style: decimal inside;
-  padding-left: 20px;
+}
+ol > li:before {
+  content:counter(li)"."; /* Use the counter as content */
+  counter-increment:li; /* Increment the counter by 1 */
+  color: #FD5443;
+  position:absolute;
+  left: -20px;
+  display: block;
+  text-shadow: none;
+  font-weight: bold;
+  line-height: 24px;
 }
 
 blockquote {
@@ -198,6 +228,9 @@ ul.archive {
     margin-bottom: 5px;
     list-style: none;
     span { .dateSpan; }
+    &:before {
+      display: none;
+    }
   }
 }
 
@@ -354,6 +387,9 @@ a.button span {
     padding:0;
     margin:0;
     list-style:none;
+    &:before {
+      display:none;
+    }
   }
   ul {
     margin:0;
@@ -369,4 +405,3 @@ a.button span {
   border: solid 1px #b7b7b7;
   .border-radius(3px);
   .secondaryLink;
-}
