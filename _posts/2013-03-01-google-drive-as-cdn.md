@@ -13,11 +13,11 @@ This makes it difficult to use Google Drive to host downloads or static blog-con
 The first thing you want to do, is go to <http://drive.google.com> and setup a public folder somewhere. 
 To make this folder public, change the visibility settings to `Public on the web` and make sure that you are the only one that can edit.
 
-![Sharing settings]({{IMAGES_PATH}}posts/2013-03-01-gdrive-static/sharing-1.png)
+![Sharing settings](/assets/images/posts/2013-03-01-gdrive-static/sharing-1.png)
 
 Now you will need to obtain the folder ID. Change to your public folder and you will see the ID in the adress bar. The last part is the FolderID you are looking for:
 
-![FolderID]({{IMAGES_PATH}}posts/2013-03-01-gdrive-static/folderid.png)
+![FolderID](/assets/images/posts/2013-03-01-gdrive-static/folderid.png)
 
 The next step makes it a little bit more difficult than using Dropbox since this bit of information is quite hidden. According to [the Google Drive SDK documentation](https://developers.google.com/drive/publish-site), we can use an URL like `https://googledrive.com/host/[FolderID]/path/to/file.type` to link directly to publicly shared files.
 
@@ -33,6 +33,6 @@ Go to `Account` -> `Your Domains` and select the domain where you want to setup 
 
 Here you setup the URL Redirect to the Google Drive URL from above: `https://googledrive.com/host/[FolderID]/`
 
-![Namecheap setup]({{IMAGES_PATH}}posts/2013-03-01-gdrive-static/namecheap.png)
+![Namecheap setup](/assets/images/posts/2013-03-01-gdrive-static/namecheap.png)
 
 Now you can use `http://static.yourdomain.net/path/to/image.png` to link to your static blog content. 
