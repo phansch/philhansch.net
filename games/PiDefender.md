@@ -23,10 +23,10 @@ used: "Lua, Love2D"
 {{page.used}}
 
 <h2 id="screenshots">Screenshots</h2>
-<a href="/assets/images/portfolio/pidefender-1.png"><img src="/assets/images/portfolio/pidefender-1.png" alt="screenshot" width="300" /></a>
-<a href="/assets/images/portfolio/pidefender-2.png"><img src="/assets/images/portfolio/pidefender-2.png" alt="screenshot" width="300" /></a>
-<a href="/assets/images/portfolio/pidefender-3.png"><img src="/assets/images/portfolio/pidefender-3.png" alt="screenshot" width="300" /></a>
-<a href="/assets/images/portfolio/pidefender-4.png"><img src="/assets/images/portfolio/pidefender-4.png" alt="screenshot" width="300" /></a>
+<a href="/assets/images/portfolio/pidefender/pidefender-1.png"><img src="/assets/images/portfolio/pidefender/pidefender-1.png" alt="screenshot" width="300" /></a>
+<a href="/assets/images/portfolio/pidefender/pidefender-2.png"><img src="/assets/images/portfolio/pidefender/pidefender-2.png" alt="screenshot" width="300" /></a>
+<a href="/assets/images/portfolio/pidefender/pidefender-3.png"><img src="/assets/images/portfolio/pidefender/pidefender-3.png" alt="screenshot" width="300" /></a>
+<a href="/assets/images/portfolio/pidefender/pidefender-4.png"><img src="/assets/images/portfolio/pidefender/pidefender-4.png" alt="screenshot" width="300" /></a>
 
 
 <h2 id="snippets">Code snippets</h2>
