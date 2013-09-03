@@ -1,69 +1,93 @@
-@main-color: #e7e7e7; //Used as background color
-@textColor: #6d6d6d;
-@color2: #c9c9c9;
-@color3: #303030; //used for headings and .dateSpan
-@linkColor: #FD5443;
-@navLinkColor: #72695F;
-@navHoverColor: #C85C50;
+@text_color: #303030;
+@body_bg_color: #e7e7e7;
+@top_bg_color: #EF7632;
+@mid_bg_color: #F2BCB7;
+@nav_hover_bg_color: #FD5443;
+
 body {
-	margin-top:50px;
+	background:@body_bg_color;
+}
+
+.btn:focus {
+	outline:none;
 }
 
 /* Header */
 #top-container {
-  background: @linkColor;
+  background:url('../images/bg-top.png');
   width:100%;
   font-size: 16px;
   position: fixed;
-
-  z-index: 2;
+  z-index:70;
+  top:0px;
+  left:0px;
   #top {
     margin:0 auto;
     width:670px;
     a {
       padding: 15px; 
       display:inline-block;
-      text-shadow:none;
-      color: @color3;
+      color: @text_color;
     }
-    a#title { font-size:16px; font-weight: bold; }
-    a:hover { text-decoration: none; background:@navHoverColor; color: @color3;}
+    a#title { font-size:18px; font-weight: bold; }
+    a:hover { text-decoration: none; background:@nav_hover_bg_color; color: @text_color;}
   }
 }
 
 #folio-top {
-  min-height: 300px;
-  color:@color3;
-  padding-top:90px;
-  padding-bottom: 90px;
-  background:@linkColor;
+	position:fixed;
+  background:url('../images/bg-top.png');
   text-align: center;
-  text-shadow:none;
+  display:table;
+  height:100%;
+  width:100%;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
   z-index:1;
+
+  .container {
+  	vertical-align: middle;
+  	display:table-cell;
+  	#tagline {
+  		width:100%;
+	  	display:table;
+	  }
+  }
+  
   h1 {
-    font-family:'Abel', sans-serif;
+  	font-family:'Abel', sans-serif;
     font-weight: bolder;
     font-size: 80px;
-
   }
-  #tagline {
-    margin-top: 40px;
-    font-family:'Abel', sans-serif;
+
+  p {
+  	font-family:'Abel', sans-serif;
     font-size:40px;
     line-height:45px;
+    padding-bottom:10px;
   }
 }
 
 #folio-mid {
-  background-color: #F2BCB7;
+  background: none repeat scroll 0% 0% @mid_bg_color;
   padding:60px 0;
+  margin-top:100vh;
+  position: relative;
+  z-index:50;
 }
 
 #folio-overview {
 	text-align:center;
-	margin-bottom:60px;
+	background:@body_bg_color;
+	position:relative;
+	z-index:60;
 }
 
 #footer {
-	margin:60px 0;
+	z-index:60;
+	position:relative;
+	background:@body_bg_color;
+	padding:60px;
 }
