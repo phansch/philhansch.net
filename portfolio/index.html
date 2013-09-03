@@ -52,17 +52,22 @@ title: Programming Portfolio
     <h2 class="text-left">Games</h2>
 
     <div class="row">
-      <div class="col-md-4">
-        <a href="#" class="thumbnail">
-          <img data-src="holder.js/100%x180" alt="...">
-        </a>
-        <h3>Test Project <span class="label label-primary">New</span></h3>
-        <p style="text-align:justify">Lorem ipsum dolor sit amet, nam probo timeam conceptam ea, qui impetus mentitum ullamcorper an. An nam paulo euripidis, eum cu sensibus facilisis. Eos cu iusto sonet. Nam ei percipit postulant, ea duo docendi tacimates, luptatum salutatus per ut. Sea ei eros scriptorem, nominavi voluptua platonem pri et, nibh brute modus id sea.</p>
-        <p class="text-left">Technologies: <span class="label label-default">Lua</span> <span class="label label-default">Love2D</span></p>
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button> 
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button>
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button>
-      </div>
+      {% for page in site.pages %}
+        {% if page.scope == "portfolio" %}
+          <div class="col-md-4">
+            <a href="#" class="thumbnail">
+              <img data-src="holder.js/100%x180" alt="...">
+            </a>
+            <h3>{{page.title}} <span class="label label-primary">New</span></h3>
+            <p style="text-align:justify">{{page.subtitle}}</p>
+            <p class="text-left">Technologies: <span class="label label-default">Lua</span> <span class="label label-default">Love2D</span></p>
+            <a href="{{ page.url}}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
+            <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+            <a href="http://github.com/phansch/{{page.title}}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+          </div>
+        {% endif %}
+
+      {% endfor %}
       <div class="col-md-4">
         <a href="#" class="thumbnail">
           <img data-src="holder.js/100%x180" alt="...">
@@ -79,15 +84,7 @@ title: Programming Portfolio
     <hr />
     <h2 class="text-left">Ruby</h2>
 
-    {% for page in site.pages %}
-  {% if page.scope == "portfolio" %}
-
-[{{page.title}}]({{ page.url}})  
-{{page.subtitle}}.
-
-  {% endif %}
-
-{% endfor %}
+    
 
     <div class="row">
       <div class="col-md-4">
