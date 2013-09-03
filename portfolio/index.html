@@ -1,0 +1,115 @@
+---
+layout: portfolio
+title: Game Portfolio
+---
+<div id="folio-top">
+	<div class="container">
+		<h1>I am a programmer.</h1>
+		<p id ="tagline">This is my portfolio. I'm showcasing my programming here.<br />
+		But you can also check out my <a title="My blog" href="http://phansch.net/archive/">writings</a> and <a href="#">resumé</a>.</p>
+    </div>
+</div>
+<div id="folio-mid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <h2><span class="glyphicon glyphicon-star"></span> GitHub</h2>
+        <p>I have been using GitHub for over a year. Feel free to check out any projects.</p>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <h2><span class="glyphicon glyphicon-file"></span> Resumé</h2>
+
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <h2><span class="glyphicon glyphicon-folder-open"></span> Downloads</h2>
+        
+        <ul class="list-unstyled">
+          <li>
+            <span class="badge">14 Mb</span>
+            A .zip file that contains executables for most of the games.
+          </li>
+          <li>
+            <span class="badge">14 Mb</span>
+            A .pdf file with screenshots, descriptions and code examples.
+          </li>
+          <li>
+            <span class="badge">14 Mb</span>
+            My Resumé
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="folio-overview">
+  <div class="container">
+    <h2 class="text-left">Games</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="thumbnail">
+          <img data-src="holder.js/100%x180" alt="...">
+        </a>
+        <h3>Test Project <span class="label label-primary">New</span></h3>
+        <p style="text-align:justify">Lorem ipsum dolor sit amet, nam probo timeam conceptam ea, qui impetus mentitum ullamcorper an. An nam paulo euripidis, eum cu sensibus facilisis. Eos cu iusto sonet. Nam ei percipit postulant, ea duo docendi tacimates, luptatum salutatus per ut. Sea ei eros scriptorem, nominavi voluptua platonem pri et, nibh brute modus id sea.</p>
+        <p class="text-left">Technologies: <span class="label label-default">Lua</span> <span class="label label-default">Love2D</span></p>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button> 
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="thumbnail">
+          <img data-src="holder.js/100%x180" alt="...">
+        </a>
+        <h3>Test Project <span class="label label-primary">New</span></h3>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="thumbnail">
+          <img data-src="holder.js/100%x180" alt="...">
+        </a>
+        <h3>Test Project <span class="label label-primary">New</span></h3>
+      </div>
+    </div>
+    <hr />
+    <h2 class="text-left">Ruby</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img data-src="holder.js/100%x180" alt="...">
+          </a>
+          <h3>Test Project <span class="label label-primary">New</span></h3>
+          <p style="text-align:justify">Lorem ipsum dolor sit amet, nam probo timeam conceptam ea, qui impetus mentitum ullamcorper an. An nam paulo euripidis, eum cu sensibus facilisis. Eos cu iusto sonet. Nam ei percipit postulant, ea duo docendi tacimates, luptatum salutatus per ut. Sea ei eros scriptorem, nominavi voluptua platonem pri et, nibh brute modus id sea.</p>
+          <p class="text-left">Technologies: <span class="label label-default">Lua</span> <span class="label label-default">Love2D</span></p>
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button> 
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button>
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img data-src="holder.js/100%x180" alt="...">
+          </a>
+          <h3>Test Project <span class="label label-primary">New</span></h3>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img data-src="holder.js/100%x180" alt="...">
+          </a>
+          <h3>Test Project <span class="label label-primary">New</span></h3>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+{% for page in site.pages %}
+  {% if page.scope == "portfolio" %}
+
+[{{page.title}}]({{ page.url}})  
+{{page.subtitle}}.
+
+  {% endif %}
+
+{% endfor %}
