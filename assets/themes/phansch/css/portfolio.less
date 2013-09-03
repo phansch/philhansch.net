@@ -1,0 +1,65 @@
+@main-color: #e7e7e7; //Used as background color
+@textColor: #6d6d6d;
+@color2: #c9c9c9;
+@color3: #303030; //used for headings and .dateSpan
+@linkColor: #FD5443;
+@navLinkColor: #72695F;
+@navHoverColor: #C85C50;
+body {
+	margin-top:50px;
+}
+
+/* Header */
+#top-container {
+  background: @linkColor;
+  width:100%;
+  font-size: 16px;
+  position: fixed;
+
+  z-index: 2;
+  #top {
+    margin:0 auto;
+    width:670px;
+
+
+    a {
+      padding: 15px; 
+      display:inline-block;
+      text-shadow:none;
+      color: @color3;
+    }
+    a#title { font-size:16px; font-weight: bold; }
+    a:hover { text-decoration: none; background:@navHoverColor; color: @color3;}
+  }
+}
+
+#folio-top {
+  min-height: 300px;
+  color:@color3;
+  padding-top:90px;
+  padding-bottom: 90px;
+  background:@linkColor;
+  text-align: center;
+  text-shadow:none;
+  h1 {
+    font-family:'Abel', sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
+
+  }
+  #tagline {
+    margin-top: 40px;
+    font-family:'Abel', sans-serif;
+    font-size:40px;
+    line-height:45px;
+  }
+}
+
+#folio-mid {
+  background-color: #F2BCB7;
+  padding:60px 0;
+}
+
+#folio-overview {
+	text-align:center;
+}
