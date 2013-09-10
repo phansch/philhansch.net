@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: default
 title: Portfolio
 ---
 <div id="folio-top">
@@ -48,8 +48,6 @@ title: Portfolio
   <div class="container">
     <h2 class="text-left">Games</h2>
 
-    <span class="label label-default">Lua</span> 
-
     <div class="row">
       {% for page in site.pages %}
         {% if page.scope == "portfolio" and page.category == "games" %}
@@ -57,13 +55,13 @@ title: Portfolio
             <a href="{{page.url}}" class="thumbnail">
               <img src="{{page.thumbnail}}" alt="Screenshot">
             </a>
-            <h3>{{page.title}} <span class="label label-primary">New</span></h3>
-            <p style="text-align:justify">{{page.subtitle}}</p>
-            Technologies: <br />
+            <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
+            <p style="text-align:justify">{{page.subtitle}}<br />
+            <strong>Technologies:</strong>
             {% for technology in page.used %}
             <span class="label label-default">{{ technology }}</span> 
             {% endfor %}
-            
+            </p>
             <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
             {% if page.exe %}
             <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
@@ -83,9 +81,9 @@ title: Portfolio
             <a href="{{page.url}}" class="thumbnail">
               <img src="{{page.thumbnail}}" alt="Screenshot">
             </a>
-            <h3>{{page.title}} <span class="label label-primary">New</span></h3>
-            <p style="text-align:justify">{{page.subtitle}}</p>
-            <p class="text-left">Technologies: 
+            <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
+            <p style="text-align:justify">{{page.subtitle}}<br />
+            <strong>Technologies:</strong>
             {% for technology in page.used %}
             <span class="label label-default">{{ technology }}</span> 
             {% endfor %}

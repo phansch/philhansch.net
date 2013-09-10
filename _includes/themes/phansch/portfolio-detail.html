@@ -1,22 +1,23 @@
+<div class="small-width-content">
+  <header>
+    <h1 class="front">{{ page.title }}</h1>
+    <p class="lead">{{ page.subtitle }}</p>
+  </header>
 
-<header>
-  <h1 class="front">{{ page.title }}</h1>
-  <h2 class="front">{{ page.subtitle }}</h2>
-</header>
+  <section id="downloads" class="clearfix">
+  	{% if page.zip %}
+    <a href="{{ page.zip }}"><button type="button" class="btn btn-default btn-lg">Download .zip</button></a>
+    {% endif %}
+    {% if page.exe %}
+    <a href="{{ page.exe }}"><button type="button" class="btn btn-default btn-lg">Download .exe</button></a>
+    {% endif %}
+    <a href="http://github.com/{{site.author.github}}/{{page.github}}" id="view-on-github" class="button"><button type="button" class="btn btn-default btn-lg">View on GitHub</button></a>
+  </section>
 
-<section id="downloads" class="clearfix">
-	{% if page.zip %}
-  <a href="{{ page.zip }}" id="download-zip" class="button"><span>Download .zip</span></a>
-  {% endif %}
-  {% if page.exe %}
-  <a href="{{ page.exe }}" id="download-exe" class="button"><span>Download .exe</span></a>
-  {% endif %}
-  <a href="http://github.com/{{site.author.github}}/{{page.github}}" id="view-on-github" class="button"><span>View on GitHub</span></a>
-</section>
+  <br /><hr />
 
-<br /><hr />
+  <section id="main_content">
 
-<section id="main_content">
-
-  {{ content }}
-</section>
+    {{ content }}
+  </section>
+</div>

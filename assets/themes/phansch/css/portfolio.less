@@ -3,13 +3,8 @@
 @body_bg_color: #e7e7e7;
 @top_bg_color: #EF7632;
 @mid_bg_color: #E1704B;
-@nav_hover_bg_color: #E1704B;
 
-body {
-	background:@body_bg_color;
-}
-
-/* bootstrap modifications */
+/* bootstrap modifications for portfolio */
 hr {
   border-width:4px;
 }
@@ -20,32 +15,6 @@ hr {
 
 .thumbnail > img {
   height:220px;
-}
-
-/* Header */
-#top-container {
-  background:url('../images/bg-top.png');
-  width:100%;
-  font-size: 16px;
-  position: fixed;
-  z-index:70;
-  top:0px;
-  left:0px;
-  #top {
-    margin:0 auto;
-    width:670px;
-    a {
-      font-family:'Open Sans Condensed', sans-serif;
-      text-transform: uppercase;
-      padding: 15px; 
-      font-weight:500;
-      display:inline-block;
-      color: @white_color;
-    }
-    a#title { font-size:20px; }
-    a:hover { text-decoration: none; color: @text_color;}
-    a.active { text-decoration: none; color: @text_color; }
-  }
 }
 
 #folio-top {
@@ -100,8 +69,9 @@ hr {
 }
 
 #footer {
-	z-index:60;
-	position:relative;
-	background:@body_bg_color;
-	padding:60px;
+  position:relative;
+  margin:0;
+  padding-top:100px;
+  background:@body_bg_color;
+  z-index:70;
 }

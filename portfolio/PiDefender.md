@@ -24,10 +24,30 @@ used: [Lua, Love2D]
 {{page.used | join:', '}}
 
 <h2 id="screenshots">Screenshots</h2>
-<a href="/assets/images/portfolio/pidefender/pidefender-1.png"><img src="/assets/images/portfolio/pidefender/pidefender-1.png" alt="screenshot" width="300" /></a>
-<a href="/assets/images/portfolio/pidefender/pidefender-2.png"><img src="/assets/images/portfolio/pidefender/pidefender-2.png" alt="screenshot" width="300" /></a>
-<a href="/assets/images/portfolio/pidefender/pidefender-3.png"><img src="/assets/images/portfolio/pidefender/pidefender-3.png" alt="screenshot" width="300" /></a>
-<a href="/assets/images/portfolio/pidefender/pidefender-4.png"><img src="/assets/images/portfolio/pidefender/pidefender-4.png" alt="screenshot" width="300" /></a>
+<div class="row">
+  <div class="col-md-6">
+    <a href="/assets/images/portfolio/pidefender/pidefender-1.png" class="thumbnail">
+      <img src="/assets/images/portfolio/pidefender/pidefender-1.png" alt="screenshot" width="300" />
+    </a>
+  </div>
+  <div class="col-md-6">
+    <a href="/assets/images/portfolio/pidefender/pidefender-2.png" class="thumbnail">
+      <img src="/assets/images/portfolio/pidefender/pidefender-2.png" alt="screenshot" width="300" />
+    </a>
+  </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+      <a href="/assets/images/portfolio/pidefender/pidefender-3.png" class="thumbnail">
+        <img src="/assets/images/portfolio/pidefender/pidefender-3.png" alt="screenshot" width="300" />
+      </a>
+    </div>
+    <div class="col-md-6">
+      <a href="/assets/images/portfolio/pidefender/pidefender-4.png" class="thumbnail">
+        <img src="/assets/images/portfolio/pidefender/pidefender-4.png" alt="screenshot" width="300" />
+      </a>
+    </div>
+</div>
 
 <h2 id="snippets">Code snippets</h2>
 

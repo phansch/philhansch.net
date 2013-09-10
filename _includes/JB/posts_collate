@@ -31,7 +31,7 @@ Usage:
       <ul class="archive">
     {% endif %}
 
-    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%b %d" }}</span></li>
+    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <em>{{ post.date | date: "%b %d" }}</em></li>
 
     {% if forloop.last %}
       </ul>

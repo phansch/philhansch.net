@@ -1,0 +1,210 @@
+/* Color definitions */
+@body_bg: #E7E7E7;
+@sidenav_bg_gray: #E1E1E1; 
+@sidenav_active_gray: #CECECE;
+@sidenav_text: #5D5D5D;
+@text: #303030;
+@link: #FD5443;
+@white: #FFFFFF;
+@link_hover: #808080;
+
+body {
+  background-color: @body_bg;
+}
+
+/* bootstrap navbar modifications */
+.navbar {
+  background:url('../images/bg-top.png');
+  border: none;
+  .container {
+    width: 670px;
+  }
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-header > a.active {
+  background-color:transparent;
+  color:@text;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+  font-family:'Open Sans Condensed', sans-serif;
+  color: @white;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+
+.navbar-default .navbar-brand {
+  font-size:20px;
+}
+
+/* Rules for articles and simple pages */
+.small-width-content {
+  position:relative;
+  top:60px;
+  width: 670px;
+  height:auto;
+  min-height:100%;
+  margin:0 auto;
+  a {
+    text-decoration: none;
+    color: @link;
+    &:hover { color: @link_hover; }
+    small { font-size: 12px; }
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 35px;
+    &.front {
+      font-family: 'Chivo', Helvetica;
+      letter-spacing: -1px;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+    a {
+      text-decoration: none;
+      color:@text;
+      &:hover {
+        color:@text;
+      }
+    }
+  }
+
+
+  /* List styling from http://sashagreif.com */
+  ul {
+    list-style-type: none;
+    margin-left: 35px;
+  }
+  ul li {
+    position: relative;
+    &:before {
+      content:"•";
+      color: @link;
+      position: absolute;
+      left: -20px;
+      display: block;
+      height: 20px;
+      width: 10px;
+      font-size: 25px;
+      text-shadow: none;
+    }
+  }
+  /* Ordered-list styling taken from http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/ */
+  ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left: 35px;
+  }
+  ol > li {
+    position: relative;
+    list-style: none;
+
+  }
+  ol > li:before {
+    content:counter(li)"."; /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    color: @link;
+    position:absolute;
+    left: -20px;
+    display: block;
+    text-shadow: none;
+    font-weight: bold;
+    line-height: 24px;
+  }
+}
+
+/* Archive list */
+ul.archive {
+  li {
+    margin-bottom: 5px;
+    list-style: none;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+/* Footer */
+#footer {
+  width:100%;
+  padding-top:90px;
+  padding-bottom: 30px;
+  #footer-content {
+    padding-top:10px;
+    border-top:1px solid @white;
+    text-align:center;
+    line-height: 160%;
+    margin:0 auto;
+    width:650px;
+  }
+}
+
+/* Key symbols */
+.key {
+  display:inline;
+  font-size: 12px;
+  font-family: monospace;
+  background:#eee;
+  color:black;
+  padding:2px 3px;
+  margin-right:1px;
+  vertical-align: 2px;
+  .border-radius(3px);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  .box-shadow(1px, 1px, 0px, 0px, #888);
+}
+
+/* LESS mixins */
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @spread: 1px, @color: #000) {
+  /* Drop shadows do not work in IE */
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.border-radius (@radius: 2px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+/*
+ * Full Page Portfolio theme
+ */
+
+.sidebar > #sidenav > li > a {
+  padding-left:15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right:0;
+  color:@sidenav_text;
+  &:hover {
+    background:@sidenav_active_gray;
+  }
+}
+.sidebar > #sidenav > li.active {
+  color:@link;
+  border-right:1px solid @link;
+  font-weight: bold;
+}
+.sidebar {
+  width:160px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: @sidenav_bg_gray;
+  position:fixed;
+  margin-left:20%;
+  margin-top:60px;
+  .border-radius(3px);
+  text-shadow: 0px 1px 0px rgb(255, 255, 255);
+}
