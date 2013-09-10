@@ -5,7 +5,7 @@ subtitle: Trying to complete over 100 projects in various categories in Ruby.
 scope: portfolio
 category: misc
 new: true
-thumbnail: #
+thumbnail: "/assets/images/portfolio/projects/thumbnail.png"
 used: [Ruby]
 ---
 

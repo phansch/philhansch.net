@@ -5,7 +5,7 @@ github: phansch.github.com
 subtitle: This portfolio and website
 scope: portfolio
 category: misc
-thumbnail: #
+thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
 used: [HTML5, CSS, JS, Jekyll, github-pages]
 ---
 
