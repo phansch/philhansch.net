@@ -5,6 +5,7 @@ subtitle: A plain and simple breakout clone
 zip: #
 exe: #
 scope: portfolio
+category: games
 thumbnail: "/assets/images/portfolio/unarybricks/unarybricks-2.png"
 used: [Lua, Love2D]
 ---
