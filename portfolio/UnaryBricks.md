@@ -5,15 +5,15 @@ subtitle: A plain and simple breakout clone
 zip: #
 exe: #
 scope: portfolio
-titleScreenshot: #
-used: "Lua, Love2D"
+thumbnail: "/assets/images/portfolio/unarybricks/unarybricks-2.png"
+used: [Lua, Love2D]
 ---
 
 
 ## The game ##
 
 ### Created using ###
-{{page.used}}
+{{page.used | join:', '}}
 
 <h2 id="screenshots">Screenshots</h2>
 <a href="/assets/images/portfolio/unarybricks/unarybricks-1.png"><img src="/assets/images/portfolio/unarybricks/unarybricks-1.png" alt="screenshot" width="300" /></a>

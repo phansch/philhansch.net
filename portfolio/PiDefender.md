@@ -20,7 +20,7 @@ used: [Lua, Love2D]
 >Try not to get hit by enemy fire while killing as many as possible.
 
 ### Created using ###
-{{page.used}}
+{{page.used | join:', '}}
 
 <h2 id="screenshots">Screenshots</h2>
 <a href="/assets/images/portfolio/pidefender/pidefender-1.png"><img src="/assets/images/portfolio/pidefender/pidefender-1.png" alt="screenshot" width="300" /></a>
