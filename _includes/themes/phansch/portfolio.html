@@ -42,10 +42,10 @@
   <body>
     <div id="top-container">
       <div id="top">
-        <a id="title" href="/" title="me">{{ site.author.name }}</a>
-        <a href="/portfolio/" title="Programs I've written">Portfolio</a>
-        <a href="/archive/" title="Archive">Archive</a>
-        <a href="/" title="home">home</a>
+        <a id="title" href="/" title="me"{% if page.title == "Philipp Hansch" %} class="active"{% endif%}>{{ site.author.name }}</a>
+        <a href="/portfolio/" title="Programs I've written"{% if page.title == "Portfolio" or page.scope == "portfolio" %} class="active"{% endif%}>Portfolio</a>
+        <a href="/archive/" title="Archive"{% if page.title == "Archive" %} class="active"{% endif%}>Archive</a>
+        <a href="/" title="home"{% if page.title == "Philipp Hansch" %} class="active"{% endif%}>home</a>
       </div>
     </div>
 
