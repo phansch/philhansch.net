@@ -61,15 +61,19 @@ title: Programming Portfolio
       {% for page in site.pages %}
         {% if page.scope == "portfolio" %}
           <div class="col-md-4">
-            <a href="#" class="thumbnail">
-              <img data-src="holder.js/100%x180" alt="...">
+            <a href="{{page.url}}" class="thumbnail">
+              <img src="{{page.thumbnail}}" alt="Screenshot">
             </a>
             <h3>{{page.title}} <span class="label label-primary">New</span></h3>
             <p style="text-align:justify">{{page.subtitle}}</p>
-            <p class="text-left">Technologies: <span class="label label-default">Lua</span> <span class="label label-default">Love2D</span></p>
-            <a href="{{ page.url}}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
+            <p class="text-left">Technologies: 
+            {% for technology in page.used %}
+            <span class="label label-default">{{ technology }}</span> 
+            {% endfor %}
+            </p>
+            <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
             <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
-            <a href="http://github.com/phansch/{{page.title}}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+            <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
           </div>
         {% endif %}
 
