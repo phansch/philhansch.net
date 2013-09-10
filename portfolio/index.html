@@ -19,7 +19,7 @@ title: Programming Portfolio
     <div class="row">
       <div class="col-lg-4 col-sm-12">
         <h2><span class="glyphicon glyphicon-star"></span> GitHub</h2>
-        <p>All my projects are open-source and maintained on GitHub. </p>
+        <p>All personal projects are open-source and maintained on GitHub. </p>
       </div>
       <div class="col-lg-4 col-sm-12">
         <h2><span class="glyphicon glyphicon-file"></span> Resumé</h2>
@@ -35,15 +35,11 @@ title: Programming Portfolio
         <ul class="list-unstyled">
           <li>
             <span class="badge">14 Mb</span>
-            A .zip file that contains executables for most of the games.
+            A .zip file that contains executables for most of the applications.
           </li>
           <li>
-            <span class="badge">14 Mb</span>
-            A .pdf file with screenshots, descriptions and code examples.
-          </li>
-          <li>
-            <span class="badge">14 Mb</span>
-            My Resumé
+            <span class="badge">2 Mb</span>
+            On offline version of this portfolio in .pdf format.
           </li>
         </ul>
 
@@ -72,7 +68,9 @@ title: Programming Portfolio
             {% endfor %}
             </p>
             <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
+            {% if page.exe %}
             <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+            {% endif %}
             <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
           </div>
         {% endif %}
@@ -96,7 +94,9 @@ title: Programming Portfolio
             {% endfor %}
             </p>
             <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
+            {% if page.exe %}
             <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+            {% endif %}
             <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
           </div>
         {% endif %}

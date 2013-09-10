@@ -8,3 +8,4 @@ thumbnail: #
 used: [Ruby]
 ---
 
+Check out the [README](https://github.com/phansch/Projects/blob/master/README.md) to see what projects are finished.
