@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: portfolio-detail
 title: UnaryBricks
 subtitle: A plain and simple breakout clone
 zip: #
