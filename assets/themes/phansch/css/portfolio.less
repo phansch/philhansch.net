@@ -1,8 +1,9 @@
 @text_color: #303030;
+@white_color: #ffffff;
 @body_bg_color: #e7e7e7;
 @top_bg_color: #EF7632;
-@mid_bg_color: #F2BCB7;
-@nav_hover_bg_color: #FD5443;
+@mid_bg_color: #E1704B;
+@nav_hover_bg_color: #E1704B;
 
 body {
 	background:@body_bg_color;
@@ -23,7 +24,7 @@ hr {
 
 /* Header */
 #top-container {
-  background:url('../images/bg-top.png');
+  background:url('../images/bg2-top.png');
   width:100%;
   font-size: 16px;
   position: fixed;
@@ -34,18 +35,21 @@ hr {
     margin:0 auto;
     width:670px;
     a {
+      font-family:'Open Sans Condensed', sans-serif;
+      text-transform: uppercase;
       padding: 15px; 
+      font-weight:500;
       display:inline-block;
-      color: @text_color;
+      color: @white_color;
     }
-    a#title { font-size:18px; font-weight: bold; }
-    a:hover { text-decoration: none; background:@nav_hover_bg_color; color: @text_color;}
+    a#title { font-size:20px; }
+    a:hover { text-decoration: none; color: @text_color;}
   }
 }
 
 #folio-top {
 	position:fixed;
-  background:url('../images/bg-top.png');
+  background:url('../images/bg2-top.png');
   text-align: center;
   display:table;
   height:100%;
@@ -80,7 +84,7 @@ hr {
 }
 
 #folio-mid {
-  background: none repeat scroll 0% 0% @mid_bg_color;
+  background: url('../images/bg-lighter.png');
   padding:60px 0;
   margin-top:100vh;
   position: relative;

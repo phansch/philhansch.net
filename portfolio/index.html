@@ -48,6 +48,8 @@ title: Programming Portfolio
   <div class="container">
     <h2 class="text-left">Games</h2>
 
+    <span class="label label-default">Lua</span> 
+
     <div class="row">
       {% for page in site.pages %}
         {% if page.scope == "portfolio" and page.category == "games" %}
@@ -57,11 +59,11 @@ title: Programming Portfolio
             </a>
             <h3>{{page.title}} <span class="label label-primary">New</span></h3>
             <p style="text-align:justify">{{page.subtitle}}</p>
-            <p class="text-left">Technologies: 
+            Technologies: <br />
             {% for technology in page.used %}
             <span class="label label-default">{{ technology }}</span> 
             {% endfor %}
-            </p>
+            
             <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
             {% if page.exe %}
             <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
