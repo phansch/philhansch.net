@@ -89,6 +89,8 @@ end
 {% endhighlight %}
 
 <h2 id="download">Running the game</h2>
+If you are on Windows, I recommend downloading the .exe and run it. This doesn't require any additional installations.
+However, if you choose to download the .love file, please follow the instructions below.
 
 1. If you don't have Love2D installed, download it [here](http://love2d.org) and install it first.
 2. Download the provided .love (zip) file

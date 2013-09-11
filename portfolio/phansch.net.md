@@ -9,81 +9,108 @@ thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
 used: [HTML5, CSS, JS, Jekyll, github-pages]
 ---
 
-This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a static website whenever I push new content to the repository on GitHub. The posts are written in markdown and are kept in a seperate branch until they are published.
+This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a static website whenever I push new content to the repository on GitHub. The posts are written in markdown and are kept in a seperate branch until they are published. 
+
+Development of changes or new features happens in different branches, depending on the task. Before a change makes it to the actual website, it is tested on a local jekyll server.
+
+**Statistics: **
+
+* [Network graph](https://github.com/phansch/phansch.github.com/network)
+* [Contribution activity](https://github.com/phansch/phansch.github.com/contributors)
+* [Activity per day/hour](https://github.com/phansch/phansch.github.com/graphs/punch-card)
 
 <h2 id="screenshots">Screenshots</h2>
+<p class="text-muted">No screenshots available.</p>
 
 <h2 id="snippets">Code snippets</h2>
 
 {% highlight html linenos %}
 {% raw %}
- <div class="row">
-      {% for page in site.pages %}
-        {% if page.scope == "portfolio" and page.category == "games" %}
-          <div class="col-md-4">
-            <a href="{{page.url}}" class="thumbnail">
-              <img src="{{page.thumbnail}}" alt="Screenshot">
+  <div class="row">
+    {% for page in site.pages %}
+      {% if page.scope == "portfolio" and page.category == "games" %}
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="{{page.url}}">
+              <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
             </a>
-            <h3>{{page.title}} <span class="label label-primary">New</span></h3>
-            <p style="text-align:justify">{{page.subtitle}}</p>
-            Technologies: <br />
-            {% for technology in page.used %}
-            <span class="label label-default">{{ technology }}</span>
-            {% endfor %}
-            
-            <a href="{{ page.url }}">
-              <button type="button" class="btn btn-default">
-                <span class="glyphicon glyphicon-fullscreen"></span> More information
-              </button>
-            </a>
-            {% if page.exe %}
-            <a href="{{ page.exe }}">
-              <button type="button" class="btn btn-default">
+            <h3>{{page.title}}
+            {% if page.new %} 
+              <span class="label label-primary">New</span>
+            {% endif %}
+            </h3>
+            <p>{{page.subtitle}}</p>
+            <div class="tech">
+              {% for technology in page.used %}
+              <span class="label label-primary">{{ technology }}</span><br />
+              {% endfor %}
+            </div>
+            <div class="buttons">
+              <a href="{{ page.url }}">
+                <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-chevron-right"></span> More information
+                </button>
+              </a>
+              {% if page.exe %}
+              <a href="{{ page.exe }}">
+                <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-save"></span> .exe
+                </button>
+              </a>
+              {% else %}
+              <button type="button" class="btn btn-default btn-sm disabled">
                 <span class="glyphicon glyphicon-save"></span> .exe
               </button>
-            </a>
-            {% endif %}
-            <a href="http://github.com/phansch/{{ page.title }}">
-            	<button type="button" class="btn btn-default">
-            	 <span class="glyphicon glyphicon-share"></span> GitHub
-            	</button>
-        	 </a>
+              {% endif %}
+              <a href="http://github.com/phansch/{{ page.title }}">
+                <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-share"></span> GitHub
+                </button>
+              </a>
+            </div>
           </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    {% endraw %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endraw %}
 {% endhighlight %}
-Generates the preview-boxes on the portfolio start page.
+<span class="glyphicon glyphicon-chevron-right"></span> Generates the preview-boxes on the portfolio start page. This is iterating through all pages and creates a new thumbnail box if the page is of a specific scope and category. 
+
+----
 
 {% highlight html linenos %}
 {% raw %}
 {% for post in posts_collate  %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+  {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-    {% if forloop.first %}
-      <h2>{{this_year}}</h2>
-      <ul class="archive">
-    {% endif %}
+  {% if forloop.first %}
+    <h2>{{this_year}}</h2>
+    <ul class="list-unstyled archive">
+  {% endif %}
 
-    <li>
-	    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> 
-	    <span>{{ post.date | date: "%b %d" }}</span>
-    </li>
+  <li>
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> 
+    <em>{{ post.date | date: "%b %d" }}</em>
+  </li>
 
-    {% if forloop.last %}
+  {% if forloop.last %}
+    </ul>
+  {% else %}
+    {% if this_year != next_year %}
       </ul>
-    {% else %}
-      {% if this_year != next_year %}
-        </ul>
-        <h2>{{next_year}}</h2>
-        <ul class="archive">
-      {% endif %}
+      <h2>{{next_year}}</h2>
+      <ul class="list-unstyled archive">
     {% endif %}
-  {% endfor %}
-  {% endraw %}
+  {% endif %}
+{% endfor %}
+{% endraw %}
 {% endhighlight %}
-[Network graph of the repository](https://github.com/phansch/phansch.github.com/network)
+<span class="glyphicon glyphicon-chevron-right"></span> Generates the [archive](/archive/) page.
+
+<h2 id="download">Download</h2>
+<p class="text-muted">No download available.</p>
+
