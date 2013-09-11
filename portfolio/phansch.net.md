@@ -2,7 +2,7 @@
 layout: portfolio-detail
 title: phansch.net
 github: phansch.github.com
-subtitle: This portfolio and website
+subtitle: My website and portfolio.
 scope: portfolio
 category: misc
 thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"

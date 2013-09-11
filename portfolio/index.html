@@ -35,9 +35,6 @@ title: Portfolio
       <div class="col-lg-4 col-sm-12">
         <h2><span class="glyphicon glyphicon-user"></span> Contact</h2>
           <p><span class="glyphicon glyphicon-envelope"></span> <a href="mainto:desk@phansch.net">desk@phansch.net</a></p>
-
-        
-
       </div>
     </div>
   </div>
@@ -46,53 +43,66 @@ title: Portfolio
 
 <div id="folio-overview">
   <div class="container">
-    <h2 class="text-left">Games</h2>
+    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span>
+Games</h2>
 
     <div class="row">
       {% for page in site.pages %}
         {% if page.scope == "portfolio" and page.category == "games" %}
           <div class="col-md-4">
-            <a href="{{page.url}}" class="thumbnail">
-              <img src="{{page.thumbnail}}" alt="Screenshot">
-            </a>
-            <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
-            <p style="text-align:justify">{{page.subtitle}}<br />
-            <strong>Technologies:</strong>
-            {% for technology in page.used %}
-            <span class="label label-default">{{ technology }}</span> 
-            {% endfor %}
-            </p>
-            <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
-            {% if page.exe %}
-            <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
-            {% endif %}
-            <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+            <div class="thumbnail">
+              <a href="{{page.url}}">
+                <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
+              </a>
+              <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
+              <p>{{page.subtitle}}</p>
+              <div class="tech">
+                {% for technology in page.used %}
+                <span class="label label-primary">{{ technology }}</span><br />
+                {% endfor %}
+              </div>
+              <div class="buttons">
+                <a href="{{ page.url }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</button></a>
+                {% if page.exe %}
+                <a href="{{ page.exe }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+                {% else %}
+                <button type="button" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</button>
+                {% endif %}
+                <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+              </div>
+            </div>
           </div>
         {% endif %}
       {% endfor %}
     </div>
-    <hr />
-    <h2 class="text-left">Miscellaneous</h2>
+
+    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Miscellaneous</h2>
 
     <div class="row">
       {% for page in site.pages %}
         {% if page.scope == "portfolio" and page.category == "misc" %}
           <div class="col-md-4">
-            <a href="{{page.url}}" class="thumbnail">
-              <img src="{{page.thumbnail}}" alt="Screenshot">
-            </a>
-            <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
-            <p style="text-align:justify">{{page.subtitle}}<br />
-            <strong>Technologies:</strong>
-            {% for technology in page.used %}
-            <span class="label label-default">{{ technology }}</span> 
-            {% endfor %}
-            </p>
-            <a href="{{ page.url }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fullscreen"></span> More information</button></a>
-            {% if page.exe %}
-            <a href="{{ page.exe }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
-            {% endif %}
-            <a href="http://github.com/phansch/{{ page.github }}"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+            <div class="thumbnail">
+              <a href="{{page.url}}">
+                <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
+              </a>
+              <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
+              <p>{{page.subtitle}}</p>
+              <div class="tech">
+                {% for technology in page.used %}
+                <span class="label label-primary">{{ technology }}</span><br />
+                {% endfor %}
+              </div>
+              <div class="buttons">
+                <a href="{{ page.url }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</button></a>
+                {% if page.exe %}
+                <a href="{{ page.exe }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+                {% else %}
+                <button type="button" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</button>
+                {% endif %}
+                <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+              </div>
+            </div>
           </div>
         {% endif %}
       {% endfor %}

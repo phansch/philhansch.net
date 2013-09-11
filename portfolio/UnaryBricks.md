@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: UnaryBricks
-subtitle: A plain and simple breakout clone
+subtitle: A plain and simple breakout clone.
 zip: #
 exe: #
 scope: portfolio

@@ -1,5 +1,6 @@
 @text_color: #303030;
 @white_color: #ffffff;
+@light_gray: #9b9b9b;
 @body_bg_color: #e7e7e7;
 @top_bg_color: #EF7632;
 @mid_bg_color: #E1704B;
@@ -11,10 +12,6 @@ hr {
 
 .btn:focus {
 	outline:none;
-}
-
-.thumbnail > img {
-  height:240px;
 }
 
 #folio-top {
@@ -66,6 +63,56 @@ hr {
 	background:@body_bg_color;
 	position:relative;
 	z-index:60;
+  h2 {
+    padding-top:30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-family:'Open Sans Condensed', sans-serif;
+  }
+  h3 {
+    font-family:'Open Sans Condensed', sans-serif;
+  }
+  .tech {
+    text-align: left;
+    position:absolute;
+    padding-top: 6px;
+    padding-left: 26px;
+    top:0;
+    left:0;
+    z-index:65;
+    span {
+      line-height:230%;
+    }
+  }
+
+  .thumbnail > a > img {
+    height:200px;
+    border-bottom: 1px solid @light_gray;
+    border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .thumbnail {
+    width:300px;
+    height:350px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    p {
+      text-align: justify;
+      padding:0 10px;
+    }
+    .buttons {
+      position:absolute;
+      bottom:10px;
+      left:30px;
+    } 
+  }
 }
 
 #footer {
@@ -74,4 +121,20 @@ hr {
   padding-top:100px;
   background:@body_bg_color;
   z-index:70;
+}
+
+
+/* LESS mixins */
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @spread: 1px, @color: #000) {
+  /* Drop shadows do not work in IE */
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.border-radius (@radius: 2px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
 }
