@@ -20,9 +20,6 @@ used: [Lua, Love2D]
 
 >Try not to get hit by enemy fire while killing as many as possible.
 
-### Created using ###
-{{page.used | join:', '}}
-
 <h2 id="screenshots">Screenshots</h2>
 <div class="row">
   <div class="col-md-6">
@@ -51,7 +48,7 @@ used: [Lua, Love2D]
 
 <h2 id="snippets">Code snippets</h2>
 
-{% highlight lua %}
+{% highlight lua linenos %}
 function Cannon:update(dt, circleradius)
     self.circleRadius = circleradius
 
@@ -87,9 +84,10 @@ function Cannon:update(dt, circleradius)
 
 end
 {% endhighlight %}
+<span class="glyphicon glyphicon-chevron-right"></span> 
 
 <h2 id="download">Running the game</h2>
-If you are on Windows, I recommend downloading the .exe and run it. This doesn't require any additional installations.
+If you are on Windows, I recommend downloading the .exe and running it. This doesn't require any additional installations.
 However, if you choose to download the .love file, please follow the instructions below.
 
 1. If you don't have Love2D installed, download it [here](http://love2d.org) and install it first.

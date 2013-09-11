@@ -90,9 +90,6 @@ def main
 end
 
 main
-{% raw %}
-
-{% endraw %}
 {% endhighlight %}
 <span class="glyphicon glyphicon-chevron-right"></span> Automatically locates the user based on his IP address and fetches the current weather based on the determined location. 
 
