@@ -12,7 +12,7 @@ used: [Lua, Love2D]
 
 This is the first game I made for the 25th Ludum Dare game jam. It is a very basic space shooter with a top-down view and a little story. 
 
-I also recorded a timelapse during the weekend that is available [here](http://www.youtube.com/watch?v=eX7fsD3Hbmc).  
+I recorded a timelapse during the weekend which is available [here](http://www.youtube.com/watch?v=eX7fsD3Hbmc). There is also a [post mortem post](/2012/12/26/ludum-dare-25-post-mortem/) available on my blog.
 
 
 
