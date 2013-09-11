@@ -1,6 +1,7 @@
 @text_color: #303030;
 @white_color: #ffffff;
 @light_gray: #9b9b9b;
+@light_gray2: #d3d3d3;
 @body_bg_color: #e7e7e7;
 @top_bg_color: #EF7632;
 @mid_bg_color: #E1704B;
@@ -13,7 +14,16 @@ hr {
 .btn:focus {
 	outline:none;
 }
+#folio-top, #folio-mid {
+  a {
+    color: @white_color;
+  }
 
+  a:hover, a:focus {
+    color: @light_gray2;
+    text-decoration: none;
+  }
+}
 #folio-top {
 	position:fixed;
   background:url('../images/bg-top.png');
