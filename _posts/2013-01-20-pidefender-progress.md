@@ -7,7 +7,7 @@ excerpt: "A little progress. Increased difficulty, a game ending and more"
 
 I didn't get a lot of stuff done last week. And I only managed to squeeze in 24 hours of work this week. I did manage to add a new enemy, a new title screen, camera shake and a game ending. I also increased the difficulty a lot.
 
-<img class="screenshot" src="http://i.imgur.com/XadR1iR.png" alt="pi defender title screen" />
+<img class="screenshot" src="/assets/images/posts/2013-01-20-pidefender-progress/pidef-title.png" alt="pi defender title screen" />
 
 ## What's new ##
 

@@ -24,4 +24,4 @@ Then all what's left is adding a new build system for LOVE.
 To see if this is working, go to your main.lua and hit CTRL + B.  
 You can also use the built-in console to see the output of you game.
 
-<a href="http://i.imgur.com/nSKvX.jpg"><img class="screenshot" src="http://i.imgur.com/nSKvXh.jpg" alt="screenshot" width="650" /></a>
+<a href="/assets/images/posts/2012-12-12-running-love2d-from-sublimetext2-on-windows/screenshot.jpg"><img class="screenshot" src="/assets/images/posts/2012-12-12-running-love2d-from-sublimetext2-on-windows/screenshot.jpg" alt="screenshot" width="650" /></a>
