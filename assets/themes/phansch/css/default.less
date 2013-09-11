@@ -21,14 +21,6 @@ body {
   }
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-header > a.active {
-  background-color:transparent;
-  color:@text;
-}
-
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
   font-family:'Open Sans Condensed', sans-serif;
   color: @white;
@@ -43,47 +35,30 @@ body {
   font-size:20px;
 }
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: @white;
+}
+
 /* Rules for articles and simple pages */
 .small-width-content {
-  position:relative;
-  top:60px;
+  position: relative;
+  top: 60px;
   width: 670px;
-  height:auto;
-  min-height:100%;
   margin:0 auto;
   a {
     text-decoration: none;
     color: @link;
     &:hover { color: @link_hover; }
-    small { font-size: 12px; }
   }
   h1 {
-    font-size: 32px;
-    line-height: 35px;
-    &.front {
-      font-family: 'Chivo', Helvetica;
-      letter-spacing: -1px;
-      font-size: 48px;
-      font-weight: 900;
-      line-height: 1.2;
-    }
-    a {
+    font-family: 'Abel', Helvetica;
+    letter-spacing: -1px;
+    font-size: 48px;
+    font-weight: bolder;
+    a, a:hover, a:focus {
       text-decoration: none;
       color:@text;
-      &:hover {
-        color:@text;
-      }
-    }
-  }
-}
-
-/* Archive list */
-ul.archive {
-  li {
-    margin-bottom: 5px;
-    list-style: none;
-    &:before {
-      display: none;
     }
   }
 }
@@ -101,6 +76,11 @@ ul.archive {
     margin:0 auto;
     width:650px;
   }
+}
+
+/* Archive lists custom rules */
+.archive {
+  margin-left:20px;
 }
 
 /* Key symbols */
@@ -121,23 +101,8 @@ ul.archive {
   .box-shadow(1px, 1px, 0px, 0px, #888);
 }
 
-/* LESS mixins */
-
-.box-shadow (@x: 0, @y: 0, @blur: 1px, @spread: 1px, @color: #000) {
-  /* Drop shadows do not work in IE */
-  box-shadow: @arguments;
-  -moz-box-shadow: @arguments;
-  -webkit-box-shadow: @arguments;
-}
-
-.border-radius (@radius: 2px) {
-  border-radius: @radius;
-  -moz-border-radius: @radius;
-  -webkit-border-radius: @radius;
-}
-
 /*
- * Full Page Portfolio theme
+ * portfolio-detail rules
  */
 
 .sidebar > #sidenav > li > a {
@@ -165,4 +130,20 @@ ul.archive {
   margin-top:60px;
   .border-radius(3px);
   text-shadow: 0px 1px 0px rgb(255, 255, 255);
+}
+
+
+/* LESS mixins */
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @spread: 1px, @color: #000) {
+  /* Drop shadows do not work in IE */
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.border-radius (@radius: 2px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
 }
