@@ -9,7 +9,7 @@ thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
 used: [HTML5, CSS, JS, Jekyll, github-pages]
 ---
 
-This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a static website whenever I push new content to the repository on GitHub. The posts are written in markdown and are kept in a seperate branch until they are published. 
+This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a static website whenever I push new content to the repository on GitHub. The posts are written in markdown and are kept in a seperate branch until they are published.
 
 Development of changes or new features happens in different branches, depending on the task. Before a change makes it to the actual website, it is tested on a local jekyll server.
 
@@ -20,7 +20,18 @@ Development of changes or new features happens in different branches, depending 
 * [Activity per day/hour](https://github.com/phansch/phansch.github.com/graphs/punch-card)
 
 <h2 id="screenshots">Screenshots</h2>
-<p class="text-muted">No screenshots available.</p>
+<div class="row">
+  <div class="col-md-6">
+    <a href="/assets/images/portfolio/phanschnet/phanschnet-1.png" class="thumbnail">
+      <img src="/assets/images/portfolio/phanschnet/phanschnet-1.png" alt="screenshot" width="300" />
+    </a>
+  </div>
+  <div class="col-md-6">
+    <a href="/assets/images/portfolio/phanschnet/phanschnet-2.png" class="thumbnail">
+      <img src="/assets/images/portfolio/phanschnet/phanschnet-2.png" alt="screenshot" width="300" />
+    </a>
+  </div>
+</div>
 
 <h2 id="snippets">Code snippets</h2>
 
@@ -35,7 +46,7 @@ Development of changes or new features happens in different branches, depending 
               <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
             </a>
             <h3>{{page.title}}
-            {% if page.new %} 
+            {% if page.new %}
               <span class="label label-primary">New</span>
             {% endif %}
             </h3>
@@ -75,7 +86,7 @@ Development of changes or new features happens in different branches, depending 
   </div>
 {% endraw %}
 {% endhighlight %}
-<span class="glyphicon glyphicon-chevron-right"></span> Generates the preview-boxes on the portfolio start page. This is iterating through all pages and creates a new thumbnail box if the page is of a specific scope and category. 
+<span class="glyphicon glyphicon-chevron-right"></span> Generates the preview-boxes on the portfolio start page. This is iterating through all pages and creates a new thumbnail box if the page is of a specific scope and category.
 
 ----
 
@@ -93,7 +104,7 @@ Development of changes or new features happens in different branches, depending 
   {% endif %}
 
   <li>
-    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> 
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     <em>{{ post.date | date: "%b %d" }}</em>
   </li>
 

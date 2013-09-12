@@ -10,9 +10,9 @@ thumbnail: "/assets/images/portfolio/ludumdare25/thumbnail.png"
 used: [Lua, Love2D]
 ---
 
-This is the first game I made for the 25th Ludum Dare game jam. It is a very basic space shooter with a top-down view and a little story. 
+This is the first game I made for the 25th Ludum Dare game jam. It is a very basic space shooter with a top-down view and a little story.
 
-I recorded a timelapse during the weekend which is available [here](http://www.youtube.com/watch?v=eX7fsD3Hbmc). There is also a [post mortem post](/2012/12/26/ludum-dare-25-post-mortem/) available on my blog.
+Additionally I recorded a timelapse during the weekend which is available [here](http://www.youtube.com/watch?v=eX7fsD3Hbmc). There is also a [post mortem post](/2012/12/26/ludum-dare-25-post-mortem/) available on my blog.
 
 
 
@@ -21,7 +21,18 @@ I recorded a timelapse during the weekend which is available [here](http://www.y
 
 
 <h2 id="screenshots">Screenshots</h2>
-<p class="text-muted">No screenshots available.</p>
+<div class="row">
+  <div class="col-md-6">
+    <a href="/assets/images/portfolio/ludumdare25/ld25-1.png" class="thumbnail">
+      <img src="/assets/images/portfolio/ludumdare25/ld25-1.png" alt="screenshot" width="300" />
+    </a>
+  </div>
+  <div class="col-md-6">
+    <a href="/assets/images/portfolio/ludumdare25/ld25-2.png" class="thumbnail">
+      <img src="/assets/images/portfolio/ludumdare25/ld25-2.png" alt="screenshot" width="300" />
+    </a>
+  </div>
+</div>
 
 <h2 id="snippets">Code snippets</h2>
 
