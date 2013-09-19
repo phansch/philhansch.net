@@ -1,6 +1,7 @@
 ---
 layout: portfolio-detail
 title: Ludum Dare 25
+github: ludumdare25
 subtitle: The entry for my first Ludum Dare game jam.
 zip: #
 exe: #

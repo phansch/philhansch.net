@@ -11,7 +11,7 @@ title: Portfolio
       <button id="jump" class="btn btn-lg">Check out my portfolio below <span class="glyphicon glyphicon-chevron-right"></span></button>
     </div>
   </div>
-  
+
 </div>
 
 <div id="folio-mid">
@@ -24,12 +24,12 @@ title: Portfolio
       <div class="col-lg-4 col-sm-12">
         <h2><span class="glyphicon glyphicon-folder-open"></span> Downloads</h2>
         <p>
-          <a href="#"><button type="button" class="btn btn-primary btn-xs">resume.pdf</button></a>
-          <a href="#"><button type="button" class="btn btn-primary btn-xs">resume.doc</button></a>
-          <a href="#"><button type="button" class="btn btn-primary btn-xs">resume.odf</button></a>
+          <a href="#" class="btn btn-primary btn-xs">resume.pdf</a>
+          <a href="#" class="btn btn-primary btn-xs">resume.doc</a>
+          <a href="#" class="btn btn-primary btn-xs">resume.odf</a>
         </p>
 
-        <a href="#"><button type="button" class="btn btn-success btn-xs" title="Contains executables for most of the applications.">executables.zip</button></a>  contains executables for most of the applications and <a href="#"><button type="button" class="btn btn-success btn-xs" title="An offline version of this portfolio in .pdf format.">portfolio.pdf</button></a> contains an offline version of this portfolio in .pdf format.
+        <a href="#" class="btn btn-success btn-xs" title="Contains executables for most of the applications.">executables.zip</a>  contains executables for most of the applications and <a href="#" class="btn btn-success btn-xs" title="An offline version of this portfolio in .pdf format.">portfolio.pdf</a> contains an offline version of this portfolio in .pdf format.
 
       </div>
       <div class="col-lg-4 col-sm-12">
@@ -62,13 +62,13 @@ Games</h2>
                 {% endfor %}
               </div>
               <div class="buttons">
-                <a href="{{ page.url }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</button></a>
+                <a href="{{ page.url }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</a>
                 {% if page.exe %}
-                <a href="{{ page.exe }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+                <a href="{{ page.exe }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</a>
                 {% else %}
-                <button type="button" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</button>
+                <a href="#" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</a>
                 {% endif %}
-                <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+                <a href="http://github.com/phansch/{{ page.github }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</a>
               </div>
             </div>
           </div>
@@ -94,13 +94,13 @@ Games</h2>
                 {% endfor %}
               </div>
               <div class="buttons">
-                <a href="{{ page.url }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</button></a>
+                <a href="{{ page.url }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</a>
                 {% if page.exe %}
-                <a href="{{ page.exe }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</button></a>
+                <a href="{{ page.exe }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</a>
                 {% else %}
-                <button type="button" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</button>
+                <a href="#" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</a>
                 {% endif %}
-                <a href="http://github.com/phansch/{{ page.title }}"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</button></a>
+                <a href="http://github.com/phansch/{{ page.github }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</a>
               </div>
             </div>
           </div>

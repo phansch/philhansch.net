@@ -1,6 +1,7 @@
 ---
 layout: portfolio-detail
 title: PiDefender
+github: pidefender
 subtitle: My January entry for One Game A Month 2013.
 zip: "http://dl.dropbox.com/u/128670221/1GAM/Jan/PiDefender-Final.love"
 exe: "http://dl.dropbox.com/u/128670221/1GAM/Jan/PiDefender-Final.exe"

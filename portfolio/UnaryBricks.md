@@ -1,6 +1,7 @@
 ---
 layout: portfolio-detail
 title: UnaryBricks
+github: UnaryBricks
 subtitle: A plain and simple breakout clone.
 zip: #
 exe: #
