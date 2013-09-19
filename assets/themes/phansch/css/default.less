@@ -1,6 +1,6 @@
 /* Color definitions */
 @body_bg: #E7E7E7;
-@sidenav_bg_gray: #E1E1E1; 
+@sidenav_bg_gray: #E1E1E1;
 @sidenav_active_gray: #CECECE;
 @sidenav_text: #5D5D5D;
 @text: #303030;
@@ -75,6 +75,19 @@ body {
     line-height: 160%;
     margin:0 auto;
     width:650px;
+    p {
+      font-size: 13px;
+      letter-spacing: 4px;
+      font-family: Helvetica, sans-serif;
+      color: rgb(102, 102, 102);
+      a {
+        color: @link_hover;
+        text-decoration: none;
+        &:hover{
+          color: @link;
+        }
+      }
+    }
   }
 }
 
