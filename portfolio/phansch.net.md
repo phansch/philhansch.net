@@ -6,6 +6,7 @@ subtitle: My website and portfolio.
 scope: portfolio
 category: misc
 thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
+screenshots: [/assets/images/portfolio/phanschnet/phanschnet-1.png, /assets/images/portfolio/phanschnet/phanschnet-2.png]
 used: [HTML5, CSS, JS, Jekyll, github-pages]
 ---
 
@@ -18,20 +19,6 @@ Development of changes or new features happens in different branches, depending 
 * [Network graph](https://github.com/phansch/phansch.github.com/network)
 * [Contribution activity](https://github.com/phansch/phansch.github.com/contributors)
 * [Activity per day/hour](https://github.com/phansch/phansch.github.com/graphs/punch-card)
-
-<h2 id="screenshots">Screenshots</h2>
-<div class="row">
-  <div class="col-md-6">
-    <a href="/assets/images/portfolio/phanschnet/phanschnet-1.png" class="thumbnail">
-      <img src="/assets/images/portfolio/phanschnet/phanschnet-1.png" alt="screenshot" width="300" />
-    </a>
-  </div>
-  <div class="col-md-6">
-    <a href="/assets/images/portfolio/phanschnet/phanschnet-2.png" class="thumbnail">
-      <img src="/assets/images/portfolio/phanschnet/phanschnet-2.png" alt="screenshot" width="300" />
-    </a>
-  </div>
-</div>
 
 <h2 id="snippets">Code snippets</h2>
 
@@ -121,7 +108,4 @@ Development of changes or new features happens in different branches, depending 
 {% endraw %}
 {% endhighlight %}
 <span class="glyphicon glyphicon-chevron-right"></span> Generates the [archive](/archive/) page.
-
-<h2 id="download">Download</h2>
-<p class="text-muted">No download available.</p>
 

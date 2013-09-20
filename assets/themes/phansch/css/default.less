@@ -10,6 +10,7 @@
 
 body {
   background-color: @body_bg;
+  padding-top:50px;
 }
 
 /* bootstrap navbar modifications */
@@ -42,8 +43,6 @@ body {
 
 /* Rules for articles and simple pages */
 .small-width-content {
-  position: relative;
-  top: 60px;
   width: 670px;
   margin:0 auto;
   a {
@@ -128,21 +127,27 @@ body {
     background:@sidenav_active_gray;
   }
 }
+
+.sidebar .affix {
+  position:fixed;
+  width:253px;
+  top:80px;
+}
 .sidebar > #sidenav > li.active {
+  padding-left:0px;
   color:@link;
   border-right:1px solid @link;
   font-weight: bold;
 }
 .sidebar {
-  width:160px;
   padding-top: 6px;
   padding-bottom: 6px;
-  background: @sidenav_bg_gray;
-  position:fixed;
-  margin-left:20%;
-  margin-top:60px;
   .border-radius(3px);
-  text-shadow: 0px 1px 0px rgb(255, 255, 255);
+}
+
+#portfolio-content h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 

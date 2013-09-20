@@ -14,9 +14,6 @@ I'm learning Ruby by trying to complete over 100 different projects in various c
 
 Check out the [README](https://github.com/phansch/Projects/blob/master/README.md) to see what projects are finished.
 
-<h2 id="screenshots">Screenshots</h2>
-<p class="text-muted">No screenshots available.</p>
-
 <h2 id="snippets">Code snippets</h2>
 
 {% highlight ruby linenos %}
@@ -94,6 +91,3 @@ main
 <span class="glyphicon glyphicon-chevron-right"></span> Automatically locates the user based on his IP address and fetches the current weather based on the determined location. 
 
 Check out the [GitHub repository](https://github.com/phansch/Projects) for more projects.
-
-<h2 id="download">Download</h2>
-<p class="text-muted">No download available.</p>

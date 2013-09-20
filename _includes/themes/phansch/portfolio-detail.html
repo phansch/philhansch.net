@@ -1,29 +1,40 @@
-<div class="small-width-content">
-  <header>
-    <h1 class="front">{{ page.title }}</h1>
-    <p class="lead">{{ page.subtitle }}</p>
-  </header>
+<div class="container">
+  <div class="col-md-3">
+    <div class="sidebar">
+      <ul id="sidenav" class="nav affix" role="complementary">
+        <li><a href="#top" title="Jump to Top">Overview</a></li>
+        <li><a href="#snippets" title="Jump to snippets">Code snippets</a></li>
+        <li><a href="#download">Download</a></li>
+      </ul>
+    </div>
+  </div>
 
-  <section id="downloads" class="clearfix">
-  	{% if page.zip %}
-    <a href="{{ page.zip }}" class="btn btn-default btn-lg">
-        <span class="glyphicon glyphicon-compressed"></span> Download .zip
-    </a>
-    {% endif %}
-    {% if page.exe %}
-    <a href="{{ page.exe }}" class="btn btn-default btn-lg">
-      <span class="glyphicon glyphicon-save"></span> Download .exe
-    </a>
-    {% endif %}
-    <a href="http://github.com/{{site.author.github}}/{{page.github}}" id="view-on-github" class="btn btn-default btn-lg" >
-        <span class="glyphicon glyphicon-share"></span> View on GitHub
-    </a>
-  </section>
+  <div class="col-md-9" role="main">
+    <header>
+      <h1 class="front">{{ page.title }}</h1>
+      <p class="lead">{{ page.subtitle }}</p>
+    </header>
 
-  <br /><hr />
+    <section id="portfolio-content">
+      {% if page.screenshots %}
+      <div class="row">
+        {% for screenshot in page.screenshots %}
+        <div class="col-md-3">
+          <a href="{{ screenshot }}" class="thumbnail">
+            <img src="{{ screenshot }}" alt="screenshot" />
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      <hr />
+      {% endif %}
 
-  <section id="main_content">
 
-    {{ content }}
-  </section>
+      {{ content }}
+
+      <h2 id="download">Download</h2>
+      {% assign page = page %}
+      {% include JB/custom_downloads %}
+    </section>
+  </div>
 </div>

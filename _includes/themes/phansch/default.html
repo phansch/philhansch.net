@@ -49,11 +49,14 @@
     {% if page.scope == "portfolio" %}
     <script type="text/javascript">
     $(function(){
+      var $window = $(window)
       var $body   = $(document.body)
+
+      var navHeight = $('.navbar').outerHeight(true) + 10
 
       $body.scrollspy({
         target: '.sidebar',
-        offset: 150
+        offset: navHeight
       })
 
       $window.on('load', function () {
@@ -65,7 +68,6 @@
   </head>
   <body>
 
-    <a id="top"></a>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
       <div class="navbar-header">
@@ -93,16 +95,7 @@
       </div>
     </nav>
 
-    {% if page.scope == "portfolio" %}
-    <div class="sidebar">
-      <ul id="sidenav" class="nav">
-        <li><a id="title" href="#top" title="Jump to Top">{{page.title}}</a></li>
-        <li><a href="#screenshots" title="Jump to screenshots">Screenshots</a></li>
-        <li><a href="#snippets" title="Jump to snippets">Code snippets</a></li>
-        <li><a href="#download" title="Jump to download">Download</a></li>
-      </ul>
-    </div>
-    {% endif %}
+    <a id="top"></a>
 
     {{content}}
 

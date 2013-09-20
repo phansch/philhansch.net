@@ -3,11 +3,11 @@ layout: portfolio-detail
 title: Ludum Dare 25
 github: ludumdare25
 subtitle: The entry for my first Ludum Dare game jam.
-zip: #
 exe: #
 scope: portfolio
 category: games
 thumbnail: "/assets/images/portfolio/ludumdare25/thumbnail.png"
+screenshots: [/assets/images/portfolio/ludumdare25/ld25-1.png, /assets/images/portfolio/ludumdare25/ld25-2.png]
 used: [Lua, Love2D]
 ---
 
@@ -19,21 +19,6 @@ Additionally I recorded a timelapse during the weekend which is available [here]
 
 **What is Ludum Dare?**
 > Ludum Dare is a regular accelerated game development Event.  Participants develop games from scratch in a weekend, based on a theme suggested by the community.
-
-
-<h2 id="screenshots">Screenshots</h2>
-<div class="row">
-  <div class="col-md-6">
-    <a href="/assets/images/portfolio/ludumdare25/ld25-1.png" class="thumbnail">
-      <img src="/assets/images/portfolio/ludumdare25/ld25-1.png" alt="screenshot" width="300" />
-    </a>
-  </div>
-  <div class="col-md-6">
-    <a href="/assets/images/portfolio/ludumdare25/ld25-2.png" class="thumbnail">
-      <img src="/assets/images/portfolio/ludumdare25/ld25-2.png" alt="screenshot" width="300" />
-    </a>
-  </div>
-</div>
 
 <h2 id="snippets">Code snippets</h2>
 
@@ -107,6 +92,3 @@ end
 {% endraw %}
 {% endhighlight %}
 <span class="glyphicon glyphicon-chevron-right"></span> Player movement and projectile movement calls.
-
-<h2 id="download">Download</h2>
-<p class="text-muted">No download available.</p>

@@ -3,30 +3,15 @@ layout: portfolio-detail
 title: UnaryBricks
 github: UnaryBricks
 subtitle: A plain and simple breakout clone.
-zip: #
 exe: #
 scope: portfolio
 category: games
 thumbnail: "/assets/images/portfolio/unarybricks/unarybricks-2.png"
+screenshots: [/assets/images/portfolio/unarybricks/unarybricks-1.png, /assets/images/portfolio/unarybricks/unarybricks-2.png]
 used: [Lua, Love2D]
 ---
 
 A very basic Breakout clone. 
-
-<h2 id="screenshots">Screenshots</h2>
-
-<div class="row">
-  <div class="col-md-6">
-    <a href="/assets/images/portfolio/unarybricks/unarybricks-1.png" class="thumbnail">
-      <img src="/assets/images/portfolio/unarybricks/unarybricks-1.png" alt="screenshot" width="300" />
-    </a>
-  </div>
-  <div class="col-md-6">
-    <a href="/assets/images/portfolio/unarybricks/unarybricks-2.png" class="thumbnail">
-      <img src="/assets/images/portfolio/unarybricks/unarybricks-2.png" alt="screenshot" width="300" />
-    </a>
-  </div>
-</div>
 
 <h2 id="snippets">Code snippets</h2>
 
@@ -90,18 +75,3 @@ function Ball:update(paddle, level)
 end
 {% endhighlight %}
 <span class="glyphicon glyphicon-chevron-right"></span> Ball movement and collision detection.
-
-<h2 id="download">Running the game</h2>
-If you are on Windows, I recommend downloading the .exe and running it. This doesn't require any additional installations.
-However, if you choose to download the .love file, please follow the instructions below.
-
-1. If you don't have Love2D installed, download it [here](http://love2d.org) and install it first.
-2. Download the provided .love (zip) file
-
-To run the game:
-
- * On Linux, use `love /path/to/game.love` to run the game.
- * On Windows use `love C:\path\to\game.love` **or** drag the .love file onto love.exe
- * On Mac use `open -n -a love "/home/path/to/game"` **or** drag the .love file onto the Love.app application bundle
-
-Once the month is over, there will also be a .exe file for Windows users. 
