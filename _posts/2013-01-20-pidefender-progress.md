@@ -7,7 +7,7 @@ excerpt: "A little progress. Increased difficulty, a game ending and more"
 
 I didn't get a lot of stuff done last week. And I only managed to squeeze in 24 hours of work this week. I did manage to add a new enemy, a new title screen, camera shake and a game ending. I also increased the difficulty a lot.
 
-<img class="screenshot" src="http://i.imgur.com/XadR1iR.png" alt="pi defender title screen" />
+<img class="screenshot" src="/assets/images/posts/2013-01-20-pidefender-progress/pidef-title.png" alt="pi defender title screen" />
 
 ## What's new ##
 
@@ -18,7 +18,7 @@ I didn't get a lot of stuff done last week. And I only managed to squeeze in 24 
 
 ## Running the game ##
 1. If you don't have Love2D installed, download it [here](http://love2d.org/) and install it first.
-2. Download the [.love](http://dl.dropbox.com/u/128670221/1GAM/Jan/PiDefender-Week3.love) file.
+2. Download the [.love](/assets/dl/1GAM/Jan/PiDefender-Week3.love) file.
 
 To run the game:
 

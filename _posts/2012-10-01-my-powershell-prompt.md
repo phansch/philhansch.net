@@ -6,12 +6,12 @@ title: My PowerShell prompt
 
 Today I took some time to work on my PowerShell configuration. Here is what it looks like now:
 
-![My GitHub Shell](http://i.imgur.com/W3RMQ.png)  
+![My GitHub Shell](/assets/images/posts/2012-10-01-my-powershell-prompt/my-github-shell.png)  
 In case you already know about customizing the PowerShell, you can get the file [here](https://gist.github.com/3813881). If not, read on.
 
 ## Shortening The Prompt
 
-![Long Paths](http://i.imgur.com/Bj5tl.png)
+![Long Paths](/assets/images/posts/2012-10-01-my-powershell-prompt/long-paths.png)
 This is the default git shell prompt. As you can see, the path takes about 75% of the prompt's width. Let's change that.
 
 Admittedly, until today I didn't know a lot about PowerShell. So, after a bit research, I found an article on [prompt shortening](http://winterdom.com/2008/08/mypowershellprompt). The following two functions need to be placed into `%USERPROFILE%\Documents\WindowsPowerShell\GitHub.PowerShell_profile.ps1`

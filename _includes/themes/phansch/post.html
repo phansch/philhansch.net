@@ -1,8 +1,9 @@
-<div class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <h1 class="front" itemprop="name headline">{{ page.title }}</h1>
-  <div itemprop="articleBody">{{ content }}</div>
-  <div class="date">
-    — <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>
-  </div>
+<div class="small-width-content">
+	<div class="container">
+	  <h1>{{ page.title }}</h1>
+	  {{ content }}
+		— <em>{{ page.date | date_to_string }}</em>
+	  
+	</div>
 </div>
 

@@ -1,0 +1,29 @@
+{% if page.exe %}
+<p>The fastest way to get the game running is to download the compiled .exe file below.</p>
+<a href="{{ page.exe }}" class="btn btn-primary btn-lg">
+<span class="glyphicon glyphicon-save"></span> Download .exe
+</a>
+{% else %}
+<p>No download available.</p>
+{% endif %}
+{% if page.love or page.github %}
+<h3>Other files</h3>
+{% endif %}
+{% if page.love %}
+<h4><a href="#">.love file for Windows, Mac OSX and Linux platforms</a></h4>
+
+<p>If you don't have Love2D installed, download it <a href="http://love2d.org/">here</a> and install it first.
+
+To run the game:
+<ul>
+    <li>On Linux, use <code>love /path/to/{{ page.github }}.love</code> to run the game.</li>
+    <li>On Windows use <code>love C:\path\to\{{ page.github }}.love</code> <strong>or</strong> drag the .love file onto love.exe</li>
+    <li>On Mac use <code>open -n -a love "/home/path/to/{{ page.github }}"</code> <strong>or</strong> drag the .love file onto the Love.app application bundle</li>
+</ul>
+</p>
+{% endif %}
+{% if page.github %}
+
+<h4><a href="http://github.com/phansch/{{ page.github }}">{{ page.title }} on GitHub</a></h4>
+Download the latest source or clone/fork the project on GitHub.
+{% endif %}

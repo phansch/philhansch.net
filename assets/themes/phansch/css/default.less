@@ -1,0 +1,172 @@
+/* Color definitions */
+@body_bg: #E7E7E7;
+@sidenav_bg_gray: #E1E1E1;
+@sidenav_active_gray: #CECECE;
+@sidenav_text: #5D5D5D;
+@text: #303030;
+@link: #FD5443;
+@white: #FFFFFF;
+@link_hover: #808080;
+
+body {
+  background-color: @body_bg;
+  padding-top:70px;
+}
+
+/* Fixed header anchor fix */
+.anchor {
+  display: block; position: relative; top: -90px;
+}
+
+/* bootstrap navbar modifications */
+.navbar {
+  background:url('../images/bg-top.png');
+  border: none;
+  .container {
+    width: 670px;
+  }
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+  font-family:'Open Sans Condensed', sans-serif;
+  color: @white;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+
+.navbar-default .navbar-brand {
+  font-size:20px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: @white;
+}
+
+/* Rules for articles and simple pages */
+.small-width-content {
+  width: 670px;
+  margin:0 auto;
+  a {
+    text-decoration: none;
+    color: @link;
+    &:hover { color: @link_hover; }
+  }
+  h1 {
+    font-family: 'Abel', Helvetica;
+    letter-spacing: -1px;
+    font-size: 48px;
+    font-weight: bolder;
+    a, a:hover, a:focus {
+      text-decoration: none;
+      color:@text;
+    }
+  }
+}
+
+.portfolio-page {
+  width: 670px;
+  margin:0 auto;
+}
+
+/* Footer */
+#footer {
+  width:100%;
+  padding-top:90px;
+  padding-bottom: 30px;
+  #footer-content {
+    padding-top:10px;
+    border-top:1px solid @white;
+    text-align:center;
+    line-height: 160%;
+    margin:0 auto;
+    width:650px;
+    p {
+      font-size: 13px;
+      letter-spacing: 4px;
+      font-family: Helvetica, sans-serif;
+      color: rgb(102, 102, 102);
+      a {
+        color: @link_hover;
+        text-decoration: none;
+        &:hover{
+          color: @link;
+        }
+      }
+    }
+  }
+}
+
+/* Archive lists custom rules */
+.archive {
+  margin-left:20px;
+}
+
+/* Key symbols */
+.key {
+  display:inline;
+  font-size: 12px;
+  font-family: monospace;
+  background:#eee;
+  color:black;
+  padding:2px 3px;
+  margin-right:1px;
+  vertical-align: 2px;
+  .border-radius(3px);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  .box-shadow(1px, 1px, 0px, 0px, #888);
+}
+
+/*
+ * portfolio-detail rules
+ */
+
+.portfolio-subnav {
+  z-index:200;
+  position:fixed;
+  background:@body_bg;
+  margin-top: -40px;
+  padding-top:5px;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  width:100%;
+  a {
+    color: @link_hover;
+    text-decoration: none;
+    &:hover{
+      color: @link;
+    }
+  }
+  .back {
+    letter-spacing: 1px;
+  }
+}
+
+#portfolio-content h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+/* LESS mixins */
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @spread: 1px, @color: #000) {
+  /* Drop shadows do not work in IE */
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.border-radius (@radius: 2px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}

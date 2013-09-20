@@ -1,0 +1,39 @@
+<div class="portfolio-page">
+  <div class="portfolio-subnav">
+    <ul class="list-unstyled list-inline">
+      <li class="back"><a href="/portfolio/#folio-mid"><span class="glyphicon glyphicon-arrow-left"></span> Back</a> :: </li>
+      <li><a href="#">Overview</a> :: </li>
+      <li><a href="#snippets">Code Snippets</a> :: </li>
+      <li><a href="#download">Download</a></li>
+    </ul>
+  </div>
+
+  <header>
+    <h1 class="front">{{ page.title }}</h1>
+    <p class="lead">{{ page.subtitle }}</p>
+  </header>
+
+  <section id="portfolio-content">
+    {% if page.screenshots %}
+    <div class="row">
+      {% for screenshot in page.screenshots %}
+      <div class="col-md-3">
+        <a href="{{ screenshot }}" class="thumbnail">
+          <img src="{{ screenshot }}" alt="screenshot" />
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <hr />
+    {% endif %}
+
+
+    {{ content }}
+
+    <a id="download" class="anchor"></a>
+    <h2>Download</h2>
+    {% assign page = page %}
+    {% include JB/custom_downloads %}
+  </section>
+
+</div>
