@@ -14,7 +14,8 @@ I'm learning Ruby by trying to complete over 100 different projects in various c
 
 Check out the [README](https://github.com/phansch/Projects/blob/master/README.md) to see what projects are finished.
 
-<h2 id="snippets">Code snippets</h2>
+<a id="snippets" class="anchor"></a>
+## Code snippets
 
 {% highlight ruby linenos %}
 {% raw %}

@@ -1,40 +1,39 @@
-<div class="container">
-  <div class="col-md-3">
-    <div class="sidebar">
-      <ul id="sidenav" class="nav affix" role="complementary">
-        <li><a href="#top" title="Jump to Top">Overview</a></li>
-        <li><a href="#snippets" title="Jump to snippets">Code snippets</a></li>
-        <li><a href="#download">Download</a></li>
-      </ul>
-    </div>
+<div class="portfolio-page">
+  <div class="portfolio-subnav">
+    <ul class="list-unstyled list-inline">
+      <li class="back"><a href="/portfolio/#folio-mid"><span class="glyphicon glyphicon-arrow-left"></span> Back</a> :: </li>
+      <li><a href="#">Overview</a> :: </li>
+      <li><a href="#snippets">Code Snippets</a> :: </li>
+      <li><a href="#download">Download</a></li>
+    </ul>
   </div>
 
-  <div class="col-md-9" role="main">
-    <header>
-      <h1 class="front">{{ page.title }}</h1>
-      <p class="lead">{{ page.subtitle }}</p>
-    </header>
+  <header>
+    <h1 class="front">{{ page.title }}</h1>
+    <p class="lead">{{ page.subtitle }}</p>
+  </header>
 
-    <section id="portfolio-content">
-      {% if page.screenshots %}
-      <div class="row">
-        {% for screenshot in page.screenshots %}
-        <div class="col-md-3">
-          <a href="{{ screenshot }}" class="thumbnail">
-            <img src="{{ screenshot }}" alt="screenshot" />
-          </a>
-        </div>
-        {% endfor %}
+  <section id="portfolio-content">
+    {% if page.screenshots %}
+    <div class="row">
+      {% for screenshot in page.screenshots %}
+      <div class="col-md-3">
+        <a href="{{ screenshot }}" class="thumbnail">
+          <img src="{{ screenshot }}" alt="screenshot" />
+        </a>
       </div>
-      <hr />
-      {% endif %}
+      {% endfor %}
+    </div>
+    <hr />
+    {% endif %}
 
 
-      {{ content }}
+    {{ content }}
 
-      <h2 id="download">Download</h2>
-      {% assign page = page %}
-      {% include JB/custom_downloads %}
-    </section>
-  </div>
+    <a id="download" class="anchor"></a>
+    <h2>Download</h2>
+    {% assign page = page %}
+    {% include JB/custom_downloads %}
+  </section>
+
 </div>

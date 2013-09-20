@@ -20,7 +20,8 @@ Development of changes or new features happens in different branches, depending 
 * [Contribution activity](https://github.com/phansch/phansch.github.com/contributors)
 * [Activity per day/hour](https://github.com/phansch/phansch.github.com/graphs/punch-card)
 
-<h2 id="snippets">Code snippets</h2>
+<a id="snippets" class="anchor"></a>
+## Code snippets
 
 {% highlight html linenos %}
 {% raw %}

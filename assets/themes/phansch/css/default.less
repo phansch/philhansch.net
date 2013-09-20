@@ -10,7 +10,12 @@
 
 body {
   background-color: @body_bg;
-  padding-top:50px;
+  padding-top:70px;
+}
+
+/* Fixed header anchor fix */
+.anchor {
+  display: block; position: relative; top: -90px;
 }
 
 /* bootstrap navbar modifications */
@@ -60,6 +65,11 @@ body {
       color:@text;
     }
   }
+}
+
+.portfolio-page {
+  width: 670px;
+  margin:0 auto;
 }
 
 /* Footer */
@@ -117,32 +127,27 @@ body {
  * portfolio-detail rules
  */
 
-.sidebar > #sidenav > li > a {
-  padding-left:15px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right:0;
-  color:@sidenav_text;
-  &:hover {
-    background:@sidenav_active_gray;
-  }
-}
-
-.sidebar .affix {
+.portfolio-subnav {
+  z-index:200;
   position:fixed;
-  width:253px;
-  top:80px;
-}
-.sidebar > #sidenav > li.active {
-  padding-left:0px;
-  color:@link;
-  border-right:1px solid @link;
-  font-weight: bold;
-}
-.sidebar {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  .border-radius(3px);
+  background:@body_bg;
+  margin-top: -40px;
+  padding-top:5px;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  width:100%;
+  a {
+    color: @link_hover;
+    text-decoration: none;
+    &:hover{
+      color: @link;
+    }
+  }
+  .back {
+    letter-spacing: 1px;
+  }
 }
 
 #portfolio-content h4 {

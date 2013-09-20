@@ -20,8 +20,8 @@ used: [Lua, Love2D]
 
 >Try not to get hit by enemy fire while killing as many as possible.
 
-
-<h2 id="snippets">Code snippets</h2>
+<a id="snippets" class="anchor"></a>
+## Code snippets
 
 {% highlight lua linenos %}
 function Cannon:update(dt, circleradius)
