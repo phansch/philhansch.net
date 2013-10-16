@@ -1,9 +1,10 @@
 <div class="small-width-content">
-	<div class="container">
-	  <h1>{{ page.title }}</h1>
-	  {{ content }}
-		— <em>{{ page.date | date_to_string }}</em>
-	  
-	</div>
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+        — <em>{{ page.date | date_to_string }}</em>
+      <hr />
+      {% include JB/comments %}
+    </div>
 </div>
 
