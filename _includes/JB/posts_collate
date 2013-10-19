@@ -44,4 +44,5 @@ Usage:
     {% endif %}
   {% endfor %}
 {% endif %}
+
 {% assign posts_collate = nil %}
