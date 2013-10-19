@@ -7,13 +7,13 @@ title: Getting started with C++
 wordpress_id: 871
 ---
 
-This post is a rough translation from german to english and is based on this post: [Mein Einstieg in C++](http://blog.phansch.de/2010/09/mein-einstieg-in-cplusplus/).
+This post is a rough translation from german to english and is based on this post: [Mein Einstieg in C++](http://phansch.net/2010/09/04/mein-einstieg-in-cplusplus).
 
 
 
 
 
-In order to get started with [C++](http://blog.phansch.de/category/programming/cpp/) i decided to have a look at problem #2 on [projecteuler.net](http://projecteuler.net/).   
+In order to get started with C++ i decided to have a look at problem #2 on [projecteuler.net](http://projecteuler.net/).   
 A description of the problem can be found [here](http://projecteuler.net/index.php?section=problems&id=2).
 
 

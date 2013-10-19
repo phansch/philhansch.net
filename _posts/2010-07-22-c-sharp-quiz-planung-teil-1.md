@@ -22,7 +22,7 @@ Es stehen vier Antwortmöglichkeiten zur Auswahl: „Fast immer“, „Oft“, �
 Fragen und Antworten sollen sich anschließend anpassen lassen.
 
 
-Fragebogen im Textformat: [Fragen](http://wpimages.phansch.de/2010/06/Fragen.txt)
+Fragebogen im Textformat: Nicht mehr verfügbar.
 
 
 ## Planung

@@ -7,7 +7,7 @@ title: Pillen, Geister und Elektromusik - Teil 3
 wordpress_id: 1013
 ---
 
-In den letzten zwei Wochen habe ich wieder Zeit für das [Pacman Spiel](http://blog.phansch.de/2010/12/pillen-geister-und-elektromusik-teil-2/) gefunden.
+In den letzten zwei Wochen habe ich wieder Zeit für das [Pacman Spiel](http://phansch.net/2010/12/31/pillen-geister-und-elektromusik-teil-2) gefunden.
 Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine automatische Wegfindung. Außerdem können sie von Pacman durch das Sammeln von großen Pillen für 5 Sekunden verlangsamt werden. Was es sonst noch neues gibt, erfahrt ihr hier
 
 ### Geister "AI"
@@ -15,37 +15,37 @@ Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine au
 Die Geister Wegfindung ist sehr einfach gehalten.
 Befindet sich ein Geist auf einer Kreuzung, wird eine zufällige Richtung ausgewählt. Ausgenommen ist dabei die Richtung aus der der Geist gekommen ist.
 
-
-    public void GetPossibleDirections(Map map)
+{% highlight csharp %}
+public void GetPossibleDirections(Map map)
+{
+    _possibleDirections.Clear();
+    foreach (Direction dir in Enum.GetValues(typeof(Direction)))
     {
-        _possibleDirections.Clear();
-        foreach (Direction dir in Enum.GetValues(typeof(Direction)))
+        if (CanMove(dir, map))
         {
-            if (CanMove(dir, map))
-            {
-                _possibleDirections.Add(dir);
-            }
-        }
-
-        //Remove the opposite direction
-        if (this.CurrentDirection == Direction.Right)
-        {
-            _possibleDirections.Remove(Direction.Left);
-        }
-        else if (this.CurrentDirection == Direction.Left)
-        {
-            _possibleDirections.Remove(Direction.Right);
-        }
-        else if (this.CurrentDirection == Direction.Up)
-        {
-            _possibleDirections.Remove(Direction.Down);
-        }
-        else if (this.CurrentDirection == Direction.Down)
-        {
-            _possibleDirections.Remove(Direction.Up);
+            _possibleDirections.Add(dir);
         }
     }
 
+    //Remove the opposite direction
+    if (this.CurrentDirection == Direction.Right)
+    {
+        _possibleDirections.Remove(Direction.Left);
+    }
+    else if (this.CurrentDirection == Direction.Left)
+    {
+        _possibleDirections.Remove(Direction.Right);
+    }
+    else if (this.CurrentDirection == Direction.Up)
+    {
+        _possibleDirections.Remove(Direction.Down);
+    }
+    else if (this.CurrentDirection == Direction.Down)
+    {
+        _possibleDirections.Remove(Direction.Up);
+    }
+}
+{% endhighlight %}
 Natürlich ist das noch keine große Herausforderung für den Spieler. Im Original hat jeder Geist seine eigene Persönlichkeit, so dass er zum Beispiel auf die Nähe Pacmans reagiert. 
 Dazu gibt es einige wunderbare Artikel im Netz:
 	
@@ -64,35 +64,35 @@ Die erstbeste Methode zur Kollisionserkennung auf die man stößt wenn man nach 
 
 Anhand des Bildes kann man das leicht erklären. Der Gegner (rot) befindet sich auf dem Weg nach oben und ist Pacman schon fast ein ganzes Feld voraus. Da sich jedoch die Rechtecke beider Objekte berühren, kommt es zur Kollision.
 
-
-    public bool GetsEaten_Hardcore(List<ghost>)
+{% highlight csharp %}
+public bool GetsEaten_Hardcore(List<ghost>)
+{
+    foreach (Ghost g in ghosts)
     {
-        foreach (Ghost g in ghosts)
+        if (this.RectBoundary.Intersects(g.RectBoundary))
         {
-            if (this.RectBoundary.Intersects(g.RectBoundary))
-            {
-                return true;
-            }
+            return true;
         }
-        return false;
     }
-
+    return false;
+}
+{% endhighlight %}
 
 Eine andere Möglichkeit: Während des Spiels wird von der Spielfigur und den Gegnern jeweils das aktuelle Feld erfasst. Befindet sich ein Geist mit Pacman auf demselben Feld, kommt es zu einer Kollision.
 
-
-    public bool GetsEaten_Liberal(List<ghost>)
+{% highlight csharp %}
+public bool GetsEaten_Liberal(List<ghost>)
+{
+    foreach (Ghost g in ghosts)
     {
-        foreach (Ghost g in ghosts)
+        if (this.CurrentField == g.CurrentField)
         {
-            if (this.CurrentField == g.CurrentField)
-            {
-                return true;
-            }
+            return true;
         }
-        return false;
     }
-
+    return false;
+}
+{% endhighlight %}
 
 
 
@@ -108,36 +108,36 @@ Einen optimalen Lösungsweg habe ich hiermit noch nicht gefunden. Ich werde mich
 In der jetzigen Version kann Pacman die Gegner für eine bestimmte Zeit verlangsamen indem er eine große Pille sammelt. Ist die festgelegte Zeit abgelaufen, haben die Gegner wieder ihre ursprüngliche Geschwindigkeit.
 
 Alles fängt damit an, dass Pacman eine große Pille sammelt:
-
-    if ((pointsGained = _pacman.EatBigPill(_map) == 30)
-    {
-        GameData.AteBigPill = true;
-    }
-
+{% highlight csharp %}
+if ((pointsGained = _pacman.EatBigPill(_map) == 30)
+{
+    GameData.AteBigPill = true;
+}
+{% endhighlight %}
 
 Die Methode `Update_Ghosts()` überprüft ob `GameData.AteBigPill == true` ist und ändert entsprechend die Geschwindigkeit der Gegner.
-
-    //Slow each ghost for GHOST_SLOWTIME in seconds if pacman ate a big pill
-    if (GameData.AteBigPill == true)
+{% highlight csharp %}
+//Slow each ghost for GHOST_SLOWTIME in seconds if pacman ate a big pill
+if (GameData.AteBigPill == true)
+{
+    //Start counter
+    GameData.GhostSlowTimer -= gameTime.ElapsedGameTime.TotalSeconds;
+    foreach (Ghost g in _ghostList)
     {
-        //Start counter
-        GameData.GhostSlowTimer -= gameTime.ElapsedGameTime.TotalSeconds;
-        foreach (Ghost g in _ghostList)
-        {
-            g.Speed = MovingCreature.MovementSpeed.Slow; //Force effect on each ghost
-        }
-
-        if (GameData.GhostSlowTimer < = 0) //if time is over
-        {
-            GameData.GhostSlowTimer = GameData.GHOST_SLOWTIME; //reset timer
-            GameData.AteBigPill = false; //reset flag
-        }
-    }
-    else if(GameData.AteBigPill == false)
-    {
-        foreach (Ghost g in _ghostList)
-        {
-            g.Speed = MovingCreature.MovementSpeed.Fast; //Remove effect
-        }
+        g.Speed = MovingCreature.MovementSpeed.Slow; //Force effect on each ghost
     }
 
+    if (GameData.GhostSlowTimer < = 0) //if time is over
+    {
+        GameData.GhostSlowTimer = GameData.GHOST_SLOWTIME; //reset timer
+        GameData.AteBigPill = false; //reset flag
+    }
+}
+else if(GameData.AteBigPill == false)
+{
+    foreach (Ghost g in _ghostList)
+    {
+        g.Speed = MovingCreature.MovementSpeed.Fast; //Remove effect
+    }
+}
+{% endhighlight %}

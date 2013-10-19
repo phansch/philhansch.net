@@ -7,8 +7,8 @@ title: The Rift macro system
 wordpress_id: 1300
 ---
 
-As you may or may not know, I have a gaming section over at [games.phansch.de](http://games.phansch.de) where I keep stuff for various games.
-Most importantly, I wrote a [macro translator](http://games.phansch.de/rift/macro/index.html) that translates Rift macros written in English, to German and the other way around. Today, I want to talk about the pitfalls of Rift's macro and command system and possible solutions. 
+As you may or may not know, I have a gaming section over at games.phansch.de (no longer maintained) where I keep stuff for various games.
+Most importantly, I wrote a macro translator that translates Rift macros written in English, to German and the other way around. Today, I want to talk about the pitfalls of Rift's macro and command system and possible solutions. 
 
 
 ### Introduction

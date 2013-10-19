@@ -7,7 +7,7 @@ title: Updated Rift macro translator for Rift 1.7
 wordpress_id: 1318
 ---
 
-The [Rift macro translator](http://games.phansch.de/rift/macro/) has been updated for Rift 1.7.
+The Rift macro translator has been updated for Rift 1.7.
 
 Rift 1.7 comes with quite a few new abilities as well as new items. All these are included in the new update for the translator. Head past the break to read the full patchnotes.
 
