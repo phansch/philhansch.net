@@ -23,7 +23,7 @@ used: [Lua, Love2D]
 <a id="snippets" class="anchor"></a>
 ## Code snippets
 
-{% highlight lua linenos %}
+{% highlight lua %}
 function Cannon:update(dt, circleradius)
     self.circleRadius = circleradius
 

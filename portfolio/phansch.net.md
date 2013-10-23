@@ -7,7 +7,7 @@ scope: portfolio
 category: misc
 thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
 screenshots: [/assets/images/portfolio/phanschnet/phanschnet-1.png, /assets/images/portfolio/phanschnet/phanschnet-2.png]
-used: [HTML5, CSS, JS, Jekyll, github-pages]
+used: [HTML5, CSS, JS, Jekyll, github-pages, bootstrap]
 ---
 
 This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a static website whenever I push new content to the repository on GitHub. The posts are written in markdown and are kept in a seperate branch until they are published.
@@ -23,7 +23,7 @@ Development of changes or new features happens in different branches, depending 
 <a id="snippets" class="anchor"></a>
 ## Code snippets
 
-{% highlight html linenos %}
+{% highlight html %}
 {% raw %}
   <div class="row">
     {% for page in site.pages %}
@@ -78,35 +78,42 @@ Development of changes or new features happens in different branches, depending 
 
 ----
 
-{% highlight html linenos %}
+{% highlight html %}
 {% raw %}
-{% for post in posts_collate  %}
-  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-  {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+{% if page.exe %}
+  <p>The fastest way to get the game running is to download the compiled .exe file below.</p>
+  <a href="{{ page.exe }}" class="btn btn-primary btn-lg">
+  <span class="glyphicon glyphicon-save"></span> Download .exe
+  </a>
+{% elsif page.gem %}
+  <pre><code>$ gem install {{ page.gem }}</code></pre>
+{% else %}
+  <p>No download available.</p>
+{% endif %}
 
-  {% if forloop.first %}
-    <h2>{{this_year}}</h2>
-    <ul class="list-unstyled archive">
-  {% endif %}
+{% if page.love or page.github %}
+  <h3>Other files</h3>
+{% endif %}
 
-  <li>
-    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-    <em>{{ post.date | date: "%b %d" }}</em>
-  </li>
+{% if page.love %}
+  <h4><a href="#">.love file for Windows, Mac OSX and Linux platforms</a></h4>
 
-  {% if forloop.last %}
-    </ul>
-  {% else %}
-    {% if this_year != next_year %}
-      </ul>
-      <h2>{{next_year}}</h2>
-      <ul class="list-unstyled archive">
-    {% endif %}
-  {% endif %}
-{% endfor %}
+  <p>If you don't have Love2D installed, download it <a href="http://love2d.org/">here</a> and install it first.
+
+  To run the game:
+  <ul>
+      <li>On Linux, use <code>love /path/to/{{ page.github }}.love</code> to run the game.</li>
+      <li>On Windows use <code>love C:\path\to\{{ page.github }}.love</code> <strong>or</strong> drag the .love file onto love.exe</li>
+      <li>On Mac use <code>open -n -a love "/home/path/to/{{ page.github }}"</code> <strong>or</strong> drag the .love file onto the Love.app application bundle</li>
+  </ul>
+  </p>
+{% endif %}
+
+{% if page.github %}
+  <h4><a href="http://github.com/phansch/{{ page.github }}">{{ page.title }} on GitHub</a></h4>
+  Download the latest source or clone/fork the project on GitHub.
+{% endif %}
 {% endraw %}
 {% endhighlight %}
-<span class="glyphicon glyphicon-chevron-right"></span> Generates the [archive](/archive/) page.
+<span class="glyphicon glyphicon-chevron-right"></span> Generates *Download* section below.
 

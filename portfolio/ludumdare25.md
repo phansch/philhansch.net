@@ -23,7 +23,7 @@ Additionally I recorded a timelapse during the weekend which is available [here]
 <a id="snippets" class="anchor"></a>
 ## Code snippets
 
-{% highlight lua linenos %}
+{% highlight lua %}
 {% raw %}
 function Shot:update()
     local moveX = math.cos(self.rotation + initialShipRotation) * speed * dt
@@ -55,7 +55,7 @@ end
 
 ----
 
-{% highlight lua linenos %}
+{% highlight lua %}
 {% raw %}
 function Player:update(dt)
     --update rotation

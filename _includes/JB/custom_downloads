@@ -3,6 +3,8 @@
 <a href="{{ page.exe }}" class="btn btn-primary btn-lg">
 <span class="glyphicon glyphicon-save"></span> Download .exe
 </a>
+{% elsif page.gem %}
+<pre><code>$ gem install {{ page.gem }}</code></pre>
 {% else %}
 <p>No download available.</p>
 {% endif %}

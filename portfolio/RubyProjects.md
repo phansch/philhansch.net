@@ -4,8 +4,7 @@ title: RubyProjects
 github: Projects
 subtitle: Trying to complete over 100 projects in various categories in Ruby.
 scope: portfolio
-category: misc
-new: true
+category: ruby
 thumbnail: "/assets/images/portfolio/projects/thumbnail.png"
 used: [Ruby]
 ---
@@ -42,7 +41,7 @@ end
 
 ----
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 require 'geocoder'
 require 'open-uri'
 require 'socket'

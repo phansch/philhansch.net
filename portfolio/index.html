@@ -54,12 +54,12 @@ title: Portfolio
 
 <div id="folio-overview">
   <div class="container">
-    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span>
-Games</h2>
+
+    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Ruby</h2>
 
     <div class="row">
       {% for page in site.pages %}
-        {% if page.scope == "portfolio" and page.category == "games" %}
+        {% if page.scope == "portfolio" and page.category == "ruby" %}
           <div class="col-md-4">
             <div class="thumbnail">
               <a href="{{page.url}}">
@@ -87,11 +87,44 @@ Games</h2>
       {% endfor %}
     </div>
 
+    <!-- misc -->
     <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Miscellaneous</h2>
 
     <div class="row">
       {% for page in site.pages %}
         {% if page.scope == "portfolio" and page.category == "misc" %}
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="{{page.url}}">
+                <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
+              </a>
+              <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
+              <p>{{page.subtitle}}</p>
+              <div class="tech">
+                {% for technology in page.used %}
+                <span class="label label-primary">{{ technology }}</span><br />
+                {% endfor %}
+              </div>
+              <div class="buttons">
+                <a href="{{ page.url }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</a>
+                {% if page.exe %}
+                <a href="{{ page.exe }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</a>
+                {% else %}
+                <a href="#" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</a>
+                {% endif %}
+                <a href="http://github.com/phansch/{{ page.github }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</a>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span>Games</h2>
+
+    <div class="row">
+      {% for page in site.pages %}
+        {% if page.scope == "portfolio" and page.category == "games" %}
           <div class="col-md-4">
             <div class="thumbnail">
               <a href="{{page.url}}">
