@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Participating in Hackership Batch 0
+title: Hackership Batch 0
 ---
 Although I sort of talked about this on twitter already, I am happy to announce that I got accepted to [Hackership](http://www.hackership.org/).
 
@@ -23,8 +23,8 @@ Primarily I want to learn Ruby on Rails and proper Test Driven Development. I al
 
 Once I'm done with the tutorial, I will start working on a website that helps people learn touch-typing. About a month ago I started to learn touch-typing on the German [Dvorak layout](http://de.wikipedia.org/wiki/Datei:Tastatur_dvorak_farbe_optimiert.jpg). I tried all kinds of tools and websites but only a few supported the layout I chose. None of these were very fleshed out. I had a really tough time getting to my current 25 WPM. 
 
-<a href="/assets/images/posts/2013-11-10-hackership1/wpm.png" class="thumbnail">
-  <img src="/assets/images/posts/2013-11-10-hackership1/wpm.png" alt="screenshot" />
+<a href="/assets/images/posts/2013-11-10-hackership0/wpm.png" class="thumbnail">
+  <img src="/assets/images/posts/2013-11-10-hackership0/wpm.png" alt="screenshot" />
 </a>
 
 Although I would love to share some more specifics, the project details aren't really fleshed out yet.
