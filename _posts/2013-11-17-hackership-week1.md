@@ -33,7 +33,7 @@ After lunch, I started working on the [Railstutorials](http://ruby.railstutorial
 ## Wednesday ##
 Compared to Tuesday, I didn't really make a lot of progress with the tutorial. I managed to finish chapter six, though. However, there were other things happening on that day. At around 10, Christoph showed up to give us a tour of Betahaus. He is pretty much the *CEO* of the place, although he doesn't really fancy that term. He started with their woodworking room and explained how Betahaus was just a group of friends originally. After that we went on to see the other parts of the space and then it was time for lunch already.
 
-After lunch we had a Q&A about Rails and testing with one of our Hackers in residence. That really helped me to answer some basic questions about testing. I also learned how the different environments (testing, development, ...) work. For example in a production environment, rails is started with the `--environment production` switch. For testing it's a little bit different because rails is not really starting a new server to run the tests on. Instead, the server is mocked. **!elaborate!**
+After lunch we had a Q&A about Rails and testing with one of our Hackers in residence. That really helped me to answer some basic questions about testing. I also learned how the different environments (testing, development, ...) work. For example in a production environment, rails is started with the `--environment production` switch. For testing it's a little bit different because rails is not really starting a new server to run the tests on. Instead, the server is mocked.
 
 
 ## Thursday ##
