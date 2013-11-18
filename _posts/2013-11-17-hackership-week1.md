@@ -10,9 +10,8 @@ The first week of Hackership is over and it's been a great experience so far. He
 Initially I had some trouble finding my way through the confusing Moritzplatz station.
 
 <a href="http://www.flickr.com/photos/ingolfbln/7798245726/" class="thumbnail">
-  <img src="http://farm9.staticflickr.com/8422/7798245726_b295196bfc.jpg" alt="Berlin Moritzplatz station" /><br />
-  
-</a>
+  <img src="http://farm9.staticflickr.com/8422/7798245726_b295196bfc.jpg" alt="Berlin Moritzplatz station" />
+</a><br />
 <small><q><a href="http://www.flickr.com/photos/ingolfbln/7798245726/">Berlin - U-Bahnhof Moritzplatz</a></q> by [IngolfBLN](http://www.flickr.com/photos/ingolfbln/) (CC BY-SA 2.0)</small>
 
 Eventually I managed to find the right way out and arrived at Betahaus where we started out with breakfast and quick introductions at 9. We then had about two hours of workshops about how to approach learning. Starting with *brainwriting*, where we wrote down the first two words that came to mind after hearing the word *learning*. The brainwriting session was followed by an introduction to the psychology behind learning. We were introduced to three different perspectives on learning: [Behaviorism](http://en.wikipedia.org/wiki/Behaviorism#Behaviourism_and_education), [cognitivism](http://en.wikipedia.org/wiki/Cognitivism_%28psychology%29) and [constructivism](http://en.wikipedia.org/wiki/Constructivism_%28philosophy_of_education%29).
