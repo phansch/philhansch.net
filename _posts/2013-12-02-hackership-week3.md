@@ -1,5 +1,6 @@
 ---
 title: Hackership Week 3
+layout: post
 excerpt: November is almost over. And so is the third week of Hackership. Check out what I worked on this week.
 ---
 
@@ -11,7 +12,7 @@ On **Monday** I continued working on the sign-in and sign-out system for the tou
 **Tuesday** started off with a very insightful blogging workshop from [@laurawadden](https://twitter.com/laurawadden) and [@sheley](https://twitter.com/sheley).
 After the blogging workshop, it was time for the Rails Q&A led by [@freenerd](https://twitter.com/freenerd). We talked about [validations](http://edgeguides.rubyonrails.org/active_record_validations.html) and [associations](http://guides.rubyonrails.org/association_basics.html). After Hackership it was time for [Berlin Hack and Tell](http://www.meetup.com/Berlin-Hack-and-Tell/events/151270052/).
 
-On **Wednesday** one thing I was trying to figure out was: <q>What exactly Rails is expecting from an Ajax request?</q> I spent a lot of time in the development.log and tried to solve various errors. Eventually I got it working with the help of Ben. Once I got it working I was able to make a lot of progress.
+On **Wednesday** one thing I was trying to figure out was: <q>What exactly Rails is expecting from an Ajax request?</q> I spent a lot of time in the development.log and tried to solve various errors. Eventually I got it working with the help of Ben. Once I got it working I was able to make a lot of progress. The WPM of a user is now automatically submitted once the lesson is finished.
 
 
 **Thursday** started in the evening for me. I mainly did some CoffeeScript refactoring. Here are some interesting resources I found helpful:
