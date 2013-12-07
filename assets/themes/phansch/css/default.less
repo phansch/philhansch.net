@@ -1,9 +1,10 @@
 /* Color definitions */
-@body_bg: #E7E7E7;
+@body_bg: #fdf6e3;
+@body_text: #626262;
 @sidenav_bg_gray: #E1E1E1;
 @sidenav_active_gray: #CECECE;
 @sidenav_text: #5D5D5D;
-@text: #303030;
+@text: #626262;
 @link: #FD5443;
 @white: #FFFFFF;
 @link_hover: #808080;
@@ -50,20 +51,25 @@ body {
 .small-width-content {
   width: 670px;
   margin:0 auto;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: @body_text;
   a {
     text-decoration: none;
     color: @link;
     &:hover { color: @link_hover; }
   }
   h1 {
-    font-family: 'Abel', Helvetica;
-    letter-spacing: -1px;
-    font-size: 48px;
-    font-weight: bolder;
+    font-family: 'Open Sans Condensed', Helvetica;
+    font-size: 28px;
+    font-weight: bold;
     a, a:hover, a:focus {
       text-decoration: none;
       color:@text;
     }
+  }
+  hr {
+    border-color: #eee8d5;
   }
 }
 

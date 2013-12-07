@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hackership Week 1
+excerpt: "The first week of Hackership is over and it's been a great experience so far. Here's what happened the first week."
 ---
 
 The first week of Hackership is over and it's been a great experience so far. Here's what happened the first week.
@@ -28,7 +29,7 @@ The second day started off with a presentation about deliberate practice:
 
 After that, it was my turn to give an introduction to learning journals and my tool [jou](http://github.com/phansch/jou). I decided to give [reveal.js](http://lab.hakim.se/reveal-js/) a try for that. I should have prepared a little better since the most important slide didn't show up at all. That caught me by surprise and I was lost for a moment. Also, I probably need more practice with public speaking. Anyway, the (now fixed) slides can be found [here](http://phansch.net/slides/learning_journals).
 
-After lunch, I started working on the [Railstutorials](http://ruby.railstutorial.org/) book. Since I already had a working Ruby environment, I just had to make sure to install rails properly. At the end of the day I found myself at the end of chapter five as I skipped a few things I already knew. 
+After lunch, I started working on the [Railstutorials](http://ruby.railstutorial.org/) book. Since I already had a working Ruby environment, I just had to make sure to install rails properly. At the end of the day I found myself at the end of chapter five as I skipped a few things I already knew.
 
 ## Wednesday ##
 Compared to Tuesday, I didn't really make a lot of progress with the tutorial. I managed to finish chapter six, though. However, there were other things happening on that day. At around 10, Christoph showed up to give us a tour of Betahaus. He is pretty much the *CEO* of the place, although he doesn't really fancy that term. He started with their woodworking room and explained how Betahaus was just a group of friends originally. After that we went on to see the other parts of the space and then it was time for lunch already.
@@ -39,13 +40,13 @@ After lunch we had a Q&A about Rails and testing with one of our Hackers in resi
 ## Thursday ##
 
 Thursday started off with me forgetting about [BetaBreakfast](http://betahaus.de/event/betabreakfast-5-2-10-6-22-25-14/). Luckily, I was still on time to see the demos. The first one was [Somewhere](https://www.somewhere.com/). On Somewhere you can <q>Discover how interesting people around the world actually work.</q> Their mission is to give people a glimpse into other people's work and give them an idea if they want to work there. The second demo was by [Makeapoint](http://www.makeapoint.co/) which aims to provide an alternative to text-based discussion forums.
-The third was by [tran.sl](https://tran.sl/) which is a platform that aims to be a marketplace for translators. 
+The third was by [tran.sl](https://tran.sl/) which is a platform that aims to be a marketplace for translators.
 
- 
+
 Once BetaBreakfast was over, I started working on the tutorial again. At some point I got stuck for an hour or two because the database was acting weird. I am still not sure about the cause. Eventually I rolled back to a previous commit where it worked again.
-At the end of the day I made it to chapter eight of the tutorial but was bored out of my mind. See the current progress [here](https://immense-waters-2034.herokuapp.com/). The book is very detailed and copying stuff over to the editor makes me feel like I'm not learning much. Which is probably true. 
+At the end of the day I made it to chapter eight of the tutorial but was bored out of my mind. See the current progress [here](https://immense-waters-2034.herokuapp.com/). The book is very detailed and copying stuff over to the editor makes me feel like I'm not learning much. Which is probably true.
 For the next week I plan to start working on my own project. I will skim over the rest of the tutorial and see if there is anything left to learn.
- 
+
 Fast forward to 6 pm, it's demo time. This is where we show off what we accomplished during the week. If I were to compare my work to the other demos, they were really interesting and I kinda feel like I didn't learn as much as I could have. For next weeks demo I will try to share more of what I learned and focus less on what I did.
 
 For my project I don't want to say too much because I don't have anything to show yet. All I can say is that it will be helping people to learn touch-typing.
