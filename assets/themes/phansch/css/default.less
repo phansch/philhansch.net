@@ -63,6 +63,12 @@ body {
     text-decoration: none;
     color: @link;
     &:hover { color: @link_hover; }
+    &.body-text {
+      color: @body_text;
+      &:hover {
+        color: @body_text;
+      }
+    }
   }
   h1 {
     font-family: 'Open Sans Condensed', Helvetica;
@@ -75,6 +81,10 @@ body {
   }
   hr {
     border-color: #eee8d5;
+  }
+  .comment_look {
+    font-family: "Ubuntu Mono";
+    color:#93a1a1;
   }
 }
 

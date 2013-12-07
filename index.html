@@ -4,17 +4,17 @@ title: Philipp Hansch
 auto: false
 ---
 <div class="small-width-content">
-	<div class="container">
+  <div class="container">
   {% for post in site.posts limit:5 %}
-  		{% assign string = post %}
+      {% assign string = post %}
 
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      {{ post.excerpt }}
+      <a class="body-text" href="{{ post.url }}">{{ post.excerpt }}</a>
       <br />
-      <small style="color:#93a1a1;">
-      	# <a href="{{post.url}}">Read more</a> &sdot;
-      	{% include JB/time_to_read %}
-    	</small>
+      <p class="comment_look">
+        # <a href="{{post.url}}">Read more</a> &sdot;
+        {% include JB/time_to_read %}
+      </p>
     {% if forloop.last != true %}<hr />{% endif %}
   {% endfor %}
   </div>
