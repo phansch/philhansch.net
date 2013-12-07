@@ -9,12 +9,12 @@ auto: false
   		{% assign string = post %}
 
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      {{ post.excerpt }}
+      <br /><br />
       <small>
-      	<a href="{{post.url}}">Permalink</a> &sdot;
-      	{% include JB/time_to_read %}
-      </small><br /><br />
-      {{ post.content }}
-
+      	<a href="{{post.url}}">Read more</a> &sdot;
+      		{% include JB/time_to_read %}
+    	</small>
     {% if forloop.last != true %}<hr />{% endif %}
   {% endfor %}
   </div>
