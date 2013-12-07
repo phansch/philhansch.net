@@ -6,9 +6,13 @@ auto: false
 <div class="small-width-content">
 	<div class="container">
   {% for post in site.posts limit:3 %}
+  		{% assign string = post %}
 
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <small><a href="{{post.url}}">Permalink</a></small><br /><br />
+      <small>
+      	<a href="{{post.url}}">Permalink</a> &sdot;
+      	{% include JB/time_to_read %}
+      </small><br /><br />
       {{ post.content }}
 
     {% if forloop.last != true %}<hr />{% endif %}

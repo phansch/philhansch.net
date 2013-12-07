@@ -1,0 +1,1 @@
+{{ string.content || split:' '  || size || divided_by: 200 }} min read
