@@ -1,6 +1,8 @@
 <div class="small-width-content">
     <div class="container">
       <h1>{{ page.title }}</h1>
+      {% assign string = page %}
+      <p class="comment_look">{% include JB/time_to_read %}</p>
       {{ content }}
       <em class="comment_look">{{ page.date | date_to_string }}</em>
       <hr />
