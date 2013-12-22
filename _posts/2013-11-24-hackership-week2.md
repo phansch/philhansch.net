@@ -1,6 +1,8 @@
 ---
 title: Hackership Week 2
 layout: post
+tags:
+  - hackership
 excerpt: Here's what I did in Week 2 of Hackership.
 ---
 

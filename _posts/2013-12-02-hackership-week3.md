@@ -1,6 +1,8 @@
 ---
 title: Hackership Week 3
 layout: post
+tags:
+  - hackership
 excerpt: November is almost over. And so is the third week of Hackership. Check out what I worked on this week.
 ---
 

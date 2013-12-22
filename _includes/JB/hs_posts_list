@@ -1,0 +1,13 @@
+{% if post.tags contains "hackership" %}
+<hr />
+
+<p>
+All Hackership Batch 0 posts:
+</p>
+
+<ul>
+{% for post in site.tags.hackership %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}

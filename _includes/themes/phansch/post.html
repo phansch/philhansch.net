@@ -4,6 +4,8 @@
       {% assign string = page %}
       <p class="comment_look">{% include JB/time_to_read %}</p>
       {{ content }}
+      {% assign post = page %}
+      {% include JB/hs_posts_list %}
       <em class="comment_look">{{ page.date | date_to_string }}</em>
       <hr />
       {% include JB/comments %}
