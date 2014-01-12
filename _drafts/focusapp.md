@@ -1,7 +1,7 @@
 ---
-title: "Sideproject: Focusapp"
+title: "Sideproject: Focusthingy"
 layout: post
-excerpt: More text
+excerpt: A small Javascript App using IndexedDB
 ---
 I wanted to build this for a while now and finally got around to do it.
 
