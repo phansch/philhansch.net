@@ -2,11 +2,12 @@
 layout: page
 title: Reading List
 ---
+# The Reading List
 I started this list in early 2014 after reading *Apprenticeship Patterns* by Dave Hoover.
 
 If you think I'm missing an important book on this list, [let me know](http://twitter.com/phansch)!
 
-# Books I'm going to read next
+### Books I'm going to read next
 
  1. Rails 4 in Action &mdash; by Ryan Biggs
  * Refactoring &mdash; by Martin Fowler
