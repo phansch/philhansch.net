@@ -37,7 +37,7 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 ### Books I've read / still reading
 
 <p class="book">
-  <strong>Design Pattern in Ruby</strong> in Jan 2014
+  <strong>Design Patterns in Ruby</strong> in Jan 2014
   <br />by Russ Olsen &sdot; 386 Pages
 </p>
 
