@@ -32,7 +32,12 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 ### Books I've read / still reading
 
 <p class="book">
-  <strong>Refactoring</strong>
+  <strong>Rails Anti Patterns</strong> in Feb 2014
+  <br />by Chad Pytel &sdot; 400 Pages
+</p>
+
+<p class="book">
+  <strong>Refactoring</strong> in Feb 2014
   <br />by Martin Fowler &sdot; 431 Pages
 </p>
 
