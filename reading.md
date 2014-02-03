@@ -15,11 +15,6 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 </p>
 
 <p class="book">
-  <strong>Refactoring</strong>
-  <br />by Martin Fowler &sdot; 431 Pages
-</p>
-
-<p class="book">
   <strong>Practical Object Oriented Design in Ruby</strong>
   <br />by Sandi Metz &sdot; 247 Pages
 </p>
@@ -35,6 +30,11 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 </p>
 
 ### Books I've read / still reading
+
+<p class="book">
+  <strong>Refactoring</strong>
+  <br />by Martin Fowler &sdot; 431 Pages
+</p>
 
 <p class="book">
   <strong>Design Patterns in Ruby</strong> in Jan 2014
