@@ -23,7 +23,8 @@ You don't want to keep passwords and otherwise secret stuff in your GitHub repos
 Not so long ago, people used to upload their changed files via FTP to their servers. Luckily we don't have to do that anymore. Continuous deployments allow you to automate updating your production environment. Let's see how to do this with Travis CI and Heroku.
 
 ## Local setup
-Starting with the local setup, first we need to to setup the secret_token.rb and the database.yml.
+Starting with the local setup, first we need to to setup the `secret_token.rb` and the `database.yml`.
+
 **config/initializers/secret_token.rb**
 
 ```ruby
