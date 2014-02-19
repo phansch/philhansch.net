@@ -3,7 +3,7 @@ layout: page
 title: Reading List
 ---
 <h1>The Reading List</h1>
-I started this list in early 2014 after reading *Apprenticeship Patterns* Dave Hoover.
+I started this list in early 2014 after reading *Apprenticeship Patterns* by Dave Hoover.
 
 If you think I'm missing an important book on this list, [let me know](http://twitter.com/phansch).
 
@@ -20,25 +20,25 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 </p>
 
 <p class="book">
-  <strong>The Passionate Programmer</strong>
-  <br />by Chad Fowler &sdot; 232 Pages
-</p>
-
-<p class="book">
   <strong>The Pragmatic Programmer</strong>
   <br />by Andrew Hunt and David Thomas &sdot; 300 Pages
 </p>
 
-### Books I've read / still reading
+<p class="book">
+  <strong>Refactoring</strong>
+  <br />by Martin Fowler &sdot; 431 Pages
+</p>
+
+<h3>Books I've read / still reading</h3>
+
+<p class="book">
+  <strong>The Passionate Programmer</strong> in Feb 2014
+  <br />by Chad Fowler &sdot; 232 Pages
+</p>
 
 <p class="book">
   <strong>Rails Anti Patterns</strong> in Feb 2014
   <br />by Chad Pytel &sdot; 400 Pages
-</p>
-
-<p class="book">
-  <strong>Refactoring</strong> in Feb 2014
-  <br />by Martin Fowler &sdot; 431 Pages
 </p>
 
 <p class="book">
