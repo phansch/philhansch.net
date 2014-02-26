@@ -25,6 +25,11 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 </p>
 
 <p class="book">
+  <strong>JavaScript: The Good Parts</strong>
+  <br />by Douglas Crockford&sdot; 172 Pages
+</p>
+
+<p class="book">
   <strong>Refactoring</strong>
   <br />by Martin Fowler &sdot; 431 Pages
 </p>
