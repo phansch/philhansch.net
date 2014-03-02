@@ -12,11 +12,12 @@ hr {
 }
 
 .btn:focus {
-	outline:none;
+  outline:none;
 }
 #folio-top, #folio-mid {
   a {
     color: @white_color;
+    transition: color 0.2s ease 0s;
   }
 
   a:hover, a:focus {
@@ -25,7 +26,7 @@ hr {
   }
 }
 #folio-top {
-	position:fixed;
+  position:fixed;
   background:url('../images/bg-top.png');
   text-align: center;
   display:table;
@@ -38,22 +39,22 @@ hr {
   z-index:1;
 
   .container {
-  	vertical-align: middle;
-  	display:table-cell;
-  	#tagline {
-  		width:100%;
-	  	display:table;
-	  }
+    vertical-align: middle;
+    display:table-cell;
+    #tagline {
+      width:100%;
+      display:table;
+    }
   }
 
   h1 {
-  	font-family:'Abel', sans-serif;
+    font-family:'Abel', sans-serif;
     font-weight: bolder;
     font-size: 80px;
   }
 
   p {
-  	font-family:'Abel', sans-serif;
+    font-family:'Abel', sans-serif;
     font-size:40px;
     line-height:45px;
     padding-bottom:10px;
@@ -73,10 +74,10 @@ hr {
 }
 
 #folio-overview {
-	text-align:center;
-	background:@body_bg_color;
-	position:relative;
-	z-index:60;
+  text-align:center;
+  background:@body_bg_color;
+  position:relative;
+  z-index:60;
   h2 {
     padding-top:30px;
     padding-bottom: 15px;

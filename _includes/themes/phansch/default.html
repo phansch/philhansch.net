@@ -57,7 +57,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a title="me" class="navbar-brand" href="/">{{ site.author.name }}</a>
+        <a class="navbar-brand" href="/">{{ site.author.name }}</a>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
@@ -70,11 +70,8 @@
           <li title="I also give talks from time to time"{% if page.title == "Speaking" %} class ="active"{% endif %}>
             <a href="/speaking.html">Speaking</a>
           </li>
-          <li title="Archive"{% if page.title == "Archive" %} class="active"{% endif%}>
-            <a href="/archive/">Archive</a>
-          </li>
-          <li title="home"{% if page.title == "Philipp Hansch" %} class="active"{% endif%}>
-            <a href="/">home</a>
+          <li title="Writing"{% if page.title == "Philipp Hansch" %} class="active"{% endif%}>
+            <a href="/">Writing</a>
           </li>
         </ul>
       </div>
@@ -88,9 +85,11 @@
     <div id="footer">
       <div id="footer-content">
         <p>
-          <a href="mailto:desk@phansch.net" title="desk@phansch.net">mail</a> ::
-          <a href="http://phansch.net/atom.xml" title="RSS">feed</a> ::
-          <a href="http://github.com/phansch" title="Fork me on GitHub">github</a>
+          <a href="mailto:hi@phansch.net" title="hi@phansch.net">mail</a> ::
+          <a href="/archive/" title="More posts">archive</a> ::
+          <a href="/atom.xml" title="RSS">feed</a> ::
+          <a href="http://github.com/phansch" title="Fork me on GitHub">github</a> ::
+          <a href="http://twitter.com/phansch" title="Follow me on Twitter">twitter</a>
         </p>
       </div>
     </div>
