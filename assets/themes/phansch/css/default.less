@@ -1,11 +1,11 @@
 /* Color definitions */
-@body_bg: #fdf6e3;
+@body_bg: #ffffff;
 @body_text: #626262;
 @sidenav_bg_gray: #E1E1E1;
 @sidenav_active_gray: #CECECE;
 @sidenav_text: #5D5D5D;
 @text: #626262;
-@link: #FD5443;
+@link: rgb(87, 163, 232);
 @white: #FFFFFF;
 @link_hover: #808080;
 
@@ -55,13 +55,15 @@ body {
 /* Rules for articles and simple pages */
 .small-width-content {
   width: 670px;
-  margin:0 auto;
-  font-size: 16px;
+  margin: 0 auto;
+  font-size: 18px;
   font-family: "Open Sans";
   color: @body_text;
+  line-height: 26px;
   a {
     text-decoration: none;
     color: @link;
+    transition: color 0.2s ease 0s;
     &:hover { color: @link_hover; }
     &.body-text {
       color: @body_text;
@@ -72,15 +74,19 @@ body {
   }
   h1 {
     font-family: 'Open Sans Condensed', Helvetica;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 36px;
     a, a:hover, a:focus {
       text-decoration: none;
       color:@text;
     }
   }
+  h2 {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+  }
   hr {
-    border-color: #eee8d5;
+    border-color: rgb(238, 238, 238);
   }
   .comment_look {
     font-family: "Ubuntu Mono";
