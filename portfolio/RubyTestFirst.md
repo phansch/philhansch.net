@@ -77,11 +77,16 @@ class RPNCalculator
 end
 {% endraw %}
 {% endhighlight %}
-<span class="glyphicon glyphicon-chevron-right"></span> Implementation of a calculator class for [Reverse Polish Notation](http://en.wikipedia.org/wiki/Reverse_Polish_notation). 
-Example usage: 
+<span class="glyphicon glyphicon-chevron-right"></span> Implementation of a calculator class for [Reverse Polish Notation](http://en.wikipedia.org/wiki/Reverse_Polish_notation).
+
+<p>Example usage:</p>
+
+{% highlight ruby %}
+{% raw %}
     calculator.push(2)
     calculator.push(3)
     calculator.plus
     # calculator.value == 5
-
+{% endraw %}
+{% endhighlight %}
 ----
