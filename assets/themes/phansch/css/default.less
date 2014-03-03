@@ -180,9 +180,21 @@ body {
   }
 }
 
-#portfolio-content h4 {
-  margin-top: 15px;
-  margin-bottom: 5px;
+#portfolio-content {
+  font-size: 18px;
+  font-family: "Open Sans";
+  h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  a {
+    color: @link;
+    text-decoration: none;
+    transition: color 0.2s ease 0s;
+    &:hover{
+      color: @link_hover;
+    }
+  }
 }
 
 .book {
