@@ -5,7 +5,6 @@ github: Jou
 subtitle: My first published Rubygem.
 scope: portfolio
 category: ruby
-new: true
 gem: jou
 thumbnail: "/assets/images/portfolio/jou/thumbnail.png"
 used: [Ruby, Gem, rspec]

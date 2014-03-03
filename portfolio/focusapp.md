@@ -2,15 +2,16 @@
 layout: portfolio-detail
 title: FocusThingy
 github: focus
-subtitle: A small JavaScript app using IndexedDB.
+subtitle: A small JavaScript application using IndexedDB.
 scope: portfolio
 category: misc
+new: true
 thumbnail: "/assets/images/portfolio/focusthingy/thumbnail.png"
 screenshots: "/assets/images/portfolio/focusthingy/thumbnail.png"
 used: [HTML5, CSS, JS, IndexedDB]
 ---
 
-This JavaScript app allows the user to enter a specific task he or she  wants to work on. The entered task is persisted across multiple browser sessions, using IndexedDB.
+This JavaScript application allows the user to enter a specific task he or she  wants to work on. The entered task is persisted across multiple browser sessions, using IndexedDB.
 
 The project was my excuse to practice some Javascript as well as applying the principles of [OfflineFirst](http://offlinefirst.org/). I decided to use IndexedDB, because it seems to be the simplest solution for persistent offline storage. There is also [localStorage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage#localStorage) which has limits on the maximum size of data. Other frameworks, such as [hood.ie](http://hood.ie/) or [PouchDB](http://pouchdb.com/) also allow syncing with a server.
 

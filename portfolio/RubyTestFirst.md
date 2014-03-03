@@ -5,7 +5,6 @@ github: learn_ruby_solutions
 subtitle: Practicing test-driven development.
 scope: portfolio
 category: ruby
-new: true
 thumbnail: "/assets/images/portfolio/RubyTestFirst/thumbnail.png"
 used: [Ruby, rspec]
 ---
