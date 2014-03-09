@@ -1,5 +1,5 @@
 ---
-title: Improve your console game
+title: Using tmux and tmuxinator
 layout: post
 excerpt: Awesome command line productivity with tmux and tmuxinator
 ---
@@ -15,6 +15,7 @@ This is no longer a problem with [tmux](http://en.wikipedia.org/wiki/Tmux) and [
 *Tmuxinator* allows you to easily script tmux sessions. I am using tmuxinator to setup different window layouts for each of my projects.
 
 
+
 ## Tmux windows and panes
 
 The idea of tmux is that you have one single terminal window with multiple tabs inside. In each tab you have the ability to split up your window into multiple panes.
@@ -28,9 +29,14 @@ Open new panes with <span class="key">ctrl</span> +  <span class="key">b</span> 
 
 To switch between panes use <span class="key">ctrl</span> + <span class="key">b</span> + <span class="key">o</span>
 
+### Installing tmux
+
+On Ubuntu run `sudo apt-get install tmux` to install tmux.
+
+On Mac `brew install tmux` should do the trick.
+
 ## Tmux configration
-Here are some basic tmux settings to get you started with some sane settings.
-You can find the file in ~/.tmux.conf
+Tmux configuration is saved in `~/.tmux.conf`. I recommed adding the following lines to your configuration since the defaults aren't really nice.
 
     # Renumber windows sequentially after closing any of them.
     # Otherwise if you close the second tab of three, you end
@@ -46,26 +52,28 @@ You can find the file in ~/.tmux.conf
 
 Also, [here](https://gist.github.com/MohamedAlaa/2961058) is a great cheatsheet for the most important tmux shortcuts.
 
-## You can easily get started with tmux
+## Save time with tmuxinator
+Tmux comes with an extensive command line interface, but it can be a little bit difficult to figure out. Tmuxinator makes use of the commands that tmux comes with, but it extracts all the complexity into a single yaml file:
 
-On Ubuntu, run `sudo apt-get install tmux` to install tmux.
-On Mac, `brew install tmux` should do the trick.
+```yml
+name: railsproject
+root: ~/code/railsproject
 
+windows:
+  - editor: vim
+  - console: rails c
+  - git:
+  - logs:
+    layout: even-horizontal
+    panes:
+      - tail -f log/development.log
+      - tail -f log/test.log
+  - server: rails s
+  - heroku: heroku logs -t
+```
+With this file in place, you can now run `mux railsproject` and everything will be started automatically.
 
+This is liberating in so many ways. In the morning, you don't have to remember what tools you need for the project you're working on. Throughout the day you can rely on keyboard shortcuts always bringing you back to the same program.
+And then you quickly get used to the patterns with your project specific settings. I found that I can stay focused way better this way. The tab for logs, server, console and editor are always the same.
 
-
-So for example for writing this blog post, I have a tab with vim, another tab with a local jekyll instance and a third tab with the tmux config right now.
-
-
-#### Pairing
-You can attach to other people's tmux sessions.
-
-## Enter tmuxinator
-But after using this for a couple months, I got sick of reopening the same setup every day.
-Enter tmuxinator. tmuxinator allows you to create scripts for tmux, that will open whatever you specified in the script.
-
-
- * What is tmux
- * Automate things easier with tmuxinator
-
-You can find my whole .tmux.conf [here](https://github.com/phansch/dotfiles/blob/master/tmux.conf).
+You can find my whole .tmux.conf [here](https://github.com/phansch/dotfiles/blob/master/tmux.conf). Additionally some of my tmuxinator configuration files are located [here](https://github.com/phansch/dotfiles/tree/master/tmuxinator).
