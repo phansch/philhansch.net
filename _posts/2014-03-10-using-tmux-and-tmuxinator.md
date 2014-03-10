@@ -15,7 +15,6 @@ This is no longer a problem with [tmux](http://en.wikipedia.org/wiki/Tmux) and [
 *Tmuxinator* allows you to easily script tmux sessions. I am using tmuxinator to setup different window layouts for each of my projects.
 
 
-
 ## Tmux windows and panes
 
 The idea of tmux is that you have one single terminal window with multiple tabs inside. In each tab you have the ability to split up your window into multiple panes.
@@ -29,14 +28,8 @@ Open new panes with <span class="key">ctrl</span> +  <span class="key">b</span> 
 
 To switch between panes use <span class="key">ctrl</span> + <span class="key">b</span> + <span class="key">o</span>
 
-### Installing tmux
-
-On Ubuntu run `sudo apt-get install tmux` to install tmux.
-
-On Mac `brew install tmux` should do the trick.
-
-## Tmux configration
-Tmux configuration is saved in `~/.tmux.conf`. I recommed adding the following lines to your configuration since the defaults aren't really nice.
+## Tmux configuration
+Tmux configuration is saved in `~/.tmux.conf`. I recommend adding the following lines to your configuration since the defaults aren't really nice.
 
     # Renumber windows sequentially after closing any of them.
     # Otherwise if you close the second tab of three, you end
@@ -75,5 +68,7 @@ With this file in place, you can now run `mux railsproject` and everything will 
 
 This is liberating in so many ways. In the morning, you don't have to remember what tools you need for the project you're working on. Throughout the day you can rely on keyboard shortcuts always bringing you back to the same program.
 And then you quickly get used to the patterns with your project specific settings. I found that I can stay focused way better this way. The tab for logs, server, console and editor are always the same.
+
+I encourage you to give tmux and tmuxinator a try. If you happen to run into problems, feel free to leave a comment and I will see what I can do.
 
 You can find my whole .tmux.conf [here](https://github.com/phansch/dotfiles/blob/master/tmux.conf). Additionally some of my tmuxinator configuration files are located [here](https://github.com/phansch/dotfiles/tree/master/tmuxinator).
