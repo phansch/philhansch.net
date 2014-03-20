@@ -17,33 +17,13 @@ But, maybe one day it will save your life.
 
 <small class="text-muted">From <a href="https://xkcd.com/208/">xkcd #208 &mdash; Regular Expressions</a>.</small>
 
+**Note:** I highly encourage you to read up on the [technical introduction to Unicode](http://www.unicode.org/standard/principles.html) to gain a basic understanding of what Unicode and UTF are.
+
 ---
-
-## A short introduction and terminology overview
-
-### Unicode
-TODO: Explain what Unicode is.
-<dl class="dl-horizontal">
-  <dt>Codepoint</dt>
-  <dd>A single value in Unicode.</dd>
-  <dt>Plane</dt>
-  <dd>Unicode is divided into 17 different <em>planes</em>. Each plane contains 65536 codepoints.</dd>
-  <dt>Codepoint</dt>
-  <dd>A single value in Unicode.</dd>
-  <dt>Codepoint</dt>
-  <dd>A single value in Unicode.</dd>
-</dl>
-
-### UTF
-TODO: Explain what UTF is.
-<dl class="dl-horizontal">
-  <dt>Codepoint</dt>
-  <dd>A single value in Unicode.</dd>
-</dl>
 
 ## Unicode &#8644; UTF conversion tables
 
-These two tables will help you map Unicode codepoints to UTF. Don't worry about understanding these tables for now.
+These two tables will help you map Unicode codepoints to UTF. Don't worry about understanding these tables for now. They will make sense once you are working on your first exercise.
 
 <table class="table table-striped table-hover unicode">
   <thead>
@@ -133,12 +113,29 @@ D3: <span class="bg-orange">1101 0011</span><br />
 6F: <span class="bg-green">0110 1111</span>
 </p>
 
-The next step is to map the binary representation of our codepoint to UTF8. The colors are your guide for putting the bytes in the right place. It will make sense after this example.
+The next step is to map the binary representation of our codepoint to UTF8. The colors are your guide for putting the bits in the right place. The bits in the unicode codepoint will be distributed among the UTF bytes. It will make sense after this example.
 <p class="unicode">
 1110<span class="bg-orange">1101</span> 10<span class="bg-orange">0011</span><span class="bg-green">01</span> 10<span class="bg-green">101111</span>
 </p>
 
+The next step is to convert this to hexadecimal. We end up with:
+
+ED8DAF
+
 Don't worry, this will all make sense.
 The first exercise: Converting UTF 
 
-## TODO: A converter in Ruby
+## Converters in Ruby
+
+Unicode to UTF
+{%highlight ruby%}
+unicode = "\ud36f"
+utf = ""
+
+unicode.each_byte do |byte|
+  utf << byte.to_s(16).upcase
+end
+
+puts "UTF: " + utf
+{%endhighlight%}
+
