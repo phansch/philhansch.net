@@ -1,0 +1,126 @@
+/* bootstrap modifications for portfolio */
+hr {
+  border-width: 4px;
+}
+.btn:focus {
+  outline: none;
+}
+#folio-top a,
+#folio-mid a {
+  color: #ffffff;
+  transition: color 0.2s ease 0s;
+}
+#folio-top a:hover,
+#folio-mid a:hover,
+#folio-top a:focus,
+#folio-mid a:focus {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+#folio-top {
+  position: fixed;
+  background: url('../images/bg-top.png');
+  text-align: center;
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+#folio-top .container {
+  vertical-align: middle;
+  display: table-cell;
+}
+#folio-top .container #tagline {
+  width: 100%;
+  display: table;
+}
+#folio-top h1 {
+  font-family: 'Abel', sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+}
+#folio-top p {
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  padding-bottom: 10px;
+}
+#folio-mid {
+  background: url('../images/bg-lighter.png');
+  padding: 60px 0;
+  margin-top: 100vh;
+  position: relative;
+  z-index: 50;
+  font-size: 18px;
+}
+#folio-mid img.contact {
+  background: white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+#folio-overview {
+  text-align: center;
+  background: #ffffff;
+  position: relative;
+  z-index: 60;
+}
+#folio-overview h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#folio-overview h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#folio-overview .tech {
+  text-align: left;
+  position: absolute;
+  padding-top: 6px;
+  padding-left: 26px;
+  top: 0;
+  left: 0;
+  z-index: 65;
+}
+#folio-overview .tech span {
+  line-height: 230%;
+}
+#folio-overview .thumbnail > a > img {
+  height: 200px;
+  border-bottom: 1px solid #9b9b9b;
+  border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+}
+#folio-overview .thumbnail {
+  width: 300px;
+  height: 350px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#folio-overview .thumbnail p {
+  text-align: justify;
+  padding: 0 10px;
+}
+#folio-overview .thumbnail .buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+#footer {
+  position: relative;
+  margin: 0;
+  padding-top: 100px;
+  background: #ffffff;
+  z-index: 70;
+}
+/* LESS mixins */

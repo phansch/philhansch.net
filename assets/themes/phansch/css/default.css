@@ -1,0 +1,212 @@
+/* Color definitions */
+body {
+  background-color: #ffffff;
+  padding-top: 70px;
+}
+/* Fixed header anchor fix */
+.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+}
+/* bootstrap navbar modifications */
+.navbar {
+  background: url('../images/bg-top.png');
+  border: none;
+}
+.navbar .container {
+  width: 670px;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: color 0.1s ease 0s;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+.navbar-default .navbar-brand {
+  font-size: 20px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+/* Rules for articles and simple pages */
+.small-width-content {
+  width: 670px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #626262;
+  line-height: 26px;
+}
+.small-width-content a {
+  text-decoration: none;
+  color: #57a3e8;
+  transition: color 0.2s ease 0s;
+}
+.small-width-content a:hover {
+  color: #808080;
+}
+.small-width-content a.body-text {
+  color: #626262;
+}
+.small-width-content a.body-text:hover {
+  color: #626262;
+}
+.small-width-content h1 {
+  font-family: 'Open Sans Condensed', Helvetica;
+  font-size: 36px;
+}
+.small-width-content h1 a,
+.small-width-content h1 a:hover,
+.small-width-content h1 a:focus {
+  text-decoration: none;
+  color: #626262;
+}
+.small-width-content h2 {
+  font-family: 'Open Sans', Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+}
+.small-width-content hr {
+  border-color: #eeeeee;
+}
+.small-width-content .comment_look {
+  font-family: "Ubuntu Mono";
+  color: #93a1a1;
+}
+.small-width-content .comment_look:before {
+  content: "# ";
+}
+.small-width-content span.bg-green {
+  background: #8BBF65;
+}
+.small-width-content span.bg-orange {
+  background: #FFBA59;
+}
+.small-width-content span.bg-blue {
+  background: #66B1FF;
+}
+.small-width-content span.bg-pink {
+  background: #F58377;
+}
+.small-width-content p.unicode,
+.small-width-content .unicode td {
+  font-size: 16px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+.small-width-content table.unicode {
+  min-width: 900px;
+  margin-left: -140px;
+}
+.portfolio-page {
+  width: 670px;
+  margin: 0 auto;
+}
+/* Footer */
+#footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+#footer #footer-content {
+  padding-top: 10px;
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  line-height: 160%;
+  margin: 0 auto;
+  width: 650px;
+}
+#footer #footer-content p {
+  font-size: 13px;
+  letter-spacing: 4px;
+  font-family: Helvetica, sans-serif;
+  color: #666666;
+}
+#footer #footer-content p a {
+  color: #808080;
+  text-decoration: none;
+}
+#footer #footer-content p a:hover {
+  color: #57a3e8;
+}
+/* Archive lists custom rules */
+.archive {
+  margin-left: 20px;
+}
+/* Key symbols */
+.key {
+  display: inline;
+  font-size: 12px;
+  font-family: monospace;
+  background: #eee;
+  color: black;
+  padding: 2px 3px;
+  margin-right: 1px;
+  vertical-align: 2px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  /* Drop shadows do not work in IE */
+  box-shadow: 1px 1px 0px 0px #888888;
+  -moz-box-shadow: 1px 1px 0px 0px #888888;
+  -webkit-box-shadow: 1px 1px 0px 0px #888888;
+}
+/*
+ * portfolio-detail rules
+ */
+.portfolio-subnav {
+  z-index: 200;
+  position: fixed;
+  background: #ffffff;
+  margin-top: -40px;
+  padding-top: 5px;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+  font-size: 13px;
+  color: #666666;
+  width: 100%;
+}
+.portfolio-subnav a {
+  color: #808080;
+  text-decoration: none;
+  transition: color 0.2s ease 0s;
+}
+.portfolio-subnav a:hover {
+  color: #57a3e8;
+}
+.portfolio-subnav .back {
+  letter-spacing: 1px;
+}
+#portfolio-content {
+  font-size: 18px;
+  font-family: "Open Sans";
+}
+#portfolio-content h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#portfolio-content a {
+  color: #57a3e8;
+  text-decoration: none;
+  transition: color 0.2s ease 0s;
+}
+#portfolio-content a:hover {
+  color: #808080;
+}
+.book {
+  margin-bottom: 10px;
+}
+/* LESS mixins */
