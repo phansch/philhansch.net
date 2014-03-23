@@ -122,8 +122,6 @@ The next step is to convert this to hexadecimal. We end up with:
 
 ED8DAF
 
-Don't worry, this will all make sense.
-The first exercise: Converting UTF 
 
 ## Converters in Ruby
 
