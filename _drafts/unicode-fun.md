@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fun with Unicode and UTF
+title: How text encoding works these days
 excerpt: An excercise from my when I was studying Applied Computer Science.
 ---
 Just to get this out of the way: **This has no practical usage as far as I know.**
@@ -8,6 +8,11 @@ Just to get this out of the way: **This has no practical usage as far as I know.
 This post shows how to convert Unicode Codepoints into UTF format and vice versa *by hand*. Here is your first exercise:
 
 > What is the UTF8 representation of the Unicode codepoint `U+D36F`?
+
+At the end of the post you will know how to solve this exercise. However, I assume that you have basic computer science knowledge (i.e Converting between number systems
+
+So what is a codepoint?
+What is UTF8?
 
 Yes you read that right. At the time we were handed this assignment at university, we all thought it was pretty useless. I have yet to find some way to apply this knowlegde. But even though I never had to use this since university, it's nice to keep this in my head. This is merly a fun excercise in problem solving.
 
@@ -96,6 +101,8 @@ These two tables will help you map Unicode codepoints to UTF. Don't worry about 
   </tbody>
 </table>
 
+The uncolored numbers in the UTF columns are part of the UTF encoding.
+
 ## Unicode to UTF8
 
 The first step is to determine what Unicode Area the provided Unicode code point is in.
@@ -118,7 +125,7 @@ The next step is to map the binary representation of our codepoint to UTF8. The 
 1110<span class="bg-orange">1101</span> 10<span class="bg-orange">0011</span><span class="bg-green">01</span> 10<span class="bg-green">101111</span>
 </p>
 
-The next step is to convert this to hexadecimal. We end up with:
+The final step is to convert this to hexadecimal. We end up with the UTF8 representation:
 
 ED8DAF
 
@@ -126,6 +133,18 @@ ED8DAF
 ## Converters in Ruby
 
 Unicode to UTF
+{%highlight ruby%}
+unicode = "\ud36f"
+utf = ""
+
+unicode.each_byte do |byte|
+  utf << byte.to_s(16).upcase
+end
+
+puts "UTF: " + utf
+{%endhighlight%}
+
+UTF to Unicode
 {%highlight ruby%}
 unicode = "\ud36f"
 utf = ""
