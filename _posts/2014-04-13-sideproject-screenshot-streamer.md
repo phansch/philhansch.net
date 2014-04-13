@@ -1,7 +1,7 @@
 ---
 title: "Sideproject: Screenshot Streamer"
 layout: post
-excerpt: Bla
+excerpt: My most recent side project. An image streaming server using Sinatra.
 ---
 Time for another side project! This is a project for the upcoming [Ludum Dare game making competition](http://www.ludumdare.com/compo/).
 
