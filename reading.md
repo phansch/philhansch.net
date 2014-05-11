@@ -10,6 +10,11 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 <h3>Books I'm going to read next</h3>
 
 <p class="book">
+  <strong>The Design of Everyday Things</strong>
+  <br />by Don Norman &sdot; 368 Pages
+</p>
+
+<p class="book">
   <strong>Rails 4 in Action</strong>
   <br />by Ryan Biggs, Yehuda Katz, Steve Klabnik &sdot; 600 Pages
 </p>
