@@ -28,6 +28,8 @@ exit
 {% endhighlight %}
 More information about deploying with jekyll can be found [here](http://jekyllrb.com/docs/deployment-methods/).
 
+The biggest advantage I see is being able to customize the post-receive hook. There are so many possibilities, like automatically posting a tweet once a post is published.
+
 It's important to note that if you are planning to move away from GitHub Pages, you don't necessarily need a hoster that offers Ruby support. All you need is a webserver that can serve static files. You would first generate your blog with `jekyll` locally and then upload it it your server via FTP.
 
 After moving the website away from GitHub, I also moved most of my GitHub repositories to GitLab. As a result, most of the links to my GitHub repositories have to be changed at some point. A mirror of this websites repository is available on [GitLab](https://gitlab.com/phansch/phansch-net/tree/master).
