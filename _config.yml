@@ -3,9 +3,6 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
-pygments: true
-safe: true
-markdown: rdiscount
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -119,12 +116,5 @@ JB :
   #
   analytics :
     provider : getclicky
-    google :
-        tracking_id : 'UA-123-12'
     getclicky :
       site_id : 100665341
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
