@@ -7,58 +7,52 @@
     <meta name="author" content="{{site.author.name}}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="alternate" type="application/atom+xml" title="phansch.net - Feed" href="http://phansch.net/atom.xml" />
-    <link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/default.css" />
-    {% if page.title == "Portfolio" %}<link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/portfolio.css" />{% endif %}
+    <link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/foundation.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="{{ASSET_PATH}}/css/default.css" media="(min-width:30em)" />
     <link rel="stylesheet" href="{{ASSET_PATH}}/css/syntax.css"><!-- Pygments -->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="{{ASSET_PATH}}/js/html5shiv.js"></script>
-      <script src="{{ASSET_PATH}}/js/respond.min.js"></script>
-    <![endif]-->
-
     <link href='http://fonts.googleapis.com/css?family=Abel|Ubuntu+Mono|Open+Sans|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">{{ site.author.name }}</a>
-      </div>
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
+  <div class="fixed">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">{{ site.author.name }}</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="left">
           <li title="Programs I've written"{% if page.title == "Portfolio" or page.scope == "portfolio" %} class="active"{% endif%}>
-            <a href="/portfolio/">Portfolio</a>
+          <a href="/portfolio/">Portfolio</a>
           </li>
           <li title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %}>
-            <a href="/reading.html">Reading</a>
+          <a href="/reading.html">Reading</a>
           </li>
           <li title="I also give talks from time to time"{% if page.title == "Speaking" %} class ="active"{% endif %}>
-            <a href="/speaking.html">Speaking</a>
+          <a href="/speaking.html">Speaking</a>
           </li>
           <li title="Writing"{% if page.title == "Philipp Hansch" %} class="active"{% endif%}>
-            <a href="/">Writing</a>
+          <a href="/">Writing</a>
           </li>
         </ul>
-      </div>
-      </div>
+      </section>
     </nav>
+  </div>
 
     <a id="top"></a>
 
-    <div class="small-width-content">
-      <div class="alert alert-info"><small>The website has been moved away from GitHub. There might be broken links. Let me know at <a href="mailto:hi@phansch.net">hi@phansch.net</a>.</small></div>
-    </div>
 
-    {{content}}
+    <section class="main">
+      <div class="panel callout radius"><h5>The website has been moved away from GitHub.</h5><p>There might be broken links. Let me know at <a href="mailto:hi@phansch.net">hi@phansch.net</a>.</p></div>
+      {{content}}
+    </section>
 
     <div id="footer">
       <div id="footer-content">
@@ -73,7 +67,12 @@
     </div>
 
 
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="{{ASSET_PATH}}/js/vendor/jquery.js" type="text/javascript"></script>
+    <script src="{{ASSET_PATH}}/js/foundation.min.js" type="text/javascript"></script>
+    <script src="{{ASSET_PATH}}/js/foundation.topbar.js" type="text/javascript"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).foundation();
+    </script>
     {% if page.title == "Portfolio" %}
     <script type="text/javascript">
     $("document").ready(function() {

@@ -7,12 +7,6 @@ body {
   background-color: white;
   font: normal 100% "Open Sans", sans-serif; }
 
-p > code {
-  border: 1px solid #dddddd;
-  background-color: #f8f8f8;
-  color: #626262;
-  padding: 1px 2px; }
-
 .highlight > pre {
   display: block;
   padding: 9.5px;
@@ -26,8 +20,14 @@ p > code {
   border: 1px solid #cccccc;
   border-radius: 4px; }
   .highlight > pre code {
-    color: inherit;
-    font-weight: normal; }
+    font-weight: normal;
+    color: inherit; }
+
+p > code {
+  border: 1px solid #dddddd;
+  background-color: #f8f8f8;
+  color: #626262;
+  padding: 1px 2px; }
 
 /* foundation top-bar modifications */
 .top-bar {
@@ -124,88 +124,43 @@ section.main {
   section.main table.unicode {
     min-width: 900px;
     margin-left: -140px; }
-  section.main #folio-top {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    section.main #folio-top:last-child {
-      margin-right: 0; }
-    section.main #folio-top h1 {
-      font-family: 'Abel', sans-serif;
-      font-weight: bolder;
-      font-size: 3em; }
-    section.main #folio-top p {
-      font-family: 'Abel', sans-serif;
-      font-size: 1.6em;
-      line-height: 1.4em; }
-  section.main #folio-mid {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    section.main #folio-mid:last-child {
-      margin-right: 0; }
-    section.main #folio-mid div.cv {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      section.main #folio-mid div.cv:last-child {
-        margin-right: 0; }
-    section.main #folio-mid div.contact {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      section.main #folio-mid div.contact:last-child {
-        margin-right: 0; }
-    section.main #folio-mid img.contact {
-      background: white;
-      border-radius: 3px;
-      -moz-border-radius: 3px;
-      -webkit-border-radius: 3px; }
-  section.main #folio-overview {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    section.main #folio-overview:last-child {
-      margin-right: 0; }
-    section.main #folio-overview .project {
-      margin-top: 20px;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      section.main #folio-overview .project:last-child {
-        margin-right: 0; }
-      section.main #folio-overview .project:nth-child(3n) {
-        margin-right: 0; }
-      section.main #folio-overview .project:nth-child(3n+1) {
-        clear: left; }
-      section.main #folio-overview .project h2 {
-        padding-top: 2em;
-        padding-bottom: 1em;
-        text-transform: uppercase;
-        font-family: "Open Sans Condensed", sans-serif; }
-      section.main #folio-overview .project h3 {
-        font-family: "Open Sans Condensed", sans-serif; }
-        section.main #folio-overview .project h3 span.label {
-          line-height: 150%;
-          vertical-align: middle; }
-      section.main #folio-overview .project .thumbnail > a > img {
-        height: 180px;
-        border-bottom: 1px solid #9b9b9b;
-        border-radius: 3px 3px 0 0;
-        -moz-border-radius: 3px 3px 0 0;
-        -webkit-border-radius: 3px 3px 0 0;
-        opacity: 0.9;
-        transition: all 0.3s ease-in-out 0s;
-        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2); }
-      section.main #folio-overview .project .thumbnail {
-        position: relative;
-        height: 350px; }
-        section.main #folio-overview .project .thumbnail .buttons {
-          position: absolute;
-          bottom: 0; }
+  section.main #folio-top h1 {
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    font-size: 3em; }
+  section.main #folio-top p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.4em; }
+  section.main #folio-mid img.contact {
+    background: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  section.main #folio-overview .project {
+    margin-top: 20px; }
+    section.main #folio-overview .project h2 {
+      padding-top: 2em;
+      padding-bottom: 1em;
+      text-transform: uppercase;
+      font-family: "Open Sans Condensed", sans-serif; }
+    section.main #folio-overview .project h3 {
+      font-family: "Open Sans Condensed", sans-serif; }
+      section.main #folio-overview .project h3 span.label {
+        line-height: 150%;
+        vertical-align: middle; }
+    section.main #folio-overview .project .thumbnail > a > img {
+      height: 180px;
+      border-bottom: 1px solid #9b9b9b;
+      border-radius: 3px 3px 0 0;
+      -moz-border-radius: 3px 3px 0 0;
+      -webkit-border-radius: 3px 3px 0 0;
+      opacity: 0.9;
+      transition: all 0.3s ease-in-out 0s;
+      box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2); }
+    section.main #folio-overview .project .thumbnail {
+      position: relative;
+      height: 350px; }
+      section.main #folio-overview .project .thumbnail .buttons {
+        position: absolute;
+        bottom: 0; }

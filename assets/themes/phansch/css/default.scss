@@ -1,0 +1,234 @@
+@import 'bourbon/bourbon';
+@import 'grid-settings';
+@import 'neat/neat';
+
+$font-stack: "Open Sans", sans-serif;
+$font-stack-secondary: "Open Sans Condensed", sans-serif;
+$primary-color: #ffffff;
+$text-color: #626262;
+$link-color: rgb(87, 163, 232);
+$link-hover: #808080;
+
+
+body {
+  background-color: $primary-color;
+  font: normal 100% $font-stack;
+}
+
+p > code {
+  border: 1px solid #dddddd;
+  background-color: #f8f8f8;
+  color: $text-color;
+  padding: 1px 2px;
+}
+
+.highlight > pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0px 0px 10px;
+  font-size: 13px;
+  line-height: 1.42857;
+  color: rgb(51, 51, 51);
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  code {
+    color: inherit;
+    font-weight: normal;
+  }
+}
+
+/* foundation top-bar modifications */
+.top-bar {
+  background: url('../images/bg-top.png');
+
+  .left > li a,
+  .title-area > li a {
+    font-family: $font-stack-secondary;
+    color: $primary-color;
+    text-transform: uppercase;
+    transition: color 0.1s ease 0s;
+    background: url('../images/bg-top.png');
+  }
+
+  .top-bar-section {
+    margin: 0 auto;
+    li.active:not(.has-form) a:not(.button),
+    li.active:not(.has-form) a:hover:not(.button) {
+      color: $text-color;
+      background: $primary-color;
+    }
+
+    ul,
+    li:not(.has-form) a:not(.button),
+    li:not(.has-form) a:hover:not(.button) {
+      background: url('../images/bg-top.png');
+    }
+  }
+}
+
+.top-bar.expanded {
+  .top-bar-section li.active:not(.has-form) a:not(.button), 
+  .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+    color: $text-color;
+    background: $primary-color;
+  }
+
+  ul.title-area {
+    background: url('../images/bg-top.png');
+  }
+}
+
+.top-bar .top-bar-section > .left > li > a {
+  font-size: 16px;
+}
+.top-bar .title-area li h1 {
+  font-size: 20px;
+}
+.top-bar .top-bar-brand:hover,
+.top-bar .top-bar-brand:focus {
+  color: $primary-color;
+}
+
+section.main {
+  @include outer-container;
+  margin-top: 2em;
+  padding: 0 2em;
+
+  article {
+    @include span-columns(12);
+    font-size: 1.1em;
+    line-height: 1.5em;
+
+    .comment_look {
+      font-size: 1.1em;
+      font-family: "Ubuntu Mono";
+      color: #93a1a1;
+    }
+    .comment_look:before {
+      content: "# ";
+    }
+  }
+
+  a.body-text {
+    color: $text-color;
+    &:hover { color: $text-color; }
+  }
+  h1 {
+    font-family: $font-stack-secondary;
+    font-size: 2.3em;
+    a, a:hover, a:focus {
+      text-decoration: none;
+      color: #626262;
+    }
+  }
+  h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+  }
+  hr {
+    border-color: #eeeeee;
+  }
+  span.bg-green {
+    background: #8BBF65;
+  }
+  span.bg-orange {
+    background: #FFBA59;
+  }
+  span.bg-blue {
+    background: #66B1FF;
+  }
+  span.bg-pink {
+    background: #F58377;
+  }
+  p.unicode,
+  .unicode td {
+    font-size: 16px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  }
+  table.unicode {
+    min-width: 900px;
+    margin-left: -140px;
+  }
+
+  #folio-top {
+    @include span-columns(12);
+
+    h1 {
+      font-family: 'Abel', sans-serif;
+      font-weight: bolder;
+      font-size: 3em;
+    }
+    p {
+      font-family: 'Abel', sans-serif;
+      font-size: 1.6em;
+      line-height: 1.4em;
+    }
+
+  }
+
+  #folio-mid {
+    @include span-columns(12);
+
+    div.cv {
+      @include span-columns(6 of 12);
+    }
+    div.contact {
+      @include span-columns(6 of 12);
+    }
+
+    img.contact {
+      background: white;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+    }
+  }
+
+  #folio-overview {
+    @include span-columns(12);
+
+    .project {
+      margin-top: 20px;
+      @include span-columns(6 of 12);
+      @include omega(3n);
+
+      h2 {
+        padding-top: 2em;
+        padding-bottom: 1em;
+        text-transform: uppercase;
+        font-family: $font-stack-secondary;
+      }
+
+      h3 {
+        font-family: $font-stack-secondary;
+        span.label {
+          line-height: 150%;
+          vertical-align: middle;
+        }
+      }
+
+      .thumbnail > a > img {
+        height: 180px;
+        border-bottom: 1px solid #9b9b9b;
+        border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        -webkit-border-radius: 3px 3px 0 0;
+        opacity: 0.9;
+        transition: all 0.3s ease-in-out 0s;
+        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .thumbnail {
+        position: relative;
+        height: 350px;
+        .buttons {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}

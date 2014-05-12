@@ -3,151 +3,97 @@ layout: default
 title: Portfolio
 ---
 <div id="folio-top">
-  <div class="container">
-    <div id="tagline">
-      <h1>Hello, I'm a Ruby Developer.</h1>
-      <p>I am currently looking for a Junior position as a Ruby on Rails Developer.<br /><br />This is my portfolio. I'm showcasing my programming projects here.<br />
-      Feel free to take a look at my <a title="My blog" href="http://phansch.net/archive/">writings</a> and <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf">resumé</a> as well.</p>
-      <button id="jump" class="btn btn-lg">Check out my portfolio below <span class="glyphicon glyphicon-chevron-right"></span></button>
-    </div>
+  <div id="tagline">
+    <h1>Hello, I'm a Ruby Developer.</h1>
+    <p>This is my portfolio. I'm showcasing my programming projects here. Feel free to take a look at my <a title="My blog" href="http://phansch.net/archive/">writings</a> and <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf">resumé</a> as well.</p>
   </div>
 
 </div>
 
 <div id="folio-mid">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-sm-12">
-        <h2><span class="glyphicon glyphicon-star"></span> GitHub</h2>
-        <p>All my personal projects are open-source and maintained on GitHub. Feel free to clone any of them. Pull requests are welcome as well.</p>
-      </div>
-      <div class="col-lg-4 col-sm-12">
-        <h2><span class="glyphicon glyphicon-folder-open"></span> &nbsp;Resumè / CV</h2>
-        <p>
-          <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf" class="btn btn-primary btn-lg">English</a>
-          <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume-de.pdf" class="btn btn-primary btn-lg">German</a>
-        </p>
-      </div>
-      <div class="col-lg-4 col-sm-12">
-        <h2><span class="glyphicon glyphicon-user"></span> Contact</h2>
-          <ul class="list-unstyled">
-            <li style="margin-bottom:2px;">
-              <img src="/assets/themes/phansch/images/glyphicons_social_e-mail.png" alt="e-mail" class="contact" />
-              <a href="mailto:desk@phansch.net">desk@phansch.net</a>
-            </li>
-            <li>
-              <img src="/assets/themes/phansch/images/glyphicons_social_skype.png" alt="skype" class="contact" />
-              <a href="skype:philipp.hansch?userinfo">philipp.hansch</a>
-            </li>
-          </ul>
-          <p><br />
-
-      </div>
-    </div>
+  <div class="cv">
+    <h2>Resumè / CV</h2>
+    <p>
+    <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf" class="button">English</a>
+    <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume-de.pdf" class="button secondary">German</a>
+    </p>
+  </div>
+  <div class="contact">
+    <h2>Contact</h2>
+    <ul class="no-bullet">
+      <li>
+      <a href="mailto:hi@phansch.net">desk@phansch.net</a>
+      </li>
+      <li>
+      Skype: <a href="skype:philipp.hansch?userinfo">philipp.hansch</a>
+      </li>
+    </ul>
   </div>
 </div>
 
-
 <div id="folio-overview">
-  <div class="container">
+  <h2 class="text-left">Ruby</h2>
 
-    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Ruby</h2>
-
-    <div class="row">
-      {% for page in site.pages %}
-        {% if page.scope == "portfolio" and page.category == "ruby" %}
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <a href="{{page.url}}">
-                <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
-              </a>
-              <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
-              <p>{{page.subtitle}}</p>
-              <div class="tech">
-                {% for technology in page.used %}
-                <span class="label label-primary">{{ technology }}</span><br />
-                {% endfor %}
-              </div>
-              <div class="buttons">
-                <a href="{{ page.url }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</a>
-                {% if page.exe %}
-                <a href="{{ page.exe }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</a>
-                {% else %}
-                <a href="#" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</a>
-                {% endif %}
-                <a href="http://github.com/phansch/{{ page.github }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</a>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+    {% for page in site.pages %}
+    {% if page.scope == "portfolio" and page.category == "ruby" %}
+    <div class="project">
+      <div class="thumbnail">
+        <a href="{{page.url}}">
+          <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
+        </a>
+        <h3>{{page.title}}{% if page.new %} <span class="label">New</span>{% endif %}</h3>
+        <p>{{page.subtitle}}</p>
+        <div class="buttons">
+          <a href="{{ page.url }}" class="button tiny">More information</a>
+          <a href="http://github.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
+        </div>
+      </div>
     </div>
+    {% endif %}
+    {% endfor %}
+<hr />
+  <!-- misc -->
+  <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Miscellaneous</h2>
 
-    <!-- misc -->
-    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Miscellaneous</h2>
-
-    <div class="row">
-      {% for page in site.pages %}
-        {% if page.scope == "portfolio" and page.category == "misc" %}
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <a href="{{page.url}}">
-                <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
-              </a>
-              <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
-              <p>{{page.subtitle}}</p>
-              <div class="tech">
-                {% for technology in page.used %}
-                <span class="label label-primary">{{ technology }}</span><br />
-                {% endfor %}
-              </div>
-              <div class="buttons">
-                <a href="{{ page.url }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</a>
-                {% if page.exe %}
-                <a href="{{ page.exe }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</a>
-                {% else %}
-                <a href="#" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</a>
-                {% endif %}
-                <a href="http://github.com/phansch/{{ page.github }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</a>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+    {% for page in site.pages %}
+    {% if page.scope == "portfolio" and page.category == "misc" %}
+    <div class="project">
+      <div class="thumbnail">
+        <a href="{{page.url}}">
+          <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
+        </a>
+        <h3>{{page.title}}{% if page.new %} <span class="label">New</span>{% endif %}</h3>
+        <p>{{page.subtitle}}</p>
+        <div class="buttons">
+          <a href="{{ page.url }}" class="button tiny">More information</a>
+          <a href="http://github.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
+        </div>
+      </div>
     </div>
+    {% endif %}
+    {% endfor %}
+<hr />
+  <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span>Games</h2>
 
-    <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span>Games</h2>
-
-    <div class="row">
-      {% for page in site.pages %}
-        {% if page.scope == "portfolio" and page.category == "games" %}
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <a href="{{page.url}}">
-                <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
-              </a>
-              <h3>{{page.title}}{% if page.new %} <span class="label label-primary">New</span>{% endif %}</h3>
-              <p>{{page.subtitle}}</p>
-              <div class="tech">
-                {% for technology in page.used %}
-                <span class="label label-primary">{{ technology }}</span><br />
-                {% endfor %}
-              </div>
-              <div class="buttons">
-                <a href="{{ page.url }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"></span> More information</a>
-                {% if page.exe %}
-                <a href="{{ page.exe }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"></span> .exe</a>
-                {% else %}
-                <a href="#" class="btn btn-default btn-sm disabled"><span class="glyphicon glyphicon-save"></span> .exe</a>
-                {% endif %}
-                <a href="http://github.com/phansch/{{ page.github }}" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"></span> GitHub</a>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+    {% for page in site.pages %}
+    {% if page.scope == "portfolio" and page.category == "games" %}
+    <div class="project">
+      <div class="thumbnail">
+        <a href="{{page.url}}">
+          <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
+        </a>
+        <a href="{{page.url}}">
+          <h3>{{page.title}}{% if page.new %} <span class="label">New</span>{% endif %}</h3>
+        </a>
+        <p>{{page.subtitle}}</p>
+        <div class="buttons">
+          <a href="{{ page.url }}" class="button tiny">More information</a>
+          <a href="http://github.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
+        </div>
+      </div>
     </div>
-  </div>
+    {% endif %}
+    {% endfor %}
 </div>
 
 
