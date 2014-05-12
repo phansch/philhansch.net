@@ -9,7 +9,6 @@ $text-color: #626262;
 $link-color: rgb(87, 163, 232);
 $link-hover: #808080;
 
-
 body {
   background-color: $primary-color;
   font: normal 100% $font-stack;
@@ -107,9 +106,14 @@ section.main {
       font-family: "Ubuntu Mono";
       color: #93a1a1;
     }
+
     .comment_look:before {
       content: "# ";
     }
+  }
+
+  ul.archive {
+    margin-left: 20px;
   }
 
   a.body-text {
@@ -228,6 +232,31 @@ section.main {
           position: absolute;
           bottom: 0;
         }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  #footer-content {
+    padding-top: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    line-height: 160%;
+    margin: 0px auto;
+    p {
+      font-size: 13px;
+      letter-spacing: 4px;
+      font-family: Helvetica, sans-serif;
+      color: #666666;
+      a {
+        color: #808080;
+        text-decoration: none;
+        &:hover { color: #57a3e8; }
       }
     }
   }

@@ -30,12 +30,14 @@ body {
     color: inherit;
   }
 }
+
 p > code {
   border: 1px solid #dddddd;
   background-color: #f8f8f8;
   color: $text-color;
   padding: 1px 2px;
 }
+
 /* foundation top-bar modifications */
 .top-bar {
   background: url('../images/bg-top.png');
@@ -103,9 +105,14 @@ section.main {
       font-family: "Ubuntu Mono";
       color: #93a1a1;
     }
+
     .comment_look:before {
       content: "# ";
     }
+  }
+
+  ul.archive {
+    margin-left: 20px;
   }
 
   a.body-text {
@@ -209,6 +216,31 @@ section.main {
           position: absolute;
           bottom: 0;
         }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  #footer-content {
+    padding-top: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    line-height: 160%;
+    margin: 0px auto;
+    p {
+      font-size: 13px;
+      letter-spacing: 4px;
+      font-family: Helvetica, sans-serif;
+      color: #666666;
+      a {
+        color: #808080;
+        text-decoration: none;
+        &:hover { color: #57a3e8; }
       }
     }
   }

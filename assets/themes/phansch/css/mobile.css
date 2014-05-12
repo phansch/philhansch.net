@@ -94,6 +94,8 @@ section.main {
       color: #93a1a1; }
     section.main article .comment_look:before {
       content: "# "; }
+  section.main ul.archive {
+    margin-left: 20px; }
   section.main a.body-text {
     color: #626262; }
     section.main a.body-text:hover {
@@ -164,3 +166,24 @@ section.main {
       section.main #folio-overview .project .thumbnail .buttons {
         position: absolute;
         bottom: 0; }
+
+footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px; }
+  footer #footer-content {
+    padding-top: 10px;
+    border-top: 1px solid white;
+    text-align: center;
+    line-height: 160%;
+    margin: 0px auto; }
+    footer #footer-content p {
+      font-size: 13px;
+      letter-spacing: 4px;
+      font-family: Helvetica, sans-serif;
+      color: #666666; }
+      footer #footer-content p a {
+        color: #808080;
+        text-decoration: none; }
+        footer #footer-content p a:hover {
+          color: #57a3e8; }
