@@ -1,0 +1,61 @@
+  -
+    title: "The Design of Everyday Things"
+    author: "Don Norman"
+    pages: "368"
+  -
+    title: "Rails 4 in Action"
+    author: "Ryan Biggs, Yehuda Katz and Steve Klabnik"
+    pages: "600"
+  -
+    title: "The Pragmatic Programmer"
+    author: "Andrew Hunt and David Thomas"
+    pages: "300"
+  -
+    title: "JavaScript: The Good Parts"
+    author: "Douglas Crockford"
+    pages: "172"
+  -
+    title: "Refactoring"
+    author: "Martin Fowler"
+    pages: "431"
+  -
+    title: "Practical Object Oriented Design in Ruby"
+    readDate: "May 2014"
+    author: "Sandi Metz"
+    pages: "247"
+  -
+    title: "The Passionate Programmer"
+    readDate: "Feb 2014"
+    author: "Chad Fowler"
+    pages: "232"
+  -
+    title: "Rails Anti Patterns"
+    readDate: "Feb 2014"
+    author: "Chad Pytel"
+    pages: "400"
+  -
+    title: "Design Patterns in Ruby"
+    readDate: "Jan 2014"
+    author: "Russ Olsen"
+    pages: "386"
+  -
+    title: "Apprenticeship Patterns"
+    readDate: "Jan 2014"
+    author: "Dave Hoover"
+    pages: "166"
+  -
+    title: "Cybersexism"
+    readDate: "Dec 2013"
+    author: "Laurie Penny"
+    pages: "42"
+  -
+    title: "Beginning DirectX 10 Game Programming"
+    readDate: "2011"
+    author: "Wendy Jones"
+    pages: "367"
+  -
+    title: "Code Complete"
+    readDate: "2010"
+    author: "Steve McConnell"
+    pages: "940"
+
