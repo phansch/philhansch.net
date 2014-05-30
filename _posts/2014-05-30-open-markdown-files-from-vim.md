@@ -18,7 +18,7 @@ Now, there's one thing that is getting in the way: You still have to press enter
   :silent execute "!sensible-browser %"
 {% endhighlight %}
 
-This should work on most systems. However if your vim turns blank when executing your command, you will have to force a redraw afterwards with `:redraw!`. You could also hit CTRL+L achieve the same thing, however we can use `:redraw!` in combination with the other command:
+This should work on most systems. However if your vim turns blank when executing your command, you will have to force a redraw afterwards with `:redraw!`. You could also hit CTRL+L to achieve the same thing, however we can use `:redraw!` in combination with the other command:
 
 {% highlight vim %}
 function! OpenCurrentFileInBrowser()
