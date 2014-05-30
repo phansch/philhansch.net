@@ -20,9 +20,14 @@
     pages: "431"
   -
     title: "Practical Object Oriented Design in Ruby"
-    readDate: "May 2014"
+    readDate: "May/June 2014"
     author: "Sandi Metz"
     pages: "247"
+  -
+    title: "Jump Start JavaScript"
+    readDate: "May 2014"
+    author: "Ara Pehlivanian and Don Nguyen"
+    pages: "184"
   -
     title: "The Passionate Programmer"
     readDate: "Feb 2014"
