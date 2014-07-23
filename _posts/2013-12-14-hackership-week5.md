@@ -14,7 +14,7 @@ Firstly, I started using vim this week. I got sick of having to use the mouse a 
 Another thing you might have noticed are the changes to the website. There's a new background color and the homepage has changed as well. It now shows the estimated reading time for each blog post. The website itself now also uses a slightly bigger font.
 
 
-To start off the week, I started  working on my [CV/Resumè](https://github.com/phansch/latex-resume/blob/master/resume.pdf?raw=true) on **Monday** to prepare for the mock interviews the next day.
+To start off the week, I started  working on my [CV/Resumè](https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf) on **Monday** to prepare for the mock interviews the next day.
 
 
 On **Tuesday**, I worked on the frontend part of my project. I managed to have the teaching text display only on one line and hide words that are outside of the box-width.

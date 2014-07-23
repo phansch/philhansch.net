@@ -9,7 +9,7 @@ I can't believe how fast the time flew by during Hackership. It is almost holida
 
 On **Monday** I began to setup devise. I wanted to move to devise at some point because it also comes with its own mailing system. This way I don't have to figure out too many things at once. Setting up devise went more smoothly than I anticipated. However there were a lot of failing test - leftovers from the railstutorial. Some of them were still useful. But most of the test cases are now covered by devise.
 
-Sadly I had to stay home on **Tuesday** because I didn't feel very good. I spent a lot of time on Typeracer to further improve my typing speed. I also changed a few vim shortcuts to make things easier. (Feel free to check out my [.vimrc](https://github.com/phansch/dotfiles/blob/master/vimrc)!). I also managed to get devise working properly but still had a few failing tests.
+Sadly I had to stay home on **Tuesday** because I didn't feel very good. I spent a lot of time on Typeracer to further improve my typing speed. I also changed a few vim shortcuts to make things easier. (Feel free to check out my [.vimrc](https://gitlab.com/phansch/dotfiles/blob/master/vimrc)!). I also managed to get devise working properly but still had a few failing tests.
 
 Luckily I didn't catch the flu, so I was back on **Wednesday**. I got a lot of stuff done on Wednesday. The first half of the day I worked on fixing the rest of the failing tests for devise. When I was done with that, it was time for our last Rails Q&A. This time we talked about how to connect your Rails application to an external web service. We actually set up a basic proxy API with the [Wordnik service](http://developer.wordnik.com/).
 

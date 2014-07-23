@@ -18,7 +18,7 @@ Due to that I cut down on a lot of stuff I was going to do with PiDefender. Here
 
 Did I mention that I switched to Linux Mint + [dwm](http://dwm.suckless.org/)? This made me realize that the game crashes on Linux. So far, I didn't really investigate the crash, but I honestly have no clue why that happens. It's running fine on Windows and LÖVE claims to work on Windows, Mac OS X and Linux. 
 
-That's also the reason why there is no download this week. However, if you feel adventurous, you can still [download the source](https://github.com/phansch/PiDefender/archive/master.zip), .zip it, rename it to .love and run it. (Make sure that main.lua is at the root of the .zip file)
+That's also the reason why there is no download this week. However, if you feel adventurous, you can still [download the source](https://gitlab.com/phansch/pidefender/repository/archive.zip?ref=master), .zip it, rename it to .love and run it. (Make sure that main.lua is at the root of the .zip file)
 
 ## What's left to do ##
 

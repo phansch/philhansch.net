@@ -8,7 +8,7 @@ excerpt: "A recap of my first Ludum Dare game jam."
 This was my first time participating in a game jam. The jam was a blast, although I didn't like the theme: You are the villian. I spent the first hour brainstorming ideas for the theme and ended with a space shooter where you shoot at defenseless transport ships.
 
 
-[The source](https://github.com/phansch/ludumdare25), [the timelapse](http://www.youtube.com/watch?v=eX7fsD3Hbmc). I didn't publish a playable version, yet. You can get it from github and swap out the music that's missing, to make it run.
+[The source](https://gitlab.com/phansch/ludumdare25/tree/master), [the timelapse](http://www.youtube.com/watch?v=eX7fsD3Hbmc). I didn't publish a playable version, yet. You can get it from github and swap out the music that's missing, to make it run.
 
 <a href="/assets/images/posts/2012-12-26-ludum-dare-25-post-mortem/ld25screenshot1.png"><img class="screenshot" src="/assets/images/posts/2012-12-26-ludum-dare-25-post-mortem/ld25screenshot1.png" width="310" alt="screenshot" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/assets/images/posts/2012-12-26-ludum-dare-25-post-mortem/ld25screenshot2.png"><img class="screenshot" src="/assets/images/posts/2012-12-26-ludum-dare-25-post-mortem/ld25screenshot2.png" width="310" alt="screenshot" /></a>
 

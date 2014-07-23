@@ -3,7 +3,7 @@ title: Getting started with open source
 layout: post
 excerpt: Last week I started working on open source projects. Here's what I learned
 ---
-If you take a look at my [repositories](https://github.com/phansch?tab=repositories), you will see that a majority of them are small projects. Working on your own projects can teach you a lot, but working with others can teach you even more. You can learn a lot by reading someone elses code. I wanted to do this for some time now and last week I actually started doing that.
+If you take a look at my [repositories](https://gitlab.com/u/phansch), you will see that a majority of them are small projects. Working on your own projects can teach you a lot, but working with others can teach you even more. You can learn a lot by reading someone elses code. I wanted to do this for some time now and last week I actually started doing that.
 
 I thought about contributing to open source for some time now, but never did because most project were too intimidating. If that sounds familiar, then I might be able to give you some advice on starting out.
 

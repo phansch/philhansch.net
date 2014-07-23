@@ -71,4 +71,4 @@ And then you quickly get used to the patterns with your project specific setting
 
 I encourage you to give tmux and tmuxinator a try. If you happen to run into problems, feel free to leave a comment and I will see what I can do.
 
-You can find my whole .tmux.conf [here](https://github.com/phansch/dotfiles/blob/master/tmux.conf). Additionally some of my tmuxinator configuration files are located [here](https://github.com/phansch/dotfiles/tree/master/tmuxinator).
+You can find my whole .tmux.conf [here](https://gitlab.com/phansch/dotfiles/blob/master/tmux.conf). Additionally some of my tmuxinator configuration files are located [here](https://gitlab.com/phansch/dotfiles/tree/master/tmuxinator).
