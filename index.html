@@ -10,9 +10,9 @@ auto: false
     <br />
 
     <p class="comment_look">
-    <a href="{{post.url}}">Read more</a> &sdot;
-    {% assign string = post %}
-    {% include JB/time_to_read %}
+      # <a href="{{ post.url }}">Read more</a> &sdot;
+      {% assign string = post %}
+      {% include JB/time_to_read %}
     </p>
     {% if forloop.last != true %}<hr />{% endif %}
   </article>

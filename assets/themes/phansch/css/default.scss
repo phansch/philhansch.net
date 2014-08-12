@@ -101,17 +101,61 @@ section.main {
 
   article {
     @include span-columns(12);
+
     font-size: 1.1em;
     line-height: 1.5em;
+
+    h1 {
+      font-family: $font-stack-secondary;
+      font-size: 2.3em;
+      a, a:hover, a:focus {
+        text-decoration: none;
+        color: #626262;
+      }
+    }
+
+    h2 {
+      font-family: $font-stack-secondary;
+      font-size: 1.8em;
+      font-weight: 400;
+      a, a:hover, a:focus {
+        text-decoration: none;
+        color: #626262;
+      }
+    }
+
+    hr {
+      border-color: #eeeeee;
+    }
+
+    .article-preview-image {
+      float: left;
+      margin-right: 1em;
+      margin-bottom: 1em;
+
+      > a > img {
+        height: 180px;
+        width: 250px;
+        border-bottom: 1px solid #9b9b9b;
+        border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        -webkit-border-radius: 3px 3px 0 0;
+        opacity: 0.9;
+        transition: all 0.3s ease-in-out 0s;
+        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .article-preview-text {
+      .buttons {
+        margin-top: 1em;
+      }
+    }
 
     .comment_look {
       font-size: 1.1em;
       font-family: "Ubuntu Mono";
       color: #93a1a1;
-    }
-
-    .comment_look:before {
-      content: "# ";
     }
   }
 
@@ -122,21 +166,6 @@ section.main {
   a.body-text {
     color: $text-color;
     &:hover { color: $text-color; }
-  }
-  h1 {
-    font-family: $font-stack-secondary;
-    font-size: 2.3em;
-    a, a:hover, a:focus {
-      text-decoration: none;
-      color: #626262;
-    }
-  }
-  h2 {
-    font-size: 1.8em;
-    font-weight: 400;
-  }
-  hr {
-    border-color: #eeeeee;
   }
   span.bg-green {
     background: #8BBF65;
@@ -179,6 +208,9 @@ section.main {
   #folio-mid {
     @include span-columns(12);
 
+    border-bottom: 2px solid #eeeeee;
+    margin-bottom: 2em;
+
     div.cv {
       @include span-columns(6 of 12);
     }
@@ -196,47 +228,6 @@ section.main {
 
   #folio-overview {
     @include span-columns(12);
-
-    .project {
-      margin-top: 20px;
-      @include span-columns(6 of 12);
-      @include omega(3n);
-
-      h2 {
-        padding-top: 2em;
-        padding-bottom: 1em;
-        text-transform: uppercase;
-        font-family: $font-stack-secondary;
-      }
-
-      h3 {
-        font-family: $font-stack-secondary;
-        span.label {
-          line-height: 150%;
-          vertical-align: middle;
-        }
-      }
-
-      .thumbnail > a > img {
-        height: 180px;
-        border-bottom: 1px solid #9b9b9b;
-        border-radius: 3px 3px 0 0;
-        -moz-border-radius: 3px 3px 0 0;
-        -webkit-border-radius: 3px 3px 0 0;
-        opacity: 0.9;
-        transition: all 0.3s ease-in-out 0s;
-        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
-      }
-
-      .thumbnail {
-        position: relative;
-        height: 350px;
-        .buttons {
-          position: absolute;
-          bottom: 0;
-        }
-      }
-    }
   }
 }
 

@@ -5,7 +5,7 @@ title: Portfolio
 <div id="folio-top">
   <div id="tagline">
     <h1>Hello, I'm a Ruby Developer.</h1>
-    <p>This is my portfolio. I'm showcasing my programming projects here. Feel free to take a look at my <a title="My blog" href="https://phansch.net/archive/">writings</a> and <a href="httpss://gitlab.com/phansch/latex-resume/raw/master/resume.pdf">resumé</a> as well.</p>
+    <p>This is my portfolio. I'm showcasing my programming projects here. Feel free to take a look at my <a title="My blog" href="http://phansch.net/archive/">writings</a> and <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf">resumé</a> as well.</p>
   </div>
 
 </div>
@@ -14,88 +14,93 @@ title: Portfolio
   <div class="cv">
     <h2>Resumè / CV</h2>
     <p>
-    <a href="httpss://gitlab.com/phansch/latex-resume/raw/master/resume.pdf" class="button">English</a>
-    <a href="httpss://gitlab.com/phansch/latex-resume/raw/master/resume-de.pdf" class="button secondary">German</a>
+    <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume.pdf" class="button">English</a>
+    <a href="https://gitlab.com/phansch/latex-resume/raw/master/resume-de.pdf" class="button secondary">German</a>
     </p>
   </div>
   <div class="contact">
     <h2>Contact</h2>
     <ul class="no-bullet">
       <li>
-      <a href="mailto:hi@phansch.net">desk@phansch.net</a>
+      <a href="mailto:hi@phansch.net">hi@phansch.net</a>
       </li>
       <li>
       Skype: <a href="skype:philipp.hansch?userinfo">philipp.hansch</a>
+      </li>
+      <li>
+      Mobile: +49 (151) 578 009 76
       </li>
     </ul>
   </div>
 </div>
 
-<div id="folio-overview">
-  <h2 class="text-left">Ruby</h2>
+{% for page in site.pages %}
+  {% if page.scope == "portfolio" and page.category == "ruby" %}
 
-    {% for page in site.pages %}
-    {% if page.scope == "portfolio" and page.category == "ruby" %}
-    <div class="project">
-      <div class="thumbnail">
-        <a href="{{page.url}}">
-          <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
-        </a>
-        <h3>{{page.title}}{% if page.new %} <span class="label">New</span>{% endif %}</h3>
-        <p>{{page.subtitle}}</p>
-        <div class="buttons">
-          <a href="{{ page.url }}" class="button tiny">More information</a>
-          <a href="httpss://gitlab.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
-        </div>
+  <article>
+    <div class="article-preview-image">
+      <a href="{{ page.url }}">
+        <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot">
+      </a>
+    </div>
+    <div class="article-preview-text">
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a>
+      <br />
+
+      <div class="buttons">
+        <a href="{{ page.url }}" class="button tiny">More information</a>
+        <a href="https://gitlab.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
       </div>
     </div>
-    {% endif %}
-    {% endfor %}
-<hr />
-  <!-- misc -->
-  <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span> Miscellaneous</h2>
+    {% if forloop.last != true %}<hr />{% endif %}
+  </article>
 
-    {% for page in site.pages %}
-    {% if page.scope == "portfolio" and page.category == "misc" %}
-    <div class="project">
-      <div class="thumbnail">
-        <a href="{{page.url}}">
-          <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
-        </a>
-        <h3>{{page.title}}{% if page.new %} <span class="label">New</span>{% endif %}</h3>
-        <p>{{page.subtitle}}</p>
-        <div class="buttons">
-          <a href="{{ page.url }}" class="button tiny">More information</a>
-          <a href="https://gitlab.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
-        </div>
+  {% endif %}
+  {% endfor %}
+
+  {% for page in site.pages %}
+  {% if page.scope == "portfolio" and page.category == "misc" %}
+  <article>
+    <div class="article-preview-image">
+      <a href="{{ page.url }}">
+        <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot">
+      </a>
+    </div>
+    <div class="article-preview-text">
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a>
+      <br />
+
+      <div class="buttons">
+        <a href="{{ page.url }}" class="button tiny">More information</a>
+        <a href="https://gitlab.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
       </div>
     </div>
-    {% endif %}
-    {% endfor %}
-<hr />
-  <h2 class="text-left"><span class="glyphicon glyphicon-chevron-right"></span>Games</h2>
+    {% if forloop.last != true %}<hr />{% endif %}
+  </article>
+  {% endif %}
+  {% endfor %}
 
-    {% for page in site.pages %}
-    {% if page.scope == "portfolio" and page.category == "games" %}
-    <div class="project">
-      <div class="thumbnail">
-        <a href="{{page.url}}">
-          <img class="thumb" src="{{page.thumbnail}}" alt="Screenshot">
-        </a>
-        <a href="{{page.url}}">
-          <h3>{{page.title}}{% if page.new %} <span class="label">New</span>{% endif %}</h3>
-        </a>
-        <p>{{page.subtitle}}</p>
-        <div class="buttons">
-          <a href="{{ page.url }}" class="button tiny">More information</a>
-          <a href="https://gitlab.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
-        </div>
+  {% for page in site.pages %}
+  {% if page.scope == "portfolio" and page.category == "games" %}
+  <article>
+    <div class="article-preview-image">
+      <a href="{{ page.url }}">
+        <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot">
+      </a>
+    </div>
+    <div class="article-preview-text">
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a>
+      <br />
+
+      <div class="buttons">
+        <a href="{{ page.url }}" class="button tiny">More information</a>
+        <a href="https://gitlab.com/phansch/{{ page.github }}" class="button secondary tiny">Source</a>
       </div>
     </div>
-    {% endif %}
-    {% endfor %}
-</div>
-
-
-
-
+    {% if forloop.last != true %}<hr />{% endif %}
+  </article>
+  {% endif %}
+  {% endfor %}
