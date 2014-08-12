@@ -136,13 +136,12 @@ section.main {
       > a > img {
         height: 180px;
         width: 250px;
-        border-bottom: 1px solid #9b9b9b;
-        border-radius: 3px 3px 0 0;
-        -moz-border-radius: 3px 3px 0 0;
-        -webkit-border-radius: 3px 3px 0 0;
-        opacity: 0.9;
-        transition: all 0.3s ease-in-out 0s;
-        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(216, 216, 216, 1);
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        opacity: 1;
+        @include transition (opacity 0.3s ease-out 0s);
       }
     }
 
