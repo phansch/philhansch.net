@@ -14,13 +14,8 @@ This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a
 
 Development of changes or new features happens in different branches, depending on the task. Before a change makes it to the actual website, it is tested on a local jekyll server.
 
-**Statistics: **
-
-* [Network graph](https://github.com/phansch/phansch.github.com/network)
-* [Contribution activity](https://github.com/phansch/phansch.github.com/contributors)
-* [Activity per day/hour](https://github.com/phansch/phansch.github.com/graphs/punch-card)
-
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight html %}

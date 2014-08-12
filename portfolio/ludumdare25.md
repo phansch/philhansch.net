@@ -21,6 +21,7 @@ Additionally I recorded a timelapse during the weekend which is available [here]
 > Ludum Dare is a regular accelerated game development Event.  Participants develop games from scratch in a weekend, based on a theme suggested by the community.
 
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight lua %}

@@ -11,9 +11,10 @@ screenshots: [/assets/images/portfolio/unarybricks/unarybricks-1.png, /assets/im
 used: [Lua, Love2D]
 ---
 
-A very basic Breakout clone. 
+A very basic Breakout clone.
 
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight lua %}

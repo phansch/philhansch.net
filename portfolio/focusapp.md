@@ -20,6 +20,7 @@ The project was my excuse to practice some Javascript as well as applying the pr
  * Remove task if it's older than 24 hours so that the user would no longer have to remove yesterday's task by hand.
 
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight javascript %}

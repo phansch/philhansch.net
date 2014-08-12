@@ -32,6 +32,7 @@ Adding a journal entry is as simple as:
 
 
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight ruby %}

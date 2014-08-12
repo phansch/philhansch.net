@@ -10,6 +10,7 @@ used: [Ruby, rspec]
 ---
 
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight ruby %}

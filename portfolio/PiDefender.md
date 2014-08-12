@@ -21,6 +21,7 @@ used: [Lua, Love2D]
 >Try not to get hit by enemy fire while killing as many as possible.
 
 <a id="snippets" class="anchor"></a>
+
 ## Code snippets
 
 {% highlight lua %}
