@@ -26,6 +26,7 @@ production_url : http://phansch.net
 
 sass:
   sass_dir: /assets/themes/phansch/css/_sass
+  style: :compressed
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
