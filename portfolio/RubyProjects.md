@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: RubyProjects
-github: Projects
+github: 100-projects
 subtitle: Trying to complete over 100 projects in various categories in Ruby.
 scope: portfolio
 category: ruby

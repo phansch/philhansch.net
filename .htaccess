@@ -1,0 +1,7 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^portfolio/index.html index.html
+RewriteRule ^portfolio/ index.html

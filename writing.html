@@ -1,0 +1,18 @@
+---
+layout: default
+title: Writing
+---
+{% for post in site.posts limit:5 %}
+  <article>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <a class="body-text" href="{{ post.url }}">{{ post.excerpt }}</a>
+    <br />
+
+    <p class="comment_look">
+      # <a href="{{ post.url }}">Read more</a> &sdot;
+      {% assign string = post %}
+      {% include JB/time_to_read %}
+    </p>
+    {% if forloop.last != true %}<hr />{% endif %}
+  </article>
+{% endfor %}

@@ -2,7 +2,8 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
+include: [".htaccess"]
+exclude: [".rvmrc", ".rbenv-version", "Rakefile", "README.md"]
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
