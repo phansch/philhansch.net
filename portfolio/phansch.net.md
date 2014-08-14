@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: phansch.net
-github: phansch-net
+source: "https://gitlab.com/phansch/phansch-net/tree/master"
 subtitle: My website and portfolio.
 scope: portfolio
 category: misc

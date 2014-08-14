@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: RubyProjects
-github: 100-projects
+source: "https://gitlab.com/phansch/100-projects/tree/master"
 subtitle: Trying to complete over 100 projects in various categories in Ruby.
 scope: portfolio
 category: ruby
@@ -11,7 +11,7 @@ used: [Ruby]
 
 I'm learning Ruby by trying to complete over 100 different projects in various categories.
 
-Check out the [README](https://github.com/phansch/Projects/blob/master/README.md) to see what projects are finished.
+Check out the [README](https://gitlab.com/phansch/100-projects/blob/master/README.md) to see what projects are finished.
 
 <a id="snippets" class="anchor"></a>
 
@@ -91,4 +91,4 @@ main
 {% endhighlight %}
 <span class="glyphicon glyphicon-chevron-right"></span> Automatically locates the user based on his IP address and fetches the current weather based on the determined location. 
 
-Check out the [GitHub repository](https://github.com/phansch/Projects) for more projects.
+Check out the [GitLab repository](https://gitlab.com/phansch/100-projects/tree/master) for more projects.

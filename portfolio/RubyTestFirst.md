@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: Ruby Test-First
-github: learn_ruby_solutions
+source: "https://gitlab.com/phansch/learn_ruby_solutions/tree/master"
 subtitle: Practicing test-driven development.
 scope: portfolio
 category: ruby

@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: Ludum Dare 25
-github: ludumdare25
+source: "https://gitlab.com/phansch/ludumdare25"
 subtitle: The entry for my first Ludum Dare game jam.
 exe: #
 scope: portfolio
@@ -13,7 +13,7 @@ used: [Lua, Love2D]
 
 This is the first game I made for the 25th Ludum Dare game jam. It is a very basic space shooter with a top-down view and a little story.
 
-Additionally I recorded a timelapse during the weekend which is available [here](http://www.youtube.com/watch?v=eX7fsD3Hbmc). There is also a [post mortem post](/2012/12/26/ludum-dare-25-post-mortem/) available on my blog.
+Additionally I recorded a timelapse during the weekend which is available [here](http://www.youtube.com/watch?v=eX7fsD3Hbmc). There is also a [post mortem post]({% post_url 2012-12-26-ludum-dare-25-post-mortem %}) available on my blog.
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: Jou
-github: Jou
+source: "https://github.com/phansch/jou"
 subtitle: My first published Rubygem.
 scope: portfolio
 category: ruby

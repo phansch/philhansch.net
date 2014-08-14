@@ -24,8 +24,8 @@ To run the game:
 </ul>
 </p>
 {% endif %}
-{% if page.github %}
+{% if page.source %}
 
-<h4><a href="http://github.com/phansch/{{ page.github }}">{{ page.title }} on GitHub</a></h4>
-Download the latest source or clone/fork the project on GitHub.
+<h4><a href="{{ page.source }}">{{ page.title }} on GitHub/GitLab</a></h4>
+Download the latest source or clone/fork the project from source control.
 {% endif %}

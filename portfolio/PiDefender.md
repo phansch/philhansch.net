@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: PiDefender
-github: pidefender
+source: "https://gitlab.com/phansch/pidefender/tree/master"
 subtitle: My January entry for One Game A Month 2013.
 exe: "/assets/dl/1GAM/Jan/PiDefender-Final.exe"
 love: "/assets/dl/1GAM/Jan/PiDefender-Final.love"
