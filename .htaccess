@@ -1,4 +1,4 @@
 RewriteEngine On
 
 RewriteRule ^portfolio/index.html / [R=301,L]
-RewriteRule ^portfolio/ / [R=301,L]
+RewriteRule ^portfolio/$ / [R=301,L]
