@@ -3,5 +3,5 @@ DirectoryIndex index.html
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^portfolio/index.html index.html
-RewriteRule ^portfolio/ index.html
+RewriteRule ^portfolio/index.html index.html [R=301,L]
+RewriteRule ^portfolio/ index.html [R=301,L]
