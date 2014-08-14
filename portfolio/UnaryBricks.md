@@ -1,7 +1,7 @@
 ---
 layout: portfolio-detail
 title: UnaryBricks
-source: "https://gitlab.com/phansch/unarybricks"
+source: "https://gitlab.com/phansch/unarybricks/tree/master"
 subtitle: A plain and simple breakout clone.
 exe: #
 scope: portfolio
