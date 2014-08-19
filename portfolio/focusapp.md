@@ -3,7 +3,6 @@ layout: portfolio
 title: FocusThingy
 source: "https://github.com/phansch/focus"
 subtitle: A small JavaScript application using IndexedDB.
-scope: portfolio
 category: misc
 thumbnail: "/assets/images/portfolio/focusthingy/thumbnail.png"
 screenshots: "/assets/images/portfolio/focusthingy/thumbnail.png"

@@ -3,7 +3,6 @@ layout: portfolio
 title: phansch.net
 source: "https://gitlab.com/phansch/phansch-net/tree/master"
 subtitle: My website and portfolio.
-scope: portfolio
 category: misc
 thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
 screenshots: [/assets/images/portfolio/phanschnet/phanschnet-1.png, /assets/images/portfolio/phanschnet/phanschnet-2.png]

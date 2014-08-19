@@ -4,7 +4,6 @@ title: UnaryBricks
 source: "https://gitlab.com/phansch/unarybricks/tree/master"
 subtitle: A plain and simple breakout clone.
 exe: #
-scope: portfolio
 category: games
 thumbnail: "/assets/images/portfolio/unarybricks/unarybricks-2.png"
 screenshots: [/assets/images/portfolio/unarybricks/unarybricks-1.png, /assets/images/portfolio/unarybricks/unarybricks-2.png]

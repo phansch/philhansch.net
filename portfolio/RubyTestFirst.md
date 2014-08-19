@@ -3,7 +3,6 @@ layout: portfolio
 title: Ruby Test-First
 source: "https://gitlab.com/phansch/learn_ruby_solutions/tree/master"
 subtitle: Practicing test-driven development.
-scope: portfolio
 category: ruby
 thumbnail: "/assets/images/portfolio/RubyTestFirst/thumbnail.png"
 used: [Ruby, rspec]

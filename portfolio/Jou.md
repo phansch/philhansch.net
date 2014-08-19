@@ -3,7 +3,6 @@ layout: portfolio
 title: Jou
 source: "https://github.com/phansch/jou"
 subtitle: My first published Rubygem.
-scope: portfolio
 category: ruby
 gem: jou
 thumbnail: "/assets/images/portfolio/jou/thumbnail.png"

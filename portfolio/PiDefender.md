@@ -5,7 +5,6 @@ source: "https://gitlab.com/phansch/pidefender/tree/master"
 subtitle: My January entry for One Game A Month 2013.
 exe: "/assets/dl/1GAM/Jan/PiDefender-Final.exe"
 love: "/assets/dl/1GAM/Jan/PiDefender-Final.love"
-scope: portfolio
 category: games
 thumbnail: "/assets/images/portfolio/pidefender/pidefender-3.png"
 screenshots: [/assets/images/portfolio/pidefender/pidefender-1.png, /assets/images/portfolio/pidefender/pidefender-2.png,

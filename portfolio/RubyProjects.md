@@ -3,7 +3,6 @@ layout: portfolio
 title: RubyProjects
 source: "https://gitlab.com/phansch/100-projects/tree/master"
 subtitle: Trying to complete over 100 projects in various categories in Ruby.
-scope: portfolio
 category: ruby
 thumbnail: "/assets/images/portfolio/projects/thumbnail.png"
 used: [Ruby]
