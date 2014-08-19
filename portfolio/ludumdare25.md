@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: Ludum Dare 25
 source: "https://gitlab.com/phansch/ludumdare25/tree/master"
 subtitle: The entry for my first Ludum Dare game jam.

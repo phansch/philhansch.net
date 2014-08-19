@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: PiDefender
 source: "https://gitlab.com/phansch/pidefender/tree/master"
 subtitle: My January entry for One Game A Month 2013.

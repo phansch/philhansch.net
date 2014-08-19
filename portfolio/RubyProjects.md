@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: RubyProjects
 source: "https://gitlab.com/phansch/100-projects/tree/master"
 subtitle: Trying to complete over 100 projects in various categories in Ruby.

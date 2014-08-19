@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: phansch.net
 source: "https://gitlab.com/phansch/phansch-net/tree/master"
 subtitle: My website and portfolio.

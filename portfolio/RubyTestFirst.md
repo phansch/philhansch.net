@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: Ruby Test-First
 source: "https://gitlab.com/phansch/learn_ruby_solutions/tree/master"
 subtitle: Practicing test-driven development.

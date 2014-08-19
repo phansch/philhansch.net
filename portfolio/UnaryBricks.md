@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: UnaryBricks
 source: "https://gitlab.com/phansch/unarybricks/tree/master"
 subtitle: A plain and simple breakout clone.

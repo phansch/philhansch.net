@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: Jou
 source: "https://github.com/phansch/jou"
 subtitle: My first published Rubygem.

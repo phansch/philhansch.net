@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio
 title: FocusThingy
 source: "https://github.com/phansch/focus"
 subtitle: A small JavaScript application using IndexedDB.
