@@ -35,9 +35,8 @@ auto: false
   </div>
 </div>
 
-{% for page in site.pages %}
-  {% if page.scope == "portfolio" and page.category == "ruby" %}
-
+  {% assign portfolio_pages = site.pages | where:"layout","portfolio-detail" %}
+  {% for page in portfolio_pages %}
   <article>
     <div class="article-preview-image">
       <a href="{{ page.url }}">
@@ -56,52 +55,4 @@ auto: false
     </div>
     {% if forloop.last != true %}<hr />{% endif %}
   </article>
-
-  {% endif %}
-  {% endfor %}
-
-  {% for page in site.pages %}
-  {% if page.scope == "portfolio" and page.category == "misc" %}
-  <article>
-    <div class="article-preview-image">
-      <a href="{{ page.url }}">
-        <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot">
-      </a>
-    </div>
-    <div class="article-preview-text">
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a>
-      <br />
-
-      <div class="buttons">
-        <a href="{{ page.url }}" class="button tiny">More information</a>
-        <a href="{{ page.source }}" class="button secondary tiny">Source</a>
-      </div>
-    </div>
-    {% if forloop.last != true %}<hr />{% endif %}
-  </article>
-  {% endif %}
-  {% endfor %}
-
-  {% for page in site.pages %}
-  {% if page.scope == "portfolio" and page.category == "games" %}
-  <article>
-    <div class="article-preview-image">
-      <a href="{{ page.url }}">
-        <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot">
-      </a>
-    </div>
-    <div class="article-preview-text">
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a>
-      <br />
-
-      <div class="buttons">
-        <a href="{{ page.url }}" class="button tiny">More information</a>
-        <a href="{{ page.source }}" class="button secondary tiny">Source</a>
-      </div>
-    </div>
-    {% if forloop.last != true %}<hr />{% endif %}
-  </article>
-  {% endif %}
   {% endfor %}
