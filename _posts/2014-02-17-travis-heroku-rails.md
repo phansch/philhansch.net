@@ -23,17 +23,17 @@ You don't want to keep passwords and otherwise secret stuff in your GitHub repos
 Not so long ago, people used to upload their changed files via FTP to their servers. Luckily we don't have to do that anymore. Continuous deployments allow you to automate updating your production environment. Let's see how to do this with Travis CI and Heroku.
 
 ## Local setup
-Starting with the local setup, first we need to to setup the `secret_token.rb` and the `database.yml`.
+Starting with the local setup, first we need to setup the `secret_token.rb` and the `database.yml`.
 
 **config/initializers/secret_token.rb**
 
-```ruby
+{% highlight ruby %}
 App::Application.config.secret_key_base = ENV['SECRET_TOKEN']
-```
+{% endhighlight %}
 
 **config/database.yml**
 
-```yml
+{% highlight yaml %}
 postgresql: &postgresql
 adapter: postgresql
 database: <%= ENV['DB_NAME'] %>
@@ -55,7 +55,7 @@ test:
 
 production:
 <<: *defaults
-```
+{% endhighlight %}
 
 There are a couple things to say about this file.
 
@@ -68,9 +68,10 @@ There are a couple things to say about this file.
 In order to set the environment variables on your local machine, I am using [dotenv](https://github.com/bkeepers/dotenv).
 Add this gem to the top of your gemfile and run `bundle install` afterwards.
 
-```ruby
+{% highlight ruby %}
 gem 'dotenv-rails', :groups => [:development, :test]
-```
+{% endhighlight %}
+
 Dotenv creates environment variables from the contents of `.env` files. This is what we need in order to manage different databases and users for our test and development environment.
 
 The `.env` files look something like this:
@@ -110,7 +111,7 @@ Your *Heroku API key* can be found [here](https://dashboard.heroku.com/account#a
 
 This is where the integration with Heroku is configured. In the `after_success` section we push our changes to Heroku if the build was successful.
 
-```yml
+{% highlight yaml %}
 rvm:
   - 2.1.0
 env:
@@ -134,7 +135,8 @@ after_success:
   - heroku keys:clear
   - yes | heroku keys:add
   - yes | git push heroku master
-```
+{% endhighlight %}
+
 An alternative to the `after_success` section is the [deploy section](http://docs.travis-ci.com/user/deployment/heroku/). But the current solution seem to be working fine right now.
 
 ## Heroku Setup
