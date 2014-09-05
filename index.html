@@ -35,8 +35,8 @@ auto: false
   </div>
 </div>
 
-  {% assign portfolio_pages = site.pages | where:"layout","portfolio" %}
-  {% for page in portfolio_pages %}
+  {% assign portfolio_pages = site.pages | where:"layout","portfolio" | sort: "order" %}
+  {% for page in portfolio_pages reversed %}
   <article>
     <div class="article-preview-image">
       <a href="{{ page.url }}">

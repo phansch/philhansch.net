@@ -7,6 +7,7 @@ category: misc
 thumbnail: "/assets/images/portfolio/phanschnet/thumbnail.png"
 screenshots: [/assets/images/portfolio/phanschnet/phanschnet-1.png, /assets/images/portfolio/phanschnet/phanschnet-2.png]
 used: [HTML5, CSS, JS, Jekyll, github-pages, bootstrap]
+order: 4
 ---
 
 This website is based on HTML5, CSS and Javascript. It uses Jekyll to generate a static website whenever I push new content to the repository on GitHub. The posts are written in markdown and are kept in a seperate branch until they are published.

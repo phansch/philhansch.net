@@ -6,6 +6,7 @@ subtitle: Practicing test-driven development.
 category: ruby
 thumbnail: "/assets/images/portfolio/RubyTestFirst/thumbnail.png"
 used: [Ruby, rspec]
+order: 2
 ---
 
 <a id="snippets" class="anchor"></a>

@@ -7,6 +7,7 @@ category: web
 thumbnail: "/assets/images/portfolio/streamer/thumbnail.png"
 screenshots: [/assets/images/portfolio/streamer/thumbnail.png]
 used: [Sinatra, JavaScript, Jasmine]
+order: 9
 ---
 
 This is a streaming app that pushes uploaded images to all connected clients.

@@ -7,6 +7,7 @@ category: ruby
 gem: jou
 thumbnail: "/assets/images/portfolio/jou/thumbnail.png"
 used: [Ruby, Gem, rspec]
+order: 8
 ---
 
 Jou is a simple command line utility that helps with maintaining a journal file in markdown syntax.

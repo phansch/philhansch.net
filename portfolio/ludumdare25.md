@@ -8,6 +8,7 @@ category: games
 thumbnail: "/assets/images/portfolio/ludumdare25/thumbnail.png"
 screenshots: [/assets/images/portfolio/ludumdare25/ld25-1.png, /assets/images/portfolio/ludumdare25/ld25-2.png]
 used: [Lua, Love2D]
+order: 5
 ---
 
 This is the first game I made for the 25th Ludum Dare game jam. It is a very basic space shooter with a top-down view and a little story.

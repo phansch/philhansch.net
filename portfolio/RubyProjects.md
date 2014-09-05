@@ -6,6 +6,7 @@ subtitle: Trying to complete over 100 projects in various categories in Ruby.
 category: ruby
 thumbnail: "/assets/images/portfolio/projects/thumbnail.png"
 used: [Ruby]
+order: 1
 ---
 
 I'm learning Ruby by trying to complete over 100 different projects in various categories.

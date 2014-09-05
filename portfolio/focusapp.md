@@ -7,6 +7,7 @@ category: misc
 thumbnail: "/assets/images/portfolio/focusthingy/thumbnail.png"
 screenshots: "/assets/images/portfolio/focusthingy/thumbnail.png"
 used: [HTML5, CSS, JS, IndexedDB]
+order: 6
 ---
 
 This JavaScript application allows the user to enter a specific task he or she  wants to work on. The entered task is persisted across multiple browser sessions, using IndexedDB.

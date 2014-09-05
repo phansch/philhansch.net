@@ -8,6 +8,7 @@ category: games
 thumbnail: "/assets/images/portfolio/unarybricks/unarybricks-2.png"
 screenshots: [/assets/images/portfolio/unarybricks/unarybricks-1.png, /assets/images/portfolio/unarybricks/unarybricks-2.png]
 used: [Lua, Love2D]
+order: 3
 ---
 
 A very basic Breakout clone.
