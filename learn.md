@@ -1,38 +1,31 @@
 ---
 layout: page
-title: Things I don't know
+title: Things I wan't to learn
 ---
-This is a list of [things I don't know]({% post_url 2014-02-03-what-i-dont-know %}).
+This is a list of [things I want to learn]({% post_url 2014-02-03-what-i-dont-know %}).
 
 ## Ruby and Rails
 
- * Rails conventions and best practices
- * HAML
+ * The value of `self` in every possible location
+ * JRuby
  * rbenv
  * SQL Transactions
- * Anything Deployment
- * Tools like [foreman](https://github.com/ddollar/foreman)
 
 ## Javascript
 
- * Javascript
- * Testing
+ * ES6
  * Prototypes
 
 ## Tools and OS
 
  * Vim ctags
- * git bi-sect
- * grep
- * ssh
  * Non-git VCS
  * Tmux session sharing
+ * Managing Infrastructure
 
 ## General Development things
 
  * Functional Programming
- * Mocks and Stubs
  * How to calculate the complexity of an algorithm
  * Basic algorithms like QuickSort and BinarySearch
- * The agile process
- * How MVC **actually** (rather than conceptionally) works
+ * How MVC **actually** (rather than conceptionally) works. I want to implement my own basic MVC.
