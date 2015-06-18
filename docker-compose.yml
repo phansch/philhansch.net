@@ -1,0 +1,5 @@
+web:
+  build: .
+  command: jekyll serve
+  ports:
+    - "4000:4000"
