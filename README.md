@@ -14,3 +14,13 @@ The blog is currently hosted on [Uberspace](https://uberspace.de) where I have s
 
     git push origin # To update this repo
     git push deploy # To trigger the post-receive hook on Uberspace
+
+## Docker
+
+You need Docker and docker-compose in order to use the docker-compose.yml.
+
+Then just run
+
+    docker-compose up
+
+and open the website on [localhost:4000](http://localhost:4000)
