@@ -17,6 +17,7 @@ The blog is currently hosted on [Uberspace](https://uberspace.de) where I have s
 
 ## Docker
 
+test
 You need Docker and docker-compose in order to use the docker-compose.yml.
 
 Then just run
