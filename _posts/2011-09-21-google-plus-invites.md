@@ -8,7 +8,7 @@ wordpress_id: 1145
 ---
 **Update:** This giveaway is obviously no longer active.
 Hi everyone, I still have about 150 Google plus invites to hand out.
-Simply drop me an email at [desk@phansch.net](mailto:desk@phansch.net) if you want me to invite you to Google+.
+Simply drop me an email at [hi@phansch.net](mailto:hi@phansch.net) if you want me to invite you to Google+.
 
 Regards,
 Philipp
