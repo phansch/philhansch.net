@@ -15,7 +15,6 @@
 
     <link href='http://fonts.googleapis.com/css?family=Abel|Ubuntu+Mono|Open+Sans|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
 
@@ -72,23 +71,5 @@
     <script type="text/javascript" charset="utf-8">
       $(document).foundation();
     </script>
-    {% if page.title == "Portfolio" %}
-    <script type="text/javascript">
-    $("document").ready(function() {
-      $(".thumb").hover(function(e) {
-        e.preventDefault();
-        $(this).stop();
-        $(this).animate({opacity:0.8},300);
-      },
-
-      function(e) {
-        e.preventDefault();
-        $(this).stop();
-        $(this).animate({opacity:1},300);
-      });
-    });
-    </script>
-    {% endif %}
-    {% include JB/analytics %}
   </body>
 </html>

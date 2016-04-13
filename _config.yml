@@ -118,7 +118,7 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
-  analytics :
-    provider : getclicky
-    getclicky :
-      site_id : 100665341
+  # analytics :
+  #   provider : getclicky
+  #   getclicky :
+  #     site_id : 100665341

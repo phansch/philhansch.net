@@ -228,10 +228,6 @@ section.main {
       -webkit-border-radius: 3px;
     }
   }
-
-  #folio-overview {
-    @include span-columns(12);
-  }
 }
 
 footer {
