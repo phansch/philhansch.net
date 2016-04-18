@@ -184,22 +184,10 @@ section.main {
   }
 
   #folio-top {
-    @include span-columns(12);
     font-family: sans-serif;
 
     h1 {
       font-size: 2.3em;
-    }
-  }
-
-  #folio-mid {
-    @include span-columns(12);
-
-    div.cv {
-      @include span-columns(6 of 12);
-    }
-    div.contact {
-      @include span-columns(6 of 12);
     }
   }
 }
