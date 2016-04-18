@@ -5,7 +5,7 @@
 @import 'grid-settings';
 @import 'neat/neat';
 
-$font-stack: "Open Sans", sans-serif;
+$font-stack: sans-serif;
 $font-stack-secondary: "Open Sans Condensed", sans-serif;
 $primary-color: #ffffff;
 $text-color: #626262;
@@ -104,7 +104,6 @@ section.main {
     @include span-columns(12);
 
     .comment_look {
-      font-size: 1.1em;
       font-family: monospace;
       color: #93a1a1;
     }
