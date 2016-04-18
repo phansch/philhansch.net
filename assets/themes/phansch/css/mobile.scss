@@ -102,8 +102,6 @@ section.main {
 
   article {
     @include span-columns(12);
-    font-size: 1.1em;
-    line-height: 1.5em;
 
     .comment_look {
       font-size: 1.1em;

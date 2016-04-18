@@ -102,9 +102,6 @@ section.main {
   article {
     @include span-columns(12);
 
-    font-size: 1.1em;
-    line-height: 1.5em;
-
     h1 {
       font-family: $font-stack-secondary;
       font-size: 2.3em;
@@ -156,7 +153,6 @@ section.main {
     }
 
     .comment_look {
-      font-size: 1.1em;
       font-family: monospace;
       color: #93a1a1;
     }
