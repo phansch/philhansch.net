@@ -47,6 +47,7 @@ p > code {
 
   .left > li a,
   .title-area > li a {
+    font-family: sans-serif;
     color: $primary-color;
     text-transform: uppercase;
     font-weight: 300;
@@ -101,6 +102,7 @@ section.main {
     @include span-columns(12);
 
     h1 {
+      font-family: sans-serif;
       font-weight: 300;
       letter-spacing: -2px;
       a, a:hover, a:focus {
