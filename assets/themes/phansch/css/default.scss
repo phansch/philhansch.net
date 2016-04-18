@@ -120,10 +120,6 @@ section.main {
       }
     }
 
-    hr {
-      border-color: #eeeeee;
-    }
-
     .article-preview-image {
       float: left;
       margin-right: 1em;
@@ -199,21 +195,11 @@ section.main {
   #folio-mid {
     @include span-columns(12);
 
-    border-bottom: 2px solid #eeeeee;
-    margin-bottom: 2em;
-
     div.cv {
       @include span-columns(6 of 12);
     }
     div.contact {
       @include span-columns(6 of 12);
-    }
-
-    img.contact {
-      background: white;
-      border-radius: 3px;
-      -moz-border-radius: 3px;
-      -webkit-border-radius: 3px;
     }
   }
 }
