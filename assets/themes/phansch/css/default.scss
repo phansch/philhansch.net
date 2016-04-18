@@ -6,7 +6,6 @@
 @import 'neat/neat';
 
 $font-stack: sans-serif;
-$font-stack-secondary: "Open Sans Condensed", sans-serif;
 $primary-color: #ffffff;
 $text-color: #626262;
 $link-color: rgb(87, 163, 232);
@@ -48,11 +47,10 @@ p > code {
 
   .left > li a,
   .title-area > li a {
-    font-family: $font-stack-secondary;
     color: $primary-color;
     text-transform: uppercase;
-    transition: color 0.1s ease 0s;
-    background: url('../images/bg-top.png');
+    font-weight: 300;
+    letter-spacing: -1px;
   }
 
   .top-bar-section {
@@ -103,8 +101,8 @@ section.main {
     @include span-columns(12);
 
     h1 {
-      font-family: $font-stack-secondary;
-      font-size: 2.3em;
+      font-weight: 300;
+      letter-spacing: -2px;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
@@ -112,7 +110,6 @@ section.main {
     }
 
     h2 {
-      font-family: $font-stack-secondary;
       font-size: 1.8em;
       font-weight: 400;
       a, a:hover, a:focus {
