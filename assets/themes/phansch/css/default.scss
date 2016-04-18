@@ -132,8 +132,6 @@ section.main {
         border-radius: 3px;
         -moz-border-radius: 3px;
         -webkit-border-radius: 3px;
-        opacity: 1;
-        @include transition (opacity 0.3s ease-out 0s);
       }
     }
 
