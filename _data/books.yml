@@ -19,6 +19,16 @@
     author: "Martin Fowler"
     pages: "431"
   -
+    title: "Elixir in Action"
+    readDate: "November 2016 - current"
+    author: "Sasa Juric"
+    pages: "376"
+  -
+    title: "The Unwritten Laws of Engineering"
+    readDate: "December 2016"
+    author: "Skakoon, James G."
+    pages: "69"
+  -
     title: "Practical Object Oriented Design in Ruby"
     readDate: "May/June 2014"
     author: "Sandi Metz"
