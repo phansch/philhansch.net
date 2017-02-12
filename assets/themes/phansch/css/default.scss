@@ -101,6 +101,7 @@ section.main {
     @include span-columns(12);
 
     h1 {
+      font-size: 2rem;
       font-family: sans-serif;
       font-weight: 200;
       letter-spacing: -2px;
