@@ -4,8 +4,6 @@ layout: post
 excerpt: "A quick way to make your everyday work with Ruby on Rails a bit more safe."
 ---
 
-*Update: This may soon be part of [pry-rails](https://github.com/rweng/pry-rails/pull/88).*
-
 On any given day I find myself with at least 2 rails consoles open at the same time. One for local development and one for the testing or production environment.
 All share the same prompt.
 
@@ -82,3 +80,5 @@ Here is what it looks like:
 ![selection_220](https://cloud.githubusercontent.com/assets/2042399/22556063/31c05df0-e966-11e6-9a9a-fbfea33344c6.png)
 ![selection_218](https://cloud.githubusercontent.com/assets/2042399/22555944/c65dd894-e965-11e6-98e0-38368648c8bb.png)
 ![selection_219](https://cloud.githubusercontent.com/assets/2042399/22556006/0301be96-e966-11e6-84a7-a3fc54c93950.png)
+
+*Note: This may soon be part of [pry-rails](https://github.com/rweng/pry-rails/pull/88).*
