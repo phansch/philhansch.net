@@ -5,7 +5,6 @@ Posts are written in Markdown and are kept in the `drafts` branch until they are
 
 The blog is currently hosted on [DigitalOcean](https://www.digitalocean.com) where it is being deployed with [dokku](http://progrium.viewdocs.io/dokku/).
 
-Test
 ## Setup
 
     git clone git@gitlab.com:phansch/phansch-net.git && cd phansch-net
