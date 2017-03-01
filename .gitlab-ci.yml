@@ -1,5 +1,10 @@
 image: ruby:2.3
 
+test:
+  script:
+  - bundle install
+  - rake test
+
 pages:
   script:
   - bundle install

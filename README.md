@@ -17,6 +17,12 @@ The blog is currently hosted on [DigitalOcean](https://www.digitalocean.com) whe
 
 ## Development
 
+### Tests
+
+Execute the tests with
+
+    rake test
+
 You need Docker in order to run the website locally:
 
     sudo docker build -t phansch-net .
