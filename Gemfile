@@ -5,6 +5,7 @@ gem 'bourbon'
 gem 'neat'
 
 group :test do
-  gem 'rack'
   gem 'capybara'
+  gem 'html-proofer'
+  gem 'rack'
 end
