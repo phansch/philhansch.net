@@ -7,7 +7,7 @@ excerpt: "PiDefender is complete! Now onto the next 1GAM challenge."
 
 I managed to finish PiDefender almost a week in advance after I decided to exclude a lot of features. The last thing I worked on was a giant AOE that kills all enemies. [Here's](/assets/images/posts/2013-01-25-done-with-pidefender/pidefender-wip.gif) a gif that shows an older work in progress. 
 
-I'm now planning to use [#1gamcrunch](http://1gamcrunch.playvue.com/) to create a prototype for my February game. So, expect another blog post on Sunday.
+I'm now planning to use #1gamcrunch to create a prototype for my February game. So, expect another blog post on Sunday.
 
 ## What is PiDfender? ##
 PiDefender is a top-down space shooter. The player controls a cannon by moving the mouse around. The goal is to hold out as long as possible by killing the enemies. 

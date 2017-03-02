@@ -17,7 +17,7 @@ plyturonnet: true
 **ArenaNet:** [Blogpost: Building Community](http://amd-icbm.com/icbm/anet-blog-building-community/)
 • The most recent blog post from ArenaNet reveals that official forums are on the way. Martin Kerstein goes on by highlighting the challenges of modern community management.
 
-[MMORPG.com: Live Interview with Jon Peters on Traits and Professions](http://www.twitch.tv/mmorpgcom/b/311753826)
+MMORPG.com: Live Interview with Jon Peters on Traits and Professions **Site offline**
 • Bill Murphy from MMORPG.com collected user questions for this interview. If you are into building your character, this interview answers some interesting questions.
 
 [Yogscast: Crafting [Extra Footage]](http://www.youtube.com/watch?v=-elq2JYlfA8)
@@ -51,7 +51,7 @@ plyturonnet: true
 [Guild Wars Insider Podcast EP11: The Return](http://web.archive.org/web/20120810114624/http://www.guildwarsinsider.com/guild-wars-2-insider-podcast-ep11-return/)
 • After a short break, the Guild Wars Insider Podcast with Seven, Gallo and FeralEngineer is back! Discussing guilds, attributes, jumping puzzles, meta events and more.
 
-[GWOnline: Traits: An Analysis](http://guildwars.incgamers.com/blog/comments/traits-an-analysis)
+GWOnline: Traits: An Analysis **Site offline**  
 • Alaris from GWOnline gives a quick overview over traits. This certainly comes in handy for players who are new to Guild Wars 2 or those who just started to lay out their builds.
 
 **ArenaNet**: ArenaNet won't be on PAX East this year. Only Martin Kerstein and Jon Peters will be there.
@@ -67,7 +67,7 @@ plyturonnet: true
 **ArenaNet**: The beta events that are part of the Pre-Purchase will have no NDA.
 
 
-> The Beta Events mentioned as part of pre-purchase are not bound by an NDA, but the upcoming CBT weekend is! [ow.ly/9Exq7](http://t.co/12I1sVRr) ^AT
+> The Beta Events mentioned as part of pre-purchase are not bound by an NDA, but the upcoming CBT weekend is! ^AT
 > 
 > -- Guild Wars 2 (@GuildWars2) [March 14, 2012](https://twitter.com/GuildWars2/status/179954394228473856)
 

@@ -9,7 +9,7 @@ The second day was littered with small challenges and quite a few problems. But 
 
 
 ### Setup a local test environment###
-First thing I did, was figuring out how to setup a local testing environment. The previous day I did 80 commits for testing purposes. That was a little bit too much, in my eyes. Luckily there are quite a few tutorials on how to setup such a test environment. [This](http://blog.ntotten.com/2012/03/02/github-pages-with-jekyll-local-development-on-windows/) is the one I used (My desktop machine is running Windows 7). All you need is ruby, the ruby dev kit, jekyll, rdiscount and a clone of your repository.
+First thing I did, was figuring out how to setup a local testing environment. The previous day I did 80 commits for testing purposes. That was a little bit too much, in my eyes. Luckily there are quite a few tutorials on how to setup such a test environment. [This](http://ntotten.com/2012/03/02/github-pages-with-jekyll-local-development-on-windows/) is the one I used (My desktop machine is running Windows 7). All you need is ruby, the ruby dev kit, jekyll, rdiscount and a clone of your repository.
 
 <a href="/assets/images/posts/2012-07-28-Setup-done/commit-frequency.png"><img src="/assets/images/posts/2012-07-28-Setup-done/commit-frequency.png" width="610" alt="commit frequency" title="From 80 down to 18 commits." /></a>
 

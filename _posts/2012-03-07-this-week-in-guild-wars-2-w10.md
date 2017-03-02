@@ -13,7 +13,7 @@ Time flies. It's been almost over two weeks now since the first round of the bet
 #### Friday, March 09
 
 
-[GuildCast: Trinity Killer](http://www.gamebreaker.tv/video-game-shows/guild-wars-video/guildcast-guild-wars-show/trinity-killer/)
+GuildCast: Trinity Killer **Site offline**  
 • The people from GuildCast take on the subject of the _missing_ holy trinity in Guild Wars 2 and how it actually works in the game.
 
 [TotalBiscuit: GW2 Beta - Underwater Overview](http://www.youtube.com/watch?v=KtohZlY8CbA)
@@ -52,10 +52,10 @@ Time flies. It's been almost over two weeks now since the first round of the bet
 #### Tuesday, March 06
 
 
-[ZAM: An Interview With Guild Wars 2's Jon Peters](http://www.legacy.zam.com/story.html?story=29213)
+[ZAM: An Interview With Guild Wars 2's Jon Peters](http://legacy.zam.com/story.html?story=29213)
 • ZAM.com sat down with Guild Wars 2's Jon Peters to talk about competitive PvP, combat, and GW2's eSports aspirations
 
-[Boons & Conditions Podcast #1: Mono Intro](http://www.gw2bnc.com/2012/03/boons-conditions-podcast-1-mono-intro/)
+Boons & Conditions Podcast #1: Mono Intro **Site offline**  
 • The premiere episode of the BnC podcast. Their introductory podcast is all about the recent press beta event and the new information on attributes and traits.
 
 [MMORPG.com: The Warrior Preview](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6155/Guild-Wars-2-The-Warrior-Preview.html)

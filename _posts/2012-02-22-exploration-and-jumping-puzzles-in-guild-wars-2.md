@@ -7,7 +7,7 @@ wordpress_id: 133
 plyturonnet: true
 ---
 
-This video from [NecroBator](http://www.necrobator.com/) and [TenTonHammer](http://www.tentonhammer.com/) shows some of the jumping puzzles that we started to hear about after the press beta event.
+This video from NecroBator and [TenTonHammer](http://www.tentonhammer.com/) shows some of the jumping puzzles that we started to hear about after the press beta event.
 
 <object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/q0Z8n120H7Y?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/q0Z8n120H7Y?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 

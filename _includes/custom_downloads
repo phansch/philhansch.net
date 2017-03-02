@@ -12,7 +12,7 @@
 <h3>Other files</h3>
 {% endif %}
 {% if page.love %}
-<h4><a href="#">.love file for Windows, Mac OSX and Linux platforms</a></h4>
+<h4><a href="{{ page.love }}">.love file for Windows, Mac OSX and Linux platforms</a></h4>
 
 <p>If you don't have Love2D installed, download it <a href="http://love2d.org/">here</a> and install it first.
 

@@ -42,7 +42,7 @@ After lunch we had a Q&A about Rails and testing with one of our Hackers in resi
 
 ## Thursday ##
 
-Thursday started off with me forgetting about [BetaBreakfast](http://betahaus.de/event/betabreakfast-5-2-10-6-22-25-14/). Luckily, I was still on time to see the demos. The first one was [Somewhere](https://www.somewhere.com/). On Somewhere you can <q>Discover how interesting people around the world actually work.</q> Their mission is to give people a glimpse into other people's work and give them an idea if they want to work there. The second demo was by [Makeapoint](http://www.makeapoint.co/) which aims to provide an alternative to text-based discussion forums.
+Thursday started off with me forgetting about BetaBreakfast. Luckily, I was still on time to see the demos. The first one was [Somewhere](https://www.somewhere.com/). On Somewhere you can <q>Discover how interesting people around the world actually work.</q> Their mission is to give people a glimpse into other people's work and give them an idea if they want to work there. The second demo was by [Makeapoint](http://www.makeapoint.co/) which aims to provide an alternative to text-based discussion forums.
 The third was by [tran.sl](http://tran.sl/) which is a platform that aims to be a marketplace for translators.
 
 

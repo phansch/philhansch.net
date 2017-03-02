@@ -19,7 +19,7 @@ Now you will need to obtain the folder ID. Change to your public folder and you 
 
 ![FolderID](/assets/images/posts/2013-03-01-gdrive-static/folderid.png)
 
-The next step makes it a little bit more difficult than using Dropbox since this bit of information is quite hidden. According to [the Google Drive SDK documentation](https://developers.google.com/drive/publish-site), we can use an URL like `https://googledrive.com/host/[FolderID]/path/to/file.type` to link directly to publicly shared files.
+The next step makes it a little bit more difficult than using Dropbox since this bit of information is quite hidden. According to the Google Drive SDK documentation, we can use an URL like `https://googledrive.com/host/[FolderID]/path/to/file.type` to link directly to publicly shared files.
 
 Here's an example with the image from above:  
 
