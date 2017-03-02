@@ -47,7 +47,7 @@ Let's start with the character creation as this is what every player has to do. 
 
 
 
-Some people might argue, that after the character creation is done, character customization is done as well. That certainly isn't true for Guild Wars 2. Have you heard about **traits**? No? Then I recommend reading [ArenaNet's latest post](http://www.arena.net/blog/play-your-way-jon-peters-on-traits-and-attributes) on that topic. Traits are a way to offer late-game customization to your character. They allow you to alter attributes and even modify some of your skills. For example, if you are into earth magic as an Elementalist, you have the option of choosing the corresponding trait line. What's great about that is that it allows for deep diversity even in the same class.
+Some people might argue, that after the character creation is done, character customization is done as well. That certainly isn't true for Guild Wars 2. Have you heard about **traits**? No? Then I recommend reading [ArenaNet's latest post](http://amd-icbm.com/icbm/anet-blog-play-your-way-jon-peters-on-traits-and-attributes/) on that topic. Traits are a way to offer late-game customization to your character. They allow you to alter attributes and even modify some of your skills. For example, if you are into earth magic as an Elementalist, you have the option of choosing the corresponding trait line. What's great about that is that it allows for deep diversity even in the same class.
 
 
 

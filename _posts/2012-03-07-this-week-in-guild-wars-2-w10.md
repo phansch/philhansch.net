@@ -52,7 +52,7 @@ Time flies. It's been almost over two weeks now since the first round of the bet
 #### Tuesday, March 06
 
 
-[ZAM: An Interview With Guild Wars 2's Jon Peters](http://www.zam.com/story.html?story=29213)
+[ZAM: An Interview With Guild Wars 2's Jon Peters](http://www.legacy.zam.com/story.html?story=29213)
 • ZAM.com sat down with Guild Wars 2's Jon Peters to talk about competitive PvP, combat, and GW2's eSports aspirations
 
 [Boons & Conditions Podcast #1: Mono Intro](http://www.gw2bnc.com/2012/03/boons-conditions-podcast-1-mono-intro/)

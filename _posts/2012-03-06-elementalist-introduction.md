@@ -39,7 +39,7 @@ The four basic attributes in Guild Wars 2 are:
   * Vitality: Increased health.
   * Toughness: Increased defense/armor.
 
-In addition to these four basic attributes, ArenaNet [recently introduced](http://www.arena.net/blog/play-your-way-jon-peters-on-traits-and-attributes) 6 new attributes that are split up into three **offense**, two **support** and one **profession-specific** attributes.
+In addition to these four basic attributes, ArenaNet [recently introduced](http://amd-icbm.com/icbm/anet-blog-play-your-way-jon-peters-on-traits-and-attributes/) 6 new attributes that are split up into three **offense**, two **support** and one **profession-specific** attributes.
 
 **Offense**
 	
@@ -95,7 +95,7 @@ In addition to the different weapon skills, keep in mind that there are four dif
 ### Sources & Further reading
 	
   1. [Guild Wars 2 Wiki - Elementalist](http://wiki.guildwars2.com/wiki/Elementalist)
-  2. [ArenaNet Blog: PAX East Preview: Izzy on Attributes and Iteration](http://www.arena.net/blog/pax-east-preview-izzy-on-attributes-and-iteration)
-  3. [ArenaNet Blog: Play Your Way – Jon Peters on Traits and Attributes](http://www.arena.net/blog/play-your-way-jon-peters-on-traits-and-attributes)
+  2. [ArenaNet Blog: PAX East Preview: Izzy on Attributes and Iteration](http://amd-icbm.com/icbm/anet-blog-pax-east-preview-izzy-on-attributes-and-iteration/)
+  3. [ArenaNet Blog: Play Your Way – Jon Peters on Traits and Attributes](http://amd-icbm.com/icbm/anet-blog-play-your-way-jon-peters-on-traits-and-attributes/)
   4. [Yogscast Elementalist Spotlight](http://www.youtube.com/watch?v=NiuNbqPWpEo)
 
