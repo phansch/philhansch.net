@@ -26,7 +26,7 @@ Time flies. It's been almost over two weeks now since the first round of the bet
 #### Thursday, March 08
 
 
-[GWI: Sea of Sorrows Release Date Update](http://www.guildwarsinsider.com/sea-sorrows-release-date-update/)
+[GWI: Sea of Sorrows Release Date Update](http://web.archive.org/web/20140905080441/http://www.guildwarsinsider.com/sea-sorrows-release-date-update/)
 • Sea of Sorrorws, the third Guild Wars Novel, which was previously announced for August 28th has been pushed back according to GWI.
 
 [MMORPG.com: The Thief Preview](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6166/Guild-Wars-2-The-Thief-Preview.html)

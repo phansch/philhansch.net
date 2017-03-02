@@ -48,7 +48,7 @@ plyturonnet: true
 [Yogscast: Charr Questing [Extra Footage]](http://www.youtube.com/watch?&v=pl0Bb063D5E)
 • Somehow Yogscast managed to release yet another video of their press beta footage. Showcasing the 5 to 15 area again.
 
-[Guild Wars Insider Podcast EP11: The Return](http://www.guildwarsinsider.com/guild-wars-2-insider-podcast-ep11-return/)
+[Guild Wars Insider Podcast EP11: The Return](http://web.archive.org/web/20120810114624/http://www.guildwarsinsider.com/guild-wars-2-insider-podcast-ep11-return/)
 • After a short break, the Guild Wars Insider Podcast with Seven, Gallo and FeralEngineer is back! Discussing guilds, attributes, jumping puzzles, meta events and more.
 
 [GWOnline: Traits: An Analysis](http://guildwars.incgamers.com/blog/comments/traits-an-analysis)
@@ -79,16 +79,16 @@ plyturonnet: true
 #### Tuesday, March 13
 
 
-**ArenaNet: **[Pre purchase Guild Wars 2](http://buy.guildwars2.com)
+**ArenaNet:** [Pre purchase Guild Wars 2](http://buy.guildwars2.com)
 • The Pre-Purchase website for Guild Wars 2 has arrived. Pre-Purchases will start on April 10.
 
-**ArenaNet: **[Regina Buenaobra: Preliminary Pre-Purchase FAQ on GW2Guru](http://www.guildwars2guru.com/forum/showpost.php?p=1212248&postcount=1412)
+**ArenaNet:** [Regina Buenaobra: Preliminary Pre-Purchase FAQ on GW2Guru](http://www.guildwars2guru.com/forum/showpost.php?p=1212248&postcount=1412)
 • A preliminary Pre-Purchase FAQ posted by Regina Buenaobra on GW2Guru.
 
-[Guild Wars Insider: Guild Wars 2 As A Spectator Esport](http://www.guildwarsinsider.com/guild-wars-2-spectator-esport/)
+[Guild Wars Insider: Guild Wars 2 As A Spectator Esport](http://web.archive.org/web/20120823181051/http://www.guildwarsinsider.com/guild-wars-2-spectator-esport/)
 • Balancing aside, MouseBurglar from GWI posted his thoughts on how Guild Wars 2 might perform as a spectator Esport.
 
-[Guild Wars Insider: International Spotlight: Wartower.de ](http://www.guildwarsinsider.com/spotlight-wartower/)
+[Guild Wars Insider: International Spotlight: Wartower.de ](http://web.archive.org/web/20140828023810/http://www.guildwarsinsider.com/spotlight-wartower/)
 • GWI is showcasing the biggest German Guild Wars 2 fansite [wartower.de](http://www.wartower.de). These are the people behind the Wartower spotlight and especially [this video](http://www.youtube.com/watch?v=LZMJ3sw_IcY).
 
 [PCgamer.com: Video tour of three major cities](http://www.pcgamer.com/previews/guild-wars-2-beta-video-tour-of-three-major-cities/)
