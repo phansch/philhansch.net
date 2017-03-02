@@ -37,7 +37,7 @@ I also tried a minimal Debian setup, but I couldn't get the wireless working. If
 I have been using XMonad for over a month now. I really like it. There are no window decorations and there is no mouse required to do anything.
 Windows are closed with <span class="key">Win</span> + <span class="key">Shift</span> + <span class="key">C</span> and that's basically it. Depending on the current layout, the size of the active window can be increased with <span class="key">Win</span> + <span class="key">H</span> and decreased with <span class="key">Win</span> + <span class="key">L</span>. To switch between windows, I use <span class="key">Win</span> + <span class="key">Tab</span>.
 
-My [XMonad config](https://gist.github.com/4397837) just adds a few custom keyboard shortcuts:
+My XMonad config just adds a few custom keyboard shortcuts:
 
  * <span class="key">Win</span> + <span class="key">Shift</span> + <span class="key">Enter</span> open `gnome-terminal`
  * <span class="key">Win</span> + <span class="key">Shift</span> + <span class="key">P</span> open `dmenu`

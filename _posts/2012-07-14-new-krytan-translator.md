@@ -11,8 +11,9 @@ Here's what I've been working on, the past couple of days.
 
 
 
-### [http://tools.plyturon.net/translator/](http://tools.plyturon.net/translator/)
+### ~~http://tools.plyturon.net/translator/~~
 
+*Update:* Unfortunately the translator is not up anymore as I retired the project. If you are interested, you can drop me a mail at: hi AT phansch.net.
 
   
 

@@ -28,6 +28,6 @@ On *Tuesday* I started to set-up a basic Rails App. Some static pages here and t
 On *Wednesday* I continued working on the App and added a basic user sign-up - pretty much following the tutorial again.
 
 ## Friday
-While I wasn't there on there on Thursday, I showed up for the Hardware Accelerator Demo day. There were quite some interesting pitches to be seen but nothing that was really groundbreaking. The most interesting presentation was by [DeMiFi](http://www.demifi.eu/) which basically is a small mobile router.
+While I wasn't there on there on Thursday, I showed up for the Hardware Accelerator Demo day. There were quite some interesting pitches to be seen but nothing that was really groundbreaking. The most interesting presentation was by [DeMiFi](https://angel.co/demifi) which basically is a small mobile router.
 
 And that's pretty much it for last week. I didn't get as much done as I wanted to, but that's fine.

@@ -14,7 +14,7 @@ In case you already know about customizing the PowerShell, you can get the file 
 ![Long Paths](/assets/images/posts/2012-10-01-my-powershell-prompt/long-paths.png)
 This is the default git shell prompt. As you can see, the path takes about 75% of the prompt's width. Let's change that.
 
-Admittedly, until today I didn't know a lot about PowerShell. So, after a bit research, I found an article on [prompt shortening](http://winterdom.com/2008/08/mypowershellprompt). The following two functions need to be placed into `%USERPROFILE%\Documents\WindowsPowerShell\GitHub.PowerShell_profile.ps1`
+Admittedly, until today I didn't know a lot about PowerShell. So, after a bit research, I found an article on [prompt shortening](http://winterdom.com/2008/08/13/mypowershellprompt.html). The following two functions need to be placed into `%USERPROFILE%\Documents\WindowsPowerShell\GitHub.PowerShell_profile.ps1`
 {% highlight powershell %}
 function shorten-path([string] $path) { 
 	$loc = $path.Replace($HOME, '~') 
