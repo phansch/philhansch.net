@@ -55,7 +55,7 @@ My first guess was that the failing test was caused by using `==`. Luckily I've 
 different [equality matchers in rspec](https://www.relishapp.com/rspec/rspec-expectations/v/2-0/docs/matchers/equality-matchers) before. I looked them up and it turns out that using `==` is 
 indeed the right choice to compare the values of two different objects. 
 
-Then I decided to run the test on the command line instead of using [RubyTest](https://sublime.wbond.net/packages/RubyTest) inside Sublime Text. Maybe, for whatever reason, it would show something that RubyTest doesn't. 
+Then I decided to run the test on the command line instead of using [RubyTest](https://packagecontrol.io/packages/RubyTest) inside Sublime Text. Maybe, for whatever reason, it would show something that RubyTest doesn't. 
 
 <a href="/assets/images/posts/2013-11-03-bugfixing/rspec_failure2.png" class="thumbnail">
   <img src="/assets/images/posts/2013-11-03
@@ -64,7 +64,7 @@ Then I decided to run the test on the command line instead of using [RubyTest](h
 
 Well, how did that hyphen get there and why didn't it show up in Sublime Text?
 First, let's see if the hyphen is actually in the file and not just present on the command line. 
-I'm using the [HexView plugin](https://sublime.wbond.net/packages/HexViewer) to check the actual content of the file.
+I'm using the [HexView plugin](https://packagecontrol.io/packages/HexViewer) to check the actual content of the file.
 
 <a href="/assets/images/posts/2013-11-03-bugfixing/hex.png" class="thumbnail">
   <img src="/assets/images/posts/2013-11-03
