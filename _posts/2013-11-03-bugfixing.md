@@ -6,8 +6,7 @@ title: Worthwhile bugfixing
 While I was working on a new version of [Jou](https://github.com/phansch/jou), I suddenly stumbled across a roadblock.
 
 <a href="/assets/images/posts/2013-11-03-bugfixing/rspec_failure.png" class="thumbnail">
-  <img src="/assets/images/posts/2013-11-03
--bugfixing/rspec_failure.png" alt="screenshot" />
+  <img src="/assets/images/posts/2013-11-03-bugfixing/rspec_failure.png" alt="screenshot" />
 </a>
 > What?! Expectation equals result, so why would it fail?!
 
@@ -58,8 +57,7 @@ indeed the right choice to compare the values of two different objects.
 Then I decided to run the test on the command line instead of using [RubyTest](https://packagecontrol.io/packages/RubyTest) inside Sublime Text. Maybe, for whatever reason, it would show something that RubyTest doesn't. 
 
 <a href="/assets/images/posts/2013-11-03-bugfixing/rspec_failure2.png" class="thumbnail">
-  <img src="/assets/images/posts/2013-11-03
--bugfixing/rspec_failure2.png" alt="screenshot" />
+  <img src="/assets/images/posts/2013-11-03-bugfixing/rspec_failure2.png" alt="screenshot" />
 </a>
 
 Well, how did that hyphen get there and why didn't it show up in Sublime Text?
@@ -67,8 +65,7 @@ First, let's see if the hyphen is actually in the file and not just present on t
 I'm using the [HexView plugin](https://packagecontrol.io/packages/HexViewer) to check the actual content of the file.
 
 <a href="/assets/images/posts/2013-11-03-bugfixing/hex.png" class="thumbnail">
-  <img src="/assets/images/posts/2013-11-03
--bugfixing/hex.png" alt="screenshot" />
+  <img src="/assets/images/posts/2013-11-03-bugfixing/hex.png" alt="screenshot" />
 </a>
 
 Well there it is. `c2ad`. In Unicode that's `U+00AD` ­­­­­­- the [soft hyphen](http://www.fileformat.info/info/unicode/char/00ad/index.htm). You can see a demonstration of the soft hyphen on [wikipedia](https://en.wikipedia.org/wiki/Soft_hyphen).
