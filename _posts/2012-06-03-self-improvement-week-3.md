@@ -26,7 +26,7 @@ As for other stuff, I ...
 Previously, I had my documents all over the place and emails/contacts/calendar only accessible at one computer. This week I fixed that. 
 I simplified stuff by using **Google Mail/Calendar** instead of Outlook. I'm also using **Google Drive** to save my documents now. This somewhat saves me from doing regular backups of my documents. 
 For note taking I'm using [Evernote](http://evernote.com/). Evernote also lets you sync over different devices. I use Evernote to write up my long term goals, class notes and ideas in general. 
-For short term tasks I'm using [Wunderlist](http://www.6wunderkinder.com/wunderlist/), which lets you sync over different devices as well! 
+For short term tasks I'm using [Wunderlist](http://wunderlist.com), which lets you sync over different devices as well! 
 This way I have all my stuff wherever I need it.
 
 

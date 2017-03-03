@@ -49,7 +49,7 @@ public void GetPossibleDirections(Map map)
 Natürlich ist das noch keine große Herausforderung für den Spieler. Im Original hat jeder Geist seine eigene Persönlichkeit, so dass er zum Beispiel auf die Nähe Pacmans reagiert. 
 Dazu gibt es einige wunderbare Artikel im Netz:
 	
-* [http://home.comcast.net/~jpittman2/pacman/pacmandossier.html](http://home.comcast.net/~jpittman2/pacman/pacmandossier.html)
+* [Gamasutra](http://www.gamasutra.com/view/feature/3938/the_pacman_dossier.php?print=1)
 * [http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
 
 Ich werde wenigstens eine Alternative Wegfindung für die Gegner implementieren. 

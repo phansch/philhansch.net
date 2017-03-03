@@ -23,5 +23,4 @@ I decided to use IndexedDB, because it seems to be the simplest solution for per
 ### An IndexedDB primer
 IndexedDB is an object storage for Javascript objects. Each IndexedDB database stores a collection of key-value pairs. Each value can be a Javascript object of any complexity. The key can be a property of such an object. You can also create indexes of any properties for quicker searching and sorting. Furthermore, instead of using SQL, in IndexedDB you use a cursor to iterate over a result set.
 
-If you want to learn more about IndexedDB, I recommend starting with [this](http://www.html5rocks.com/en/tutorials/indexeddb/todo/) Guide by Paul Kinlan.
-Another useful resource was the [IndexedDB guide on the MDN](https://developer.mozilla.org/en/docs/IndexedDB/Using_IndexedD).
+If you want to learn more about IndexedDB, I recommend starting with the [IndexedDB guide on the MDN](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB).

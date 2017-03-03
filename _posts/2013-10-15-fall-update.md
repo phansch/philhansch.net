@@ -34,7 +34,7 @@ I'm using a journal file to keep track of what I did each day. Like writing a bl
 As you might have noticed, the website underwent quite some changes:
 
  * Using Bootstrap 3.0
- * Proper [Portfolio](http://phansch.net/portfolio/)
+ * Proper [Portfolio](http://phansch.net/)
  * Feedburner RSS feed has been replaced with a simple [atom.xml](http://phansch.net/atom.xml)
 
 ## Netbook / Toolset changes
@@ -57,7 +57,7 @@ The solution is the Dell XPS 13. It's going to replace my netbook *and* my PC. A
 
 * [dwm](http://dwm.suckless.org/) on Linux Mint 15 Xfce with two 24" screens.
 * Mail: [mutt](http://www.mutt.org/)
-* Todo: [taskwarrior](http://taskwarrior.org/projects/show/taskwarrior) + [bugwarrior](https://github.com/ralphbean/bugwarrior)
+* Todo: [taskwarrior](http://taskwarrior.org/docs/start.html) + [bugwarrior](https://github.com/ralphbean/bugwarrior)
 * Calendar: [pal](http://palcal.sourceforge.net/)
 * Editor: Sublime Text 3
 * Sync: [Btsync](http://labs.bittorrent.com/experiments/sync.html)
