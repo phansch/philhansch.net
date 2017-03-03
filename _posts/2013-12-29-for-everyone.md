@@ -4,7 +4,7 @@ layout: post
 excerpt: How I turned my life around. About depression, video game addiction and social anxiety.
 ---
 
-When I [moved to Berlin](http://0:4000/2011/09/29/good-news-i-am-moving-to-berlin-and-getting-into-the-games-industry/) two years ago I moved there with the intention of becoming more outgoing and becoming less anxious in social settings. I was never very popular in class and I <s>pretty much</s> never went out to parties before. In school, I got picked on and bullied. Before Berlin, I was very insecure. So, for me, moving to Berlin was about starting anew. I also moved here to study applied computer science at [HTW Berlin](http://www.htw-berlin.de/en).
+When I [moved to Berlin](/2011/09/29/good-news-i-am-moving-to-berlin-and-getting-into-the-games-industry/) two years ago I moved there with the intention of becoming more outgoing and becoming less anxious in social settings. I was never very popular in class and I <s>pretty much</s> never went out to parties before. In school, I got picked on and bullied. Before Berlin, I was very insecure. So, for me, moving to Berlin was about starting anew. I also moved here to study applied computer science at [HTW Berlin](http://www.htw-berlin.de/en).
 
 I am a software developer and I love to learn. Usually I learn about new languages, algorithms, frameworks or general programming concepts. But recently I have learned a lot about myself.
 
