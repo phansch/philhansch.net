@@ -6,7 +6,7 @@ require 'rack/jekyll'
 
 Capybara.app = Rack::Jekyll.new(force_build: true)
 
-sleep 5 # wait until page is built...
+sleep 8 # wait until page is built...
 
 class CapybaraTestCase < MiniTest::Test
   include Capybara::DSL
