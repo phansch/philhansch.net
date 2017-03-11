@@ -2,7 +2,7 @@
 permalink: /:categories/:year/:month/:day/:title/
 
 include: [".htaccess"]
-exclude: [".rvmrc", ".rbenv-version", "Rakefile", "README.md", "Vagrantfile", "Dockerfile"]
+exclude: [".rvmrc", ".rbenv-version", "Rakefile", "README.md", "Vagrantfile", "Dockerfile", 'test/**/*']
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
