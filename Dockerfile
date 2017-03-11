@@ -5,7 +5,7 @@ RUN apt-get update -qq && apt-get install -y \
     nginx \
     npm \
     nodejs-legacy
-RUN npm install -g phantomjs
+RUN npm install -g phantomjs-prebuilt
 
 WORKDIR /tmp
 COPY Gemfile /tmp/Gemfile
