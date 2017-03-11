@@ -10,24 +10,28 @@ $primary-color: #ffffff;
 $text-color: #626262;
 $link-color: rgb(87, 163, 232);
 $link-hover: #808080;
+$background-color: #f2f2f2;
 
 body {
-  background-color: $primary-color;
+  background-color: $background-color;
   font: normal 100% $font-stack;
 }
+
+.highlight {
+  border: 1px solid $text-color;
+  border-radius: 4px;
+}
+
 .highlight > pre {
   display: block;
-  padding: 9.5px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  padding: 1px 9px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 13px;
   line-height: 1.42857;
   color: rgb(51, 51, 51);
   word-break: break-all;
   word-wrap: break-word;
-  background-color: rgb(245, 245, 245);
-  border: 1px solid rgb(204, 204, 204);
-  border-radius: 4px;
   code {
     color: inherit;
     font-weight: normal;
@@ -36,9 +40,9 @@ body {
 
 p code {
   border-radius: 3px;
-  background-color: #f9f9f9;
-  color: #bf616a;
+  font-family: monospace;
   font-weight: normal;
+  font-size: 13px;
   padding: .25em, .5em;
 }
 
@@ -115,7 +119,9 @@ section.main {
 
     h2 {
       font-size: 1.8em;
-      font-weight: 400;
+      font-family: sans-serif;
+      font-weight: 200;
+      letter-spacing: -1px;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
