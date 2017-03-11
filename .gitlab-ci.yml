@@ -19,6 +19,11 @@ test:
   script:
   - bundle exec rake test
 
+html_proofer:
+  script:
+  - bundle exec rake html_proofer
+
+
 pages:
   script:
   - bundle exec jekyll build -d public/
