@@ -5,11 +5,11 @@ require 'capybara/dsl'
 require 'rack/file'
 require 'html-proofer'
 
-def site_dir
+def build_dir
   File.join(File.dirname(__FILE__), '_site')
 end
 
-Capybara.app = Rack::File.new(site_dir)
+Capybara.app = Rack::File.new(build_dir)
 
 class CapybaraTestCase < MiniTest::Test
   include Capybara::DSL
@@ -23,18 +23,18 @@ end
 def before_run
   before = Time.now
   puts 'Building site..'
-  `jekyll build -d #{site_dir} -V` unless File.directory?('test/_site')
+  `jekyll build -d #{build_dir} -V` unless File.directory?('test/_site')
   puts "Finished building site in #{Time.now - before}s\n\n"
   opts = {
     url_ignore: [/localhost/],
     empty_alt_ignore: true,
     file_ignore: [/slides/]
   }
-  HTMLProofer.check_directory(site_dir, opts).run
+  HTMLProofer.check_directory(build_dir, opts).run
 end
 
 before_run
 
 MiniTest.after_run do
-  `rm -rf #{site_dir}`
+  `rm -rf #{build_dir}`
 end
