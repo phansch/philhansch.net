@@ -4,7 +4,7 @@ MAINTAINER Philipp Hansch <dev@phansch.net>
 RUN apt-get update -qq && apt-get install -y \
     nginx \
     npm \
-    nodejs-legacy
+    node
 RUN npm install -g phantomjs-prebuilt
 
 WORKDIR /tmp
