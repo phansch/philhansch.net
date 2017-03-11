@@ -77,6 +77,9 @@ GEM
       slop (~> 3.4)
     public_suffix (2.0.5)
     rack (2.0.1)
+    rack-jekyll (0.3.5)
+      jekyll
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (12.0.0)
@@ -109,6 +112,7 @@ DEPENDENCIES
   neat
   pry
   rack
+  rack-jekyll
   rake
   rb-readline
 
