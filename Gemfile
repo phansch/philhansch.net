@@ -14,5 +14,4 @@ group :test do
   gem 'rack'
   gem 'rack-jekyll'
   gem 'rake'
-  gem 'feedvalidator'
 end
