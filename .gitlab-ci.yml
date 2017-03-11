@@ -20,6 +20,7 @@ test:
   - bundle exec rake test
 
 html_proofer:
+  allow_failure: yes
   script:
   - bundle exec rake html_proofer
 
