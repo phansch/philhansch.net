@@ -1,4 +1,4 @@
-FROM ruby:2.1.6
+FROM ruby:2.3.1
 MAINTAINER Philipp Hansch <dev@phansch.net>
 
 RUN apt-get update -qq && apt-get install -y \
