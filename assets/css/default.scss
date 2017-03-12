@@ -5,6 +5,8 @@
 @import 'grid-settings';
 @import 'neat/neat';
 
+$brand-primary: #fa6900;
+$brand-secondary: #e0e4cc;
 $font-stack: sans-serif;
 $primary-color: #ffffff;
 $text-color: #626262;
@@ -67,7 +69,7 @@ p code {
 
 /* foundation top-bar modifications */
 .top-bar {
-  background: url('../images/bg-top.png');
+  background-color: $brand-primary;
 
   .left > li a,
   .title-area > li a {
@@ -83,13 +85,13 @@ p code {
     li.active:not(.has-form) a:not(.button),
     li.active:not(.has-form) a:hover:not(.button) {
       color: $text-color;
-      background: $primary-color;
+      background: $background-color;
     }
 
     ul,
     li:not(.has-form) a:not(.button),
     li:not(.has-form) a:hover:not(.button) {
-      background: url('../images/bg-top.png');
+      background: $brand-primary;
     }
   }
 }
@@ -102,7 +104,7 @@ p code {
   }
 
   ul.title-area {
-    background: url('../images/bg-top.png');
+    background: $brand-primary;
   }
 }
 
@@ -121,7 +123,6 @@ section.main {
   @include outer-container;
   margin-top: 2em;
   padding: 0 2em;
-
   article {
     @include span-columns(12);
 
