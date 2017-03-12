@@ -1,7 +1,6 @@
 # phansch.net
 
 This is the data for my blog. It uses Jekyll to generate a static website whenever I push new content to GitLab.
-Posts are written in Markdown and are kept in the `drafts` branch until they are published.
 
 The blog is currently hosted on [DigitalOcean](https://www.digitalocean.com) where it is being deployed with [dokku](http://progrium.viewdocs.io/dokku/).
 
