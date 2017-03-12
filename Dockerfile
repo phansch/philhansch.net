@@ -1,11 +1,11 @@
-FROM ruby:2.3.1
+FROM ruby:2.4.0
 MAINTAINER Philipp Hansch <dev@phansch.net>
 
 RUN apt-get update -qq && apt-get install -y \
     nginx \
     npm \
-    node
-RUN npm install -g phantomjs-prebuilt
+    nodejs-legacy
+RUN npm install -g phantomjs
 
 WORKDIR /tmp
 COPY Gemfile /tmp/Gemfile
