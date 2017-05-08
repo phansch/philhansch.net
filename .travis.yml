@@ -1,0 +1,19 @@
+language: ruby
+sudo: false
+cache: bundler
+
+rvm:
+ - 2.3.3
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  matrix:
+    - RUN=html_proofer
+    - RUN=test
+
+script: 'script/ci.rb'
