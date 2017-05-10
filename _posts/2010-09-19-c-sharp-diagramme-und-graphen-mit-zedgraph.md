@@ -7,11 +7,12 @@ title: C# - Diagramme und Graphen mit ZedGraph
 wordpress_id: 611
 ---
 
+**Note**: Die ZedGraph Website existiert leider nicht mehr, deshalb habe ich die links entfern.
 Für die Darstellung von Graphen und Diagrammen in einer Form gibt es verschiedene Werkzeuge. Der Großteil der Angebote ist allerdings nicht kostenlos oder nur gering konfigurierbar. Auf der Suche nach weiteren Bibliotheken bin ich auf **ZedGraph** gestoßen.
 
 ZedGraph ist eine freie Bibliothek zum Erstellen von flexiblen Diagrammen und Graphen. Mit ZedGraph lassen sich alle Formen von 2D Diagrammen darstellen. Die Diagramme bieten Optionen zum Zoomen, drucken, kopieren und speichern.
 
-Während die ZedGraph Wiki bereits [viele Beispiele](http://www.zedgraph.org/wiki/index.php?title=Sample_Graphs) bietet, werde ich ebenfalls die Grundfunktionen von ZedGraph anhand eines kleinen Beispiels erläutern.
+Während die ZedGraph Wiki bereits viele Beispiele bietet, werde ich ebenfalls die Grundfunktionen von ZedGraph anhand eines kleinen Beispiels erläutern.
 
 
 ## Darstellung von zufälligen Zahlen als Streudiagramm
@@ -44,11 +45,11 @@ Zunächst haben wir zwei Klassen auf die wir zurückgreifen:
 
 Nun die Methode zum Erzeugen von 200 zufälligen Zahlen:
 
-    
+
     private void button_update_Click(object sender, EventArgs e)
     {
         randomData.Clear(); //Remove old data
-    
+
         int i = 0;
     
         do
@@ -119,5 +120,4 @@ Zuletzt wird das ZedGraphControl aktualisiert um die neuen Daten anzuzeigen.
 Beispiel als Download: <!--[ZedGraphExample](http://wpimages.phansch.de/2010/09/ZedGraphExample.zip). (Benötigt wird [Visual C# 2010 Express](http://www.microsoft.com/express/Downloads/#2010-Visual-CS))--> Beispiel entfernt.
 
 Weiterführende Links:
-[http://zedgraph.org/wiki/index.php?title=Main_Page](http://zedgraph.org/wiki/index.php?title=Main_Page)
 [http://www.codeproject.com/KB/graphics/zedgraph.aspx](http://www.codeproject.com/KB/graphics/zedgraph.aspx)

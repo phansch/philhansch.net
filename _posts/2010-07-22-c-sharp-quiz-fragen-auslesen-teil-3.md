@@ -91,7 +91,7 @@ public Questions()
 {% endhighlight %}
 
 
-Die Methode _PopulateArray()_ liest die Fragen mittels [LINQ to XML](http://msdn.microsoft.com/de-de/library/bb387061.aspx) aus:
+Die Methode _PopulateArray()_ liest die Fragen mittels *LINQ to XML* aus:
 
     
 {% highlight csharp  %}
