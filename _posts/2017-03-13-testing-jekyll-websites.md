@@ -76,4 +76,4 @@ This of course depends on your website. For me I identified a few things:
 * The main navigation items go to pages with the correct content
 * The [atom feed](/atom.xml) should be a valid atom feed
 
-Apart from the atom feed validation this is all straight Capybara using `has_content` and some basic Ruby for the time check. You can find all the tests [here](https://gitlab.com/phansch/phansch.gitlab.io/tree/master/test/).
+Apart from the atom feed validation this is all straight Capybara using `has_content` and some basic Ruby for the time check. You can find all the tests [here](https://github.com/phansch/phansch.github.com/tree/master/test/).

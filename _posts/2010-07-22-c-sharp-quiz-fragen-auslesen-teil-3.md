@@ -12,7 +12,7 @@ Im [vorherigen Tutorialteil](http://phansch.net/2010/07/22/c-sharp-quiz-vorberei
 Bevor wir die Fragen auslesen und darstellen können, müssen wir uns die Frage stellen, ob wir bei einem einfachen Textformat bleiben wollen. So hat das .xml Format den Vorteil, dass es sich leichter in andere Formate umwandeln lässt. Eine Datenbank hätte den Vorteil, dass man Fragen und Antworten an einem zentralen Ort speichern kann.
 Dass das .xml Format und eine Datenbank einige Vorteile gegenüber einer einfachen Textdatei haben, liegt klar auf der Hand. Doch für welches Format sollte man sich entscheiden?
 
-Mit dem .net Framework 3.5 gibt es eine neue Möglichkeit zur Abfrage von Datenquellen wie XML-Dateien oder Datenbanken: [LINQ](http://msdn.microsoft.com/en-us/netframework/aa904594.aspx). Mit LINQ ist es möglich .xml Datenquellen und SQL Server Datenbankobjekte auszulesen und zu bearbeiten. Da ein SQL Server deutlich mehr Konfiguration und Wartung bedarf als eine einfache .xml Datei, werden wir für dieses Projekt .xml Dateien verwenden.
+Mit dem .net Framework 3.5 gibt es eine neue Möglichkeit zur Abfrage von Datenquellen wie XML-Dateien oder Datenbanken: *LINQ*. Mit LINQ ist es möglich .xml Datenquellen und SQL Server Datenbankobjekte auszulesen und zu bearbeiten. Da ein SQL Server deutlich mehr Konfiguration und Wartung bedarf als eine einfache .xml Datei, werden wir für dieses Projekt .xml Dateien verwenden.
 
 Zunächst müssen die Fragen also in eine XML Struktur umgewandelt werden.
 (Der Download zur Fragen.xml wurde entfernt, da die Datei nicht mehr existiert)
@@ -91,7 +91,7 @@ public Questions()
 {% endhighlight %}
 
 
-Die Methode _PopulateArray()_ liest die Fragen mittels [LINQ to XML](http://msdn.microsoft.com/de-de/library/bb387061.aspx) aus:
+Die Methode _PopulateArray()_ liest die Fragen mittels *LINQ to XML* aus:
 
     
 {% highlight csharp  %}
