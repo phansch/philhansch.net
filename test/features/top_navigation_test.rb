@@ -13,12 +13,6 @@ class TopNavigationTest < CapybaraTestCase
     assert page.has_content? 'Reading List'
   end
 
-  def test_speaking_link
-    visit '/'
-    click_link 'Speaking'
-    assert page.has_content? 'Public speaking'
-  end
-
   def test_writing_link
     visit '/'
     click_link 'Writing'
