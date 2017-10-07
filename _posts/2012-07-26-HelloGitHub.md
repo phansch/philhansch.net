@@ -13,7 +13,7 @@ I will try to write about my experiences with jekyll and liquid as I move on. He
 This is not the first time I tried to get into using github. I admit that previously I had no idea what to use it for. But yesterday I stumbled upon [pages.github.com](http://pages.github.com) and I was immediately intrigued. So today, I downloaded the github app for windows and created my first repository. This was pretty straightforward and right now I prefer the GUI over the command line.
 
 ### Getting to know jekyll and liquid ###
-The first documentation I found, was [this one](https://help.github.com/categories/20/articles). It wasn't very helpful as it didn't explain how to actually create a page or even a blog. Turns out, I was looking in the wrong place. [jekyllbootstrap.com](http://jekyllbootstrap.com/) was the biggest help, especially the [introduction](http://jekyllbootstrap.com/lessons/jekyll-introduction.html). 
+The first documentation I found, was [this one](https://help.github.com/categories/20/articles). It wasn't very helpful as it didn't explain how to actually create a page or even a blog. Turns out, I was looking in the wrong place. jekyllbootstrap.com (not existing anymore) was the biggest help, especially the introduction article. 
 With the proper documentation at hand I quickly made progress and soon had my first template/page setup working. From there it was only a surprisingly small step to a blog.
 
 ### How this blog works ###

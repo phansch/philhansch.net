@@ -12,4 +12,4 @@ You see, namecheap didn't offer transfers for .de domains. So I sent a close req
 **I no longer own phansch.de.** 
 
 To get everything in order again, I purchased **[phansch.net](http://phansch.net)** and set up proper domain forwarding.  
-There's also a new theme, as you might have noticed. It's a mix of [the-pr0gram](http://layouts-the.me.s3-website-us-east-1.amazonaws.com/themes/the-program/) and [Tom's theme](http://themes.jekyllbootstrap.com/preview/tom/).
+There's also a new theme, as you might have noticed. It's a mix of [the-pr0gram](http://layouts-the.me.s3-website-us-east-1.amazonaws.com/themes/the-program/) and Tom's jekyll theme.
