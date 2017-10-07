@@ -16,8 +16,7 @@ task :html_proofer do
     url_ignore: [/localhost/],
     empty_alt_ignore: true,
     file_ignore: [/slides/],
-    ssl_verifyhost: 0,
-    ssl_verifypeer: false
+    typhoeus: { ssl_verifyhost: 0, ssl_verifypeer: false, timeout: 30 }
   }
   HTMLProofer.check_directory(build_dir, opts).run
 end
