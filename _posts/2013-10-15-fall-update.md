@@ -60,7 +60,7 @@ The solution is the Dell XPS 13. It's going to replace my netbook *and* my PC. A
 * Todo: [taskwarrior](http://taskwarrior.org/docs/start.html) + [bugwarrior](https://github.com/ralphbean/bugwarrior)
 * Calendar: [pal](http://palcal.sourceforge.net/)
 * Editor: Sublime Text 3
-* Sync: [Btsync](http://labs.bittorrent.com/experiments/sync.html)
+* Sync: Btsync
 * IRC: [Weechat](http://www.weechat.org/)
 * Other: Firefox, Skype, VLC, JDownloader
 * My [Dotfiles](https://gitlab.com/phansch/dotfiles/tree/master)
