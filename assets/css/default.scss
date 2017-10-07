@@ -1,10 +1,6 @@
 ---
 ---
 
-@import 'bourbon/bourbon';
-@import 'grid-settings';
-@import 'neat/neat';
-
 $brand-primary: #f82525;
 $brand-secondary: #e0e4cc;
 $font-stack: sans-serif;
@@ -119,13 +115,32 @@ p code {
   color: $primary-color;
 }
 
+.outer-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 41em;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  .col {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-right: 2.3%;
+  }
+}
+
 section.main {
-  @include outer-container;
   margin-top: 2em;
   padding: 0 2em;
-  article {
-    @include span-columns(12);
 
+  article {
     h1 {
       font-size: 2rem;
       font-family: sans-serif;
