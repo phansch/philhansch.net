@@ -24,4 +24,4 @@ The last thing that was on my list was the code formatting. Apparently there is 
 This is also where most of the commits came from. Obviously, GitHub flavored markdown is not available in a local testing environment, so I had to test it on GitHub.
 
 ### My own theme ###
-This theme is a fork of [Tom's theme](http://themes.jekyllbootstrap.com/preview/tom/). A few changes to the font, a new archive page and a different footer - That's all I changed. But it's not finished yet. I'm planning to add a "fork me" badge and I might change the footer a little bit. But so far I'm pretty much done.
+This theme is a fork of Tom's jekyllbootstrap theme. A few changes to the font, a new archive page and a different footer - That's all I changed. But it's not finished yet. I'm planning to add a "fork me" badge and I might change the footer a little bit. But so far I'm pretty much done.
