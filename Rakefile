@@ -15,7 +15,8 @@ task :html_proofer do
   opts = {
     url_ignore: [/localhost/],
     empty_alt_ignore: true,
-    file_ignore: [/slides/]
+    file_ignore: [/slides/],
+    ssl_verifyhost: 0
   }
   HTMLProofer.check_directory(build_dir, opts).run
 end
