@@ -2,9 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '3.4.2'
 
-gem 'bourbon'
-gem 'neat'
-
 gem 'pry'
 gem 'rb-readline'
 
