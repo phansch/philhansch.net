@@ -7,7 +7,7 @@ title: C# - Diagramme und Graphen mit ZedGraph
 wordpress_id: 611
 ---
 
-**Note**: Die ZedGraph Website existiert leider nicht mehr, deshalb habe ich die links entfern.
+**Note**: Die ZedGraph Website existiert leider nicht mehr, deshalb habe ich die links entfernt.
 Für die Darstellung von Graphen und Diagrammen in einer Form gibt es verschiedene Werkzeuge. Der Großteil der Angebote ist allerdings nicht kostenlos oder nur gering konfigurierbar. Auf der Suche nach weiteren Bibliotheken bin ich auf **ZedGraph** gestoßen.
 
 ZedGraph ist eine freie Bibliothek zum Erstellen von flexiblen Diagrammen und Graphen. Mit ZedGraph lassen sich alle Formen von 2D Diagrammen darstellen. Die Diagramme bieten Optionen zum Zoomen, drucken, kopieren und speichern.
