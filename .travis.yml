@@ -19,5 +19,6 @@ env:
   matrix:
     - RUN=html_proofer
     - RUN=test
+    - RUN=lint
 
 script: 'script/ci.rb'
