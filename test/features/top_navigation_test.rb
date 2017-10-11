@@ -4,7 +4,7 @@ class TopNavigationTest < CapybaraTestCase
   def test_portfolio_link
     visit '/'
     click_link 'Portfolio'
-    assert page.has_content? 'Contact'
+    assert page.has_content? 'Resumè / CV'
   end
 
   def test_reading_link
