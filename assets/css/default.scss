@@ -35,6 +35,13 @@ kbd {
   white-space:nowrap;
 }
 
+#folio-mid {
+  table {
+    background: transparent;
+    border: none;
+  }
+}
+
 .highlight {
   border: 1px solid $text-color;
   border-radius: 4px;
@@ -235,13 +242,14 @@ section.main {
 }
 
 footer {
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 30px;
 
   #footer-content {
     padding-top: 10px;
-    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid #FF4610;
     text-align: center;
     line-height: 160%;
     margin: 0px auto;
