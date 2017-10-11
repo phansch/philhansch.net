@@ -31,12 +31,13 @@ end
 
 build = Build.new
 
-if ENV['RUN'] == 'html_proofer'
+case ENV['RUN']
+when 'html_proofer'
   build.run_job('html_proofer', 'bundle exec rake html_proofer')
-end
-
-if ENV['RUN'] == 'test'
+when 'test'
   build.run_job('test', 'bundle exec rake test')
+when 'lint'
+  build.run_job('lint', 'bundle exec rake proselint')
 end
 
 build.handle_results

@@ -20,3 +20,7 @@ task :html_proofer do
   }
   HTMLProofer.check_directory(build_dir, opts).run
 end
+
+task :proselint do
+  system('bundle exec proselint _posts/*.md')
+end
