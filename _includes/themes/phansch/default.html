@@ -26,33 +26,33 @@
   </head>
   <body>
 
-  <div class="fixed">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="/">{{ site.author.name }}</a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#top"><span></span></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        <ul class="left">
-          <li title="Programs I've written"{% if page.title == "Philipp Hansch" or page.layout == "portfolio" %} class="active"{% endif%}>
-          <a href="/">Portfolio</a>
+    <div class="fixed">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="/">{{ site.author.name }}</a></h1>
           </li>
-          <li title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %}>
-          <a href="/reading">Reading</a>
-          </li>
-          <!-- <li title="I also give talks from time to time"{% if page.title == "Speaking" %} class ="active"{% endif %}> -->
-          <!-- <a href="/speaking">Speaking</a> -->
-          <!-- </li> -->
-          <li title="Writing"{% if page.title == "Writing" %} class="active"{% endif%}>
-          <a href="/writing">Writing</a>
-          </li>
+          <li class="toggle-topbar menu-icon"><a href="#top"><span></span></a></li>
         </ul>
-      </section>
-    </nav>
-  </div>
+
+        <section class="top-bar-section">
+          <ul class="left">
+            <li title="Programs I've written"{% if page.title == "Philipp Hansch" or page.layout == "portfolio" %} class="active"{% endif%}>
+            <a href="/">Portfolio</a>
+            </li>
+            <li title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %}>
+            <a href="/reading">Reading</a>
+            </li>
+            <!-- <li title="I also give talks from time to time"{% if page.title == "Speaking" %} class ="active"{% endif %}> -->
+            <!-- <a href="/speaking">Speaking</a> -->
+            <!-- </li> -->
+            <li title="Writing"{% if page.title == "Writing" %} class="active"{% endif%}>
+            <a href="/writing">Writing</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
 
     <a id="top"></a>
 
