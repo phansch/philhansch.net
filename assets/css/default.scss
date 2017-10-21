@@ -76,6 +76,7 @@ p code {
   left: 0;
   top: 0;
   position: fixed;
+  z-index: 1;
 }
 
 .my-top-bar {
@@ -88,13 +89,18 @@ p code {
     display: inline;
     font-size: 20px;
   }
-
+  @media only screen and (max-width: 550px) {
+    .title h1 {
+      display: none;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
   ul.menu {
     list-style: none;
-    display: inline;
+    display: block;
+    width: 100%;
     margin: 0 auto;
-    height: auto;
-    width: auto;
 
     li { float: left; }
     li h1 a,
@@ -108,7 +114,7 @@ p code {
       letter-spacing: -1px;
       padding: 0 15px;
     }
-    li.active a:not(.button),
+    li.active:not(.has-form) a:not(.button),
     li.active:not(.has-form) a:hover:not(.button) {
       color: $text-color;
       background: $background-color;
