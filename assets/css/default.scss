@@ -74,56 +74,61 @@ p code {
   padding: .25em, .5em;
 }
 
-/* foundation top-bar modifications */
-.top-bar {
+/* top-bar */
+.my-fixed {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.my-top-bar {
+  height: 45px;
   background-color: $brand-primary;
 
-  .left > li a,
-  .title-area > li a {
-    font-family: sans-serif;
-    color: $primary-color;
-    text-transform: uppercase;
-    font-weight: 200;
-    letter-spacing: -1px;
+  .title h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+    font-size: 20px;
   }
-
-  .top-bar-section {
+  @media only screen and (max-width: 550px) {
+    .title h1 {
+      display: none;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  ul.menu {
+    list-style: none;
+    display: block;
+    width: 100%;
     margin: 0 auto;
+
+    li { float: left; }
+    li h1 a,
+    li a {
+      display: block;
+      line-height: 45px;
+      font-family: sans-serif;
+      color: $primary-color;
+      text-transform: uppercase;
+      font-weight: 200;
+      letter-spacing: -1px;
+      padding: 0 15px;
+    }
     li.active:not(.has-form) a:not(.button),
     li.active:not(.has-form) a:hover:not(.button) {
       color: $text-color;
       background: $background-color;
     }
 
-    ul,
     li:not(.has-form) a:not(.button),
     li:not(.has-form) a:hover:not(.button) {
       background: $brand-primary;
     }
   }
-}
-
-.top-bar.expanded {
-  .top-bar-section li.active:not(.has-form) a:not(.button), 
-  .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
-    color: $text-color;
-    background: $primary-color;
-  }
-
-  ul.title-area {
-    background: $brand-primary;
-  }
-}
-
-.top-bar .top-bar-section > .left > li > a {
-  font-size: 16px;
-}
-.top-bar .title-area li h1 {
-  font-size: 20px;
-}
-.top-bar .top-bar-brand:hover,
-.top-bar .top-bar-brand:focus {
-  color: $primary-color;
 }
 
 .outer-container {
@@ -148,7 +153,7 @@ p code {
 }
 
 section.main {
-  margin-top: 2em;
+  margin-top: 75px;
   padding: 0 2em;
 
   article {
