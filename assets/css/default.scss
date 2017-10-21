@@ -3,7 +3,7 @@
 
 $brand-primary: #f82525;
 $brand-secondary: #e0e4cc;
-$font-stack: "DejaVu Sans", sans-serif;
+$font-stack: DejaVu Sans, sans-serif;
 $primary-color: #ffffff;
 $text-color: #626262;
 $link-color: rgb(87, 163, 232);
@@ -111,7 +111,7 @@ p code {
     li a {
       display: block;
       line-height: 45px;
-      font-family: sans-serif;
+      font-family: $font-stack;
       color: $primary-color;
       text-transform: uppercase;
       font-weight: 200;
@@ -159,7 +159,7 @@ section.main {
   article {
     h1 {
       font-size: 2rem;
-      font-family: sans-serif;
+      font-family: $font-stack;
       font-weight: 200;
       letter-spacing: -2px;
       a, a:hover, a:focus {
@@ -170,7 +170,7 @@ section.main {
 
     h2 {
       font-size: 1.8em;
-      font-family: sans-serif;
+      font-family: $font-stack;
       font-weight: 200;
       letter-spacing: -1px;
       a, a:hover, a:focus {
@@ -242,7 +242,7 @@ section.main {
   }
 
   #folio-top {
-    font-family: sans-serif;
+    font-family: $font-stack;
 
     h1 {
       font-size: 2.3em;
