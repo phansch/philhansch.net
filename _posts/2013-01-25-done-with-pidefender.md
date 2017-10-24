@@ -14,7 +14,7 @@ PiDefender is a top-down space shooter. The player controls a cannon by moving t
 
 ## Screenshots ##
 
-<h2 id="screenshots">Screenshots</h2>
+<h2 id="screenshot">Screenshots</h2>
 <div class="row">
   <div class="col-md-6">
     <a href="/assets/images/portfolio/pidefender/pidefender-1.png" class="thumbnail">
