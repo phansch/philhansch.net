@@ -17,12 +17,13 @@
 <p>If you don't have Love2D installed, download it <a href="http://love2d.org/">here</a> and install it first.
 
 To run the game:
+</p>
+
 <ul>
     <li>On Linux, use <code>love /path/to/{{ page.github }}.love</code> to run the game.</li>
     <li>On Windows use <code>love C:\path\to\{{ page.github }}.love</code> <strong>or</strong> drag the .love file onto love.exe</li>
     <li>On Mac use <code>open -n -a love "/home/path/to/{{ page.github }}"</code> <strong>or</strong> drag the .love file onto the Love.app application bundle</li>
 </ul>
-</p>
 {% endif %}
 {% if page.source %}
 

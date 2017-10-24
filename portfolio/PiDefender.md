@@ -60,4 +60,5 @@ function Cannon:update(dt, circleradius)
 
 end
 {% endhighlight %}
+
 <span class="glyphicon glyphicon-chevron-right"></span> Cannon movement and <abbr title="Area of effect">Aoe</abbr> handling.

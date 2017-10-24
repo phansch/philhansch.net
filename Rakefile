@@ -14,8 +14,9 @@ task :html_proofer do
   `jekyll build -d #{build_dir} -V` unless File.directory?('test/_site')
   opts = {
     url_ignore: [/localhost/],
-    empty_alt_ignore: true,
     file_ignore: [/slides/],
+    check_favicon: true,
+    check_html: true,
     typhoeus: { ssl_verifyhost: 0, ssl_verifypeer: false, timeout: 30 }
   }
   HTMLProofer.check_directory(build_dir, opts).run
