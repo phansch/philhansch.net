@@ -47,7 +47,7 @@ The third was by [tran.sl](http://tran.sl/) which is a platform that aims to be 
 
 
 Once BetaBreakfast was over, I started working on the tutorial again. At some point I got stuck for an hour or two because the database was acting weird. I am still not sure about the cause. Eventually I rolled back to a previous commit where it worked again.
-At the end of the day I made it to chapter eight of the tutorial but was bored out of my mind. See the current progress [here](https://immense-waters-2034.herokuapp.com/). The book is very detailed and copying stuff over to the editor makes me feel like I'm not learning much. Which is probably true.
+At the end of the day I made it to chapter eight of the tutorial but was bored out of my mind. The book is very detailed and copying stuff over to the editor makes me feel like I'm not learning much. Which is probably true.
 For the next week I plan to start working on my own project. I will skim over the rest of the tutorial and see if there is anything left to learn.
 
 Fast forward to 6 pm, it's demo time. This is where we show off what we accomplished during the week. If I were to compare my work to the other demos, they were really interesting and I kinda feel like I didn't learn as much as I could have. For next weeks demo I will try to share more of what I learned and focus less on what I did.
