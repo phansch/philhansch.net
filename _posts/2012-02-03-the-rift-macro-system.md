@@ -30,7 +30,7 @@ And here the real trouble begins. Some parts aren't localized. Take the _/cas_t 
 
 <!--[![](http://wpimages.phansch.de/2012/02/macro.jpg)](http://wpimages.phansch.de/2012/02/macro.jpg)-->
 
-Then there are certain emotes in the German client that allow you to use both the English and the German command: _/dance_ and _/tanzen_ will both work in the German client! These are just a few examples I stumbled across when I was writing up the [Commandlist](http://telarapedia.com/wiki/Commands) over at Telarapedia during beta. 
+Then there are certain emotes in the German client that allow you to use both the English and the German command: _/dance_ and _/tanzen_ will both work in the German client! These are just a few examples I stumbled across when I was writing up the [Commandlist](http://telarapedia.gamepedia.com/Commands) over at Telarapedia during beta. 
 
 ### Possible solutions
 
