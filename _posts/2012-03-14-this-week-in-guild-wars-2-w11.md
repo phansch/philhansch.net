@@ -82,7 +82,7 @@ GWOnline: Traits: An Analysis **Site offline**
 **ArenaNet:** [Pre purchase Guild Wars 2](http://buy.guildwars2.com)
 • The Pre-Purchase website for Guild Wars 2 has arrived. Pre-Purchases will start on April 10.
 
-**ArenaNet:** [Regina Buenaobra: Preliminary Pre-Purchase FAQ on GW2Guru](http://www.guildwars2guru.com/forum/showpost.php?p=1212248&postcount=1412)
+**ArenaNet:** [Regina Buenaobra: Preliminary Pre-Purchase FAQ on GW2Guru](#top) (forum does not exist anymore).
 • A preliminary Pre-Purchase FAQ posted by Regina Buenaobra on GW2Guru.
 
 [Guild Wars Insider: Guild Wars 2 As A Spectator Esport](http://web.archive.org/web/20120823181051/http://www.guildwarsinsider.com/guild-wars-2-spectator-esport/)
