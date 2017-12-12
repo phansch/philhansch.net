@@ -15,7 +15,7 @@ Als Software benutze benutzen wir VirtualBox und Ubuntu.
 
 Das Hostsystem ist Windows 7 x64.
 
-VirtualBox kann [hier](http://www.virtualbox.org/wiki/Downloads) heruntergeladen werden und das .iso Image für Ubuntu 9.10 [hier](http://www.ubuntu.com/GetUbuntu/download).
+VirtualBox kann [hier](http://www.virtualbox.org/wiki/Downloads) heruntergeladen werden und das .iso Image für Ubuntu 9.10 [hier](http://www.ubuntu.com/download/desktop).
 
 Die Installation und Konfiguration von VirtualBox ist zum Großteil selbsterklärend und die Schritte zum erstellen einer neuen Maschine sind sehr gut erläutert.
 
