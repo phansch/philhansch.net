@@ -11,8 +11,17 @@
     author: "Martin Fowler"
     pages: "431"
   -
+    title: "Programming Rust"
+    author: "Jim Blandy and Jason Orendorff"
+    pages: "598"
+  -
+    title: "Grit: The Power of Passion and Perseverance"
+    readDate: "January 2018"
+    author: "Angela Duckworth"
+    pages: "353"
+  -
     title: "The Leprechauns of Software Engineering"
-    readDate: "December 2017 - current"
+    readDate: "December 2017 - January 2018"
     author: "Laurent Bossavit"
     pages: "183"
   -
