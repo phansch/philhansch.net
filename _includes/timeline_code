@@ -1,0 +1,10 @@
+<div class="comment_look">{{ item.display_date }} • <span class="type" title="Code I'm writing">code</span></div>
+<h5>{{ item.action }} <a href="{{ item.project.url }}">{{ item.project.name }}</a></h5>
+
+<div class="body">
+  {{ item.explanation }}
+  <p>
+    <a href="{{ item.url }}">Link to Pull Request</a> •
+    <a href="{{ item.url }}/files">Direct link to code</a>
+  </p>
+</div>

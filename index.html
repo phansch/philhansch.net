@@ -21,24 +21,30 @@ auto: false
   <hr />
 </div>
 
-  {% assign portfolio_pages = site.pages | where:"layout","portfolio" | sort: "order" %}
-  {% for page in portfolio_pages reversed %}
-  <article>
-    <div class="article-preview-image">
-      <a href="{{ page.url }}">
-        <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot">
-      </a>
-    </div>
-    <div class="article-preview-text">
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a>
-      <br />
-
-      <div class="buttons">
-        <a href="{{ page.url }}" class="button tiny">More information</a>
-        <a href="{{ page.source }}" class="button secondary tiny">Source</a>
-      </div>
-    </div>
-    {% if forloop.last != true %}<hr />{% endif %}
+{% for item in site.data.timeline %}
+  <article class="timeline-entry {{ item.type }}">
+    {% include timeline_{{ item.type }} %}
   </article>
-  {% endfor %}
+  {% if forloop.last != true %}<hr />{% endif %}
+{% endfor %}
+  <!-- {% assign portfolio_pages = site.pages | where:"layout","portfolio" | sort: "order" %} -->
+  <!-- {% for page in portfolio_pages reversed %} -->
+  <!-- <article> -->
+  <!--   <div class="article-preview-image"> -->
+  <!--     <a href="{{ page.url }}"> -->
+  <!--       <img class="thumb" src="{{ page.thumbnail }}" alt="Screenshot"> -->
+  <!--     </a> -->
+  <!--   </div> -->
+  <!--   <div class="article-preview-text"> -->
+  <!--     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1> -->
+  <!--     <a class="body-text" href="{{ page.url }}">{{ page.subtitle }}</a> -->
+  <!--     <br /> -->
+
+  <!--     <div class="buttons"> -->
+  <!--       <a href="{{ page.url }}" class="button tiny">More information</a> -->
+  <!--       <a href="{{ page.source }}" class="button secondary tiny">Source</a> -->
+  <!--     </div> -->
+  <!--   </div> -->
+  <!--   {% if forloop.last != true %}<hr />{% endif %} -->
+  <!-- </article> -->
+  <!-- {% endfor %} -->

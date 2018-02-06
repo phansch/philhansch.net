@@ -1,0 +1,6 @@
+<div class="comment_look">{{ item.display_date }} • <span class="type" title="What I'm reading">reading</span></div>
+<h5>{{ item.action }} <em>'{{ item.title }}'</em></h5>
+
+<div class="body">
+  <p>by {{ item.author }} ({{ item.pages}} pages)</p>
+</div>
