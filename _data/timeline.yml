@@ -1,0 +1,38 @@
+---
+-
+  type: code
+  action: "Made a contribution to"
+  explanation: "Added a new lint that detects empty lines after attributes"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2340
+  display_date: 2018-01-30
+-
+  type: reading
+  title: "Programming Rust"
+  action: "Started reading"
+  author: "Jim Blandy and Jason Orendorff"
+  display_date: 2018-02-01
+  pages: "598"
+-
+  type: code
+  action: "Made a contribution to"
+  explanation: "Added a new lint that detects empty lines after attributes"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2340
+  display_date: 2018-01-30
+-
+  type: blog
+  title: No more Disqus comments
+  subtitle: Disqus has been acquired by a marketing company.
+  display_date: 2017-12-13
+  url: /2017/12/13/no-more-disqus/
+# -
+#   type: portfolio_entry
+#   text:
+#   datetime: 

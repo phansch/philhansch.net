@@ -275,3 +275,15 @@ footer {
     }
   }
 }
+.timeline-entry {
+  .comment_look {
+    text-transform: uppercase;
+    .type {
+      cursor: help;
+      color: $brand-primary;
+    }
+  }
+  .body {
+    padding-left: 10px;
+  }
+}
