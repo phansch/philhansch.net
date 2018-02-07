@@ -1,5 +1,15 @@
 ---
 -
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: "Fixed an incorrect suggestion from a lint"
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2444
+  display_date: 2018-02-07
+-
   type: reading
   title: "Programming Rust"
   action: "Started reading"
