@@ -5,7 +5,7 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
-  explanation: "Improved documentaion around executing tests"
+  explanation: "Improved documentation around executing tests"
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/2459
   display_date: 2018-02-20
