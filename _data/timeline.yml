@@ -5,6 +5,16 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
+  explanation: "Fixed another incorrect lint suggestion"
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2473
+  display_date: 2018-02-21
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: "Improved documentation around executing tests"
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/2459
