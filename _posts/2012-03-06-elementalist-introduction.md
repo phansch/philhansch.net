@@ -95,7 +95,7 @@ In addition to the different weapon skills, keep in mind that there are four dif
 ### Sources & Further reading
 	
   1. [Guild Wars 2 Wiki - Elementalist](http://wiki.guildwars2.com/wiki/Elementalist)
-  2. [ArenaNet Blog: PAX East Preview: Izzy on Attributes and Iteration](http://amd-icbm.com/icbm/anet-blog-pax-east-preview-izzy-on-attributes-and-iteration/)
-  3. [ArenaNet Blog: Play Your Way – Jon Peters on Traits and Attributes](http://amd-icbm.com/icbm/anet-blog-play-your-way-jon-peters-on-traits-and-attributes/)
+  2. ArenaNet Blog: PAX East Preview: Izzy on Attributes and Iteration (link broken)
+  3. ArenaNet Blog: Play Your Way – Jon Peters on Traits and Attributes (link broken)
   4. [Yogscast Elementalist Spotlight](http://www.youtube.com/watch?v=NiuNbqPWpEo)
 
