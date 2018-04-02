@@ -1,9 +1,9 @@
 require 'test_helper'
 
 class TopNavigationTest < CapybaraTestCase
-  def test_portfolio_link
+  def test_about_link
     visit '/'
-    click_link 'Portfolio'
+    click_link 'About'
     assert page.has_content? 'Resumè / CV'
   end
 
