@@ -12,9 +12,8 @@ Execute the tests with
 
     rake test
 
-You need Docker in order to run the website locally:
+Run Jekyll with
 
-    sudo docker build -t phansch-net .
-    sudo docker run -p 80:80 -i -t phansch-net
+    jekyll serve --watch --incremental
 
-and open the website on [localhost](http://localhost).
+and open the website on [localhost:4000](http://localhost:4000).
