@@ -1,4 +1,4 @@
-= --- =
+---
 date: 2012-03-06 18:00:33
 layout: post
 slug: elementalist-introduction
