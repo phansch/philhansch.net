@@ -7,7 +7,7 @@ title: C# Schiffe Versenken - Ueberlegungen (Teil 1)
 wordpress_id: 209
 ---
 
-Vorwort: _Für diese Reihe wird [Visual  C# Express 2008](http://www.microsoft.com/germany/Express/product/visualcsharpexpress.aspx) oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur  für Visual C# Express verfügbar sein._
+Vorwort: _Für diese Reihe wird Visual  C# Express 2008 oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur  für Visual C# Express verfügbar sein.
 
 [Schiffeversenken](http://de.wikipedia.org/wiki/Schiffe_versenken) ist ein tolles Spiel. Jeder kennt es und jeder mag es.
 Da liegt es eigentlich nur nahe, das Spiel als Programmieraufgabe zu verwenden.

@@ -43,7 +43,7 @@ After lunch we had a Q&A about Rails and testing with one of our Hackers in resi
 ## Thursday ##
 
 Thursday started off with me forgetting about BetaBreakfast. Luckily, I was still on time to see the demos. The first one was Somewhere. On Somewhere you can <q>Discover how interesting people around the world actually work.</q> Their mission is to give people a glimpse into other people's work and give them an idea if they want to work there. The second demo was by Makeapoint which aims to provide an alternative to text-based discussion forums.
-The third was by [tran.sl](http://tran.sl/) which is a platform that aims to be a marketplace for translators.
+The third was by tran.sl (link broken) which ~~is~~ was a platform that aims to be a marketplace for translators.
 
 
 Once BetaBreakfast was over, I started working on the tutorial again. At some point I got stuck for an hour or two because the database was acting weird. I am still not sure about the cause. Eventually I rolled back to a previous commit where it worked again.

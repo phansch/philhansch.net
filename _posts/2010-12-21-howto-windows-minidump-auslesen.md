@@ -6,7 +6,7 @@ slug: howto-windows-minidump-auslesen
 title: 'Howto: Windows Minidump auslesen'
 wordpress_id: 789
 ---
-*Anmerkung: Screenshots wurden entfernt.*
+*Anmerkung: Screenshots wurden entfernt und der Artikel ist nicht mehr aktuell.*
 
 Vor kurzem hat mich unter Windows 7 zum ersten mal ein BSOD erwischt. Das ist, zumindest bei mir, eine sehr seltene Angelegenheit. Leider war ich beim auftauchen des Bluescreens so perplex und habe die Fehlermeldung nicht wahrgenommen. Was also machen? 
 Es gibt verschiedene Möglichkeiten die Infos aus dem Bluescreen nachträglich einzusehen.
@@ -44,7 +44,6 @@ Natürlich ist WinDbg sehr komplex. Für unser Problem reicht es jedoch, wenn wi
 
 
 Für WinDbg werden die Windows Debugging Tools benötigt. Bei der Installation muss allerdings nur WinDbg installiert werden.
-Das Windows SDK, welches WinDbg beinhaltet, kann [hier](http://www.microsoft.com/whdc/devtools/debugging/default.mspx) heruntergeladen werden.
 
 Bei der Installation ist es wichtig, die Debugging Tools auszuwählen:
 <!--[![Debugging Tools auswählen](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11-300x288.png)](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11.png)-->

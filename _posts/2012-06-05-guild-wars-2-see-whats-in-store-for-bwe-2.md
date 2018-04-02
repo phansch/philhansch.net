@@ -20,6 +20,3 @@ Here are my personal favorites:
   * Chat Bubbles
   * Resizable Map
 
-Head over to the [ArenaNet blog](http://amd-icbm.com/icbm/anet-blog-the-big-beta-weekend-preview/) to see what else ArenaNet has been working on.
-
-

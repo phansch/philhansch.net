@@ -7,7 +7,7 @@ title: C# Quiz - Planung (Teil 1)
 wordpress_id: 292
 ---
 
-Vorwort: _Für diese Reihe wird [Visual C# Express 2010](http://www.microsoft.com/express/downloads/#2010-Visual-CS) oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur für Visual C# Express 2010 verfügbar sein._
+Vorwort: _Für diese Reihe wird Visual C# Express 2010 oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur für Visual C# Express 2010 verfügbar sein._
 
 In der Schule hatten wir in Programmieren ein C#-Quiz zu erstellen. Dies war durchaus eine anspruchsvolle Aufgabe mit mehreren Hürden die es zu meistern galt.
 

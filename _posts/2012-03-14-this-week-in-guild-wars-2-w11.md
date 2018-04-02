@@ -14,7 +14,7 @@ plyturonnet: true
 #### Thursday, March 15
 
 
-**ArenaNet:** [Blogpost: Building Community](http://amd-icbm.com/icbm/anet-blog-building-community/)
+**ArenaNet:** Blogpost: Building Community (note: link broken)
 • The most recent blog post from ArenaNet reveals that official forums are on the way. Martin Kerstein goes on by highlighting the challenges of modern community management.
 
 MMORPG.com: Live Interview with Jon Peters on Traits and Professions **Site offline**

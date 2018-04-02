@@ -1,4 +1,4 @@
----
+= --- =
 date: 2012-03-06 18:00:33
 layout: post
 slug: elementalist-introduction
@@ -39,7 +39,7 @@ The four basic attributes in Guild Wars 2 are:
   * Vitality: Increased health.
   * Toughness: Increased defense/armor.
 
-In addition to these four basic attributes, ArenaNet [recently introduced](http://amd-icbm.com/icbm/anet-blog-play-your-way-jon-peters-on-traits-and-attributes/) 6 new attributes that are split up into three **offense**, two **support** and one **profession-specific** attributes.
+In addition to these four basic attributes, ArenaNet recently introduced 6 new attributes that are split up into three **offense**, two **support** and one **profession-specific** attributes.
 
 **Offense**
 	
