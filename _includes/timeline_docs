@@ -1,4 +1,4 @@
-<div class="comment_look">{{ item.display_date }} • <span class="type" title="Documentation I'm writing">code</span> • [<span class="language">{{ item.language }}</span>]</div>
+<div class="comment_look">{{ item.display_date }} • <span class="type" title="Documentation I'm writing">docs</span> • [<span class="language">{{ item.language }}</span>]</div>
 <h5>{{ item.action }} <a href="{{ item.project.url }}">{{ item.project.name }}</a></h5>
 
 <div class="body">
