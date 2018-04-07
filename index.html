@@ -20,7 +20,7 @@ auto: false
 
 <h4>Recent updates</h4>
 <br />
-{% for item in site.data.timeline %}
+{% for item in site.data.timeline limit:5 %}
   <article class="timeline-entry {{ item.type }}">
     {% include timeline_{{ item.type }} %}
   </article>
