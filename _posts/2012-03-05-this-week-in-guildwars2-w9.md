@@ -13,7 +13,7 @@ This week was packed with new videos from the recent press beta as well as new i
 
 On **Tuesday** Yogscast released another part of their class spotlight: [The Elementalist](http://www.youtube.com/watch?v=NiuNbqPWpEo). Oh, and Jon Peters is going into detail on Traits and Attributes on the ArenaNet Blog (link dead)! Furthermore, the guys from mmorpg.com have been pretty active this day. William Murphy from [takes a look at the Engineer class](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6132/The-Engineer-Preview.html) and David North talks about his [overall Beta impressions](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6133/Beta-Reflections.html). Wrapping up Tuesday, Elisabeth Cardy from Massively [talks about PVE](http://massively.joystiq.com/2012/02/28/flameseeker-chronicles-i-hope-you-like-pve-stuff/) in her weekly Flameseker Chronicles.
 
-**Wednesday** German fansite Wartower.de released a [new TowerTalk](http://www.wartower.de/news/news.php?id=4646) with Jeff Grubb talking about the Asura. The introduction is German but the interview itself is held in English. David North from mmorpg.com also gave a [preview of the Guardian](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6139/The-Guardian-Preview.html) class.
+**Wednesday** German fansite Wartower.de released a new TowerTalk with Jeff Grubb talking about the Asura. The introduction is German but the interview itself is held in English. David North from mmorpg.com also gave a [preview of the Guardian](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6139/The-Guardian-Preview.html) class.
 
 <!--![Asura City](http://plyturon.net/wp-content/uploads/2012/03/blog_article_banner1.png)--> 
 
