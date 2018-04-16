@@ -11,6 +11,16 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
+  explanation: "Took over a pull request, adding a new lint"
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/1467
+  display_date: 2018-04-15
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: "Fixed a false positive in nonminimal_bool lint"
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/2644
