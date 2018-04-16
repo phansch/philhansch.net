@@ -1,11 +1,5 @@
 ---
 -
-  type: blog
-  title: From Ruby to Rust
-  subtitle: Learning Rust to dive deeper.
-  display_date: 2018-04-08
-  url: /2018/04/08/from-ruby-to-learning-rust/
--
   type: code
   action: "Made a contribution to"
   project:
@@ -15,6 +9,12 @@
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/1467
   display_date: 2018-04-15
+-
+  type: blog
+  title: From Ruby to Rust
+  subtitle: Learning Rust to dive deeper.
+  display_date: 2018-04-08
+  url: /2018/04/08/from-ruby-to-learning-rust/
 -
   type: code
   action: "Made a contribution to"
