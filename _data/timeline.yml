@@ -5,6 +5,16 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
+  explanation: "Fixed clippy after nightly introduced breaking changes"
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2681
+  display_date: 2018-04-18
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: "Took over a pull request, adding a new lint"
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/1467
