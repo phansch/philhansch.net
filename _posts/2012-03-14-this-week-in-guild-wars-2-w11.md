@@ -94,7 +94,7 @@ GWOnline: Traits: An Analysis **Site offline**
 [PCgamer.com: Video tour of three major cities](http://www.pcgamer.com/previews/guild-wars-2-beta-video-tour-of-three-major-cities/)
 • PC Gamer posted an additional three videos showing the three major cities that were available in the press demo.
 
-[Videogamer: The state of Guild Wars 2 so far](http://www.videogamer.com/pc/guild_wars_2/news/the_state_of_guild_wars_2_so_far_2.html)
+[Videogamer: The state of Guild Wars 2 so far](https://www.videogamer.com/news/the-state-of-guild-wars-2-so-far-2)
 • Videogamer sat down with Eric Flannum to talk about the progress on the beta and how the game might affect the game industry.
 
 [Forbes: NCsoft Aims To Break The Static Online Game Mold With ArenaNet's Guild Wars 2](http://www.forbes.com/sites/johngaudiosi/2012/03/13/ncsoft-aims-to-break-the-static-online-game-mold-with-arenanets-guild-wars-2/)
