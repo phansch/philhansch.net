@@ -1,5 +1,25 @@
 ---
 -
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: "My first actual Rust contribution"
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/50300
+  display_date: 2018-04-28
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: "Fixed clippy after nightly introduced breaking changes"
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2703
+  display_date: 2018-04-28
+-
   type: docs
   action: "Made a contribution to"
   project:
