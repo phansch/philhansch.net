@@ -8,5 +8,9 @@ Then a create the lint, writing the docs. This helps me to properly understand t
 
 LateLintPass is defined by the rustc linter, so are all the methods like check_attribute and check_item
 
+More on LateContext, EarlyContext:
+
+https://sean.heelan.io/2015/11/19/rust-compiler-plugins-a-simple-example/
+
 
 Maybe the MetaItem is empty, if there is a newline?
