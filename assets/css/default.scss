@@ -13,6 +13,7 @@ $background-color: #f2f2f2;
 body {
   background-color: $background-color;
   font: normal 100% $font-stack;
+  font-size: 18px;
 }
 
 kbd {
@@ -36,17 +37,12 @@ kbd {
 }
 
 figure {
-  margin: 1em -30px;
-}
-
-.highlight {
-  border: 1px solid $text-color;
-  border-radius: 4px;
+  margin: 2em 0;
 }
 
 .highlight > pre {
   display: block;
-  padding: 1px 9px;
+  padding: 1em 1.5em;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
@@ -127,7 +123,7 @@ p code {
 .outer-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 41em;
+  max-width: 49rem;
   &:before, &:after {
     content: " ";
     display: table;
