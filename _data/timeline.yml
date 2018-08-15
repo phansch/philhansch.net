@@ -1,4 +1,15 @@
 ---
+
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/lfairy/maud-book
+    name: maud-book
+  explanation: Added a page explaining how to compose templates
+  language: Rust
+  url: https://github.com/lfairy/maud-book/pull/6
+  display_date: 2018-05-21
 -
   type: code
   action: "Made a contribution to"
