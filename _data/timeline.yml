@@ -1,6 +1,16 @@
 ---
 
 -
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: maud
+  explanation: Cleaned up a dev script
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2962
+  display_date: 2018-08-30
+-
   type: docs
   action: "Made a contribution to"
   project:
@@ -9,7 +19,7 @@
   explanation: Added a page explaining how to compose templates
   language: Rust
   url: https://github.com/lfairy/maud-book/pull/6
-  display_date: 2018-05-21
+  display_date: 2018-08-21
 -
   type: code
   action: "Made a contribution to"
