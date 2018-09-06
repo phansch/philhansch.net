@@ -1,11 +1,30 @@
 ---
-
 -
   type: code
   action: "Made a contribution to"
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
-    name: maud
+    name: rust-clippy
+  explanation: Rewrote first part of internal python script in Rust
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2985
+  display_date: 2018-09-06
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Fixed some warnings on CI
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3116
+  display_date: 2018-09-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: Cleaned up a dev script
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/2962
