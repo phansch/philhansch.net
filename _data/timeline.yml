@@ -1,4 +1,15 @@
 ---
+
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rustc-guide
+    name: rustc-guide
+  explanation: Added a section about using incremental compilation
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rustc-guide/pull/199
+  display_date: 2018-09-11
 -
   type: code
   action: "Made a contribution to"
