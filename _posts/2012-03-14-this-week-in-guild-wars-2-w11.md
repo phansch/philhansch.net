@@ -23,7 +23,7 @@ MMORPG.com: Live Interview with Jon Peters on Traits and Professions **Site offl
 [Yogscast: Crafting [Extra Footage]](http://www.youtube.com/watch?v=-elq2JYlfA8)
 • Another video from Yogscast. This time they provide a quick overview of the crafting system.
 
-[Tasha Darke: International Pricing Inequalities](http://www.tashadarke.co.uk/2012/03/international-pricing-inequalities/)
+Tasha Darke: International Pricing Inequalities (website went dead)
 • A post on the pricing of the collectors edition. Tasha Darke did the math and explains why the game costs more in Europe than in the US.
 
 [Tyria Talk: Pre-Order Editions](http://www.youtube.com/watch?v=gRol5XQqwp8) 
