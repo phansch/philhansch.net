@@ -4,7 +4,7 @@
   action: "Made a contribution to"
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
-    name: rustc-guide
+    name: rust-clippy
   explanation: Cleaned up the README for the latest Rust release
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3165
