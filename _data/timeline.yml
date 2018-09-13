@@ -1,5 +1,24 @@
 ---
-
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rustc-guide
+  explanation: Cleaned up the README for the latest Rust release
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3165
+  display_date: 2018-09-14
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Added unit tests for a Levensthein function
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/54119
+  display_date: 2018-09-13
 -
   type: docs
   action: "Made a contribution to"
