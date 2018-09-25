@@ -8,7 +8,7 @@
   explanation: Improved CONTRIBUTING.md
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3201
-  display_date: 2018-09-14
+  display_date: 2018-09-20
 -
   type: code
   action: "Made a contribution to"
