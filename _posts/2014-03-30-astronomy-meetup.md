@@ -6,7 +6,7 @@ layout: post
 
 I attended a new [astronomy meetup group](http://www.meetup.com/Berlin-Astronomy-Astrophotography-Meetup/) in Berlin.
 
-We went to the [Naturpark Westhavelland](http://www.lugv.brandenburg.de/cms/detail.php/bb1.c.355482.de), which is a 90 minute drive away from Berlin. The weather looked really promising and since no one of us has been at that place before we were all excited to get there. The Naturpark Westhavelland is located about 50km west of Berlin and is one of the few places in Germany with a natural night sky.
+We went to the [Naturpark Westhavelland](https://www.westhavelland-naturpark.de/erleben-lernen/naturerlebnis/himmelsbeobachtung-im-sternenpark/), which is a 90 minute drive away from Berlin. The weather looked really promising and since no one of us has been at that place before we were all excited to get there. The Naturpark Westhavelland is located about 50km west of Berlin and is one of the few places in Germany with a natural night sky.
 
 We met at a car-rental place at about 18:30 and packed up our stuff. Some of us, me included, didn't have any astronomy equipment and just brought something to eat. We got moving 30 minutes later and started making our way West. One hour later we were already in rural Brandenburg, leaving Berlins nightly glow behind us. We started looking for a place to set up our stuff and first stopped on the side of a small road between two small villages.
 
