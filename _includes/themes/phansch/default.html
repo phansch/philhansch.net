@@ -9,7 +9,9 @@
     <link rel="alternate" type="application/atom+xml" title="phansch.net - Feed" href="http://phansch.net/atom.xml" />
     <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/default.css" />
-    <link rel="stylesheet" href="/assets/css/syntax.css"><!-- Pygments -->
+    {% if page.layout == "post" %}
+      <link rel="stylesheet" href="/assets/css/syntax.css"><!-- Pygments -->
+    {% endif %}
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, user-scalable=no">
