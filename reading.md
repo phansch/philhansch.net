@@ -2,8 +2,8 @@
 layout: page
 title: Reading List
 ---
-<h1>The Reading List</h1>
-I started this list in early 2014 after reading *Apprenticeship Patterns* by Dave Hoover.
+<h2>My reading list</h2>
+Books I've read, currently reading and want to read. I started this list in early 2014 after reading *Apprenticeship Patterns* by Dave Hoover.
 
 If you think I'm missing an important book on this list, [let me know](http://twitter.com/phansch).
 
@@ -12,7 +12,7 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 {% for book in site.data.books %}
   {% unless book.readDate %}
   <p class="book">
-    <strong>{{ book.title }}</strong>
+    <em>{{ book.title }}</em>
     <br />by {{ book.author }} &sdot; {{ book.pages }} Pages
   </p>
   {% endunless %}
@@ -22,7 +22,7 @@ If you think I'm missing an important book on this list, [let me know](http://tw
 {% for book in site.data.books %}
   {% if book.readDate %}
   <p class="book">
-    <strong>{{ book.title }}</strong> in {{ book.readDate }}
+    <em>{{ book.title }}</em> in {{ book.readDate }}
     <br />by {{ book.author }} &sdot; {{ book.pages }} Pages
   </p>
   {% endif %}
