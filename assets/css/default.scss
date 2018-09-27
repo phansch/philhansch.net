@@ -3,17 +3,38 @@
 
 $brand-primary: #f82525;
 $brand-secondary: #e0e4cc;
-$font-stack: DejaVu Sans, sans-serif;
+$font-stack: monospace, sans-serif;
 $primary-color: #ffffff;
 $text-color: #626262;
 $link-color: rgb(87, 163, 232);
 $link-hover: #808080;
 $background-color: #f2f2f2;
 
+/* Basic reset */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Actual Style/Layout */
 body {
   background-color: $background-color;
   font: normal 100% $font-stack;
   font-size: 18px;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
 }
 
 kbd {
@@ -55,12 +76,34 @@ figure {
   }
 }
 
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility;
+}
 p code {
   border-radius: 3px;
   font-family: monospace;
   font-weight: normal;
   font-size: 13px;
   padding: .25em, .5em;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: $font-stack;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-family: $font-stack;
+  font-weight: normal;
+}
+
+a {
+  color: #008cba;
 }
 
 /* top-bar */
@@ -72,7 +115,7 @@ p code {
   padding-bottom: 1px;
 
   text-transform: uppercase;
-  font-family: monospace;
+  font-family: $font-stack;
 
   a {
     color: #222;
@@ -91,11 +134,12 @@ section.main {
   padding: 0 2em;
 
   article {
-    font-family: monospace;
+    font-family: $font-stack;
 
     h1 {
       font-size: 2rem;
-      font-family: monospace;
+      font-family: $font-stack;
+      font-weight: normal;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
@@ -104,7 +148,7 @@ section.main {
 
     h2 {
       font-size: 1.2rem;
-      font-family: monospace;
+      font-family: $font-stack;
       font-weight: bold;
       a, a:hover, a:focus {
         text-decoration: none;
@@ -211,6 +255,7 @@ footer {
 
 .timeline-entry {
   .comment_look {
+    margin-top: 5px;
     text-transform: uppercase;
     .type {
       cursor: help;
@@ -220,8 +265,19 @@ footer {
       color: $brand-primary;
     }
   }
+  .display_date {
+    vertical-align: top;
+    font-size: 0.9rem;
+    color: #93a1a1;
+  }
   .body {
     padding-left: 10px;
+  }
+  h4 {
+    margin: 0.5rem 0;
+  }
+  p {
+    margin: 0.2rem 0;
   }
 }
 

@@ -2,12 +2,13 @@
 layout: page
 title: Reading List
 ---
-<h2>My reading list</h2>
+# My reading list
+
 Books I've read, currently reading and want to read. I started this list in early 2014 after reading *Apprenticeship Patterns* by Dave Hoover.
 
 If you think I'm missing an important book on this list, [let me know](http://twitter.com/phansch).
 
-<h3>Books I'm going to read next</h3>
+### Books I'm going to read next
 
 {% for book in site.data.books %}
   {% unless book.readDate %}
@@ -18,7 +19,7 @@ If you think I'm missing an important book on this list, [let me know](http://tw
   {% endunless %}
 {% endfor %}
 
-<h3>Books I've read / still reading</h3>
+### Books I've read / still reading
 {% for book in site.data.books %}
   {% if book.readDate %}
   <p class="book">
