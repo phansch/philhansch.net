@@ -16,36 +16,24 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
-    <div class="my-fixed">
-      <nav class="my-top-bar">
-        <div class="outer-container">
-          <div class="col">
-            <ul class="menu">
-              <li class="title">
-                <h1><a href="/">{{ site.author.name }}</a></h1>
-              </li>
-              <li title="About"{% if page.title == "Philipp Hansch - Ruby, Rust and more" %} class="active"{% endif%}>
-                <a href="/">About</a>
-              </li>
-              <li title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %}>
-                <a href="/reading">Reading</a>
-              </li>
-              <li title="Writing"{% if page.title == "Writing" %} class="active"{% endif%}>
-                <a href="/writing">Writing</a>
-              </li>
-              <li title="100 Rust PRs"{% if page.title == "One Hundred Rust PRs" %} class="active"{% endif%}>
-                <a href="/onehundred/rust">100 Rust PRs</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <nav class="my-top-bar">
+      <a href="/">
+        {{ site.author.name }}
+        <br>
+        --------------
+      </a>
 
-      </nav>
-    </div>
+      <br>
+
+      <a title="About"{% if page.title == "Philipp Hansch - Ruby, Rust and more" %} class="active"{% endif%} href="/">About</a>&nbsp;
+      <a title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %} href="/reading">Reading</a>&nbsp;
+      <a title="Writing"{% if page.title == "Writing" %} class="active"{% endif%} href="/writing">Writing</a>&nbsp;
+      <a title="100 Rust PRs"{% if page.title == "One Hundred Rust PRs" %} class="active"{% endif%} href="/onehundred/rust">100 Rust PRs</a>
+    </nav>
 
     <a id="top"></a>
 
-    <section class="main outer-container">
+    <section class="main">
       {{content}}
     </section>
 
