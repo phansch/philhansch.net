@@ -10,12 +10,12 @@ class TopNavigationTest < CapybaraTestCase
   def test_reading_link
     visit '/'
     click_link 'Reading'
-    assert page.has_content? 'Reading List'
+    assert page.has_content? 'reading list'
   end
 
   def test_blog_link
     visit '/'
     click_link 'Blog'
-    assert page.has_content? 'Read more'
+    assert page.has_content? 'min read'
   end
 end
