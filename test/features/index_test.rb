@@ -9,6 +9,6 @@ class IndexTest < CapybaraTestCase
   def test_cv_link
     visit '/'
     click_link 'Resumè / CV'
-    assert page.current_url == 'https://gitlab.com/phansch/latex-resume/raw/master/resume-philipp-hansch.pdf'
+    assert page.current_url == 'https://github.com/phansch/cv/raw/master/resume-philipp-hansch.pdf'
   end
 end
