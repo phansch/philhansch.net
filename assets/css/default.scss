@@ -84,18 +84,18 @@ p code {
 }
 
 section.main {
-  max-width: 49rem;
+  max-width: 58rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   padding: 0 2em;
 
   article {
+    font-family: monospace;
+
     h1 {
       font-size: 2rem;
-      font-family: $font-stack;
-      font-weight: 200;
-      letter-spacing: -2px;
+      font-family: monospace;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
@@ -103,10 +103,9 @@ section.main {
     }
 
     h2 {
-      font-size: 1.8em;
-      font-family: $font-stack;
-      font-weight: 200;
-      letter-spacing: -1px;
+      font-size: 1.2rem;
+      font-family: monospace;
+      font-weight: bold;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
