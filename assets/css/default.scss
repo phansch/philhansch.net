@@ -64,84 +64,29 @@ p code {
 }
 
 /* top-bar */
-.my-fixed {
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: fixed;
-  z-index: 1;
-}
-
 .my-top-bar {
-  height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px dashed $background-color;
   background-color: $brand-primary;
+  padding-bottom: 1px;
 
-  .title h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    display: inline;
-    font-size: 20px;
-  }
-  @media only screen and (max-width: 550px) {
-    .title h1 {
-      display: none;
-      margin-top: 0;
-      margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: monospace;
+
+  a {
+    color: #222;
+    &.active {
+      color: $background-color;
+      text-decoration: underline;
     }
-  }
-  ul.menu {
-    list-style: none;
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-
-    li { float: left; }
-    li h1 a,
-    li a {
-      display: block;
-      line-height: 45px;
-      font-family: $font-stack;
-      color: $primary-color;
-      text-transform: uppercase;
-      font-weight: 200;
-      letter-spacing: -1px;
-      padding: 0 15px;
-    }
-    li.active:not(.has-form) a:not(.button),
-    li.active:not(.has-form) a:hover:not(.button) {
-      color: $text-color;
-      background: $background-color;
-    }
-
-    li:not(.has-form) a:not(.button),
-    li:not(.has-form) a:hover:not(.button) {
-      background: $brand-primary;
-    }
-  }
-}
-
-.outer-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 49rem;
-  &:before, &:after {
-    content: " ";
-    display: table;
-  }
-
-  &:after {
-    clear: both;
-  }
-
-  .col {
-    display: block;
-    width: 100%;
-    float: left;
-    margin-right: 2.3%;
   }
 }
 
 section.main {
+  max-width: 49rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 75px;
   padding: 0 2em;
 
@@ -264,6 +209,7 @@ footer {
     }
   }
 }
+
 .timeline-entry {
   .comment_look {
     text-transform: uppercase;
