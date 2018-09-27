@@ -1,11 +1,12 @@
-<div class="comment_look">{{ item.display_date }} • <span class="type" title="Documentation I'm writing">docs</span> • [<span class="language">{{ item.language }}</span>]</div>
-<h5>{{ item.action }} <a href="{{ item.project.url }}">{{ item.project.name }}</a></h5>
+<h4><span class="display_date">{{ item.display_date }}</span> {{ item.action }} <a href="{{ item.project.url }}">{{ item.project.name }}</a></h4>
 
 <div class="body">
   {{ item.explanation }}
-  <p>
-    <a href="{{ item.url }}">Link to Pull Request</a> •
-    <a href="{{ item.url }}/files">Direct link to code</a>
-  </p>
+  <div class="comment_look">
+    <span class="type" title="Documentation I'm writing">docs</span> •
+    <span class="language">{{ item.language }}</span> •
+      <a href="{{ item.url }}">Link to PR</a> •
+      <a href="{{ item.url }}/files">Direct link to code</a>
+  </div>
 </div>
 
