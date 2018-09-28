@@ -28,7 +28,7 @@ Die Map-Datei sieht so aus:
 
 Die Feldtypen:
 
-```csharp
+{% highlight csharp %}
 public enum FieldType
 {
   Empty = 0,
@@ -36,7 +36,7 @@ public enum FieldType
   SmallPill = 2,
   BigPill = 3,
 }
-```
+{% endhighlight %}
 
 
 
