@@ -1,4 +1,15 @@
 ---
+
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/reference
+    name: reference
+  explanation: Improved a link between pages
+  language: Rust
+  url: https://github.com/rust-lang-nursery/reference/pull/436
+  display_date: 2018-09-28
 -
   type: reading
   title: "Programming with Higher-Order Logic"
