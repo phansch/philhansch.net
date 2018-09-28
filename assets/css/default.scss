@@ -10,6 +10,8 @@ $link-color: rgb(87, 163, 232);
 $link-hover: #808080;
 $background-color: #f2f2f2;
 
+$light-border-color: #ddd;
+
 /* Basic reset */
 * {
   box-sizing: border-box;
@@ -33,7 +35,7 @@ body {
 }
 
 hr {
-  border: solid #ddd;
+  border: solid $light-border-color;
   border-width: 1px 0 0;
   margin: 15px 0;
 }
@@ -87,8 +89,10 @@ p code {
   border-radius: 3px;
   font-family: monospace;
   font-weight: normal;
-  font-size: 13px;
-  padding: .25em, .5em;
+  font-size: 0.9rem;
+  color: #fe8019;
+  background-color: $brand-secondary;
+  padding: .10em .25em;
 }
 
 h1 {
