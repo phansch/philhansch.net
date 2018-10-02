@@ -1,5 +1,14 @@
 ---
-
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Fixed a crash
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3248
+  display_date: 2018-10-01
 -
   type: code
   action: "Made a contribution to"
