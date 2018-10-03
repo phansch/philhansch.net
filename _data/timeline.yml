@@ -1,5 +1,15 @@
 ---
 -
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Improved documentation for two rustc internal types
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/54781
+  display_date: 2018-10-03
+-
   type: code
   action: "Made a contribution to"
   project:
