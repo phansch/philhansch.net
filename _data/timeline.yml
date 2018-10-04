@@ -8,7 +8,17 @@
   explanation: Improved documentation for two rustc internal types
   language: Rust
   url: https://github.com/rust-lang/rust/pull/54781
-  display_date: 2018-10-03
+  display_date: 2018-10-05
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/laumann/compiletest-rs
+    name: compiletest-rs
+  explanation: Improved a link between pages
+  language: Rust
+  url: https://github.com/laumann/compiletest-rs/pull/128
+  display_date: 2018-10-04
 -
   type: code
   action: "Made a contribution to"
