@@ -5,6 +5,26 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
+  explanation: Fixed a false positive after the previous lint rewrite
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3279
+  display_date: 2018-10-07
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Fix a suggestion of the single_match lint
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3272
+  display_date: 2018-10-06
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: Rewrote two lints for relicensing purposes
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3251
