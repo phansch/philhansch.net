@@ -1,5 +1,6 @@
 # For more permalink examples see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
 
 include: [".htaccess"]
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "README.md", "Vagrantfile", 'test/', 'script/', 'vendor/']
