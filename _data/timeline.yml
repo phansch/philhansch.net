@@ -1,5 +1,11 @@
 ---
 -
+  type: blog
+  title: Fixing a Clippy crash
+  subtitle: Learning a lot about rustc internals.
+  display_date: 2018-10-10
+  url: /2018/10/10/fixing-a-clippy-crash/
+-
   type: code
   action: "Made a contribution to"
   project:
