@@ -61,7 +61,11 @@ kbd {
 }
 
 figure {
-  margin: 2em 0;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: 2px solid $brand-primary;
 }
 
 .highlight > pre {
@@ -71,8 +75,8 @@ figure {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.42857;
-  word-break: break-all;
-  word-wrap: break-word;
+  overflow: auto;
+
   code {
     color: inherit;
     font-weight: normal;
@@ -90,7 +94,7 @@ p code {
   font-family: monospace;
   font-weight: normal;
   font-size: 0.9rem;
-  color: #fe8019;
+  color: #db1e08;
   background-color: $brand-secondary;
   padding: .10em .25em;
 }
@@ -136,7 +140,7 @@ section.main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  padding: 0 2em;
+  padding: 0 1em;
 
   article {
     font-family: $font-stack;
@@ -191,6 +195,13 @@ section.main {
       font-family: monospace;
       color: #93a1a1;
     }
+
+    .explain {
+      border-top: 1px solid $light-border-color;
+      border-bottom: 1px solid $light-border-color;
+      background: $brand-secondary;
+      padding: 1em 1.5em;
+    }
   }
 
   ul.archive {
@@ -201,6 +212,16 @@ section.main {
     color: $text-color;
     &:hover { color: $text-color; }
   }
+
+  blockquote {
+    cite {
+      a {
+        color: $link-color;
+        &:hover { color: $link-color; }
+      }
+    }
+  }
+
   span.bg-green {
     background: #8BBF65;
   }
