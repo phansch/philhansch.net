@@ -430,7 +430,7 @@ reference `t`.
 Let's have a look at the source of `input_types()` and see how it gets the type
 parameters of the trait reference:
 
-```rust
+{% highlight rust %}
 pub fn input_types<'a>(&'a self) -> impl DoubleEndedIterator<Item=Ty<'tcx>> + 'a {
     // Select only the "input types" from a trait-reference. For
     // now this is all the types that appear in the
@@ -438,7 +438,7 @@ pub fn input_types<'a>(&'a self) -> impl DoubleEndedIterator<Item=Ty<'tcx>> + 'a
     // associated types.
     self.substs.types()
 }
-```
+{% endhighlight %}
 
 [Substs][substs] is what we're looking for. It contains the different parameters
 of the type, including lifetimes. For example the `substs` of a `HashMap<i32,
