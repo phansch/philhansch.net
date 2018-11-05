@@ -5,6 +5,76 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
+  explanation: Rewrote another part of internal python script in Rust
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3399
+  display_date: 2018-11-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Contiuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3398
+  display_date: 2018-11-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Contiuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3397
+  display_date: 2018-11-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Rewrote another part of internal python script in Rust
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3388
+  display_date: 2018-11-01
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Add missing code of conduct file
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3395
+  display_date: 2018-11-01
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3394
+  display_date: 2018-11-01
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
+  explanation: Contiuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3392
+  display_date: 2018-10-31
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: Contiuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3373
