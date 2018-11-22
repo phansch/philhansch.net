@@ -15,7 +15,7 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
-  explanation: Contiuation of UI test output cleanup
+  explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3398
   display_date: 2018-11-02
@@ -25,7 +25,7 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
-  explanation: Contiuation of UI test output cleanup
+  explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3397
   display_date: 2018-11-02
@@ -65,7 +65,7 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
-  explanation: Contiuation of UI test output cleanup
+  explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3392
   display_date: 2018-10-31
@@ -75,7 +75,7 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
-  explanation: Contiuation of UI test output cleanup
+  explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3373
   display_date: 2018-10-28
@@ -85,7 +85,7 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
-  explanation: Contiuation of UI test output cleanup
+  explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3372
   display_date: 2018-10-28
