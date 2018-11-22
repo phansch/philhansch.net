@@ -3,131 +3,131 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Finished rewrite of internal python script in Rust
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3408
+  url: https://github.com/rust-lang/rust-clippy/pull/3408
   display_date: 2018-11-05
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Rewrote another part of internal python script in Rust
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3399
+  url: https://github.com/rust-lang/rust-clippy/pull/3399
   display_date: 2018-11-03
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Continuation of UI test output cleanup
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3398
+  url: https://github.com/rust-lang/rust-clippy/pull/3398
   display_date: 2018-11-02
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Continuation of UI test output cleanup
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3397
+  url: https://github.com/rust-lang/rust-clippy/pull/3397
   display_date: 2018-11-02
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Rewrote another part of internal python script in Rust
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3388
+  url: https://github.com/rust-lang/rust-clippy/pull/3388
   display_date: 2018-11-01
 -
   type: docs
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Add missing code of conduct file
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3395
+  url: https://github.com/rust-lang/rust-clippy/pull/3395
   display_date: 2018-11-01
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed Clippy after nightly breaking changes
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3394
+  url: https://github.com/rust-lang/rust-clippy/pull/3394
   display_date: 2018-11-01
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Continuation of UI test output cleanup
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3392
+  url: https://github.com/rust-lang/rust-clippy/pull/3392
   display_date: 2018-10-31
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Continuation of UI test output cleanup
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3373
+  url: https://github.com/rust-lang/rust-clippy/pull/3373
   display_date: 2018-10-28
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Continuation of UI test output cleanup
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3372
+  url: https://github.com/rust-lang/rust-clippy/pull/3372
   display_date: 2018-10-28
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fix multiple incorrect suggestions related to macros
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3366
+  url: https://github.com/rust-lang/rust-clippy/pull/3366
   display_date: 2018-10-27
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Rewrote another part of internal python script in Rust
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3325
+  url: https://github.com/rust-lang/rust-clippy/pull/3325
   display_date: 2018-10-16
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Started setting up Travis for Windows
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3300
+  url: https://github.com/rust-lang/rust-clippy/pull/3300
   display_date: 2018-10-12
 -
   type: blog
@@ -139,21 +139,21 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a false positive after the previous lint rewrite
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3279
+  url: https://github.com/rust-lang/rust-clippy/pull/3279
   display_date: 2018-10-07
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Rewrote two lints for relicensing purposes
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3251
+  url: https://github.com/rust-lang/rust-clippy/pull/3251
   display_date: 2018-10-05
 -
   type: docs
@@ -179,11 +179,11 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a crash
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3248
+  url: https://github.com/rust-lang/rust-clippy/pull/3248
   display_date: 2018-10-01
 -
   type: code
@@ -223,11 +223,11 @@
   type: docs
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Improved CONTRIBUTING.md
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3201
+  url: https://github.com/rust-lang/rust-clippy/pull/3201
   display_date: 2018-09-20
 -
   type: code
@@ -243,11 +243,11 @@
   type: docs
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Cleaned up the README for the latest Rust release
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3165
+  url: https://github.com/rust-lang/rust-clippy/pull/3165
   display_date: 2018-09-14
 -
   type: code
@@ -273,31 +273,31 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Rewrote first part of internal python script in Rust
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2985
+  url: https://github.com/rust-lang/rust-clippy/pull/2985
   display_date: 2018-09-06
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed some warnings on CI
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3116
+  url: https://github.com/rust-lang/rust-clippy/pull/3116
   display_date: 2018-09-03
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Cleaned up a dev script
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2962
+  url: https://github.com/rust-lang/rust-clippy/pull/2962
   display_date: 2018-08-30
 -
   type: docs
@@ -353,31 +353,31 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a crash
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2968
+  url: https://github.com/rust-lang/rust-clippy/pull/2968
   display_date: 2018-07-28
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a crash
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2833
+  url: https://github.com/rust-lang/rust-clippy/pull/2833
   display_date: 2018-06-07
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a crash
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2786
+  url: https://github.com/rust-lang/rust-clippy/pull/2786
   display_date: 2018-05-21
 -
   type: docs
@@ -393,91 +393,91 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Add integration tests to Clippy to notice regressions in popular crates
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2764
+  url: https://github.com/rust-lang/rust-clippy/pull/2764
   display_date: 2018-05-16
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed 5 different crashes at once"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2763
+  url: https://github.com/rust-lang/rust-clippy/pull/2763
   display_date: 2018-05-15
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed crash in new build script
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2753
+  url: https://github.com/rust-lang/rust-clippy/pull/2753
   display_date: 2018-05-13
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed Clippy after nightly breaking changes
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2754
+  url: https://github.com/rust-lang/rust-clippy/pull/2754
   display_date: 2018-05-13
 -
   type: docs
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Document how to debug Clippy build failures after nightly changes
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2748
+  url: https://github.com/rust-lang/rust-clippy/pull/2748
   display_date: 2018-05-12
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed Clippy after nightly breaking changes
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2743
+  url: https://github.com/rust-lang/rust-clippy/pull/2743
   display_date: 2018-05-11
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Made sure Clippy compilation aborts early on outdated/unsupported Rust versions
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2733
+  url: https://github.com/rust-lang/rust-clippy/pull/2733
   display_date: 2018-05-07
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a crash
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2711
+  url: https://github.com/rust-lang/rust-clippy/pull/2711
   display_date: 2018-05-01
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed Clippy after nightly breaking changes
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2703
+  url: https://github.com/rust-lang/rust-clippy/pull/2703
   display_date: 2018-04-28
 -
   type: code
@@ -493,41 +493,41 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed clippy after nightly introduced breaking changes"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2703
+  url: https://github.com/rust-lang/rust-clippy/pull/2703
   display_date: 2018-04-28
 -
   type: docs
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Explained how Clippy works"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2687
+  url: https://github.com/rust-lang/rust-clippy/pull/2687
   display_date: 2018-04-24
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed clippy after nightly introduced breaking changes"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2681
+  url: https://github.com/rust-lang/rust-clippy/pull/2681
   display_date: 2018-04-18
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Took over a pull request, adding a new lint"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/1467
+  url: https://github.com/rust-lang/rust-clippy/pull/1467
   display_date: 2018-04-15
 -
   type: blog
@@ -539,61 +539,61 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed a false positive in nonminimal_bool lint"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2644
+  url: https://github.com/rust-lang/rust-clippy/pull/2644
   display_date: 2018-04-07
 -
   type: docs
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Improved the contribution documentation"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2606
+  url: https://github.com/rust-lang/rust-clippy/pull/2606
   display_date: 2018-04-01
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed an incorrect lint suggestion"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2577
+  url: https://github.com/rust-lang/rust-clippy/pull/2577
   display_date: 2018-03-26
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed another incorrect lint suggestion"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2473
+  url: https://github.com/rust-lang/rust-clippy/pull/2473
   display_date: 2018-02-21
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Improved documentation around executing tests"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2459
+  url: https://github.com/rust-lang/rust-clippy/pull/2459
   display_date: 2018-02-20
 -
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: "Fixed an incorrect suggestion from a lint"
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2444
+  url: https://github.com/rust-lang/rust-clippy/pull/2444
   display_date: 2018-02-07
 -
   type: reading
@@ -607,10 +607,10 @@
   action: "Made a contribution to"
   explanation: "Added a new lint that detects empty lines after attributes"
   project:
-    url: https://github.com/rust-lang-nursery/rust-clippy
+    url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   language: Rust
-  url: https://github.com/rust-lang-nursery/rust-clippy/pull/2340
+  url: https://github.com/rust-lang/rust-clippy/pull/2340
   display_date: 2018-01-30
 -
   type: blog
