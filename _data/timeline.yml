@@ -5,6 +5,16 @@
   project:
     url: https://github.com/rust-lang-nursery/rust-clippy
     name: rust-clippy
+  explanation: Finished rewrite of internal python script in Rust
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rust-clippy/pull/3408
+  display_date: 2018-11-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rust-clippy
+    name: rust-clippy
   explanation: Rewrote another part of internal python script in Rust
   language: Rust
   url: https://github.com/rust-lang-nursery/rust-clippy/pull/3399
