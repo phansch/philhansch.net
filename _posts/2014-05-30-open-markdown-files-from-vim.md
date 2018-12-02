@@ -50,7 +50,7 @@ By now, the browser should open a download dialogue when executing our command. 
 
 For Google Chrome, install [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc?hl=en), [MarkView](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim?hl=en) or [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ehnambpmkdhopilaccgfmojilolcglhn?hl=en). Be sure to give the plugin access to file URLs after installing it.
 
-For Firefox there's pretty much only [Markdown Viewer](https://addons.mozilla.org/fr/firefox/addon/markdown-viewer/) available. And chances are it doesn't work out of the box on Linux. If it doesn't, you are probably missing an entry in `~/.mozilla/firefox/*default/mimeTypes.rdf`.
+For Firefox there's pretty much only [Markdown Viewer](https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer-webext/) available. And chances are it doesn't work out of the box on Linux. If it doesn't, you are probably missing an entry in `~/.mozilla/firefox/*default/mimeTypes.rdf`.
 
 Add the following to `mimeTypes.rdf` to make it recognize .md files as text/plain:
 
