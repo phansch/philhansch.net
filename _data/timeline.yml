@@ -5,6 +5,76 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
+  explanation: Enforce LF lineendings when cloning Clippy
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3484
+  display_date: 2018-12-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continue fixing Clippy Windows CI build
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3486
+  display_date: 2018-12-02
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Introduce a issue/PR triage procedure for Clippy
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3483
+  display_date: 2018-12-02
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fix some outdated links
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3485
+  display_date: 2018-12-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Fix const_fn ICE with non-const function pointer
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/56337
+  display_date: 2018-11-30
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Update CONTRIBUTING.md in regards to merged Clippy RFC
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3466
+  display_date: 2018-11-28
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Small variable renaming
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3447
+  display_date: 2018-11-22
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
   explanation: Finished rewrite of internal python script in Rust
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3408
