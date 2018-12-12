@@ -1,5 +1,35 @@
 ---
 -
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed a false positive with the doc_markdown lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3510
+  display_date: 2018-12-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add a suggestion to the explicit_write lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3450
+  display_date: 2018-12-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fix an off-by-one issue with the doc_markdown lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3509
+  display_date: 2018-12-12
+-
   type: docs
   action: "Made a contribution to"
   project:
@@ -18,7 +48,7 @@
   explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3490
-  display_date: 2018-11-04
+  display_date: 2018-12-04
 -
   type: docs
   action: "Made a contribution to"
