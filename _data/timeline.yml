@@ -3,6 +3,26 @@
   type: code
   action: "Made a contribution to"
   project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Added more unit tests to compiletest
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/56841
+  display_date: 2018-12-15
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Added a missing testsuite for a rustc testing tool
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/56792
+  display_date: 2018-12-13
+-
+  type: code
+  action: "Made a contribution to"
+  project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed a false positive with the doc_markdown lint
