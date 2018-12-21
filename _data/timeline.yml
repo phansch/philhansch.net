@@ -3,6 +3,26 @@
   type: code
   action: "Made a contribution to"
   project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Improved integration test error detection
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3552
+  display_date: 2018-12-19
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rustfmt
+    name: rustfmt
+  explanation: Fixed some deprecation warnings (trim_left/trim_right)
+  language: Rust
+  url: https://github.com/rust-lang/rustfmt/pull/3252
+  display_date: 2018-12-18
+-
+  type: code
+  action: "Made a contribution to"
+  project:
     url: https://github.com/rust-lang/rust
     name: rust
   explanation: Added more unit tests to compiletest
