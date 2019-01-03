@@ -8,7 +8,7 @@
   explanation: Posted a proposal for lint configuration files
   language: Rust
   url: https://internals.rust-lang.org/t/proposal-cargo-lint-configuration/9135/3
-  display_date: 2018-01-03
+  display_date: 2019-01-03
 -
   type: code
   action: "Made a contribution to"
@@ -28,7 +28,7 @@
   explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3612
-  display_date: 2018-12-02
+  display_date: 2019-01-02
 -
   type: code
   action: "Made a contribution to"
@@ -38,7 +38,7 @@
   explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3611
-  display_date: 2018-12-02
+  display_date: 2019-01-02
 -
   type: code
   action: "Made a contribution to"
