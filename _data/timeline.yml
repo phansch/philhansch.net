@@ -1,5 +1,95 @@
 ---
 -
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://internals.rust-lang.org/
+    name: internals.rust-lang.org
+  explanation: Posted a proposal for lint configuration files
+  language: Rust
+  url: https://internals.rust-lang.org/t/proposal-cargo-lint-configuration/9135/3
+  display_date: 2018-01-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/laumann/compiletest-rs
+    name: compiletest-rs
+  explanation: Integrate rustfix into compiletest-rs
+  language: Rust
+  url: https://github.com/laumann/compiletest-rs/pull/153
+  display_date: 2019-01-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3612
+  display_date: 2018-12-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3611
+  display_date: 2018-12-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/laumann/compiletest-rs
+    name: compiletest-rs
+  explanation: Fixed deprecation warnings
+  language: Rust
+  url: https://github.com/laumann/compiletest-rs/pull/153
+  display_date: 2019-01-02
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Improved util documentation
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3608
+  display_date: 2018-12-31
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3605
+  display_date: 2018-12-30
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Actually run compiletest suite on CI. It didn't before.
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/57010
+  display_date: 2018-12-23
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Changed CONTRIBUTING.md hierarchy
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3569
+  display_date: 2018-12-22
+-
   type: code
   action: "Made a contribution to"
   project:
