@@ -1,5 +1,25 @@
 ---
 -
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3623
+  display_date: 2019-01-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Integrate rustfix into Clippy test suite
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3519
+  display_date: 2019-01-03
+-
   type: docs
   action: "Made a contribution to"
   project:
