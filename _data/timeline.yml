@@ -3,6 +3,66 @@
   type: code
   action: "Made a contribution to"
   project:
+    url: https://github.com/honza/vim-snippets
+    name: vim-snippets
+  explanation: Add dbg! macro snippet
+  language: vim-snippets
+  url: https://github.com/honza/vim-snippets/pull/1109
+  display_date: 2019-01-27
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Update changelog with all changes since 0.0.212
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3691
+  display_date: 2019-01-25
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3693
+  display_date: 2019-01-24
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Removed a bug emission from qualify_min_const_fn module
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/57736
+  display_date: 2019-01-19
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Removed license headers from all files
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3645
+  display_date: 2019-01-08
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Made a module public
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/57342
+  display_date: 2019-01-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Fixed Clippy after nightly breaking changes
