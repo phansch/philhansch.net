@@ -97,7 +97,7 @@
     name: compiletest-rs
   explanation: Integrate rustfix into compiletest-rs
   language: Rust
-  url: https://github.com/laumann/compiletest-rs/pull/153
+  url: https://github.com/laumann/compiletest-rs/pull/151
   display_date: 2019-01-02
 -
   type: code
