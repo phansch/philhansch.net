@@ -31,7 +31,7 @@ I also made the switch from Firefox to Google Chrome to keep my browser in sync.
 My programming environment is running on a Windows 7 virtual machine right now. That machine has a local jekyll server, netbeans for java programming, python and a simple xampp server. My second virtual machine is running Linux Mint with a database client for my postgres class. My university is also providing git repositories, so I'm using these instead of of a public GitHub repository, to keep my programming assignments private.
 
 ##Call me minimalist, if you want##
-After slowly gaining control over my online life, I started devoting my time to the place I live in. I've always been rather tidy. My mom teached me to always clean up on the go. But I didn't really do that until I moved away from my parents. Having my own place changed that. It also made me reconsider keeping all the stuff I own. 
+After slowly gaining control over my online life, I started devoting my time to the place I live in. I've always been rather tidy. My mom taught me to always clean up on the go. But I didn't really do that until I moved away from my parents. Having my own place changed that. It also made me reconsider keeping all the stuff I own. 
 
 Having less stuff, makes cleaning a lot easier. Buying less stuff saves a ton of money. Owning only the clothes you *really* like, makes picking clothes in the morning really easy. And, after all, having less stuff makes moving very easy. I donated half of my books to friends and family and I'm now using a Kindle. One third of my clothes went to charity. I digitized old photos and sold my games collection to a local video game shop. Having less stuff freed my mind. 
 

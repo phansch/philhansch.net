@@ -18,7 +18,7 @@ But working on a tool that you actually use sounds really nice. You know how the
  * It is active. This includes time of the last commit and comment activity on issues or pull requests. If didn't merge any pull requests within a couple months, chances are, yours probably won't be merged either. If the last commit is 6 months old, that's also an indicator for an abandoned project.
  * Good documentation. There should be a guide on setting up the project. There should also be a guide on how to get your changes merged in.
  * Lots of issues to pick from. Maybe they also have a beginner tag for issues.
- * Managable size. The bigger the project, the harder it will be to figure out where to change something in order to fix a bug. You will be able to contribute faster on smaller projects.
+ * Manageable size. The bigger the project, the harder it will be to figure out where to change something in order to fix a bug. You will be able to contribute faster on smaller projects.
 
 ### People won't be mad at you for contributing to their project
 Before you start working on a feature or bug report, make sure you have read the available documentation on how to contribute. My biggest fear was that I would mess something up with my branching and the pull request as I never used pull requests before. Reading the documentation has helped a lot. Make sure you have read [Creating pull requests](https://help.github.com/articles/creating-a-pull-request) and [Using pull requests](https://help.github.com/articles/using-pull-requests).

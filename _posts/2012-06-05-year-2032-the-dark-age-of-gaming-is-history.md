@@ -13,7 +13,7 @@ So I was wondering how do we tell them about the dark age of gaming? Do we want 
 Actually, how do we define the dark age of gaming? 
 
 I don't know. It wasn't just one single terrible MMO. Things like grinding were present in almost every MMO. And for a reason: More money to devs by increasing the time a player has to spend in order to be rewarded.
-People paid money for the service and then they wanted to get something out of their money. And so they played. Hours and hours of the same mundane tasks. Kill ten rats, gather 5 iron. Kill hundred rats, craft 50 gold ingots, kill this boss, aquire that gear, kill the next boss, ...
+People paid money for the service and then they wanted to get something out of their money. And so they played. Hours and hours of the same mundane tasks. Kill ten rats, gather 5 iron. Kill hundred rats, craft 50 gold ingots, kill this boss, acquire that gear, kill the next boss, ...
 
 And the worst thing? They were not alone. MMOs being MMOs at that time, they had competitors! Every monster presented a competition as to who got rewarded for the quest. Every nook and cranny was designed in a way that players don't do what they actually like to do: Playing together with friends. They paid hoping to play together with their friends, to make new friends even. But how do you even make new friends in such a hostile environment? How do you make friends when you have to compete over every single entity in the game?
 

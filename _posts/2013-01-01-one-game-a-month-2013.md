@@ -6,7 +6,7 @@ excerpt: "I will be participating in the One Game A Month challenge this year. A
 ---
 
 I am participating in the **[One Game A Month](http://www.onegameamonth.com/) challenge**. Each month, I am going to show off a finished game.
-[Last month's Ludum Dare](/2012/12/26/ludum-dare-25-post-mortem) teached me how important it is to plan ahead. And *to stick to your plan*.
+[Last month's Ludum Dare](/2012/12/26/ludum-dare-25-post-mortem) taught me how important it is to plan ahead. And *to stick to your plan*.
 
 Here's what I've planned in order to complete the challenge.
 

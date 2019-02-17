@@ -13,7 +13,7 @@ Hallo,
 
 um mir die Arbeit zu erleichtern, werde ich meinen gaming Blog mit diesem Blog zusammenführen.
 Dies wird der letzte Artikel auf phansch.de sein. Alle neuen Artikel sind auf plyturon.net zu finden.
-Da vermutlich einige Links auf meinen Blog verweisen, wird er so lange wie möglich weiterhin unter _blog.phansch.de_ erreichbar sein. Für _phansch.de_ habe ich schon andere Pläne. Im übrigen wird plyturon.net komplett Englisch sein.
+Da vermutlich einige Links auf meinen Blog verweisen, wird er so lange wie möglich weiterhin under _blog.phansch.de_ erreichbar sein. Für _phansch.de_ habe ich schon andere Pläne. Im übrigen wird plyturon.net komplett Englisch sein.
 
 Danke an alle treuen Leser,
 
