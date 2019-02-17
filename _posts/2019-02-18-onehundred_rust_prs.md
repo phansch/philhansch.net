@@ -122,11 +122,13 @@ knowledge to learn. It's more about very specific rustc or Clippy internals.
 For the reasons mentioned at the beginning, I will absolutely continue working
 on Clippy and focus on improving its reliability. I am currently reworking the
 contribution guidelines to lower the bar of entry for new contributors and then
-want to get back to fixing bugs.
+want to get back to fixing bugs and crashes.
 
 However, I also want to improve my fundamentals. To do that, I'm expanding my
 Anki card collection to be able to recall more from memory and going through
 TRPL a second time.
+
+On to the next hundred contributions!
 
 [2340]: https://github.com/rust-lang/rust-clippy/pull/2340
 [2733]: https://github.com/rust-lang/rust-clippy/pull/2733
