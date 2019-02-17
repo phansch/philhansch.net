@@ -1,5 +1,11 @@
 ---
 -
+  type: blog
+  title: One Hundred Rust PRs later
+  subtitle: A review of my past year with Rust
+  display_date: 2019-02-18
+  url: /2019/02/18/onehundred-rust-prs/
+-
   type: docs
   action: "Made a contribution to"
   project:
