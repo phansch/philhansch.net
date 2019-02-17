@@ -7,7 +7,7 @@ title: I'm running now!
 wordpress_id: 1386
 ---
 
-With my move to Berlin, I wanted to change things around. Being a total computer nerd, I would sit at the computer most of the time. I always knew that it wasn't healthy, but there was always something to do at the PC. Things didn't really change until I was done with my kidney treatment at the end of March. But when I left the hospital that day, I went to the city center and [enjoyed the sunshine](http://yfrog.com/ny36oslj) at the Reichstag. 
+With my move to Berlin, I wanted to change things around. Being a total computer nerd, I would sit at the computer most of the time. I always knew that it wasn't healthy, but there was always something to do at the PC. Things didn't really change until I was done with my kidney treatment at the end of March. But when I left the hospital that day, I went to the city center and enjoyed the sunshine at the Reichstag.
 
 A few days after that, I was still in my old habits. However, two weeks later or so, I was browsing Reddit and stumbled upon [r/GetMotivated](http://www.reddit.com/r/GetMotivated/).
 

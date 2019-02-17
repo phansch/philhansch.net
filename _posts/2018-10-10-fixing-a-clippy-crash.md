@@ -303,8 +303,8 @@ and putting all the information together.
     Sources:
     <ul>
       <li><a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc/ty/struct.Binder.html">rustc::ty::Binder</a></li>
-      <li><a href="https://rust-lang-nursery.github.io/rustc-guide/appendix/background.html#free-vs-bound">rustc-guide: Free vs. Bound regions</a></li>
-      <li><a href="https://rust-lang-nursery.github.io/rustc-guide/appendix/glossary.html?highlight=binder#appendix-c-glossary">rustc-guide: Glossary</a></li>
+      <li><a href="https://rust-lang.github.io/rustc-guide/appendix/background.html#free-vs-bound">rustc-guide: Free vs. Bound regions</a></li>
+      <li><a href="https://rust-lang.github.io/rustc-guide/appendix/glossary.html?highlight=binder#appendix-c-glossary">rustc-guide: Glossary</a></li>
     </ul>
   </cite>
   </blockquote>
@@ -318,7 +318,7 @@ and putting all the information together.
   type implements a given trait.
   <br><br>
   <cite>
-    Source: <a href="https://rust-lang-nursery.github.io/rustc-guide/ty.html?highlight=predicate#beyond-types-other-kinds-of-arena-allocated-data-structures">rustc-guide: Ty</a>
+    Source: <a href="https://rust-lang.github.io/rustc-guide/ty.html?highlight=predicate#beyond-types-other-kinds-of-arena-allocated-data-structures">rustc-guide: Ty</a>
   </cite>
   </blockquote>
 
@@ -461,14 +461,14 @@ issue][gfi] label, pick one that seems easy to you and dig in =)
 You can find the final PR [here][clippy_pr].
 
 [compiler_plugin]: https://doc.rust-lang.org/unstable-book/language-features/plugin.html#lint-plugins
-[clippy_issue]: https://github.com/rust-lang-nursery/rust-clippy/issues/2831
-[clippy_pr]: https://github.com/rust-lang-nursery/rust-clippy/pull/3248
+[clippy_issue]: https://github.com/rust-lang/rust-clippy/issues/2831
+[clippy_pr]: https://github.com/rust-lang/rust-clippy/pull/3248
 [rustc_issue]: https://github.com/rust-lang/rust/pull/54679
-[thanks]: https://github.com/rust-lang-nursery/rust-clippy/issues/2831#issuecomment-409411096
+[thanks]: https://github.com/rust-lang/rust-clippy/issues/2831#issuecomment-409411096
 [rustc_docs]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc/
-[rustc_guide]: https://rust-lang-nursery.github.io/rustc-guide/
+[rustc_guide]: https://rust-lang/rustc-guide/
 [ariel]: https://github.com/arielb1
-[ariel_comment]: https://github.com/rust-lang-nursery/rust-clippy/issues/2831#issuecomment-425732417
-[gfi]: https://github.com/rust-lang-nursery/rust-clippy/labels/good%20first%20issue
+[ariel_comment]: https://github.com/rust-lang/rust-clippy/issues/2831#issuecomment-425732417
+[gfi]: https://github.com/rust-lang/rust-clippy/labels/good%20first%20issue
 [input_types]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc/ty/struct.TraitRef.html#method.input_types
-[substs]: https://rust-lang-nursery.github.io/rustc-guide/ty.html?highlight=substs#beyond-types-other-kinds-of-arena-allocated-data-structures
+[substs]: https://rust-lang.github.io/rustc-guide/ty.html?highlight=substs#beyond-types-other-kinds-of-arena-allocated-data-structures
