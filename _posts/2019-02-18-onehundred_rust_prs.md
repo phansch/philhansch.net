@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One Hundred Rust PRs later
-excerpt: todo
+excerpt: A review of my past year with Rust
 ---
 
 It's hard for me to believe but it's already been **over a year** since I
@@ -16,7 +16,7 @@ seriously committed to learning Rust and I have now reached my initial goal of
   </div>
 </div>
 
-I want to use this blog post to reflect on the work I've done and talk about
+I want to use this blog post to review the work I've done, talk about
 the challenges I've come across and how I've tried to deal with them. I'm afraid
 I haven't blogged in a long time and this is a bit longer than usual.
 
@@ -24,6 +24,7 @@ I haven't blogged in a long time and this is a bit longer than usual.
 
 I decided to work on Clippy for a couple of reasons:
 
+* I love helping people and Clippy is the perfect force multiplier for that
 * It's quick to iterate on bug fixes and new lints - Running the UI test suite
   takes only 1 minute on my machine
 * It had a lot of reach, with at the time ~2000 GH stars (now at 3000+)
@@ -33,7 +34,7 @@ tasks super easy
 * As a jumping point towards more advanced rustc internals
 
 I had done some small documentation contributions and was watching other people
-contribute new lints and such but with the beginning of 2018 I decided to focus
+contribute new lints and such. With the beginning of 2018 I decided to focus
 on Rust in my free time as much as possible. It was also a sort of experiment on
 whether I had the grit to stay with a longer-term project.
 
@@ -55,7 +56,7 @@ writing that lint I learned that there are a *lot* of things to consider when
 linting Rust code and the lint resulted in a few false-positives that I also
 fixed.
 
-I suppose that experience made me aware of how much potential for improvements
+I think this experience made me aware of how much potential for improvements
 there is in Clippy and I decided to spend more time on bug fixing than adding
 new lints from then on.
 
@@ -82,24 +83,22 @@ worth its own blog post at some point.
 ## December to February 2019
 
 In December I [added Rustfix support to the compiletest-rs
-library][rustfix_compiletest], which in turn allows Clippy to test its code
-suggestions. This will prevent suggestion regressions, improve future
+library][rustfix_compiletest], which in turn [allows Clippy][3519] to test its
+code suggestions. This will prevent suggestion regressions, improve future
 suggestions and help pave the path to a reliable Clippy ⟺ Rustfix integration.
 This is an ongoing effort and if you want to help out with this, there is an
 open [tracking issue][rustfix_tracking] with some instructions.
 
-
-In January 2019 I added a lint that detects whether a function can be `const` or
-not.  [const fn lint][3648] This lint is currently in the `nursery` group as the
-`const_fn` feature is not fully stabilized yet. You can give it a try by
-using `#![warn(clippy::missing_const_for_fn)]` if you are on beta or nightly.
-
+In January 2019 I [added a lint][3648] that detects whether a function can be `const` or
+not. This lint is currently in the `nursery` group as the `const_fn` feature is
+not fully stabilized yet. You can give it a try by using
+`#![warn(clippy::missing_const_for_fn)]` if you are on beta or nightly.
 
 ## Other contributions
 
-* Not going into further detail, I also [fixed
-about 20 bugs and crashes][bugs] in Clippy over this time. (Of which [this
-one][yay] is probably my favorite fix)
+* Not going into further detail, I also [fixed about 20 bugs and crashes][bugs]
+  in Clippy over this time. Of those, [this one][yay] is probably my favorite
+  fix. I also [wrote a blog post][my_post] about one of them.
 * I [added][hubcaps_pr] the ability to create GitHub review comments to [hubcaps][hubcaps]
 * I [made the tests][compiletesttest] of rustc's `compiletest` runnable via `./x.py`
 
@@ -139,6 +138,7 @@ TRPL a second time.
 [3388]: https://github.com/rust-lang/rust-clippy/pull/3388
 [3399]: https://github.com/rust-lang/rust-clippy/pull/3399
 [3408]: https://github.com/rust-lang/rust-clippy/pull/3408
+[3519]: https://github.com/rust-lang/rust-clippy/pull/3519
 [3648]: https://github.com/rust-lang/rust-clippy/pull/3648
 [gfi]: https://github.com/rust-lang/rust-clippy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22
 [rustfix_compiletest]: https://github.com/laumann/compiletest-rs/pull/151
@@ -149,3 +149,4 @@ TRPL a second time.
 [hubcaps_pr]: https://github.com/softprops/hubcaps/pull/142
 [yay]: https://github.com/rust-lang/rust-clippy/pull/2763
 [compiletesttest]: https://github.com/rust-lang/rust/pull/56792
+[my_post]: https://phansch.net/2018/10/10/fixing-a-clippy-crash/
