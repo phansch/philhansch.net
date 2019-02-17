@@ -5,7 +5,7 @@ title: Ludum Dare 25 Post Mortem
 excerpt: "A recap of my first Ludum Dare game jam."
 ---
 
-This was my first time participating in a game jam. The jam was a blast, although I didn't like the theme: You are the villian. I spent the first hour brainstorming ideas for the theme and ended with a space shooter where you shoot at defenseless transport ships.
+This was my first time participating in a game jam. The jam was a blast, although I didn't like the theme: You are the villain. I spent the first hour brainstorming ideas for the theme and ended with a space shooter where you shoot at defenseless transport ships.
 
 
 [The source](https://gitlab.com/phansch/ludumdare25/tree/master), [the timelapse](http://www.youtube.com/watch?v=eX7fsD3Hbmc). I didn't publish a playable version, yet. You can get it from github and swap out the music that's missing, to make it run.
@@ -34,7 +34,7 @@ Therefore, the last sequence isn't implemented and the game doesn't really end. 
 I want to blame this on the topic for this Ludum Dare. I had a story in mind where the player controls an alien spaceship, shooting at humans.
 It turned out, that it was difficult to distinguish between aliens and humans. Therefore, I put in a lot of text that explains who you (the player) are.
 
-Maybe there are better way to do this, but a space shooter where you are the villian was probably a bad idea in the first place.
+Maybe there are better way to do this, but a space shooter where you are the villain was probably a bad idea in the first place.
 
 #### The overall gameplay and mechanics are lacking
 Admittedly, I am not a game designer - rather a programmer. But I should put some more effort into this area next time.

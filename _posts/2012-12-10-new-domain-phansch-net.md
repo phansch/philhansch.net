@@ -4,7 +4,7 @@ location: Berlin
 title: New domain phansch.net
 excerpt: I no longer own my old domain. The new domain is phansch.net
 ---
-I did something stupid when *transfering* my old domain to namecheap.com. 
+I did something stupid when *transferring* my old domain to namecheap.com. 
 You see, namecheap didn't offer transfers for .de domains. So I sent a close request to my old registrar.
 
 **Huge mistake.**  

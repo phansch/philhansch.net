@@ -42,7 +42,7 @@ Delegating important tasks, getting at least 100 people together and actually mo
 Okay, enough EVE talk! The point here is the **preparation time** and not knowing if the waiting time is worth it. If your are one of the many who aren't in control, you have nothing to do until everyone else is ready. You sit there and wait an hour for your fellow pilots to show up.
 
 
-Guild Wars 2 does it all differently. For structured PVP there's hot join in place. Games are always running therefore you can have instant action. You can always jump into WvW or complete a dungeon with your friends. You don't have to for for your guilds only healer or tank. The holy trinity has been replaced by a better trinity, where everyone can almost fulfil any role.
+Guild Wars 2 does it all differently. For structured PVP there's hot join in place. Games are always running therefore you can have instant action. You can always jump into WvW or complete a dungeon with your friends. You don't have to for for your guilds only healer or tank. The holy trinity has been replaced by a better trinity, where everyone can almost fulfill any role.
 
 
 ###### Cooperation instead of competition

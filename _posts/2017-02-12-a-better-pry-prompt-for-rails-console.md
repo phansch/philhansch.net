@@ -45,7 +45,7 @@ File.basename(Rails.root)
 {% endhighlight %}
 
 
-The pry prompt can be overriden in the `.pryrc` with a custom proc:
+The pry prompt can be overridden in the `.pryrc` with a custom proc:
 
 {% highlight ruby %}
 Pry.config.prompt = proc { |obj, nest_level, pry| 'NicerPrompt'}

@@ -15,7 +15,7 @@ To make this folder public, change the visibility settings to `Public on the web
 
 ![Sharing settings](/assets/images/posts/2013-03-01-gdrive-static/sharing-1.png)
 
-Now you will need to obtain the folder ID. Change to your public folder and you will see the ID in the adress bar. The last part is the FolderID you are looking for:
+Now you will need to obtain the folder ID. Change to your public folder and you will see the ID in the address bar. The last part is the FolderID you are looking for:
 
 ![FolderID](/assets/images/posts/2013-03-01-gdrive-static/folderid.png)
 

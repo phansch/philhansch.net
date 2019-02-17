@@ -283,7 +283,7 @@ and putting all the information together.
   <h4>ParamEnv</h4>
   <blockquote>
   ParamEnv is short for Parameter Environment. It contains information about the
-  trait bounds. It can be used to check wether a type implements a certain
+  trait bounds. It can be used to check whether a type implements a certain
   trait, for example.
   <br><br>
   <cite>

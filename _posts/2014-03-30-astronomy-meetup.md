@@ -12,4 +12,4 @@ We met at a car-rental place at about 18:30 and packed up our stuff. Some of us,
 
 The moment we stepped out of the car was the best thing ever and I will probably never forget that moment. Looking back at it, I think most of us didn't expect to see **so many stars**.
 
-It is hard to descibe the feeling you get when seeing it for the first time. It is a humbling experience. You really have to see and experience it for yourself.
+It is hard to describe the feeling you get when seeing it for the first time. It is a humbling experience. You really have to see and experience it for yourself.
