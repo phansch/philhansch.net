@@ -1,5 +1,125 @@
 ---
 -
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Document `declare_clippy_lint` macro
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3758
+  display_date: 2019-01-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3754
+  display_date: 2019-01-10
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3755
+  display_date: 2019-01-10
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed a crash in needless_pass_by_value lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3744
+  display_date: 2019-02-10
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Simplify UI test invocation
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3748
+  display_date: 2019-02-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Transition compiletest tool to Rust 2018
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/58091
+  display_date: 2019-02-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed a crash in vec_box lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3732
+  display_date: 2019-02-02
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3727
+  display_date: 2019-01-31
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Improved another bug! message
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/57984
+  display_date: 2019-01-31
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/book
+    name: book
+  explanation: Update the Rust book Clippy section
+  language: Rust
+  url: https://github.com/rust-lang/book/pull/1792
+  display_date: 2019-01-30
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add initial version of const_fn lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3648
+  display_date: 2019-01-29
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Prevent incorrect cast_lossless suggestion in const_fn
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3700
+  display_date: 2019-01-28
+-
   type: code
   action: "Made a contribution to"
   project:
