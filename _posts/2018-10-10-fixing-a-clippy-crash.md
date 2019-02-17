@@ -466,7 +466,7 @@ You can find the final PR [here][clippy_pr].
 [rustc_issue]: https://github.com/rust-lang/rust/pull/54679
 [thanks]: https://github.com/rust-lang/rust-clippy/issues/2831#issuecomment-409411096
 [rustc_docs]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc/
-[rustc_guide]: https://rust-lang/rustc-guide/
+[rustc_guide]: https://rust-lang.github.io/rustc-guide/
 [ariel]: https://github.com/arielb1
 [ariel_comment]: https://github.com/rust-lang/rust-clippy/issues/2831#issuecomment-425732417
 [gfi]: https://github.com/rust-lang/rust-clippy/labels/good%20first%20issue
