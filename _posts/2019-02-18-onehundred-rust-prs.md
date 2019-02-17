@@ -6,7 +6,8 @@ excerpt: A review of my past year with Rust
 
 It's hard for me to believe but it's already been **over a year** since I
 seriously committed to learning Rust and I have now reached my initial goal of
-100 open source contributions to the Rust ecosystem.
+100 open source contributions to the Rust ecosystem. You can see the full list
+[here](https://phansch.net/onehundred/rust/).
 
 <div class="onehundred-widget">
   <div class="progressbar">
