@@ -89,7 +89,7 @@ p {
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
-p code {
+p code, li code {
   border-radius: 3px;
   font-family: monospace;
   font-weight: normal;
