@@ -37,6 +37,7 @@ end
 
 if ENV['RUN'] == 'test'
   build.run_job('test', 'bundle exec rake test')
+  build.run_job('codespell', 'sudo pip install codespell && codespell _posts --skip "2009*.md","2010*.md","2011*.md" -L mut')
 end
 
 build.handle_results
