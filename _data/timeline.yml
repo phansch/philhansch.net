@@ -14,7 +14,7 @@
   explanation: Document `declare_clippy_lint` macro
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3758
-  display_date: 2019-01-12
+  display_date: 2019-02-12
 -
   type: code
   action: "Made a contribution to"
@@ -24,7 +24,7 @@
   explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3754
-  display_date: 2019-01-10
+  display_date: 2019-02-10
 -
   type: code
   action: "Made a contribution to"
@@ -34,7 +34,7 @@
   explanation: Continuation of UI test output cleanup
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3755
-  display_date: 2019-01-10
+  display_date: 2019-02-10
 -
   type: code
   action: "Made a contribution to"
