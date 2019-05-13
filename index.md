@@ -10,10 +10,19 @@ auto: false
   Feel free to take a look at my <a title="My blog" href="http://phansch.net/archive/">writings</a> and <a href="https://github.com/phansch/cv/blob/master/resume-philipp-hansch.pdf">resumé</a> as well.
 </div>
 
-* [Resumè / CV (pdf)](https://github.com/phansch/cv/raw/master/resume-philipp-hansch.pdf)
-* [GitHub](http://github.com/phansch)
+<table id="index-link-table">
+  <tr>
+    <td>
+      <a href="https://github.com/phansch/cv/raw/master/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
+    </td>
+    <td>
+      <a href="http://github.com/phansch">GitHub</a>
+    </td>
+  </tr>
+</table>
 
-## Recent
+<h2>Recent</h2>
+
 
 {% for item in site.data.timeline limit:10 %}
   <article class="timeline-entry {{ item.type }}">
