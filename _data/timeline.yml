@@ -245,7 +245,7 @@
   project:
     url: https://github.com/rust-lang/rust
     name: rust
-  explanation: rustfix coverage: Skip UI tests with non-json error-format"
+  explanation: "rustfix coverage: Skip UI tests with non-json error-format"
   language: Rust
   url: https://github.com/rust-lang/rust/pull/59677
   display_date: 2019-04-04
