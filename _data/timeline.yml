@@ -1,5 +1,465 @@
 ---
 -
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4087
+  display_date: 2019-05-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add tests for empty_loop lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4085
+  display_date: 2019-05-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: mdBook
+  explanation: Don't let robots index the print.html
+  language: Rust
+  url: https://github.com/rust-lang-nursery/mdBook/pull/844
+  display_date: 2019-05-07
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add two more tests for redundant_closure
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4032
+  display_date: 2019-04-29
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Update pulldown_cmark to 0.5"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4029
+  display_date: 2019-04-25
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4022
+  display_date: 2019-04-24
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Deny rust_2018_idioms globally
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/60133
+  display_date: 2019-04-22
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fix allowing of toplevel_ref_arg lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4007
+  display_date: 2019-04-20
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for match_as_ref lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4005
+  display_date: 2019-04-20
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Fix false positive in module_name_repetitions lint"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4006
+  display_date: 2019-04-20
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for len_zero lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3978
+  display_date: 2019-04-18
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for option_map_or_none lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3987
+  display_date: 2019-04-18
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Change naive_bytecount applicability to MaybeIncorrect
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3984
+  display_date: 2019-04-18
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Change while_let_loop applicability to HasPlaceholders
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3976
+  display_date: 2019-04-17
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for deref_addrof lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3976
+  display_date: 2019-04-17
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for bool_comparison lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3977
+  display_date: 2019-04-17
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Update changelog for Rust 1.34"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3950
+  display_date: 2019-04-13
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3938
+  display_date: 2019-04-11
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed a crash in decimal_literal_representation lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3931
+  display_date: 2019-04-10
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for redundant_closure lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3933
+  display_date: 2019-04-10
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Don't emit useless_attribute lint in external macros"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3932
+  display_date: 2019-04-10
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed a crash in suspicious_else_formatting lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3925
+  display_date: 2019-04-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add missing `// run-pass` annotations to ICE tests
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3922
+  display_date: 2019-04-06
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rustfix
+    name: rustfix
+  explanation: "Migrate to Rust 2018"
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rustfix/pull/168
+  display_date: 2019-04-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: rustfix coverage: Skip UI tests with non-json error-format"
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/59677
+  display_date: 2019-04-04
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Add a way to track Rustfix UI test coverage
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/59398
+  display_date: 2019-03-29
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Improved some compiletest documentation
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/59432
+  display_date: 2019-03-27
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang-nursery/rustfix
+    name: rustfix
+  explanation: Fix out of bounds access in parse_snippet
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rustfix/pull/165
+  display_date: 2019-03-26
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for mistyped_literal_suffix lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3888
+  display_date: 2019-03-19
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for useless_asref lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3886
+  display_date: 2019-03-15
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3887
+  display_date: 2019-03-15
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Added rustfix tests for string_lit_as_bytes lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3879
+  display_date: 2019-03-14
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3880
+  display_date: 2019-03-14
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Some more HirId-ification
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3873
+  display_date: 2019-03-13
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Remove some unused features and `error-pattern`s
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3872
+  display_date: 2019-03-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Run more doc tests
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3865
+  display_date: 2019-03-12
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add lint writing documentation
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3824
+  display_date: 2019-03-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Refactor: Remove utils::opt_def_id
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3860
+  display_date: 2019-03-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Refactor: Cleanup one part of assign_ops lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3852
+  display_date: 2019-03-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Refactor: Extract `trait_ref_of_method` function
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3851
+  display_date: 2019-03-09
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Document match_path, improve match_qpath docs
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3857
+  display_date: 2019-03-09
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Fixed two missing_const_for_fn false positives"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3844
+  display_date: 2019-03-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3827
+  display_date: 2019-02-27
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Update changelog for Rust 1.33"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3818
+  display_date: 2019-02-26
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Extract diagnostics module and document some functions
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3810
+  display_date: 2019-02-24
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Document some `span_lint_*` util functions
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/3809
+  display_date: 2019-02-24
+-
   type: blog
   title: One Hundred Rust PRs later
   subtitle: A review of my past year with Rust
