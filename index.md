@@ -12,7 +12,6 @@ auto: false
 
 * [Resumè / CV (pdf)](https://github.com/phansch/cv/raw/master/resume-philipp-hansch.pdf)
 * [GitHub](http://github.com/phansch)
-* [LinkedIn](https://www.linkedin.com/in/philipphansch/)
 
 ## Recent
 
