@@ -375,7 +375,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Refactor: Remove utils::opt_def_id
+  explanation: "Refactor: Remove utils::opt_def_id"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3860
   display_date: 2019-03-09
@@ -385,7 +385,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Refactor: Cleanup one part of assign_ops lint
+  explanation: "Refactor: Cleanup one part of assign_ops lint"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3852
   display_date: 2019-03-09
@@ -395,7 +395,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Refactor: Extract `trait_ref_of_method` function
+  explanation: "Refactor: Extract `trait_ref_of_method` function"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/3851
   display_date: 2019-03-09
@@ -1547,4 +1547,4 @@
 # -
 #   type: portfolio_entry
 #   text:
-#   datetime: 
+#   datetime:
