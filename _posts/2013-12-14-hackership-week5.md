@@ -32,4 +32,4 @@ In the evening a few of us went to a whiteboard talk at Soundcloud. It was an in
 
 This was probably my most eventful week during Hackership.
 
-On **Saturday** I coached at the [Railsgirls Berlin Hackday](http://railsgirlsberlin.de/2013/11/10/winter-hacking-rails-girls-berlin/). It was my first time coaching and it turned out that teaching total beginners how to program is not easy. But it was very fun and in the end I got good feedback and my coachees learned a lot.
+On **Saturday** I coached at the [Railsgirls Berlin Hackday](http://railsgirlsberlin.de/winter-hacking-rails-girls-berlin/). It was my first time coaching and it turned out that teaching total beginners how to program is not easy. But it was very fun and in the end I got good feedback and my coachees learned a lot.

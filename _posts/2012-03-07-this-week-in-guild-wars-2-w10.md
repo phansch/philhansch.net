@@ -61,7 +61,8 @@ Boons & Conditions Podcast #1: Mono Intro **Site offline**
 [MMORPG.com: The Warrior Preview](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6155/Guild-Wars-2-The-Warrior-Preview.html)
 • Garrett Fuller from MMORPG.com published a nice overview on the Warrior profession and gives some advice on properly using the unique Warrior mechanics.
 
-[Flameseeker Chronicles: How do trinities work?](http://massively.joystiq.com/2012/03/06/flameseeker-chronicles-how-do-trinities-work/)
+[Flameseeker Chronicles: How do trinities work?(#) (Dead link, because
+joystick.com shut down)
 • Elisabeth explains how trinities work in this week's Flameseeker Chronicles
 
 [Talk Tyria: What Will Guild Wars 2 Do to Me?](http://www.talktyria.net/2012/03/06/what-will-guild-wars-2-do-to-me/)
