@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One Hundred Rust PRs later
-excerpt: A review of my past year with Rust
+excerpt: A review of my past year with Rust.
 ---
 
 It's hard for me to believe but it's already been **over a year** since I
