@@ -3,16 +3,6 @@
   type: code
   action: "Made a contribution to"
   project:
-    url: https://github.com/rust-lang-nursery/rustfix
-    name: rustfix
-  explanation: Add run-rustfix for needless_bool lint
-  language: Rust
-  url: https://github.com/rust-lang-nursery/rustfix/pull/167
-  display_date: 2019-08-07
--
-  type: code
-  action: "Made a contribution to"
-  project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Add run-rustfix for needless_bool lint
