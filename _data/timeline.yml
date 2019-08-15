@@ -3,6 +3,346 @@
   type: code
   action: "Made a contribution to"
   project:
+    url: https://github.com/rust-lang-nursery/rustfix
+    name: rustfix
+  explanation: Add run-rustfix for needless_bool lint
+  language: Rust
+  url: https://github.com/rust-lang-nursery/rustfix/pull/167
+  display_date: 2019-08-07
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add run-rustfix for needless_bool lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4339
+  display_date: 2019-08-07
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Fix enum_variant_names false positives"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4345
+  display_date: 2019-08-07
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fix needless_bool suggestion with if--else-if--else
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4335
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Doctests: Enable running doc tests for nursery lints
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4330
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4332
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Doctests: Enable running doc tests for restriction lints
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4331
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Doctests: Enable running doc tests for pedantic lints
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4329
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Add run-rustfix for decimal_literal_representation lint
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4333
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4336
+  display_date: 2019-08-05
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Doctests: Enable running doc tests for perf lints
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4327
+  display_date: 2019-08-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Doctests: Enable running doc tests for complexity lints
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4325
+  display_date: 2019-08-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4328
+  display_date: 2019-08-03
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Mark `fn_to_numeric_cast` lints as MaybeIncorrect"
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4315
+  display_date: 2019-08-01
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4316
+  display_date: 2019-08-01
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: "librustc_errors: Support ui-testing flag in annotate-snippet emitter"
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/62985
+  display_date: 2019-07-26
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rustasync/tide
+    name: tide
+  explanation: Add doc example showing query parameter extraction
+  language: Rust
+  url: https://github.com/rustasync/tide/pull/291
+  display_date: 2019-06-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/laumann/compiletest-rs
+    name: compiletest-rs
+  explanation: Add support for rustfix coverage tracking
+  language: Rust
+  url: https://github.com/laumann/compiletest-rs/pull/167
+  display_date: 2019-07-16
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4278
+  display_date: 2019-07-17
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4276
+  display_date: 2019-07-16
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/annotate-snippets-rs
+    name: annotate-snippets-rs
+  explanation: Fix too many anonymized line numbers
+  language: Rust
+  url: https://github.com/rust-lang/annotate-snippets-rs/pull/5
+  display_date: 2019-07-15
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/annotate-snippets-rs
+    name: annotate-snippets-rs
+  explanation: Add option to anonymize line numbers
+  language: Rust
+  url: https://github.com/rust-lang/annotate-snippets-rs/pull/3
+  display_date: 2019-06-13
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Refactor: Replace NodeSet with HirIdSet
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4216
+  display_date: 2019-06-18
+-
+  type: docs
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: "librustc_errors: Add some more documentation"
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/61686
+  display_date: 2019-06-12
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: Add new diagnostic writer using annotate-snippet library
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/61407
+  display_date: 2019-06-04
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Update pulldown_cmark to 0.5.2
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4157
+  display_date: 2019-05-30
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4155
+  display_date: 2019-05-30
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: "librustc_errors: Move annotation collection to own impl"
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/61191
+  display_date: 2019-05-29
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4141
+  display_date: 2019-05-25
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4134
+  display_date: 2019-05-24
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust
+    name: rust
+  explanation: "librustc_errors: Remove unused annotation style `OldSchoolNoteText`"
+  language: Rust
+  url: https://github.com/rust-lang/rust/pull/61073
+  display_date: 2019-05-23
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Fixed Clippy after nightly breaking changes
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4126
+  display_date: 2019-05-23
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: Continuation of UI test output cleanup
+  language: Rust
+  url: https://github.com/rust-lang/rust-clippy/pull/4120
+  display_date: 2019-05-22
+-
+  type: code
+  action: "Made a contribution to"
+  project:
+    url: https://github.com/rust-lang/rust-clippy
+    name: rust-clippy
+  explanation: "Add a stderr file length check to clippy_dev"
+  language: Rust
+  url: "https://github.com/rust-lang/rust-clippy/pull/4100"
+  display_date: 2019-05-19
+-
+  type: code
+  action: "Made a contribution to"
+  project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
   explanation: Continuation of UI test output cleanup
