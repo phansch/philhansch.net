@@ -45,7 +45,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Doctests: Enable running doc tests for nursery lints
+  explanation: "Doctests: Enable running doc tests for nursery lints"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/4330
   display_date: 2019-08-05
@@ -65,7 +65,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Doctests: Enable running doc tests for restriction lints
+  explanation: "Doctests: Enable running doc tests for restriction lints"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/4331
   display_date: 2019-08-05
@@ -75,7 +75,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Doctests: Enable running doc tests for pedantic lints
+  explanation: "Doctests: Enable running doc tests for pedantic lints"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/4329
   display_date: 2019-08-05
@@ -105,7 +105,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Doctests: Enable running doc tests for perf lints
+  explanation: "Doctests: Enable running doc tests for perf lints"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/4327
   display_date: 2019-08-03
@@ -115,7 +115,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Doctests: Enable running doc tests for complexity lints
+  explanation: "Doctests: Enable running doc tests for complexity lints"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/4325
   display_date: 2019-08-03
@@ -225,7 +225,7 @@
   project:
     url: https://github.com/rust-lang/rust-clippy
     name: rust-clippy
-  explanation: Refactor: Replace NodeSet with HirIdSet
+  explanation: "Refactor: Replace NodeSet with HirIdSet"
   language: Rust
   url: https://github.com/rust-lang/rust-clippy/pull/4216
   display_date: 2019-06-18
