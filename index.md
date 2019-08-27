@@ -23,6 +23,8 @@ auto: false
 
 <h2>Recent</h2>
 
+You can find my **in-progress** Rust work in [**this GitHub project**][ghproject].  
+Below is a list of my last 10 merged pull requests.
 
 {% for item in site.data.timeline limit:10 %}
   <article class="timeline-entry {{ item.type }}">
@@ -30,3 +32,5 @@ auto: false
   </article>
   {% if forloop.last != true %}<hr />{% endif %}
 {% endfor %}
+
+[ghproject]: https://github.com/users/phansch/projects/3#column-6248321

@@ -45,15 +45,6 @@
     "display_date": "2019-08-25"
   },
   {
-    "type": "code",
-    "action": "Made a contribution to",
-    "project": "compiletest-rs",
-    "explanation": "Fix failing tests caused by changed diagnostics output",
-    "language": "Rust",
-    "url": "https://github.com/laumann/compiletest-rs/pull/181",
-    "display_date": "2019-08-21"
-  },
-  {
     "type": "docs",
     "action": "Made a contribution to",
     "project": "rust-clippy",
