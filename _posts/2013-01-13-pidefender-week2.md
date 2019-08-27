@@ -10,7 +10,7 @@ I had more important stuff to work on, this week. It's the usual madness at the 
 Due to that I cut down on a lot of stuff I was going to do with PiDefender. Here's a list of what initially was going to be in, but now isn't making it:
  
  * Possible boss mechanics
- * Main screen fancyness (random ship movement in the background)
+ * Main screen fanciness (random ship movement in the background)
  * Circle diameter is based on window size.
  * Loot drops
  * Player *docks* on cannon, instead of passing through the planet.

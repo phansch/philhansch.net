@@ -49,7 +49,7 @@ Hackership ended before Christmas and it was the best thing that could happen to
 
 <img src="/assets/images/posts/2013-12-29-for-everyone/yay.png" class="img-thumbnail" alt="not hopeless bullshit">
 
-If you read through this incredibly long blog post, I want to thank you for taking the time to read it. You might also like what I post on [Twitter](https://twitter.com/phansch).
+If you read through this incredibly long blog post, I want to thank you for taking the time to read it. You might also like what I post on [Twitter](https://twitter.com/philhansch).
 
 <small>
 Image credit: [Allie Brosh](http://hyperboleandahalf.blogspot.de/2013/05/depression-part-two.html)
