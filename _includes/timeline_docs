@@ -1,4 +1,6 @@
-<h4><span class="display_date">{{ item.display_date }}</span> {{ item.action }} <a href="{{ item.project.url }}">{{ item.project.name }}</a></h4>
+{% assign project = site.data.projects | where:"name",item.project | first %}
+
+<h4><span class="display_date">{{ item.display_date }}</span> {{ item.action }} <a href="{{ project.url }}">{{ project.name }}</a></h4>
 
 <div class="body">
   {{ item.explanation }}
