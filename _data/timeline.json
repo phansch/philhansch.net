@@ -3,6 +3,105 @@
     "type": "code",
     "action": "Made a contribution to",
     "project": "rust-clippy",
+    "explanation": "Add run-rustfix for wildcard_enum_match_arm lint",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4562",
+    "display_date": "2019-09-21"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "compiletest-rs",
+    "explanation": "Use resume_unwind instead of panic!() for nicer errors",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/176",
+    "display_date": "2019-09-12"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "compiletest-rs",
+    "explanation": "Add support for upstream's 'edition' flag",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/180",
+    "display_date": "2019-09-11"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "compiletest-rs",
+    "explanation": "Add a proc-macro UI test example to the test project",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/171",
+    "display_date": "2019-09-10"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust",
+    "explanation": "annotate-snippet emitter: Update an issue number",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/64206",
+    "display_date": "2019-09-06"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust",
+    "explanation": "annotate-snippet emitter: Deal with multispans from macros, too",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/64189",
+    "display_date": "2019-09-06"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "annotate-snippets-rs",
+    "explanation": "Small update to `Slice` docs",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/annotate-snippets-rs/pull/10",
+    "display_date": "2019-09-06"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust",
+    "explanation": "librustc_errors: Extract sugg/subst handling into method",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/64058",
+    "display_date": "2019-09-03"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Fix cast_lossless false positive in impl const fn",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4473",
+    "display_date": "2019-08-30"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Fix missing_const_for_fn false positive",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4450",
+    "display_date": "2019-08-29"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Added more rustfix tests",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4408",
+    "display_date": "2019-08-29"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
     "explanation": "Split up cmp_owned tests, add run-rustfix",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/4444",
