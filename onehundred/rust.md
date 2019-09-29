@@ -1,9 +1,9 @@
 ---
 layout: page
-title: One Hundred Rust PRs
+title: One Hundred and more Rust PRs
 ---
 
-# One Hundred Rust PRs
+# One Hundred (and more) Rust PRs
 
 <div class="onehundred-widget">
   <div class="progressbar">
