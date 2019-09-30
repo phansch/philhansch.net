@@ -3,6 +3,24 @@
     "type": "code",
     "action": "Made a contribution to",
     "project": "rust-clippy",
+    "explanation": "Add run-rustfix for toplevel_ref_arg lint",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4567",
+    "display_date": "2019-09-23"
+  },
+  {
+    "type": "docs",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Update the changelog for Rust 1.38",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4566",
+    "display_date": "2019-09-23"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
     "explanation": "Add run-rustfix for wildcard_enum_match_arm lint",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/4562",
