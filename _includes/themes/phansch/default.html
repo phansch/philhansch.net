@@ -26,10 +26,10 @@
 
       <br>
 
-      <a title="About"{% if page.title == "Philipp Hansch - Ruby, Rust and more" %} class="active"{% endif%} href="/">About</a>&nbsp;
-      <a title="Blog"{% if page.title == "Writing" %} class="active"{% endif%} href="/writing">Blog</a>&nbsp;
-      <a title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %} href="/reading">Reading</a>&nbsp;
-      <a title="100+ Rust PRs"{% if page.title == "One Hundred Rust PRs" %} class="active"{% endif%} href="/onehundred/rust">100 Rust PRs</a>
+      <a title="About"{% if page.title == "Philipp Hansch - Ruby, Rust and more" %} class="active"{% endif%} href="/">About</a> |
+      <a title="Blog"{% if page.title == "Writing" or page.layout == "post" %} class="active"{% endif%} href="/writing">Blog</a> |
+      <a title="Reading List"{% if page.title == "Reading List" %} class ="active"{% endif %} href="/reading">Reading</a> |
+      <a title="100+ Rust PRs"{% if page.title == "One Hundred and more Rust PRs" %} class="active"{% endif%} href="/onehundred/rust">100+ Rust PRs</a>
     </nav>
 
     <a id="top"></a>
