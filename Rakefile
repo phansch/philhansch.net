@@ -17,7 +17,7 @@ task :html_proofer do
     file_ignore: [/slides/],
     check_favicon: true,
     check_html: true,
-    http_status_ignore: [999],
+    http_status_ignore: [999, 0],
     typhoeus: { ssl_verifyhost: 0, ssl_verifypeer: false, timeout: 30 }
   }
   HTMLProofer.check_directory(build_dir, opts).run

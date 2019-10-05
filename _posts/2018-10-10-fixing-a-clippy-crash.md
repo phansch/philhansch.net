@@ -250,7 +250,7 @@ pub fn implements_trait<'a, 'tcx>(
     println!("ty: {:?}", ty);
     println!("obligation: {:?}", obligation);
     println!("ty_params: {:?}", ty_params);
-    // TODO: Crash happens after `predicate_must_hold` is called
+    // NOTE: Crash happens after `predicate_must_hold` is called
     cx.tcx.infer_ctxt().enter(|infcx| infcx.predicate_must_hold(&obligation))
 }
 {% endhighlight %}
