@@ -3,7 +3,7 @@
 
 $brand-primary: #f82525;
 $brand-secondary: #e0e4cc;
-$font-stack: monospace, sans-serif;
+$font-stack: sans-serif;
 $primary-color: #ffffff;
 $text-color: #626262;
 $link-color: rgb(87, 163, 232);
@@ -31,7 +31,8 @@ body {
 body {
   background-color: $background-color;
   font: normal 100% $font-stack;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 hr {
@@ -84,8 +85,6 @@ figure {
 }
 
 p {
-  font-size: 1.3rem;
-  line-height: 1.4;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
@@ -132,7 +131,8 @@ a {
   padding-bottom: 1px;
 
   text-transform: uppercase;
-  font-family: $font-stack;
+  font-family: monospace;
+  line-height: 1.0;
 
   a {
     color: #222;
@@ -144,19 +144,15 @@ a {
 }
 
 section.main {
-  max-width: 58rem;
+  max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   padding: 0 1em;
 
   article {
-    font-family: $font-stack;
-
     h1 {
       font-size: 2rem;
-      font-family: $font-stack;
-      font-weight: normal;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
@@ -165,8 +161,6 @@ section.main {
 
     h2 {
       font-size: 1.6rem;
-      font-family: $font-stack;
-      font-weight: bold;
       a, a:hover, a:focus {
         text-decoration: none;
         color: #626262;
