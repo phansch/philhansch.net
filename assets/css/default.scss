@@ -296,6 +296,8 @@ footer {
 }
 
 .timeline-entry {
+  font-family: monospace;
+  line-height: 1.0;
   .comment_look {
     margin-top: 5px;
     text-transform: uppercase;
@@ -308,7 +310,7 @@ footer {
     }
   }
   .display_date {
-    vertical-align: top;
+    vertical-align: middle;
     font-size: 0.9rem;
     color: #93a1a1;
   }
