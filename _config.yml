@@ -31,3 +31,6 @@ sass:
 
 atom_path : /atom.xml
 rss_path : /rss.xml
+
+plugins:
+  - jemoji
