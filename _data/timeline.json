@@ -2,6 +2,15 @@
   {
     "type": "code",
     "action": "Made a contribution to",
+    "project": "compiletest-rs",
+    "explanation": "Update compiletest to work with latest rustc nightly",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/189",
+    "display_date": "2019-10-13"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add run-rustfix for toplevel_ref_arg lint",
     "language": "Rust",

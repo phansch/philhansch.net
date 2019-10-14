@@ -22,7 +22,7 @@ END
 cd ~/code/prs
 json=$(LIMIT=20 cargo run -q | jq "$jq_transform")
 cd ~/code/phansch.github.com
-rm -r /tmp/phansch.github.com
+rm -rf /tmp/phansch.github.com
 mkdir /tmp/phansch.github.com
 touch /tmp/phansch.github.com/blog_timeline_update.json
 echo "$json" > /tmp/phansch.github.com/blog_timeline_update.json
