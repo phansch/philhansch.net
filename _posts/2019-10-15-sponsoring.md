@@ -27,7 +27,7 @@ At the time of this writing, I'm working on:
   messages
 * [Adding a custom ICE message to Clippy][clippy_ice_message]
 
-You can always check what I'm currently working [in this GitHub project][rust-project].
+You can always check what I'm currently working on, [in this GitHub project][rust-project].
 
 ## What about rewards?
 
