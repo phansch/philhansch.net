@@ -23,7 +23,7 @@ Some of my past contribution highlights include:
 
 At the time of this writing, I'm working on:
 
-* Slowly [replacing Rust's diagnostics emitter][emitter-rewrite], the code that formats the error
+* Slowly [replacing Rust's diagnostics emitter][emitter-rewrite], the code that formats Rust's awesome error
   messages
 * [Adding a custom ICE message to Clippy][clippy_ice_message]
 
