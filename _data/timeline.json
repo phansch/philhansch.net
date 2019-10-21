@@ -2,6 +2,15 @@
   {
     "type": "code",
     "action": "Made a contribution to",
+    "project": "rust",
+    "explanation": "Refactor: Rename `db` locals to `diag`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/65428",
+    "display_date": "2019-10-15"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Update compiletest to work with latest rustc nightly",
     "language": "Rust",
