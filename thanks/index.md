@@ -13,7 +13,8 @@ I'm incredibly thankful to the following people and organizations for their supp
 
 ## Supporters
 
-Oliver Scherer
+* [@oli-obk](https://github.com/oli-obk)
+* [@yaahc](https://github.com/yaahc)
 
 {% comment %}
 Everyone below 50€/mo
