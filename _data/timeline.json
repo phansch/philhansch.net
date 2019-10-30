@@ -2,6 +2,24 @@
   {
     "type": "code",
     "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "UI test cleanup: Extract derive_hash_xor_eq tests",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4744",
+    "display_date": "2019-10-28"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Fix: Don't emit try_err lint in external macros",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4721",
+    "display_date": "2019-10-24"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Refactor: Rename `db` locals to `diag`",
     "language": "Rust",
