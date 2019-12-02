@@ -97,7 +97,7 @@ GWOnline: Traits: An Analysis **Site offline**
 [Videogamer: The state of Guild Wars 2 so far](https://www.videogamer.com/news/the-state-of-guild-wars-2-so-far-2)
 • Videogamer sat down with Eric Flannum to talk about the progress on the beta and how the game might affect the game industry.
 
-[Forbes: NCsoft Aims To Break The Static Online Game Mold With ArenaNet's Guild Wars 2](http://www.forbes.com/sites/johngaudiosi/2012/03/13/ncsoft-aims-to-break-the-static-online-game-mold-with-arenanets-guild-wars-2/)
+[Forbes: NCsoft Aims To Break The Static Online Game Mold With ArenaNet's Guild Wars 2](https://www.forbes.com/sites/johngaudiosi/2012/03/13/ncsoft-aims-to-break-the-static-online-game-mold-with-arenanets-guild-wars-2/)
 • John Gaudiosi from Forbes gives a quick overview of Guild Wars 2, the Free To Play MMO market and marketing.
 
 
