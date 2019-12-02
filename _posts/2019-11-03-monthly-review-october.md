@@ -10,7 +10,7 @@ Thanks to [@oli-obk] and [@yaahc], my very first sponsors :tada:
 
 ## What I've worked on
 
-My main goal for November was getting all the sponsoring figured out and set up.
+My main goal for October was getting all the sponsoring figured out and set up.
 The first half of the month was more or less about figuring out all this stuff and
 making sure sponsoring is fine with [my employer](https://esanum.com). This included:
 
