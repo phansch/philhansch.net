@@ -3,6 +3,51 @@
     "type": "code",
     "action": "Made a contribution to",
     "project": "rust-clippy",
+    "explanation": "Fixed Clippy after nightly breaking changes",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4873",
+    "display_date": "2019-12-02"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Fix false positive in derive_hash_xor_eq",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4766",
+    "display_date": "2019-11-23"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "(Partly) Fix Clippy website deployment",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4865",
+    "display_date": "2019-11-30"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Add custom ICE message that points to Clippy repo",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4588",
+    "display_date": "2019-11-29"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
+    "explanation": "Move use_self lint to nursery",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4863",
+    "display_date": "2019-11-29"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
     "explanation": "UI test cleanup: Extract derive_hash_xor_eq tests",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/4744",
