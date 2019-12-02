@@ -30,7 +30,7 @@ Even if we have working backups, we can still work on preventing accidents. Luck
 
 ### The solution
 
-A closer look at the [documentation](http://www.rubydoc.info/github/pry/pry/Pry/Helpers/Text) shows that we can easily make text bold and colored in the prompt:
+A closer look at the [documentation](https://www.rubydoc.info/github/pry/pry/Pry/Helpers/Text) shows that we can easily make text bold and colored in the prompt:
 
 
 {% highlight ruby %}
