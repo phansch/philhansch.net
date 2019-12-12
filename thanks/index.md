@@ -8,7 +8,7 @@ title: Thanks!
 I'm incredibly thankful to the following people and organizations for their support. This allows me to work on open source software like Clippy and Rust and make more developers and users happy.
 
 <div style="text-align:center">
-{% include sponsorbadge_github %} {% include sponsorbadge_paypal %}
+{% include sponsorbadge_github %} {% include sponsorbadge_patreon %} {% include sponsorbadge_paypal %}
 </div>
 
 ## Supporters

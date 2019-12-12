@@ -48,7 +48,7 @@ post **monthly reviews** publicly here on the blog. These reviews will include:
 
 
 <div style="text-align:center">
-  {% include sponsorbadge_github %}
+  {% include sponsorbadge_github %} {% include sponsorbadge_patreon %} {% include sponsorbadge_paypal %}
 </div>
 
 If you have any questions or feedback, I'm happy to talk on Twitter or in
