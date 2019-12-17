@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monthly review: November"
-excerpt: "What I've done this November."
+excerpt: "Vacations and Clippy improvements."
 ---
 
 ## New Sponsors

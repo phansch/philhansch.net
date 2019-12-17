@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monthly review: October"
-excerpt: "What I've done this October."
+excerpt: "Clippy & Setting up various sponsoring profiles."
 ---
 
 ## New Sponsors
