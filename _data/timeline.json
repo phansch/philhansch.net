@@ -3,6 +3,15 @@
     "type": "code",
     "action": "Made a contribution to",
     "project": "rust-clippy",
+    "explanation": "Update changelog for Rust 1.39 and 1.40",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4911",
+    "display_date": "2019-12-23"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/4873",
