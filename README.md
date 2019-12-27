@@ -1,6 +1,9 @@
 # phansch.net
 
-[![Build Status](https://travis-ci.org/phansch/phansch.github.com.svg?branch=master)](https://travis-ci.org/phansch/phansch.github.com)
+[![Build
+Status](https://travis-ci.org/phansch/phansch.github.com.svg?branch=master)](https://travis-ci.org/phansch/phansch.github.com)
+[![Sponsor
+count](https://img.shields.io/badge/sponsors-6-brightgreen)](https://phansch.net/thanks)
 
 This is the data for my blog. It uses Jekyll to generate a static website whenever I push new content to GitHub.
 
