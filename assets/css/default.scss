@@ -33,8 +33,6 @@ body {
   font: normal 100% $font-stack;
   font-size: 20px;
   line-height: 1.4;
-  border-right: 2px dashed $brand-primary;
-  border-left: 2px dashed $brand-primary;
 }
 
 hr {
@@ -110,7 +108,7 @@ p code, li code {
 
 h1 {
   font-family: $font-stack;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h2 {
@@ -130,22 +128,67 @@ a {
 .my-top-bar {
   text-align: center;
   margin: 0 auto;
-  border-bottom: 2px dashed $background-color;
-  background-color: $brand-primary;
-  padding-bottom: 1px;
+  border-bottom: 2px solid $brand-primary;
+  // background-color: $brand-primary;
+  padding-bottom: 7px;
+  padding-top: 5px;
 
   text-transform: uppercase;
   font-family: monospace;
   line-height: 1.0;
 
+  font-size: 30px;
+
   a {
-    color: #222;
+    // color: #222;
+    color: $text-color;
     &.active {
-      color: $background-color;
+      color: $brand-primary;
       text-decoration: underline;
     }
   }
 }
+
+article {
+  .article-preview-image {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+
+    > a > img {
+      height: 180px;
+      width: 250px;
+      border: 1px solid rgba(216, 216, 216, 1);
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+    }
+  }
+
+  .article-preview-text {
+    .buttons {
+      margin-top: 1em;
+    }
+  }
+
+  .screenshot {
+    width: 50%;
+  }
+
+  .comment_look {
+    font-size: 0.9rem;
+    font-family: monospace;
+    color: #93a1a1;
+  }
+
+  .explain {
+    border-top: 1px solid $light-border-color;
+    border-bottom: 1px solid $light-border-color;
+    background: $brand-secondary;
+    padding: 1em 1.5em;
+  }
+}
+
 
 section.main {
   max-width: 48rem;
@@ -153,62 +196,6 @@ section.main {
   margin-right: auto;
   margin-top: 30px;
   padding: 0 1em;
-
-  article {
-    h1 {
-      font-size: 2rem;
-      a, a:hover, a:focus {
-        text-decoration: none;
-        color: #626262;
-      }
-    }
-
-    h2 {
-      font-size: 1.6rem;
-      a, a:hover, a:focus {
-        text-decoration: none;
-        color: #626262;
-      }
-    }
-
-    .article-preview-image {
-      float: left;
-      margin-right: 1em;
-      margin-bottom: 1em;
-
-      > a > img {
-        height: 180px;
-        width: 250px;
-        border: 1px solid rgba(216, 216, 216, 1);
-        border-radius: 3px;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-      }
-    }
-
-    .article-preview-text {
-      .buttons {
-        margin-top: 1em;
-      }
-    }
-
-    .screenshot {
-      width: 50%;
-    }
-
-    .comment_look {
-      font-size: 0.9rem;
-      font-family: monospace;
-      color: #93a1a1;
-    }
-
-    .explain {
-      border-top: 1px solid $light-border-color;
-      border-bottom: 1px solid $light-border-color;
-      background: $brand-secondary;
-      padding: 1em 1.5em;
-    }
-  }
 
   ul.archive {
     margin-left: 20px;
@@ -252,10 +239,7 @@ section.main {
 
   #index-top {
     font-family: $font-stack;
-
-    h1 {
-      font-size: 2.3em;
-    }
+    font-size: 24px;
   }
 
   #index-link-table {
