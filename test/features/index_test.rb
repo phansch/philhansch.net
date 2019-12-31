@@ -3,7 +3,7 @@ require 'test_helper'
 class IndexTest < CapybaraTestCase
   def test_name_exists
     visit '/'
-    assert page.has_content?('Philipp Hansch')
+    assert page.has_content?('Philipp')
   end
 
   def test_cv_link
