@@ -1,9 +1,22 @@
 {% assign string = page %}
-<article class="col">
-  <h1>{{ page.title }}</h1>
-  <p class="comment_look">{% include time_to_read %}</p>
-  {{ content }}
-  {% assign post = page %}
-  {% include hs_posts_list %}
-  <em class="comment_look">{{ page.date | date_to_string }}</em>
-</article>
+<div class="post">
+  <article class="col">
+    <h1>{{ page.title }}</h1>
+    <p class="comment_look">{% include time_to_read %}</p>
+    {{ content }}
+    {% assign post = page %}
+    {% include hs_posts_list %}
+    <em class="comment_look">{{ page.date | date_to_string }}</em>
+  </article>
+  <hr>
+  <div class="about-the-author">
+    <img src="/assets/images/avatar.jpeg" height="200px" alt="avatar" class="avatar" />
+    <div>
+      <h2>Philipp Hansch</h2>
+      <h4 class="subtitle">Full Stack Developer</h4>
+      <p>
+      Philipp is a full stack developer currently heavily involved with Rust. Most notably he's a member of the Clippy team where he helps with bugfixing and documentation. You can follow him on <a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a> and find him on <a href="https://github.com/{{ site.author.github }}">GitHub</a> as well as <a href="https://patreon.com/{{ site.author.patreon }}">Patreon</a>.
+      </p>
+    </div>
+  </div>
+</div>
