@@ -3,6 +3,24 @@
     "type": "code",
     "action": "Made a contribution to",
     "project": "rust-clippy",
+    "explanation": "Fixed Clippy after nightly breaking changes",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/4992",
+    "display_date": "2020-01-04"
+  },
+  {
+    "type": "docs",
+    "action": "Made a contribution to",
+    "project": "jsonapi-rust",
+    "explanation": "Fix cargo/crates.io Travis CI badge",
+    "language": "Rust",
+    "url": "https://github.com/michiel/jsonapi-rust/pull/59",
+    "display_date": "2019-01-02"
+  },
+  {
+    "type": "code",
+    "action": "Made a contribution to",
+    "project": "rust-clippy",
     "explanation": "Update changelog for Rust 1.39 and 1.40",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/4911",
