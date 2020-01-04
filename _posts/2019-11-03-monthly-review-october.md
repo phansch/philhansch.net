@@ -2,6 +2,8 @@
 layout: post
 title: "Monthly review: October"
 excerpt: "Clippy & Setting up various sponsoring profiles."
+tags:
+  - monthly-review
 ---
 
 ## New Sponsors
