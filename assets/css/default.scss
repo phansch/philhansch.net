@@ -170,6 +170,22 @@ a {
     margin: 0;
     margin-top: 10px;
   }
+
+  article {
+    h1 {
+      margin-bottom: 5px;
+    }
+    .meta {
+      margin-top: 0;
+      color: grey;
+    }
+    .explain {
+      border-top: 1px solid $light-border-color;
+      border-bottom: 1px solid $light-border-color;
+      background: $brand-secondary;
+      padding: 1em 1.5em;
+    }
+  }
 }
 
 article {
@@ -196,19 +212,6 @@ article {
 
   .screenshot {
     width: 50%;
-  }
-
-  .comment_look {
-    font-size: 0.9rem;
-    font-family: monospace;
-    color: #93a1a1;
-  }
-
-  .explain {
-    border-top: 1px solid $light-border-color;
-    border-bottom: 1px solid $light-border-color;
-    background: $brand-secondary;
-    padding: 1em 1.5em;
   }
 }
 
@@ -310,6 +313,7 @@ footer {
   font-family: monospace;
   line-height: 1.0;
   .comment_look {
+    font-size: 0.9em;
     margin-top: 5px;
     text-transform: uppercase;
     .type {
