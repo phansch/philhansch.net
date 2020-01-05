@@ -26,6 +26,7 @@ jobs:
       script: bundle exec jekyll build
       deploy:
         provider: pages
+        fqdn: phansch.net
         local_dir: _site
         skip_cleanup: true
         github_token: $JEKYLL_PAT
