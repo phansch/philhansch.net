@@ -22,14 +22,3 @@ jobs:
     - stage: test
       script: 'script/ci.rb'
       env: RUN=test
-    - stage: test
-      script: bundle exec jekyll build
-      deploy:
-        provider: pages
-        fqdn: phansch.net
-        local_dir: _site
-        skip_cleanup: true
-        github_token: $JEKYLL_PAT
-        keep_history: true
-        on:
-          branch: master
