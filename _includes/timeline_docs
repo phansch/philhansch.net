@@ -7,7 +7,7 @@
   <div class="comment_look">
     <span class="type" title="Documentation I'm writing">docs</span> •
     <span class="language">{{ item.language }}</span> •
-      <a href="{{ item.url }}">Link to PR</a> •
+      <a href="{{ item.url }}">Link to PR</a>
   </div>
 </div>
 

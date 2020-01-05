@@ -1,5 +1,5 @@
-<div class="comment_look">{{ item.display_date }} • <span class="type" title="What I'm writing about">blog</span></div>
-<h4>Published new blog post: '<a href="{{ item.url }}">{{ item.title }}</a>'</h4>
+<h4><span class="display_date">{{ item.display_date }}</span>
+Published new blog post: '<a href="{{ item.url }}">{{ item.title }}</a>'</h4>
 
 <div class="body">
   <p>{{ item.subtitle }}</p>

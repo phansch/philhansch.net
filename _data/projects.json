@@ -8,6 +8,10 @@
     "url": "https://github.com/rust-lang/book"
   },
   {
+    "name": "jsonapi-rust",
+    "url": "https://github.com/michiel/jsonapi-rust"
+  },
+  {
     "name": "compiletest-rs",
     "url": "https://github.com/laumann/compiletest-rs"
   },
