@@ -27,7 +27,7 @@ jobs:
       deploy:
         provider: pages
         local_dir: ./_site
-        target_branch: master
+        target_branch: gh_pages
         email: deploy@travis-ci.org
         name: Deployment Bot
         skip_cleanup: true
