@@ -1,4 +1,4 @@
-<h4><span class="display_date">{{ item.display_date }}</span> {{ item.action }} <em>'{{ item.title }}'</em></h4>
+<strong><span class="display_date">{{ item.date }}</span></strong> {{ item.action }} <strong><em>'{{ item.title }}'</em></strong>
 
 <div class="body">
   <p>by {{ item.author }} ({{ item.pages}} pages)</p>
