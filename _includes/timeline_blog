@@ -1,5 +1,5 @@
-<h4><span class="display_date">{{ item.display_date }}</span>
-Published new blog post: '<a href="{{ item.url }}">{{ item.title }}</a>'</h4>
+<strong><span class="display_date">{{ item.date | date: '%Y-%m-%d' }}</span></strong>
+Published <strong>new blog post: '<a href="{{ item.url }}">{{ item.title }}</a>'</strong>
 
 <div class="body">
   <p>{{ item.subtitle }}</p>

@@ -13,7 +13,7 @@ jq_transform=$(cat <<-END
     explanation: .title,
     language:"Rust",
     url: .html_url,
-    display_date: (.closed_at | fromdate | strftime("%Y-%m-%d"))
+    date: (.closed_at | fromdate | strftime("%Y-%m-%d"))
   }
 ]
 END
