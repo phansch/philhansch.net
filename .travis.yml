@@ -10,13 +10,28 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-before_install:
-  - bundle update --bundler
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  matrix:
-    - RUN=html_proofer
-    - RUN=test
 
-script: 'script/ci.rb'
+jobs:
+  include:
+    - stage: test
+      script: 'script/ci.rb'
+      env: RUN=html_proofer
+    - stage: test
+      script: 'script/ci.rb'
+      env: RUN=test
+    - stage: test
+      script: bundle exec jekyll build
+      deploy:
+        provider: pages
+        local-dir: ./site
+        target-branch: master
+        email: deploy@travis-ci.org
+        name: Deployment Bot
+        skip-cleanup: true
+        github-token: $JEKYLL_PAT
+        keep-history: true
+        on:
+          branch: master
