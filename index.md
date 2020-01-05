@@ -25,9 +25,17 @@ auto: false
 You can find my **in-progress** Rust work in [**this GitHub project**][ghproject].  
 Below is a list of my last 10 merged pull requests.
 
-{% assign timeline_with_posts = site.data.timeline | concat: site.posts %}
+{% comment %}
 
+FIXME: This only works with Jekyll >= 4. GitHub pages is using Jekyll ~3.0 with
+no signs of upgrading :(
+
+{% assign timeline_with_posts = site.data.timeline | concat: site.posts %}
 {% assign sorted = timeline_with_posts | sort: 'date' | reverse %}
+
+{% endcomment %}
+
+{% assign sorted = site.data.timeline | sort: 'date' | reverse %}
 {% for item in sorted limit:10 %}
   {% assign item_type = item.type | default: 'blog' %}
 
