@@ -29,11 +29,7 @@ Below is a list of my last 10 merged pull requests.
 
 {% assign sorted = timeline_with_posts | sort: 'date' | reverse %}
 {% for item in sorted limit:10 %}
-  {% if item.layout == "post" %}
-    {% assign item_type = 'blog' %}
-  {% else %}
-    {% assign item_type = item.type %}
-  {% endif %}
+  {% assign item_type = item.type | default: 'blog' %}
 
   <article class="timeline-entry {{ item_type }}">
     {% include timeline_{{ item_type }} %}
