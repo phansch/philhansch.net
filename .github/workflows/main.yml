@@ -1,5 +1,10 @@
 ---
-on: [push]
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build_and_deploy:
@@ -7,6 +12,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: maxheld83/ghpages@v0.2.1
-        if: success() && github.event == 'push' && github.ref == 'master'
         env:
           BUILD_DIR: 'public/'
