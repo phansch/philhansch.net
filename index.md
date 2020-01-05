@@ -35,8 +35,7 @@ no signs of upgrading :(
 
 {% endcomment %}
 
-{% assign sorted = site.data.timeline | sort: 'date' | reverse %}
-{% for item in sorted limit:10 %}
+{% for item in site.data.timeline limit:10 %}
   {% assign item_type = item.type | default: 'blog' %}
 
   <article class="timeline-entry {{ item_type }}">
