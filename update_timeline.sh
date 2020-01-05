@@ -9,7 +9,6 @@ jq_transform=$(cat <<-END
 [ .[] |
   {
     type:"code",
-    action:"Made a contribution to",
     project: .project,
     explanation: .title,
     language:"Rust",

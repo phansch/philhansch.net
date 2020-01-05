@@ -1,7 +1,6 @@
 [
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -10,7 +9,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "jsonapi-rust",
     "explanation": "Fix cargo/crates.io Travis CI badge",
     "language": "Rust",
@@ -19,7 +17,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update changelog for Rust 1.39 and 1.40",
     "language": "Rust",
@@ -28,7 +25,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -37,7 +33,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix false positive in derive_hash_xor_eq",
     "language": "Rust",
@@ -46,7 +41,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "(Partly) Fix Clippy website deployment",
     "language": "Rust",
@@ -55,7 +49,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add custom ICE message that points to Clippy repo",
     "language": "Rust",
@@ -64,7 +57,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Move use_self lint to nursery",
     "language": "Rust",
@@ -73,7 +65,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "UI test cleanup: Extract derive_hash_xor_eq tests",
     "language": "Rust",
@@ -82,7 +73,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix: Don't emit try_err lint in external macros",
     "language": "Rust",
@@ -91,7 +81,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Refactor: Rename `db` locals to `diag`",
     "language": "Rust",
@@ -100,7 +89,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Update compiletest to work with latest rustc nightly",
     "language": "Rust",
@@ -109,7 +97,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add run-rustfix for toplevel_ref_arg lint",
     "language": "Rust",
@@ -118,7 +105,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update the changelog for Rust 1.38",
     "language": "Rust",
@@ -127,7 +113,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add run-rustfix for wildcard_enum_match_arm lint",
     "language": "Rust",
@@ -136,7 +121,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Use resume_unwind instead of panic!() for nicer errors",
     "language": "Rust",
@@ -145,7 +129,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Add support for upstream's 'edition' flag",
     "language": "Rust",
@@ -154,7 +137,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Add a proc-macro UI test example to the test project",
     "language": "Rust",
@@ -163,7 +145,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "annotate-snippet emitter: Update an issue number",
     "language": "Rust",
@@ -172,7 +153,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "annotate-snippet emitter: Deal with multispans from macros, too",
     "language": "Rust",
@@ -181,7 +161,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "annotate-snippets-rs",
     "explanation": "Small update to `Slice` docs",
     "language": "Rust",
@@ -190,7 +169,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "librustc_errors: Extract sugg/subst handling into method",
     "language": "Rust",
@@ -199,7 +177,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix cast_lossless false positive in impl const fn",
     "language": "Rust",
@@ -208,7 +185,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix missing_const_for_fn false positive",
     "language": "Rust",
@@ -217,7 +193,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added more rustfix tests",
     "language": "Rust",
@@ -226,7 +201,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Split up cmp_owned tests, add run-rustfix",
     "language": "Rust",
@@ -235,7 +209,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix unused_unit false positive",
     "language": "Rust",
@@ -244,7 +217,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add 3 more run-rustfix headers",
     "language": "Rust",
@@ -253,7 +225,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Update Clippy submodule from 2bcb615 to 05f603e",
     "language": "Rust",
@@ -262,7 +233,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -271,7 +241,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Document how to update the changelog",
     "language": "Rust",
@@ -280,7 +249,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix some suggestions for redundant_pattern_matching",
     "language": "Rust",
@@ -289,7 +257,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Disable RLS integration test",
     "language": "Rust",
@@ -298,7 +265,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Remove unused dev scripts/files",
     "language": "Rust",
@@ -307,7 +273,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Deprecate unused_collect lint",
     "language": "Rust",
@@ -316,7 +281,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update changelog for Rust 1.37",
     "language": "Rust",
@@ -325,7 +289,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update lint deprecation mechanism for tool lints",
     "language": "Rust",
@@ -334,7 +297,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rustfix",
     "explanation": "Fix a string indexing bug in rustfix",
     "language": "Rust",
@@ -343,7 +305,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add run-rustfix for needless_bool lint",
     "language": "Rust",
@@ -352,7 +313,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix enum_variant_names false positives",
     "language": "Rust",
@@ -361,7 +321,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix needless_bool suggestion with if--else-if--else",
     "language": "Rust",
@@ -370,7 +329,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Doctests: Enable running doc tests for nursery lints",
     "language": "Rust",
@@ -379,7 +337,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -388,7 +345,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Doctests: Enable running doc tests for restriction lints",
     "language": "Rust",
@@ -397,7 +353,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Doctests: Enable running doc tests for pedantic lints",
     "language": "Rust",
@@ -406,7 +361,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add run-rustfix for decimal_literal_representation lint",
     "language": "Rust",
@@ -415,7 +369,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -424,7 +377,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Doctests: Enable running doc tests for perf lints",
     "language": "Rust",
@@ -433,7 +385,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Doctests: Enable running doc tests for complexity lints",
     "language": "Rust",
@@ -442,7 +393,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -451,7 +401,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Mark `fn_to_numeric_cast` lints as MaybeIncorrect",
     "language": "Rust",
@@ -460,7 +409,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -469,7 +417,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "librustc_errors: Support ui-testing flag in annotate-snippet emitter",
     "language": "Rust",
@@ -478,7 +425,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "tide",
     "explanation": "Add doc example showing query parameter extraction",
     "language": "Rust",
@@ -487,7 +433,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Add support for rustfix coverage tracking",
     "language": "Rust",
@@ -496,7 +441,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -505,7 +449,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -514,7 +457,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "annotate-snippets-rs",
     "explanation": "Fix too many anonymized line numbers",
     "language": "Rust",
@@ -523,7 +465,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "annotate-snippets-rs",
     "explanation": "Add option to anonymize line numbers",
     "language": "Rust",
@@ -532,7 +473,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Refactor: Replace NodeSet with HirIdSet",
     "language": "Rust",
@@ -541,7 +481,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "librustc_errors: Add some more documentation",
     "language": "Rust",
@@ -550,7 +489,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Add new diagnostic writer using annotate-snippet library",
     "language": "Rust",
@@ -559,7 +497,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update pulldown_cmark to 0.5.2",
     "language": "Rust",
@@ -568,7 +505,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -577,7 +513,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "librustc_errors: Move annotation collection to own impl",
     "language": "Rust",
@@ -586,7 +521,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -595,7 +529,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -604,7 +537,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "librustc_errors: Remove unused annotation style `OldSchoolNoteText`",
     "language": "Rust",
@@ -613,7 +545,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -622,7 +553,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -631,7 +561,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add a stderr file length check to clippy_dev",
     "language": "Rust",
@@ -640,7 +569,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -649,7 +577,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add tests for empty_loop lint",
     "language": "Rust",
@@ -658,7 +585,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "mdBook",
     "explanation": "Don't let robots index the print.html",
     "language": "Rust",
@@ -667,7 +593,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add two more tests for redundant_closure",
     "language": "Rust",
@@ -676,7 +601,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update pulldown_cmark to 0.5",
     "language": "Rust",
@@ -685,7 +609,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -694,7 +617,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Deny rust_2018_idioms globally",
     "language": "Rust",
@@ -703,7 +625,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix allowing of toplevel_ref_arg lint",
     "language": "Rust",
@@ -712,7 +633,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for match_as_ref lint",
     "language": "Rust",
@@ -721,7 +641,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix false positive in module_name_repetitions lint",
     "language": "Rust",
@@ -730,7 +649,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for len_zero lint",
     "language": "Rust",
@@ -739,7 +657,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for option_map_or_none lint",
     "language": "Rust",
@@ -748,7 +665,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Change naive_bytecount applicability to MaybeIncorrect",
     "language": "Rust",
@@ -757,7 +673,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Change while_let_loop applicability to HasPlaceholders",
     "language": "Rust",
@@ -766,7 +681,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for deref_addrof lint",
     "language": "Rust",
@@ -775,7 +689,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for bool_comparison lint",
     "language": "Rust",
@@ -784,7 +697,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update changelog for Rust 1.34",
     "language": "Rust",
@@ -793,7 +705,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -802,7 +713,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash in decimal_literal_representation lint",
     "language": "Rust",
@@ -811,7 +721,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for redundant_closure lint",
     "language": "Rust",
@@ -820,7 +729,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Don't emit useless_attribute lint in external macros",
     "language": "Rust",
@@ -829,7 +737,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash in suspicious_else_formatting lint",
     "language": "Rust",
@@ -838,7 +745,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add missing `// run-pass` annotations to ICE tests",
     "language": "Rust",
@@ -847,7 +753,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rustfix",
     "explanation": "Migrate to Rust 2018",
     "language": "Rust",
@@ -856,7 +761,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "rustfix coverage: Skip UI tests with non-json error-format",
     "language": "Rust",
@@ -865,7 +769,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Add a way to track Rust,fix UI test coverage",
     "language": "Rust",
@@ -874,7 +777,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Improved some compiletest documentation",
     "language": "Rust",
@@ -883,7 +785,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rustfix",
     "explanation": "Fix out of bounds access in parse_snippet",
     "language": "Rust",
@@ -892,7 +793,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for mistyped_literal_suffix lint",
     "language": "Rust",
@@ -901,7 +801,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for useless_asref lint",
     "language": "Rust",
@@ -910,7 +809,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -919,7 +817,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added rustfix tests for string_lit_as_bytes lint",
     "language": "Rust",
@@ -928,7 +825,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -937,7 +833,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Some more HirId-ification",
     "language": "Rust",
@@ -946,7 +841,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Remove some unused features and `error-pattern`s",
     "language": "Rust",
@@ -955,7 +849,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Run more doc tests",
     "language": "Rust",
@@ -964,7 +857,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add lint writing documentation",
     "language": "Rust",
@@ -973,7 +865,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Refactor: Remove utils::opt_def_id",
     "language": "Rust",
@@ -982,7 +873,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Refactor: Cleanup one part of assign_ops lint",
     "language": "Rust",
@@ -991,7 +881,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Refactor: Extract `trait_ref_of_method` function",
     "language": "Rust",
@@ -1000,7 +889,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Document match_path, improve match_qpath docs",
     "language": "Rust",
@@ -1009,7 +897,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed two missing_const_for_fn false positives",
     "language": "Rust",
@@ -1018,7 +905,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1027,7 +913,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update changelog for Rust 1.33",
     "language": "Rust",
@@ -1036,7 +921,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Extract diagnostics module and document some functions",
     "language": "Rust",
@@ -1045,7 +929,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Document some `span_lint_*` util functions",
     "language": "Rust",
@@ -1061,7 +944,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Document `declare_clippy_lint` macro",
     "language": "Rust",
@@ -1070,7 +952,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1079,7 +960,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1088,7 +968,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash in needless_pass_by_value lint",
     "language": "Rust",
@@ -1097,7 +976,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Simplify UI test invocation",
     "language": "Rust",
@@ -1106,7 +984,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Transition compiletest tool to Rust 2018",
     "language": "Rust",
@@ -1115,7 +992,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash in vec_box lint",
     "language": "Rust",
@@ -1124,7 +1000,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1133,7 +1008,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Improved another bug! message",
     "language": "Rust",
@@ -1142,7 +1016,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "book",
     "explanation": "Update the Rust book Clippy section",
     "language": "Rust",
@@ -1151,7 +1024,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add initial version of const_fn lint",
     "language": "Rust",
@@ -1160,7 +1032,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Prevent incorrect cast_lossless suggestion in const_fn",
     "language": "Rust",
@@ -1169,7 +1040,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "vim-snippets",
     "explanation": "Add dbg! macro snippet",
     "language": "vim-snippets",
@@ -1178,7 +1048,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update changelog with all changes since 0.0.212",
     "language": "Rust",
@@ -1187,7 +1056,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1196,7 +1064,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Removed a bug emission from qualify_min_const_fn module",
     "language": "Rust",
@@ -1205,7 +1072,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Removed license headers from all files",
     "language": "Rust",
@@ -1214,7 +1080,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Made a module public",
     "language": "Rust",
@@ -1223,7 +1088,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1232,7 +1096,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Integrate rustfix into Clippy test suite",
     "language": "Rust",
@@ -1241,7 +1104,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "internals.rust-lang.org",
     "explanation": "Posted a proposal for lint configuration files",
     "language": "Rust",
@@ -1250,7 +1112,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Integrate rustfix into compiletest-rs",
     "language": "Rust",
@@ -1259,7 +1120,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1268,7 +1128,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1277,7 +1136,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Fixed deprecation warnings",
     "language": "Rust",
@@ -1286,7 +1144,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Improved util documentation",
     "language": "Rust",
@@ -1295,7 +1152,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1304,7 +1160,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Actually run compiletest suite on CI. It didn't before.",
     "language": "Rust",
@@ -1313,7 +1168,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Changed CONTRIBUTING.md hierarchy",
     "language": "Rust",
@@ -1322,7 +1176,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Improved integration test error detection",
     "language": "Rust",
@@ -1331,7 +1184,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rustfmt",
     "explanation": "Fixed some deprecation warnings (trim_left/trim_right)",
     "language": "Rust",
@@ -1340,7 +1192,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Added more unit tests to compiletest",
     "language": "Rust",
@@ -1349,7 +1200,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Added a missing testsuite for a rustc testing tool",
     "language": "Rust",
@@ -1358,7 +1208,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a false positive with the doc_markdown lint",
     "language": "Rust",
@@ -1367,7 +1216,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Added a suggestion to the explicit_write lint",
     "language": "Rust",
@@ -1376,7 +1224,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed an off-by-one issue with the doc_markdown lint",
     "language": "Rust",
@@ -1385,7 +1232,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Cleaned up README in regards to now stable tool_lints feature",
     "language": "Rust",
@@ -1394,7 +1240,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1403,7 +1248,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "www.rust-lang.org",
     "explanation": "Fixed some typos before the release of the new website",
     "language": "Rust",
@@ -1412,7 +1256,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Enforce LF lineendings when cloning Clippy",
     "language": "Rust",
@@ -1421,7 +1264,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continue fixing Clippy Windows CI build",
     "language": "Rust",
@@ -1430,7 +1272,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Introduce a issue/PR triage procedure for Clippy",
     "language": "Rust",
@@ -1439,7 +1280,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix some outdated links",
     "language": "Rust",
@@ -1448,7 +1288,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Fix const_fn ICE with non-const function pointer",
     "language": "Rust",
@@ -1457,7 +1296,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Update CONTRIBUTING.md in regards to merged Clippy RFC",
     "language": "Rust",
@@ -1466,7 +1304,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Small variable renaming",
     "language": "Rust",
@@ -1475,7 +1312,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Finished rewrite of internal python script in Rust",
     "language": "Rust",
@@ -1484,7 +1320,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Rewrote another part of internal python script in Rust",
     "language": "Rust",
@@ -1493,7 +1328,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1502,7 +1336,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1511,7 +1344,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Rewrote another part of internal python script in Rust",
     "language": "Rust",
@@ -1520,7 +1352,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add missing code of conduct file",
     "language": "Rust",
@@ -1529,7 +1360,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1538,7 +1368,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1547,7 +1376,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1556,7 +1384,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Continuation of UI test output cleanup",
     "language": "Rust",
@@ -1565,7 +1392,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fix multiple incorrect suggestions related to macros",
     "language": "Rust",
@@ -1574,7 +1400,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Rewrote another part of internal python script in Rust",
     "language": "Rust",
@@ -1583,7 +1408,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Started setting up Travis for Windows",
     "language": "Rust",
@@ -1599,7 +1423,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a false positive after the previous lint rewrite",
     "language": "Rust",
@@ -1608,7 +1431,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Rewrote two lints for relicensing purposes",
     "language": "Rust",
@@ -1617,7 +1439,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Improved documentation for two rustc internal types",
     "language": "Rust",
@@ -1626,7 +1447,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "compiletest-rs",
     "explanation": "Improved a link between pages",
     "language": "Rust",
@@ -1635,7 +1455,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash",
     "language": "Rust",
@@ -1644,7 +1463,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Improved error handling in one edge case",
     "language": "Rust",
@@ -1653,7 +1471,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "reference",
     "explanation": "Improved a link between pages",
     "language": "Rust",
@@ -1678,7 +1495,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Improved CONTRIBUTING.md",
     "language": "Rust",
@@ -1687,7 +1503,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Added automatic resolution suggestions to a lint",
     "language": "Rust",
@@ -1696,7 +1511,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Cleaned up the README for the latest Rust release",
     "language": "Rust",
@@ -1705,7 +1519,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "Added unit tests for a Levensthein function",
     "language": "Rust",
@@ -1714,7 +1527,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rustc-guide",
     "explanation": "Added a section about using incremental compilation",
     "language": "Rust",
@@ -1723,7 +1535,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Rewrote first part of internal python script in Rust",
     "language": "Rust",
@@ -1732,7 +1543,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed some warnings on CI",
     "language": "Rust",
@@ -1741,7 +1551,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Cleaned up a dev script",
     "language": "Rust",
@@ -1750,7 +1559,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "maud-book",
     "explanation": "Added a page explaining how to compose templates",
     "language": "Rust",
@@ -1759,7 +1567,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "maud",
     "explanation": "Updated a dependency on actix-web",
     "language": "Rust",
@@ -1768,7 +1575,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "unidiff-rs",
     "explanation": "Simplified the test fixture loading a bit",
     "language": "Rust",
@@ -1777,7 +1583,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "hubcaps",
     "explanation": "Added support for creating Review Comments through this GitHub API Client library",
     "language": "Rust",
@@ -1786,7 +1591,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "libsyntax2",
     "explanation": "Added Clippy to CI build",
     "language": "Rust",
@@ -1795,7 +1599,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash",
     "language": "Rust",
@@ -1804,7 +1607,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash",
     "language": "Rust",
@@ -1813,7 +1615,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash",
     "language": "Rust",
@@ -1822,7 +1623,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rustc-guide",
     "explanation": "Added an example of how type inference works",
     "language": "Rust",
@@ -1831,7 +1631,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Add integration tests to Clippy to notice regressions in popular crates",
     "language": "Rust",
@@ -1840,7 +1639,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed 5 different crashes at once",
     "language": "Rust",
@@ -1849,7 +1647,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed crash in new build script",
     "language": "Rust",
@@ -1858,7 +1655,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1867,7 +1663,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Document how to debug Clippy build failures after nightly changes",
     "language": "Rust",
@@ -1876,7 +1671,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1885,7 +1679,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Made sure Clippy compilation aborts early on outdated/unsupported 'Rust', versions",
     "language": "Rust",
@@ -1894,7 +1687,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a crash",
     "language": "Rust",
@@ -1903,7 +1695,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",
     "language": "Rust",
@@ -1912,7 +1703,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust",
     "explanation": "My first actual 'Rust', contribution",
     "language": "Rust",
@@ -1921,7 +1711,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed clippy after nightly introduced breaking changes",
     "language": "Rust",
@@ -1930,7 +1719,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Explained how Clippy works",
     "language": "Rust",
@@ -1939,7 +1727,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed clippy after nightly introduced breaking changes",
     "language": "Rust",
@@ -1948,7 +1735,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Took over a pull request, adding a new lint",
     "language": "Rust",
@@ -1964,7 +1750,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed a false positive in nonminimal_bool lint",
     "language": "Rust",
@@ -1973,7 +1758,6 @@
   },
   {
     "type": "docs",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Improved the contribution documentation",
     "language": "Rust",
@@ -1982,7 +1766,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed an incorrect lint suggestion",
     "language": "Rust",
@@ -1991,7 +1774,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed another incorrect lint suggestion",
     "language": "Rust",
@@ -2000,7 +1782,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Improved documentation around executing tests",
     "language": "Rust",
@@ -2009,7 +1790,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "project": "rust-clippy",
     "explanation": "Fixed an incorrect suggestion from a lint",
     "language": "Rust",
@@ -2026,7 +1806,6 @@
   },
   {
     "type": "code",
-    "action": "Made a contribution to",
     "explanation": "Added a new lint that detects empty lines after attributes",
     "project": "rust-clippy",
     "language": "Rust",
