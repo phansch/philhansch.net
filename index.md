@@ -25,7 +25,8 @@ auto: false
 You can find my **in-progress** Rust work in [**this GitHub project**][ghproject].  
 Below is a list of my last 10 merged pull requests.
 
-{% for item in site.data.timeline limit:10 %}
+{% assign sorted = site.data.timeline | sort: 'display_date' | reverse %}
+{% for item in sorted limit:10 %}
   <article class="timeline-entry {{ item.type }}">
     {% include timeline_{{ item.type }} %}
   </article>
