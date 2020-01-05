@@ -26,12 +26,9 @@ jobs:
       script: bundle exec jekyll build
       deploy:
         provider: pages
-        local_dir: ./_site
-        target_branch: gh_pages
-        email: deploy@travis-ci.org
-        name: Deployment Bot
+        local_dir: _site
         skip_cleanup: true
         github_token: $JEKYLL_PAT
-        keep-history: true
+        keep_history: true
         on:
           branch: master
