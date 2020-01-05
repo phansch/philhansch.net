@@ -936,13 +936,6 @@
     "date": "2019-02-24"
   },
   {
-    "type": "blog",
-    "title": "One Hundred Rust PRs later",
-    "subtitle": "A review of my past year with Rust",
-    "date": "2019-02-18",
-    "url": "/2019/02/18/onehundred-rust-prs/"
-  },
-  {
     "type": "docs",
     "project": "rust-clippy",
     "explanation": "Document `declare_clippy_lint` macro",
@@ -1415,13 +1408,6 @@
     "date": "2018-10-12"
   },
   {
-    "type": "blog",
-    "title": "Fixing a Clippy crash",
-    "subtitle": "Learning a lot about rustc internals.",
-    "date": "2018-10-10",
-    "url": "/2018/10/10/fixing-a-clippy-crash/"
-  },
-  {
     "type": "code",
     "project": "rust-clippy",
     "explanation": "Fixed a false positive after the previous lint rewrite",
@@ -1742,13 +1728,6 @@
     "date": "2018-04-15"
   },
   {
-    "type": "blog",
-    "title": "From Ruby to Rust",
-    "subtitle": "Learning Rust to dive deeper.",
-    "date": "2018-04-08",
-    "url": "/2018/04/08/from-ruby-to-learning-rust/"
-  },
-  {
     "type": "code",
     "project": "rust-clippy",
     "explanation": "Fixed a false positive in nonminimal_bool lint",
@@ -1812,11 +1791,4 @@
     "url": "https://github.com/rust-lang/rust-clippy/pull/2340",
     "date": "2018-01-30"
   },
-  {
-    "type": "blog",
-    "title": "No more Disqus comments",
-    "subtitle": "Disqus has been acquired by a marketing company.",
-    "date": "2017-12-13",
-    "url": "/2017/12/13/no-more-disqus/"
-  }
 ]
