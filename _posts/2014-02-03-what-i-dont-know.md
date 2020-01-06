@@ -3,7 +3,7 @@ title: What I don't know
 layout: post
 excerpt: A list of things I don't know.
 ---
-I have been reading [Apprenticeship Patterns](http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382) by Dave Hoover and I found a lot of the patterns really helpful. The first thing I put into practice, was to read books and maintain a [reading list](http://phansch.net/reading/).
+I have been reading [Apprenticeship Patterns](https://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382) by Dave Hoover and I found a lot of the patterns really helpful. The first thing I put into practice, was to read books and maintain a [reading list](http://phansch.net/reading/).
 
 However, this post is not about that. It's about a different pattern: **Expose Your Ignorance**
 

@@ -20,5 +20,7 @@ jobs:
       script: 'script/ci.rb'
       env: RUN=html_proofer
     - stage: test
+      before_script:
+        - sudo pip install codespell
       script: 'script/ci.rb'
       env: RUN=test
