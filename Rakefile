@@ -20,5 +20,5 @@ task :html_proofer do
     http_status_ignore: [999, 0],
     typhoeus: { ssl_verifyhost: 0, ssl_verifypeer: false, timeout: 30 }
   }
-  # HTMLProofer.check_directory(build_dir, opts).run
+  HTMLProofer.check_directory(build_dir, opts).run
 end
