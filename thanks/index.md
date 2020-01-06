@@ -15,6 +15,7 @@ I'm incredibly thankful to the following people and organizations for their supp
 
 * [@oli-obk](https://github.com/oli-obk)
 * [@yaahc](https://github.com/yaahc)
+* [@repi](https://github.com/repi)
 
 {% comment %}
 Everyone below 50€/mo
