@@ -60,7 +60,7 @@ doesn't support data transfer.
 
 
 I went to the local electronics store, bought a new one and [opened another
-PR][discovery-pr] to mention the data transfer requirements for the cables.
+PR][discovery-pr] (already merged :heart:) to mention the data transfer requirements for the cables.
 After that I also opened another [issue][glossary-issue] which proposes a
 Glossary for the embedded book. I'm hoping to get to that by the end of January,
 unless someone else is faster.
