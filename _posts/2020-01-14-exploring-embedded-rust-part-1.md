@@ -68,8 +68,8 @@ unless someone else is faster.
 
 
 I think this is a good point to wrap up this post as I won't be able to get back
-into for a few days. In the next post I'm going to try writing my first embedded
-Rust program.
+into it for a few days. In the next post I'm going to try writing my first embedded
+Rust program following the discovery book.
 
 [Processing]: https://processing.org/
 [the_book]: https://rust-embedded.github.io/book/intro/index.html
