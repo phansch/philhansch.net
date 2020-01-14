@@ -23,8 +23,8 @@ Searching the internet for 'rust embedded book' gave me [the
 rust embedded book][the_book] as a result. Before going through this book
 though, I'll re-watch James Munns' talk and make some proper notes of it.
 
-<a href="/assets/images/posts/2020/life-before-main-notes.png" class="thumbnail" style="float: left">
-  <img src="/assets/images/posts/2020/life-before-main-notes.png" alt="screenshot" width="250" />
+<a href="/assets/images/posts/2020/life-before-main-notes.jpg" class="thumbnail" style="float: left">
+  <img src="/assets/images/posts/2020/life-before-main-notes.jpg" alt="screenshot" width="250" />
 </a>
 
 With the notes done, it's time to grab another coffee and start reading the
@@ -49,8 +49,8 @@ crates.
 
 ## Hardware!
 
-<a href="/assets/images/posts/2020/discovery.png" class="thumbnail" style="float: left">
-  <img src="/assets/images/posts/2020/discovery.png" alt="screenshot" width="200" />
+<a href="/assets/images/posts/2020/discovery.jpg" class="thumbnail" style="float: left">
+  <img src="/assets/images/posts/2020/discovery.jpg" alt="screenshot" width="200" />
 </a>
 
 My device arrived and following the included instructions worked without
@@ -74,8 +74,8 @@ Rust program.
 [Processing]: https://processing.org/
 [the_book]: https://rust-embedded.github.io/book/intro/index.html
 [youtube]: https://www.youtube.com/watch?v=RIHVoNDxNuk
-[img-notes]: /assets/images/posts/2020/life-before-main-notes.png
-[img-discovery]: /assets/images/posts/2020/discovery.png
+[img-notes]: /assets/images/posts/2020/life-before-main-notes.jpg
+[img-discovery]: /assets/images/posts/2020/discovery.jpg
 [@jamesmunns]: https://github.com/jamesmunns
 [book-pr]: https://github.com/rust-embedded/book/pull/219
 [glossary-issue]: https://github.com/rust-embedded/book/issues/220
