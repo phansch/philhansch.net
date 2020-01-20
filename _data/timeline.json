@@ -1,5 +1,37 @@
 [
   {
+    "type": "docs",
+    "project": "reference",
+    "explanation": "Small improvements to types/pointer.md",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/reference/pull/726",
+    "date": "2020-01-18"
+  },
+  {
+    "type": "docs",
+    "project": "discovery",
+    "explanation": "Requirements: USB cables need data transfer",
+    "language": "Rust",
+    "url": "https://github.com/rust-embedded/discovery/pull/201",
+    "date": "2020-01-13"
+  },
+  {
+    "type": "code",
+    "project": "ansible-role-chruby",
+    "explanation": "Fix warning and invalid apt state",
+    "language": "Ansible",
+    "url": "https://github.com/ferrarimarco/ansible-role-chruby/pull/7",
+    "date": "2020-01-04"
+  },
+  {
+    "type": "docs",
+    "project": "rust-ecosystem",
+    "explanation": "Fix outdated link in README",
+    "language": "Rust",
+    "url": "https://github.com/EmbarkStudios/rust-ecosystem/pull/44",
+    "date": "2020-01-04"
+  },
+  {
     "type": "code",
     "project": "rust-clippy",
     "explanation": "Fixed Clippy after nightly breaking changes",

@@ -1,5 +1,17 @@
 [
   {
+    "name": "discovery",
+    "url": "https://github.com/rust-embedded/discovery"
+  },
+  {
+    "name": "ansible-role-chruby",
+    "url": "https://github.com/ferrarimarco/ansible-role-chruby"
+  },
+  {
+    "name": "EmbarkStudios",
+    "url": "https://github.com/EmbarkStudios"
+  },
+  {
     "name": "annotate-snippets-rs",
     "url": "https://github.com/rust-lang/annotate-snippets-rs"
   },
