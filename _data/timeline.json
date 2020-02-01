@@ -1,5 +1,53 @@
 [
   {
+    "type": "code",
+    "project": "reference",
+    "explanation": "Small improvements to types/pointer.md",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/reference/pull/726",
+    "date": "2020-01-18"
+  },
+  {
+    "type": "docs",
+    "project": "book",
+    "explanation": "Replace nursery links with rust-lang links",
+    "language": "Rust",
+    "url": "https://github.com/rust-embedded/book/pull/222",
+    "date": "2020-01-27"
+  },
+  {
+    "type": "docs",
+    "project": "book",
+    "explanation": "Mention discovery book more prominently",
+    "language": "Rust",
+    "url": "https://github.com/rust-embedded/book/pull/219",
+    "date": "2020-01-27"
+  },
+  {
+    "type": "docs",
+    "project": "book",
+    "explanation": "Add a Glossary appendix page",
+    "language": "Rust",
+    "url": "https://github.com/rust-embedded/book/pull/223",
+    "date": "2020-01-27"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Deprecate util/dev in favor of cargo alias",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5109",
+    "date": "2020-01-31"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Resolve FIXME: String::new is now a const fn",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5097",
+    "date": "2020-01-26"
+  },
+  {
     "type": "docs",
     "project": "reference",
     "explanation": "Small improvements to types/pointer.md",
