@@ -6,7 +6,7 @@ tags:
   - monthly-review
 ---
 
-## New Sponsors
+## Sponsors
 
 I'm incredibly thankful to the following people for sponsoring my open source
 work this past month: [@repi], [@oli-obk] and [@yaahc].
