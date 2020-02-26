@@ -36,6 +36,10 @@ if ENV['RUN'] == 'html_proofer'
 end
 
 if ENV['RUN'] == 'test'
+  require 'bundler/setup'
+  require 'capybara/dsl'
+  require 'rack/jekyll'
+  Rack::Jekyll.new(force_build: true, destination: "_testsite")
   build.run_job('test', 'bundle exec rake test')
   build.run_job('codespell', 'codespell _posts --skip "2012-05-18*.md","2009*.md","2010*.md","2011*.md" -L mut')
 end

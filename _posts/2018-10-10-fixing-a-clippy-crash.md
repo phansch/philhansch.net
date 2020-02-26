@@ -331,7 +331,7 @@ and putting all the information together.
   that is in scope.
   <br><br>
   <cite>
-    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc/traits/struct.Obligation.html">rustc::traits::Obligation</a>
+    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_infer/traits/struct.Obligation.html">rustc_infer::traits::Obligation</a>
   </cite>
   </blockquote>
 
