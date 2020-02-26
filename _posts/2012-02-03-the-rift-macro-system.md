@@ -15,7 +15,7 @@ Most importantly, I wrote a macro translator that translates Rift macros written
 
 When I started playing Rift, I would usually use the English client because I preferred the English forums over the German forums for its up-to-date guides and tutorials. Still, I was playing on a German server because I preferred to play with people who speak my native language (being lazy here!).
 
-As mentioned, I was always more in touch with the international community than the German community, except for my guild. I was [quite active on telarapedia](http://telarapedia.gamepedia.com/UserProfile:Plyturon1017), for example. The downside of using the English client was, that communicating with my guild was sometimes difficult. So I eventually switched to the German client. And here the trouble begins.
+As mentioned, I was always more in touch with the international community than the German community, except for my guild. I was [quite active on telarapedia (link dead unfortunately)](#), for example. The downside of using the English client was, that communicating with my guild was sometimes difficult. So I eventually switched to the German client. And here the trouble begins.
 
 I quickly noticed that all my macros stopped working. Apparently Trion localized parts of the macro syntax into German! So I started to figure out what was going on ~
 

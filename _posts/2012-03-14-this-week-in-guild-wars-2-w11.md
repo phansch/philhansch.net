@@ -105,8 +105,8 @@ GWOnline: Traits: An Analysis **Site offline**
 #### Monday, March 12
 
 
-[MMORPG.com: Everything to Everyone](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6179)
-• Everything to Everyone is the topic on David North's newest article on MMORPG.com. Jump in on the discussion about whether _pleasing everyone_ is good, bad or even possible.
+[MMORPG.com: Everything to Everyone](#)
+• (Link Dead) Everything to Everyone is the topic on David North's newest article on MMORPG.com. Jump in on the discussion about whether _pleasing everyone_ is good, bad or even possible.
 
 [Tales of Tyria Podcast #22: Traits vs. Talents](http://www.youtube.com/watch?v=V-eAUaXLBmg)
 • As usual Tales of Tyria gives a quick recap of last week's news and then goes on to talk about game mechanics and gameplay. This week's roundtable topic is _Build Wars 2 continued_.

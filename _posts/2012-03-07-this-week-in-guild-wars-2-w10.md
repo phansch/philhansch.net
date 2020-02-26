@@ -29,7 +29,7 @@ GuildCast: Trinity Killer **Site offline**
 [GWI: Sea of Sorrows Release Date Update](http://web.archive.org/web/20140905080441/http://www.guildwarsinsider.com/sea-sorrows-release-date-update/)
 • Sea of Sorrorws, the third Guild Wars Novel, which was previously announced for August 28th has been pushed back according to GWI.
 
-[MMORPG.com: The Thief Preview](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6166/Guild-Wars-2-The-Thief-Preview.html)
+[MMORPG.com: The Thief Preview (dead link)](#)
 • David North continues with his series on the Guild Wars 2 professions. This time he played the thief profession and gives his thoughts on playstyle and animations.
 
 [Postmagazine: Audio for games](http://digital.copcomm.com/i/57245/47)
@@ -58,7 +58,7 @@ GuildCast: Trinity Killer **Site offline**
 Boons & Conditions Podcast #1: Mono Intro **Site offline**  
 • The premiere episode of the BnC podcast. Their introductory podcast is all about the recent press beta event and the new information on attributes and traits.
 
-[MMORPG.com: The Warrior Preview](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6155/Guild-Wars-2-The-Warrior-Preview.html)
+[MMORPG.com: The Warrior Preview (dead link)](#)
 • Garrett Fuller from MMORPG.com published a nice overview on the Warrior profession and gives some advice on properly using the unique Warrior mechanics.
 
 [Flameseeker Chronicles: How do trinities work?(#) (Dead link, because
@@ -68,14 +68,15 @@ joystick.com shut down)
 [Talk Tyria: What Will Guild Wars 2 Do to Me?](http://www.talktyria.net/2012/03/06/what-will-guild-wars-2-do-to-me/)
 • In his first post on TalkTyria, Skyriar talks about how Guild Wars 2 could affect the way he sees other games.
 
-[MMORPG.com: Guild Wars 2 Column: Exploring the Ascalon Catacombs Dungeon](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6158/Guild-Wars-2-Exploring-the-Ascalon-Catacombs-Dungeon.html)
+[MMORPG.com: Guild Wars 2 Column: Exploring the Ascalon Catacombs Dungeon (dead
+link)](#)
 • David North from MMORPG.com talks about his first dungeon encounter in the press beta.
 
 
 #### Monday, March 05
 
 
-[MMORPG.com: The Necromancer Preview](http://www.mmorpg.com/gamelist.cfm/game/473/feature/6150/Guild-Wars-2-The-Necromancer-Preview.html)
+[MMORPG.com: The Necromancer Preview (dead link)](#)
 • David North from MMORPG.com takes a look at his favourite profession from Guild Wars 1: The Necromancer.
 
 [Yogscast: Norn Levelling Series Part 2](http://www.youtube.com/watch?v=IMmtrJk1a0M)
