@@ -4,9 +4,7 @@ require 'bundler/setup'
 require 'capybara/dsl'
 require 'rack/jekyll'
 
-Capybara.app = Rack::Jekyll.new(force_build: true)
-
-sleep 20 # wait until page is built...
+Capybara.app = Rack::Jekyll.new(destination: "_testsite")
 
 class CapybaraTestCase < MiniTest::Test
   include Capybara::DSL

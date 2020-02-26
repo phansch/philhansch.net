@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monthly review: January"
-excerpt: "Embedded Rust, Notification Guilt & Clippy"
+excerpt: "Embedded Rust, Notification Guilt & Clippy."
 tags:
   - monthly-review
 ---
