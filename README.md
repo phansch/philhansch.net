@@ -11,11 +11,11 @@ This is the data for my blog. It uses Jekyll to generate a static website whenev
 
 ### Tests
 
-Execute the tests with
+Execute the tests with:
 
     rake test
 
-Run Jekyll with
+Run Jekyll with:
 
     jekyll serve --watch --incremental
 
