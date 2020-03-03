@@ -1,7 +1,7 @@
 # phansch.net
 
 [![Build
-Status](https://travis-ci.org/phansch/phansch.github.com.svg?branch=master)](https://travis-ci.org/phansch/phansch.github.com)
+Status](https://travis-ci.com/phansch/phansch.github.com.svg?branch=master)](https://travis-ci.com/phansch/phansch.github.com)
 [![Sponsor
 count](https://img.shields.io/badge/sponsors-3-brightgreen)](https://phansch.net/thanks)
 
@@ -11,11 +11,11 @@ This is the data for my blog. It uses Jekyll to generate a static website whenev
 
 ### Tests
 
-Execute the tests with
+Execute the tests with:
 
     rake test
 
-Run Jekyll with
+Run Jekyll with:
 
     jekyll serve --watch --incremental
 
