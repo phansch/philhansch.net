@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fighting my procrastination: Part 1
+title: "Fighting my procrastination: Part 1"
 excerpt: Firefox extensions and /etc/hosts.
 ---
 
