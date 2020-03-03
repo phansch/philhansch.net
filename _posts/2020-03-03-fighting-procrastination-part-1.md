@@ -48,7 +48,7 @@ procrastination sites are blocked.
 
 I have found this to work _surprisingly_ well.
 
-Of course, this has potential to fall apart if I start editing `/etc/hosts_base` But
+Of course, this has potential to fall apart if I start editing `/etc/hosts_base` but
 so far that hasn't been the case.
 
 ## An ongoing fight
