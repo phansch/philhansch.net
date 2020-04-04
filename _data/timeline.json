@@ -1,6 +1,38 @@
 [
   {
     "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Rustup to https://github.com/rust-lang/rust/pull/70449",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5390",
+    "date": "2020-03-30"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Remove dependency on `matches` crate",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5370",
+    "date": "2020-03-25"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Make use of `or_patterns` feature",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5322",
+    "date": "2020-03-16"
+  },
+  {
+    "type": "code",
+    "project": "rustc-dev-guide",
+    "explanation": "Add introductory section for name resolution chapter",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rustc-dev-guide/pull/590",
+    "date": "2020-02-26"
+  },
+  {
+    "type": "code",
     "project": "reference",
     "explanation": "Small improvements to types/pointer.md",
     "language": "Rust",
