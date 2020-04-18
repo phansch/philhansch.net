@@ -2,6 +2,94 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "Cleanup: Rename 'db' variables to 'diag'",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5482",
+    "date": "2020-04-17"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Reenable rustfmt integration test",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5474",
+    "date": "2020-04-16"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "large_enum_variant: Report sizes of variants",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5466",
+    "date": "2020-04-15"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Refactor: Use rustc's `match_def_path`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5452",
+    "date": "2020-04-15"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Make use of more diagnostic items",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5449",
+    "date": "2020-04-14"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "result_map_unit_fn: Fix incorrect UI tests",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5460",
+    "date": "2020-04-14"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Cleanup: Use our `sym!` macro more",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5457",
+    "date": "2020-04-14"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Cleanup: Use rustc's is_proc_macro_attr",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5458",
+    "date": "2020-04-14"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Temporarily disable rustfmt integration test",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5461",
+    "date": "2020-04-13"
+  },
+  {
+    "type": "code",
+    "project": "rust",
+    "explanation": "Add some basic docs to `sym` and `kw` modules",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/71053",
+    "date": "2020-04-12"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Rustup to https://github.com/rust-lang/rust/pull/70913",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5447",
+    "date": "2020-04-10"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "Rustup to https://github.com/rust-lang/rust/pull/70449",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/5390",
