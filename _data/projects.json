@@ -4,6 +4,14 @@
     "url": "https://github.com/rust-embedded/discovery"
   },
   {
+    "name": "http-types",
+    "url": "https://github.com/http-rs/http-types"
+  },
+  {
+    "name": "tide",
+    "url": "https://github.com/http-rs/tide"
+  },
+  {
     "name": "ansible-role-chruby",
     "url": "https://github.com/ferrarimarco/ansible-role-chruby"
   },

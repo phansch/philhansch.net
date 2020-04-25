@@ -1,6 +1,62 @@
 [
   {
     "type": "code",
+    "project": "http-types",
+    "explanation": "Add conversions to and from bytes",
+    "language": "Rust",
+    "url": "https://github.com/http-rs/http-types/pull/100",
+    "date": "2020-04-24"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Update CHANGELOG.md for Rust 1.43 and 1.44",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5498",
+    "date": "2020-04-23"
+  },
+  {
+    "type": "code",
+    "project": "rust",
+    "explanation": "More diagnostic items for Clippy usage",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/71414",
+    "date": "2020-04-22"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "util/fetch_prs_between.sh: Add Markdown formatted link",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5496",
+    "date": "2020-04-20"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Update the changelog update documentation",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5495",
+    "date": "2020-04-20"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Cleanup: `node_id` -> `hir_id`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5489",
+    "date": "2020-04-19"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Cleanup: future_not_send: use `utils::return_ty` function",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5488",
+    "date": "2020-04-19"
+  },
+  {
+    "type": "code",
     "project": "rust-clippy",
     "explanation": "Cleanup: Rename 'db' variables to 'diag'",
     "language": "Rust",
