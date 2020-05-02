@@ -1,6 +1,38 @@
 [
   {
     "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Remove util/dev script",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5534",
+    "date": "2020-04-26"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Use more diagnostic items",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5509",
+    "date": "2020-04-26"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "rustup to https://github.com/rust-lang/rust/pull/70043",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5533",
+    "date": "2020-04-26"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Add lifetime test case for `new_ret_no_self`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5523",
+    "date": "2020-04-25"
+  },
+  {
+    "type": "code",
     "project": "http-types",
     "explanation": "Add conversions to and from bytes",
     "language": "Rust",
