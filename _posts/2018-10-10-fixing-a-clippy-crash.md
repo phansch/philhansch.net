@@ -287,7 +287,7 @@ and putting all the information together.
   trait, for example.
   <br><br>
   <cite>
-    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc/ty/struct.ParamEnv.html">rustc::ty::ParamEnv</a>
+    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/ty/struct.ParamEnv.html">rustc::ty::ParamEnv</a>
   </cite>
   </blockquote>
 
@@ -302,7 +302,7 @@ and putting all the information together.
   <cite>
     Sources:
     <ul>
-      <li><a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc/ty/struct.Binder.html">rustc::ty::Binder</a></li>
+      <li><a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/ty/struct.Binder.html">rustc::ty::Binder</a></li>
       <li><a href="https://rust-lang.github.io/rustc-guide/appendix/background.html#free-vs-bound">rustc-guide: Free vs. Bound regions</a></li>
       <li><a href="https://rust-lang.github.io/rustc-guide/appendix/glossary.html?highlight=binder#appendix-c-glossary">rustc-guide: Glossary</a></li>
     </ul>
@@ -342,7 +342,7 @@ and putting all the information together.
   for each method in the implementation.
   <br><br>
   <cite>
-    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc/traits/enum.Vtable.html">rustc::traits::vtable</a>
+    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/traits/enum.Vtable.html">rustc::traits::vtable</a>
   </cite>
   </blockquote>
 </div>
@@ -465,10 +465,10 @@ You can find the final PR [here][clippy_pr].
 [clippy_pr]: https://github.com/rust-lang/rust-clippy/pull/3248
 [rustc_issue]: https://github.com/rust-lang/rust/pull/54679
 [thanks]: https://github.com/rust-lang/rust-clippy/issues/2831#issuecomment-409411096
-[rustc_docs]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc/
+[rustc_docs]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/
 [rustc_guide]: https://rust-lang.github.io/rustc-guide/
 [ariel]: https://github.com/arielb1
 [ariel_comment]: https://github.com/rust-lang/rust-clippy/issues/2831#issuecomment-425732417
 [gfi]: https://github.com/rust-lang/rust-clippy/labels/good%20first%20issue
-[input_types]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc/ty/struct.TraitRef.html#method.input_types
+[input_types]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/ty/struct.TraitRef.html#method.input_types
 [substs]: https://rust-lang.github.io/rustc-guide/ty.html?highlight=substs#beyond-types-other-kinds-of-arena-allocated-data-structures
