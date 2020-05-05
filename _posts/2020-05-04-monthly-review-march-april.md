@@ -44,7 +44,7 @@ is currently slowing me down a lot:
 [![qwerty stats](/assets/images/posts/2020/qwerty.png)](/assets/images/posts/2020/qwerty.png)
 
 It's also incredibly frustrating because my brain slips back into `dvorak` every time
-I'm not 100% focused. Once I'm a faster, I want to write about this switch a
+I'm not 100% focused. Once I'm faster, I want to write about this switch a
 bit more.
 
 ## Goals
