@@ -2,6 +2,14 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "Make empty_line_after_outer_attr an early lint",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5609",
+    "date": "2020-05-26"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "Remove util/dev script",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/5534",
