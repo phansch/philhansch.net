@@ -11,6 +11,5 @@ group :test do
   gem 'capybara'
   gem 'html-proofer'
   gem 'rack'
-  gem 'rack-jekyll'
   gem 'rake'
 end
