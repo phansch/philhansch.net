@@ -298,7 +298,7 @@ footer {
 
   #footer-content {
     padding-top: 10px;
-    border-top: 1px solid #FF4610;
+    border-top: 1px solid $brand-primary;
     text-align: center;
     line-height: 160%;
     margin: 0px auto;
@@ -317,26 +317,29 @@ footer {
 }
 
 .timeline-entry {
-  font-family: monospace;
   line-height: 1.0;
+  border-left: 2px solid $brand-primary;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  .greater-than {
+    color: #777777;
+  }
   .comment_look {
-    font-size: 0.9em;
-    margin-top: 5px;
+    font-size: 0.8em;
+    margin-top: 10px;
     text-transform: uppercase;
     .type {
-      cursor: help;
-      color: $brand-primary;
+      color: #777777;
     }
     .language {
-      color: $brand-primary;
+      color: #777777;
     }
   }
-  .display_date {
-    vertical-align: middle;
-    font-size: 0.9rem;
-    color: #93a1a1;
-  }
   .body {
+    margin-top: 5px;
     padding-left: 10px;
   }
   h4 {

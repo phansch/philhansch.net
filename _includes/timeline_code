@@ -1,13 +1,13 @@
 {% assign project = site.data.projects | where:"name",item.project | first %}
 
-<strong><span class="display_date">{{ item.date }}</span></strong> Made a <strong>contribution to <a href="{{ project.url }}">{{ project.name }}</a></strong>
+{{ item.date }}: Made a contribution to <a href="{{ project.url }}">{{ project.name }}</a>
 
 <div class="body">
-  {{ item.explanation }}
+  <span class="greater-than">⧽</span> {{ item.explanation }}
   <div class="comment_look">
-    <span class="type" title="Code I'm writing">code</span> •
+    <span class="type">code</span> •
     <span class="language">{{ item.language }}</span> •
     <a href="{{ item.url }}">Link to PR</a> •
-    <a href="{{ item.url }}/files">Direct link to code</a>
+    <a href="{{ item.url }}/files">Link to changes</a>
   </div>
 </div>

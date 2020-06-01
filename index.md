@@ -41,7 +41,6 @@ no signs of upgrading :(
   <article class="timeline-entry {{ item_type }}">
     {% include timeline_{{ item_type }} %}
   </article>
-  {% if forloop.last != true %}<hr />{% endif %}
 {% endfor %}
 
 [ghproject]: https://github.com/users/phansch/projects/3#column-6248321
