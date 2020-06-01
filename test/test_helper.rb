@@ -23,6 +23,10 @@ class StaticSite
       env['PATH_INFO'] = '/index.html'
     elsif !exists?(path) && exists?(path + '.html')
       env['PATH_INFO'] += '.html'
+    elsif path.start_with?('/') && path.length > 1 && !path.end_with?('/') && exists?("#{env['PATH_INFO']}/index.html")
+      env['PATH_INFO'] += '/index.html'
+    elsif path.start_with?('/') && path.length > 2 && path.end_with?('/') && exists?("#{env['PATH_INFO']}index.html")
+      env['PATH_INFO'] += 'index.html'
     end
 
     server.call(env)
