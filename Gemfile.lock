@@ -17,7 +17,6 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
-    coderay (1.1.2)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
     em-websocket (0.5.1)
@@ -71,7 +70,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    method_source (1.0.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
@@ -82,9 +80,6 @@ GEM
     parallel (1.19.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    pry (0.13.1)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
     public_suffix (4.0.5)
     rack (2.2.2)
     rack-test (1.1.0)
@@ -122,7 +117,6 @@ DEPENDENCIES
   html-proofer
   jekyll (~> 3.0)
   jemoji
-  pry
   rack
   rake
   rb-readline

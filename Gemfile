@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 3.0'
 gem 'jemoji'
 
-gem 'pry'
 gem 'rb-readline'
 
 group :test do
