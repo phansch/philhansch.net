@@ -5,6 +5,7 @@ layout: post
 slug: happy-new-year
 title: Happy new year!
 wordpress_id: 1217
+aliases: [""]
 ---
 
 The last few days have been quite a torture for me. 

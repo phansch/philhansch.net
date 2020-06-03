@@ -4,6 +4,7 @@ layout: post
 slug: this-week-in-guildwars2-w9
 title: This Week In Guild Wars 2 - W9
 plyturonnet: true
+aliases: [""]
 ---
 
 **NOTE: All mmorpg.com links are dead**

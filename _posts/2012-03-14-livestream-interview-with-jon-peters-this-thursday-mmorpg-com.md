@@ -5,6 +5,7 @@ slug: livestream-interview-with-jon-peters-this-thursday-mmorpg-com
 title: Livestream interview with Jon Peters this Thursday [MMORPG.com]
 wordpress_id: 493
 plyturonnet: true
+aliases: [""]
 ---
 
 Jon Peters is going to be on a live Q&A; with MMORPG.com this Thursday at 10am PST (6pm GMT). 

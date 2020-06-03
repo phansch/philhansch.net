@@ -5,6 +5,7 @@ layout: post
 slug: including-the-directx-sdk-libraries-into-your-visual-cpp-game-project
 title: Including the DirectX SDK libraries into your Visual C++ game project
 wordpress_id: 1149
+aliases: [""]
 ---
 
 If you are new to DirectX game programming, you might have come across this pitfall:

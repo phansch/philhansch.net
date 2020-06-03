@@ -5,6 +5,7 @@ layout: post
 slug: showcase-wip-2d-tile-mapeditor
 title: 'Showcase: WIP 2D Tile MapEditor'
 wordpress_id: 1066
+aliases: [""]
 ---
 
 Just dropping in the showcase video for now. A detailed post will be published later.

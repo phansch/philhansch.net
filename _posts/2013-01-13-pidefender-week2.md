@@ -3,6 +3,7 @@ layout: post
 location: Berlin
 title: PiDefender Week 2
 excerpt: "Just a few graphical updates. Also no download this week."
+aliases: [""]
 ---
 
 I had more important stuff to work on, this week. It's the usual madness at the end of every semester. Projects piling up and exams are coming closer each day. So I have to commit a lot of time to that. Luckily, I'm done with almost all of the projects, so I can focus on learning and finishing PiDefender. 

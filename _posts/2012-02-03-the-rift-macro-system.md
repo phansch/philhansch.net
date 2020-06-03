@@ -5,6 +5,7 @@ layout: post
 slug: the-rift-macro-system
 title: The Rift macro system
 wordpress_id: 1300
+aliases: [""]
 ---
 
 As you may or may not know, I have a gaming section over at games.phansch.de (no longer maintained) where I keep stuff for various games.

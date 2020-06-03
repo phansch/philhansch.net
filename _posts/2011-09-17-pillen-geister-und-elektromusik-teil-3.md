@@ -5,6 +5,7 @@ layout: post
 slug: pillen-geister-und-elektromusik-teil-3
 title: Pillen, Geister und Elektromusik - Teil 3
 wordpress_id: 1013
+aliases: [""]
 ---
 
 In den letzten zwei Wochen habe ich wieder Zeit für das [Pacman Spiel](http://phansch.net/2010/12/31/pillen-geister-und-elektromusik-teil-2) gefunden.

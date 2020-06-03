@@ -5,6 +5,7 @@ layout: post
 slug: c-sharp-quiz-fragen-auslesen-teil-3
 title: C# Quiz - Fragen auslesen (Teil 3)
 wordpress_id: 309
+aliases: [""]
 ---
 
 Im [vorherigen Tutorialteil](http://phansch.net/2010/07/22/c-sharp-quiz-vorbereitung-teil-2) haben wir das Fragebogenformular gebaut. Nun wollen wir die Fragen auslesen lassen.

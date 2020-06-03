@@ -4,6 +4,7 @@ title: "Monthly review: May"
 excerpt: "Touch typing and reviewing more pull requests."
 tags:
   - monthly-review
+aliases: [""]
 ---
 
 ## Sponsors

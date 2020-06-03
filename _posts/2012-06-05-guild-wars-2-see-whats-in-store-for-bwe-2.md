@@ -5,6 +5,7 @@ slug: guild-wars-2-see-whats-in-store-for-bwe-2
 title: '[Guild Wars 2] See what''s in store for BWE #2'
 wordpress_id: 814
 plyturonnet: true
+aliases: [""]
 ---
 
 > It’s almost here—the second Guild Wars 2 Beta Weekend Event begins this Friday! For three days, players from all over the world will experience the wonders and dangers of Tyria—and a ton of cool new content!

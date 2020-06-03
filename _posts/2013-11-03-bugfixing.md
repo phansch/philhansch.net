@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Worthwhile bugfixing
+aliases: [""]
 ---
 
 While I was working on a new version of [Jou](https://github.com/phansch/jou), I suddenly stumbled across a roadblock.

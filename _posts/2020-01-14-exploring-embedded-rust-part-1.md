@@ -2,6 +2,7 @@
 layout: post
 title: Exploring Embedded Rust - Part 1
 excerpt: Starting to figure out embedded development.
+aliases: [""]
 ---
 
 Coming from a web development background, lower level things can sometimes feel very

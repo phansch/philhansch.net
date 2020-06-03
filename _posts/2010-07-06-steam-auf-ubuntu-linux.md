@@ -5,6 +5,7 @@ layout: post
 slug: steam-auf-ubuntu-linux
 title: Steam auf Ubuntu Linux
 wordpress_id: 471
+aliases: [""]
 ---
 
 Counter Strike und viele andere Spiele sind auf Linux schon länger kein Problem mehr. In diesem Tutorial wird beschrieben, wie man Steam unter [Ubuntu](http://www.ubuntu.com/) Linux installiert.

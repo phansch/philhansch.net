@@ -2,6 +2,7 @@
 title: Seeing the natural night sky
 excerpt: Pictures can't capture the awesomeness that is the natural night sky.
 layout: post
+aliases: [""]
 ---
 
 I attended a new [astronomy meetup group](http://www.meetup.com/Berlin-Astronomy-Astrophotography-Meetup/) in Berlin.

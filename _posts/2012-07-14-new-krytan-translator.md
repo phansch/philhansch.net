@@ -5,6 +5,7 @@ slug: new-krytan-translator
 title: New Krytan Translator
 wordpress_id: 863
 plyturonnet: true
+aliases: [""]
 ---
 
 Here's what I've been working on, the past couple of days.

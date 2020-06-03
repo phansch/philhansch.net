@@ -5,6 +5,7 @@ layout: post
 slug: c-sharp-diagramme-und-graphen-mit-zedgraph
 title: C# - Diagramme und Graphen mit ZedGraph
 wordpress_id: 611
+aliases: [""]
 ---
 
 **Note**: Die ZedGraph Website existiert leider nicht mehr, deshalb habe ich die links entfernt.

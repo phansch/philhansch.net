@@ -2,6 +2,7 @@
 title: "A better Pry prompt for the Rails console"
 layout: post
 excerpt: "A quick way to make your everyday work with Ruby on Rails a bit more safe."
+aliases: [""]
 ---
 
 *Update: This is now part of [pry-rails](https://github.com/rweng/pry-rails#custom-rails-prompt).*

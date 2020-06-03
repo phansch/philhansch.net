@@ -2,6 +2,7 @@
 title: Using tmux and tmuxinator
 layout: post
 excerpt: Awesome command line productivity with tmux and tmuxinator
+aliases: [""]
 ---
 
 This is what I have been using for a couple weeks now and it's so amazing, I have to share it with you.

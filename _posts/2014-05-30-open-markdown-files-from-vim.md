@@ -2,6 +2,7 @@
 title: Open Markdown files from vim
 layout: post
 excerpt: A quick guide on how to open Markdown or HTML files from vim in a non-disruptive way.
+aliases: [""]
 ---
 
 Here's my most recent addition to my vimrc. I was looking for a way to open Markdown or HTML files in the browser, with a single keystroke from vim.

@@ -5,6 +5,7 @@ layout: post
 slug: c-sharp-quiz-ergebnisse-darstellen-teil-5
 title: C# Quiz - Ergebnisse darstellen (Teil 5)
 wordpress_id: 314
+aliases: [""]
 ---
 
 Im [vorherigen Tutorialteil](http://phansch.net/2010/09/18/c-sharp-quiz-antworten-darstellen-teil-4/) haben wir die Grundlagen für das Auswerten der Fragen programmiert.

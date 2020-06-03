@@ -4,6 +4,7 @@ layout: post
 tags:
   - hackership
 excerpt: November is almost over. And so is the third week of Hackership. Check out what I worked on this week.
+aliases: [""]
 ---
 
 This week was a little bit less about rails and more about front-end stuff. I needed to get some Ajax to work. And that proved to be very difficult. Especially considering that I didn't know in what form rails is expecting PATCH data.

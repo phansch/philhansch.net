@@ -2,6 +2,7 @@
 layout: post
 title: "Fighting my procrastination: Part 1"
 excerpt: Firefox extensions and /etc/hosts.
+aliases: [""]
 ---
 
 Hi, this post is going to be part of a series about productivity,

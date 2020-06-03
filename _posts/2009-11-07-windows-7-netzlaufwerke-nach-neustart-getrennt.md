@@ -5,6 +5,7 @@ layout: post
 slug: windows-7-netzlaufwerke-nach-neustart-getrennt
 title: Windows 7 - Netzlaufwerke nach Neustart getrennt
 wordpress_id: 180
+aliases: [""]
 ---
 
 Dank MSDNAA bin ich nun im Besitz von Windows 7 Professional.

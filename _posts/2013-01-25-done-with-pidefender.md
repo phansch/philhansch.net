@@ -3,6 +3,7 @@ layout: post
 location: Berlin
 title: Done with PiDefender
 excerpt: "PiDefender is complete! Now onto the next 1GAM challenge."
+aliases: [""]
 ---
 
 I managed to finish PiDefender almost a week in advance after I decided to exclude a lot of features. The last thing I worked on was a giant AOE that kills all enemies. [Here's](/assets/images/posts/2013-01-25-done-with-pidefender/pidefender-wip.gif) a gif that shows an older work in progress. 

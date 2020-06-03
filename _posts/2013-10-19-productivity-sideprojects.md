@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Productivity sideprojects"
+aliases: [""]
 ---
 
 So I have been keeping track of the stuff I do for a while now. 

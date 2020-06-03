@@ -5,6 +5,7 @@ slug: year-2032-the-dark-age-of-gaming-is-history
 title: 'Year 2032: The dark age of gaming is history'
 wordpress_id: 449
 plyturonnet: true
+aliases: [""]
 ---
 
 Just in case you didn't know: It's the year 2032.

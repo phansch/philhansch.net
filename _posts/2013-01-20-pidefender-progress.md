@@ -3,6 +3,7 @@ layout: post
 location: Berlin
 title: PiDefender Progress
 excerpt: "A little progress. Increased difficulty, a game ending and more"
+aliases: [""]
 ---
 
 I didn't get a lot of stuff done last week. And I only managed to squeeze in 24 hours of work this week. I did manage to add a new enemy, a new title screen, camera shake and a game ending. I also increased the difficulty a lot.

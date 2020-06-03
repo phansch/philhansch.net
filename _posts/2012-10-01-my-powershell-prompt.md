@@ -2,6 +2,7 @@
 layout: post
 location: Berlin
 title: My PowerShell prompt
+aliases: [""]
 ---
 
 Today I took some time to work on my PowerShell configuration. Here is what it looks like now:

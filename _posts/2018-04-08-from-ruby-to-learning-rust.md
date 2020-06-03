@@ -2,6 +2,7 @@
 layout: post
 title: From Ruby to Rust
 excerpt: Learning Rust to dive deeper.
+aliases: [""]
 ---
 
 It's been a few months since I've written here and it's time for an update.

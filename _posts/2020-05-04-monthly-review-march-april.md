@@ -4,6 +4,7 @@ title: "Monthly review: March and April"
 excerpt: "Pandemic procrastination."
 tags:
   - monthly-review
+aliases: [""]
 ---
 
 ## Sponsors

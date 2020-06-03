@@ -2,6 +2,7 @@
 layout: post
 title: Testing your Jekyll Website with Capybara
 excerpt: Make sure your blog keeps working!
+aliases: [""]
 ---
 
 Even when it is just a static website like this one, it is always good to know that the most important things work.
