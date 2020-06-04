@@ -14,7 +14,7 @@ class AliasesTest < MiniTest::Test
       post_lines.each_with_index do |line, index|
         if line.start_with?('aliases')
           aliases = line.split(' ').last
-          # We should now have `[the/aliased/path]`
+          # We should now have `["the/aliased/path"]`
           assert aliases.length > 4
           break
         end
