@@ -3,7 +3,7 @@ layout: post
 location: Rheda-Wiedenbrück
 title: Ludum Dare 25 Post Mortem
 excerpt: "A recap of my first Ludum Dare game jam."
-aliases: [""]
+aliases: ["2012/12/26/ludum-dare-25-post-mortem/"]
 ---
 
 This was my first time participating in a game jam. The jam was a blast, although I didn't like the theme: You are the villain. I spent the first hour brainstorming ideas for the theme and ended with a space shooter where you shoot at defenseless transport ships.

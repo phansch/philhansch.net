@@ -5,7 +5,7 @@ layout: post
 slug: c-sharp-quiz-antworten-darstellen-teil-4
 title: C# Quiz - Antworten darstellen (Teil 4)
 wordpress_id: 311
-aliases: [""]
+aliases: ["2010/09/18/c-sharp-quiz-antworten-darstellen-teil-4/"]
 ---
 
 Nachdem wir die [Fragen anzeigen lassen](http://phansch.net/2010/07/22/c-sharp-quiz-fragen-auslesen-teil-3) können, werden wir uns jetzt um die Antworten kümmern.

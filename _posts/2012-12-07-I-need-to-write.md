@@ -2,7 +2,9 @@
 layout: post
 location: Berlin
 title: I need to write
+aliases: ["2012/12/07/I-need-to-write/"]
 ---
+
 I need to write.
 I initially planned to split this over a few posts, but my notes kept growing and now I'm at a point where I have to get rid of all the notes and formulate a proper blog post.
 So, the past few months were kinda crazy. 

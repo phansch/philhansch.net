@@ -5,7 +5,7 @@ slug: exploration-and-jumping-puzzles-in-guild-wars-2
 title: Exploration and jumping puzzles in Guild Wars 2
 wordpress_id: 133
 plyturonnet: true
-aliases: [""]
+aliases: ["2012/02/22/exploration-and-jumping-puzzles-in-guild-wars-2/"]
 ---
 
 This video from NecroBator and [TenTonHammer](http://www.tentonhammer.com/) shows some of the jumping puzzles that we started to hear about after the press beta event.

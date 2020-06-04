@@ -5,7 +5,7 @@ slug: are-you-the-princess-or-the-knight
 title: Are you the princess or the knight?
 wordpress_id: 686
 plyturonnet: true
-aliases: [""]
+aliases: ["2012/05/23/are-you-the-princess-or-the-knight/"]
 ---
 
 I choose to be the knight.

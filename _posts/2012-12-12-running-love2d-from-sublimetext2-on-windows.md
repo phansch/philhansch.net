@@ -3,7 +3,9 @@ layout: post
 location: Berlin
 title: Running Love2D from Sublime Text 2 on Windows
 excerpt: I wanted to use Sublime Text 2 for game programming in Lua with Love2D. It turns out that it's pretty easy to setup a custom build system for ST2.
+aliases: ["2012/12/12/running-love2d-from-sublimetext2-on-windows/"]
 ---
+
 *Update: For updated information on this topic you might want to check out the [Love2D Wiki entry on Sublime Text](http://www.love2d.org/wiki/Sublime_Text_2).*
 
 It's fairly easy to execute your Love2D game from within Sublime Text 2. Here's how.

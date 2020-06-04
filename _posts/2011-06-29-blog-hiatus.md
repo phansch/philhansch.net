@@ -5,7 +5,7 @@ layout: post
 slug: blog-hiatus
 title: Blog Hiatus
 wordpress_id: 1024
-aliases: [""]
+aliases: ["2011/06/29/blog-hiatus/"]
 ---
 
 Ich möchte an dieser Stelle kurz die lange Pause entschuldigen. Falls sich jemand über die Ruhe gewundert hat:

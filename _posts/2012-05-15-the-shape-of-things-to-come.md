@@ -5,7 +5,7 @@ slug: the-shape-of-things-to-come
 title: The shape of things to come.
 wordpress_id: 624
 plyturonnet: true
-aliases: [""]
+aliases: ["2012/05/15/the-shape-of-things-to-come/"]
 ---
 
 Greetings!

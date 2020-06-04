@@ -4,7 +4,7 @@ layout: post
 slug: aller-anfang-ist-schwer
 title: Aller Anfang ist schwer
 wordpress_id: 12
-aliases: [""]
+aliases: ["2009/06/25/aller-anfang-ist-schwer/"]
 ---
 
 "Wie beginnt man den ersten Blog-Eintrag?",

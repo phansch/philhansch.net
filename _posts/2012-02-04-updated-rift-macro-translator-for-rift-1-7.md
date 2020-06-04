@@ -5,7 +5,7 @@ layout: post
 slug: updated-rift-macro-translator-for-rift-1-7
 title: Updated Rift macro translator for Rift 1.7
 wordpress_id: 1318
-aliases: [""]
+aliases: ["2012/02/04/updated-rift-macro-translator-for-rift-1-7/"]
 ---
 
 The Rift macro translator has been updated for Rift 1.7.

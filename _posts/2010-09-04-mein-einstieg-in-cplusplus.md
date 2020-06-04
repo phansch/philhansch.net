@@ -5,7 +5,7 @@ layout: post
 slug: mein-einstieg-in-cplusplus
 title: Mein Einstieg in C++
 wordpress_id: 584
-aliases: [""]
+aliases: ["2010/09/04/mein-einstieg-in-cplusplus/"]
 ---
 
 <!--![cplusplus](http://phansch.de/blog/wp-content/gallery/allgemein/cplusplus.png)-->Für meinen Einstieg in C++ habe ich mir das Problem #2 von [projecteuler.net](http://projecteuler.net) herausgesucht. Die Problembeschreibung befindet sich [hier](http://projecteuler.net/index.php?section=problems&id=2).

@@ -3,7 +3,7 @@ layout: post
 location: Rheda-Wiedenbrück
 title: "RE: My netbook experience"
 excerpt: "I have been using Linux Mint and XMonad on my netbook for a while now. This is a review of how I ended up with my current setup and what is left to improve."
-aliases: [""]
+aliases: ["2012/12/28/re-my-netbook-experience/"]
 ---
 
 [A year ago](http://phansch.net/2012/01/01/my-netbook-experience/), I wrote about my first experiences with the *Asus EeePC 1215N*. It's time that I do another review of my netbook usage.

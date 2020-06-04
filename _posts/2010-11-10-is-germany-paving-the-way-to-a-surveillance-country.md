@@ -5,7 +5,7 @@ layout: post
 slug: is-germany-paving-the-way-to-a-surveillance-country
 title: Is Germany paving the way to a surveillance country?
 wordpress_id: 759
-aliases: [""]
+aliases: ["2010/11/10/is-germany-paving-the-way-to-a-surveillance-country/"]
 ---
 
 **R**ecently the German government is pushing the rollout of new identity cards for citizens as well as an alien-card for foreigners. While those new identity cards come along with a whole set of new security features, German privacy advocates criticize that those new identity cards are a further step into the direction of a surveillance country.

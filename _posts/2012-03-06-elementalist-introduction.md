@@ -5,7 +5,7 @@ slug: elementalist-introduction
 title: Elementalist Introduction
 wordpress_id: 283
 plyturonnet: true
-aliases: [""]
+aliases: ["2012/03/06/elementalist-introduction/"]
 ---
 
 > Fire, Air, Earth and Water. I can deal with any of them.

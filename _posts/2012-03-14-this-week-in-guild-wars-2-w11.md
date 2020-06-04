@@ -5,7 +5,7 @@ slug: this-week-in-guild-wars-2-w11
 title: This week in Guild Wars 2 - W11
 wordpress_id: 482
 plyturonnet: true
-aliases: [""]
+aliases: ["2012/03/14/this-week-in-guild-wars-2-w11/"]
 ---
 
 **Week 11 is here!** Pre-Purchase information, official forums and more. Here’s the usual round-up, updated once every day at around 8am GMT, **now with twitter citations**! 

@@ -5,7 +5,7 @@ layout: post
 slug: getting-started-with-cplusplus
 title: Getting started with C++
 wordpress_id: 871
-aliases: [""]
+aliases: ["2010/12/11/getting-started-with-cplusplus/"]
 ---
 
 This post is a rough translation from german to english and is based on this post: [Mein Einstieg in C++](http://phansch.net/2010/09/04/mein-einstieg-in-cplusplus).

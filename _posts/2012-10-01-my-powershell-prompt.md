@@ -2,7 +2,7 @@
 layout: post
 location: Berlin
 title: My PowerShell prompt
-aliases: [""]
+aliases: ["2012/10/01/my-powershell-prompt/"]
 ---
 
 Today I took some time to work on my PowerShell configuration. Here is what it looks like now:

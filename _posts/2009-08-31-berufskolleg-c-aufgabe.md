@@ -5,7 +5,7 @@ layout: post
 slug: berufskolleg-c-aufgabe
 title: Berufskolleg - C# Aufgabe
 wordpress_id: 111
-aliases: [""]
+aliases: ["2009/08/31/berufskolleg-c-aufgabe/"]
 ---
 
 Aufgabe:

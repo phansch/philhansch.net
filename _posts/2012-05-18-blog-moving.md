@@ -5,7 +5,7 @@ layout: post
 slug: blog-moving
 title: Blog moving!
 wordpress_id: 1401
-aliases: [""]
+aliases: ["2012/05/18/blog-moving/"]
 ---
 
 English version below.

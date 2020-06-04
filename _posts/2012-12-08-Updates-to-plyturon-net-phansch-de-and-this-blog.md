@@ -2,7 +2,7 @@
 layout: post
 location: Berlin
 title: Updates to plyturon.net, phansch.de and this blog
-aliases: [""]
+aliases: ["2012/12/08/Updates-to-plyturon-net-phansch-de-and-this-blog/"]
 ---
 
 As of today, the domain *plyturon.net* is free to grab. I removed the old landing page and the tools as well.

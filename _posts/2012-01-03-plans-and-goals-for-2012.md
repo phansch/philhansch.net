@@ -5,7 +5,7 @@ layout: post
 slug: plans-and-goals-for-2012
 title: Plans and goals for 2012
 wordpress_id: 869
-aliases: [""]
+aliases: ["2012/01/03/plans-and-goals-for-2012/"]
 ---
 
 So I wrote down this list of things that I want to accomplish in 2012. Let me share it with you.
