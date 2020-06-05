@@ -2,7 +2,9 @@
 title: "Sideproject: Focusthingy"
 layout: post
 excerpt: A small Javascript App using IndexedDB
+aliases: ["2014/01/12/focusthingy/"]
 ---
+
 I wanted to build this for a while now and finally got around to do it.
 
 <a href="http://focusthingy.herokuapp.com">

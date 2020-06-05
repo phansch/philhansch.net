@@ -2,7 +2,9 @@
 layout: post
 location: Berlin
 title: Setup done
+aliases: ["2012/07/28/Setup-done/"]
 ---
+
 It took me about two days to get everything set-up. The first day was spent with learning the basics of jekyll, liquid and markdown. 
 
 The second day was littered with small challenges and quite a few problems. But problems are there to be solved. So here's my summary of day #2:

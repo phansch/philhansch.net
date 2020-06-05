@@ -4,6 +4,7 @@ title: "Monthly review: January"
 excerpt: "Embedded Rust, Notification Guilt & Clippy."
 tags:
   - monthly-review
+aliases: ["2020/02/03/monthly-review-january/"]
 ---
 
 ## Sponsors

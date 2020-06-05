@@ -2,6 +2,7 @@
 layout: post
 title: "The Setup Part 1: Website"
 excerpt: First part of a longer series on moving my stuff away from the cloud and maintaining a proper laptop setup.
+aliases: ["2014/05/11/self-hosting-website/"]
 ---
 
 This series will have a focus on DIY computer stuff, privacy issues, automation and security related topics.

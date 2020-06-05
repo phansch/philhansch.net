@@ -5,6 +5,7 @@ slug: re-what-will-guild-wars-2-do-to-me
 title: 'RE: What will Guild Wars 2 do to me?'
 wordpress_id: 371
 plyturonnet: true
+aliases: ["2012/03/07/re-what-will-guild-wars-2-do-to-me/"]
 ---
 
 In [this](http://www.talktyria.net/2012/03/06/what-will-guild-wars-2-do-to-me/) article from TalkTyria, [Skyriar](http://www.talktyria.net/author/sykriar/) talks about what it might be like to play other MMO's after Guild Wars 2 has been released. _Will other games feel differently? Will they still be fun?_. It's a fear that I share to an extend. Musings after the jump! 

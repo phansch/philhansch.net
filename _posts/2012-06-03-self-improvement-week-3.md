@@ -5,6 +5,7 @@ slug: self-improvement-week-3
 title: Self Improvement Week 3
 wordpress_id: 714
 plyturonnet: true
+aliases: ["2012/06/03/self-improvement-week-3/"]
 ---
 
 _This is the place where I talk about the progress on my quest on self-improvement. Follow me on this quest to a better self where you might learn something as well. Here's what I did last week in terms of self improvement, focusing on important stuff and getting rid of bad habits._

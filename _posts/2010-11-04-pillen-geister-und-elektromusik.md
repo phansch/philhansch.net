@@ -4,6 +4,7 @@ date: 2010-11-04 22:20:31
 layout: post
 slug: pillen-geister-und-elektromusik
 title: Pillen, Geister und Elektromusik - Teil 1
+aliases: ["2010/11/04/pillen-geister-und-elektromusik/"]
 ---
 
 Ich arbeite zur Zeit an einem Pacman ähnlichen Spiel, welches auf C# und dem [XNA Framework](http://www.microsoft.com/en-us/download/details.aspx?id=20914) basiert.

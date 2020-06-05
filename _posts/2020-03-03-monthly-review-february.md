@@ -4,6 +4,7 @@ title: "Monthly review: February"
 excerpt: "Improving diagnostics and fighting impostor syndrome."
 tags:
   - monthly-review
+aliases: ["2020/03/03/monthly-review-february/"]
 ---
 
 ## Sponsors

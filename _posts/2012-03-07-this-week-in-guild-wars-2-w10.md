@@ -5,6 +5,7 @@ slug: this-week-in-guild-wars-2-w10
 title: This Week In Guild Wars 2 - W10
 wordpress_id: 181
 plyturonnet: true
+aliases: ["2012/03/07/this-week-in-guild-wars-2-w10/"]
 ---
 
 Time flies. It's been almost over two weeks now since the first round of the beta application ended. Still, a lot has happened in the previous days. Here's the usual round-up, **updated once every day at around 8am GMT!** 

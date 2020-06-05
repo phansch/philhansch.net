@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Worthwhile bugfixing
+aliases: ["2013/11/03/bugfixing/"]
 ---
 
 While I was working on a new version of [Jou](https://github.com/phansch/jou), I suddenly stumbled across a roadblock.

@@ -2,6 +2,7 @@
 layout: post
 title: Accepting sponsorship
 excerpt: You can sponsor my open source work now.
+aliases: ["2019/10/21/sponsoring/"]
 ---
 
 I have just set up a [sponsorship profile][profile] on GitHub :tada:

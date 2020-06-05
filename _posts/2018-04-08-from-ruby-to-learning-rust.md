@@ -2,6 +2,7 @@
 layout: post
 title: From Ruby to Rust
 excerpt: Learning Rust to dive deeper.
+aliases: ["2018/04/08/from-ruby-to-learning-rust/"]
 ---
 
 It's been a few months since I've written here and it's time for an update.

@@ -5,6 +5,7 @@ layout: post
 slug: im-running-now
 title: I'm running now!
 wordpress_id: 1386
+aliases: ["2012/05/15/im-running-now/"]
 ---
 
 With my move to Berlin, I wanted to change things around. Being a total computer nerd, I would sit at the computer most of the time. I always knew that it wasn't healthy, but there was always something to do at the PC. Things didn't really change until I was done with my kidney treatment at the end of March. But when I left the hospital that day, I went to the city center and enjoyed the sunshine at the Reichstag.

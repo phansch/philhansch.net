@@ -2,7 +2,9 @@
 layout: post
 location: Berlin
 title: Fall Update
+aliases: ["2012/09/24/fall-reading/"]
 ---
+
 The last two months were kinda dull, as I was visiting my family and helping with their house renovation. The past few weeks I spent playing Guild Wars 2 with my friends, but we are done with that for now.
 Here is a summary of what happened more recently and what I'm working on right now.
 

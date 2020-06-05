@@ -5,6 +5,7 @@ slug: character-diversity-in-guild-wars-2
 title: Character diversity in Guild Wars 2
 wordpress_id: 540
 plyturonnet: true
+aliases: ["2012/03/16/character-diversity-in-guild-wars-2/"]
 ---
 
 How is character diversity achieved in Guild Wars 2? How can each player customize their character? What's the link between character diversity and dynamic events? Musings after the break. 

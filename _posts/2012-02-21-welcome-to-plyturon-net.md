@@ -5,6 +5,7 @@ slug: welcome-to-plyturon-net
 title: Welcome to plyturon.net
 wordpress_id: 6
 plyturonnet: true
+aliases: ["2012/02/21/welcome-to-plyturon-net/"]
 ---
 
 Hello, and welcome to plyturon.net! Enjoy your stay.

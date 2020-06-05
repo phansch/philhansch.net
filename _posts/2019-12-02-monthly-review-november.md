@@ -4,6 +4,7 @@ title: "Monthly review: November"
 excerpt: "Vacations and Clippy improvements."
 tags:
   - monthly-review
+aliases: ["2019/12/02/monthly-review-november/"]
 ---
 
 ## New Sponsors

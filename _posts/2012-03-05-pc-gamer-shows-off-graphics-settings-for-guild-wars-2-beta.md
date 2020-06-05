@@ -5,9 +5,15 @@ slug: pc-gamer-shows-off-graphics-settings-for-guild-wars-2-beta
 title: PC Gamer shows off graphics settings for Guild Wars 2 Beta
 wordpress_id: 347
 plyturonnet: true
+aliases: ["2012/03/05/pc-gamer-shows-off-graphics-settings-for-guild-wars-2-beta/"]
 ---
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/KocXN1xDA8A?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/KocXN1xDA8A?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<object width="560" height="315">
+  <param name="movie" value="http://www.youtube.com/v/KocXN1xDA8A?version=3&hl=en_US">
+  <param name="allowFullScreen" value="true">
+  <param name="allowscriptaccess" value="always">
+  <embed src="http://www.youtube.com/v/KocXN1xDA8A?version=3&hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true">
+</object>
 
 In this video, PC Gamer shows off the effects of the different graphics settings in Guild Wars 2. Watch the video after the jump! 
 There are some interesting things to note:
