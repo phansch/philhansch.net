@@ -15,7 +15,7 @@ class AliasesTest < MiniTest::Test
         if line.start_with?('aliases')
           aliases = line.split(' ').last
           # We should now have `["the/aliased/path"]`
-          assert aliases.length > 4
+          assert aliases.length > 4, "Alias too short: `#{aliases}` in `#{post_path}`"
           break
         end
       end

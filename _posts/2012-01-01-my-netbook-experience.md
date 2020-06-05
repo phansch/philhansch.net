@@ -5,7 +5,7 @@ layout: post
 slug: my-netbook-experience
 title: My netbook experience
 wordpress_id: 1236
-aliases: [""]
+aliases: ["2012/12/28/re-my-netbook-experience/"]
 ---
 
 Before I moved to Berlin last year, I wanted to have a netbook which would allow me to do a few basic things:
