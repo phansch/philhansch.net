@@ -2,7 +2,7 @@
 title: Using tmux and tmuxinator
 layout: post
 excerpt: Awesome command line productivity with tmux and tmuxinator
-aliases: [""]
+aliases: ["2014/03/10/using-tmux-and-tmuxinator/"]
 ---
 
 This is what I have been using for a couple weeks now and it's so amazing, I have to share it with you.

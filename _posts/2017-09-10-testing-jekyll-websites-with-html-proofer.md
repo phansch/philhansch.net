@@ -2,7 +2,7 @@
 layout: post
 title: Testing your Jekyll Website with HTMLProofer
 excerpt: Dealing with link rot and broken HTML.
-aliases: [""]
+aliases: ["2017/09/10/testing-jekyll-websites-with-html-proofer/"]
 ---
 
 While I was adding [Capybara tests]({% post_url 2017-03-13-testing-jekyll-websites %}) for this Website, I also stumbled upon [HTMLProofer](https://github.com/gjtorikian/html-proofer).

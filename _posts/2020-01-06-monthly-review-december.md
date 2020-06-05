@@ -4,7 +4,7 @@ title: "Monthly review: December"
 excerpt: "Patreon &amp; productive procrastination."
 tags:
   - monthly-review
-aliases: [""]
+aliases: ["2020/01/06/monthly-review-december/"]
 ---
 
 ## New Sponsors

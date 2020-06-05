@@ -4,7 +4,7 @@ title: "Monthly review: October"
 excerpt: "Clippy &amp; Setting up various sponsoring profiles."
 tags:
   - monthly-review
-aliases: [""]
+aliases: ["2019/11/03/monthly-review-october/"]
 ---
 
 ## New Sponsors

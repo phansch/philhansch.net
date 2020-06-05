@@ -2,7 +2,7 @@
 layout: post
 title: No more Disqus comments
 excerpt: Disqus has been acquired by a marketing company.
-aliases: [""]
+aliases: ["2017/12/13/no-more-disqus/"]
 ---
 
 Disqus has not been working properly for me for quite a while already. The login inside the page never worked and comments randomly disappeared from time to time.

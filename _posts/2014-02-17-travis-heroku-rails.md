@@ -2,7 +2,9 @@
 title: Automating your deployments from Travis to Heroku
 layout: post
 excerpt: Setting up automated deployments from Travis to Heroku for Rails applications.
+aliases: ["2014/02/17/travis-heroku-rails/"]
 ---
+
 While this post might seem very concise and short, it really took some time until I was happy with the current setup.
 This setup is relatively simple in retrospect, but it was hard to find any documentation on how to set everything up correctly.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Fixing a Clippy crash
 excerpt: Learning a lot about rustc internals.
-aliases: [""]
+aliases: ["2018/10/10/fixing-a-clippy-crash/"]
 ---
 
 3 weeks ago I set out to fix a crash in Clippy, this is what I learned along the
