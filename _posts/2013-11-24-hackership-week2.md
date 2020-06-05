@@ -4,7 +4,7 @@ layout: post
 tags:
   - hackership
 excerpt: Here's what I did in Week 2 of Hackership.
-aliases: [""]
+aliases: ["2013/11/24/hackership-week2/"]
 ---
 
 

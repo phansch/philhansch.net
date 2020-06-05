@@ -4,7 +4,9 @@ layout: post
 tags:
   - hackership
 excerpt: The final week of Hackership Batch 0 has arrived. It's graduation week. This week I added devise authentication and made sure my project looks presentable for the demos.
+aliases: ["2013/12/22/hackership-graduation/"]
 ---
+
 I can't believe how fast the time flew by during Hackership. It is almost holiday time. And by the time this post is published I will be visiting my family already. This week at Hackership, I moved my authentication system to [devise](https://github.com/plataformatec/devise) and made everything [look nice](https://twitter.com/phansch/status/413368624905064448).
 
 On **Monday** I began to setup devise. I wanted to move to devise at some point because it also comes with its own mailing system. This way I don't have to figure out too many things at once. Setting up devise went more smoothly than I anticipated. However there were a lot of failing test - leftovers from the railstutorial. Some of them were still useful. But most of the test cases are now covered by devise.

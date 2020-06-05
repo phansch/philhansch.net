@@ -4,7 +4,9 @@ tags:
  - hackership
 title: Hackership Batch 0
 excerpt: "Although I sort of talked about this on twitter already, I am happy to announce that I got accepted to Hackership."
+aliases: ["2013/11/10/hackership-week0/"]
 ---
+
 Although I sort of talked about this on twitter already, I am happy to announce that I got accepted to [Hackership](http://www.hackership.org/).
 
 ## What is Hackership
@@ -33,4 +35,5 @@ Once I'm done with the tutorial, I will start working on a website that helps pe
 Although I would love to share some more specifics, the project details aren't really fleshed out yet.
 
 ## Looking forward
+
 My goal is to get a position as a junior Ruby developer at the end of Hackership. However, I really need to put myself out there. I never did that until the beginning of this month. So apart from Hackership I will try to be at every event possible to deal with my social anxiety. While overcoming my anxiety might sound difficult, I am really looking forward to the times ahead.

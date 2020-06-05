@@ -3,7 +3,7 @@ layout: post
 location: Berlin
 title: PiDefender Week 1
 excerpt: "This is PiDefender. My first entry for One Game A Month."
-aliases: [""]
+aliases: ["2013/01/06/pidefender-week1/"]
 ---
 
 Originally, this was going to be called HeartDefender, but I had to ditch the *Heart* because my time this month in somewhat limited. Now it's just circles. Anyway, here's PiDefender:
