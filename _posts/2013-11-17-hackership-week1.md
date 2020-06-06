@@ -1,7 +1,6 @@
 ---
 layout: post
-tags:
-  - hackership
+tags: ["hackership"]
 title: Hackership Week 1
 excerpt: "The first week of Hackership is over and it's been a great experience so far. Here's what happened the first week."
 aliases: ["2013/11/17/hackership-week1/"]

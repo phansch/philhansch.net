@@ -1,8 +1,7 @@
 ---
 title: Hackership Week 5
 layout: post
-tags:
-  - hackership
+tags: ["hackership"]
 excerpt: Week 5 was less about my project and more about preparing for my job search. I also went to the Railsgirls Berlin Hackday as a coach to help people learn programming.
 aliases: ["2013/12/14/hackership-week5/"]
 ---
