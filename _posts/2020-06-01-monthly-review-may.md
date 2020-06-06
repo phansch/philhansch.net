@@ -2,8 +2,7 @@
 layout: post
 title: "Monthly review: May"
 excerpt: "Touch typing and reviewing more pull requests."
-tags:
-  - monthly-review
+tags: ["monthly-review"]
 aliases: ["2020/06/01/monthly-review-may/"]
 ---
 

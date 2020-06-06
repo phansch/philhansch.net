@@ -1,8 +1,7 @@
 ---
 title: Hackership Graduation
 layout: post
-tags:
-  - hackership
+tags: ["hackership"]
 excerpt: The final week of Hackership Batch 0 has arrived. It's graduation week. This week I added devise authentication and made sure my project looks presentable for the demos.
 aliases: ["2013/12/22/hackership-graduation/"]
 ---
