@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Setting up SSL Certificates for HAProxy with certbot
-excerpt: Let's Encrypt gives you SSL certificates for free and it's easily automated with certbot.
+layout: "post"
+title: "Setting up SSL Certificates for HAProxy with certbot"
+excerpt: "Let's Encrypt gives you SSL certificates for free and it's easily automated with certbot."
 aliases: ["2017/10/18/haproxy-letsencrypt-certbot/"]
 ---
 

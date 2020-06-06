@@ -1,8 +1,8 @@
 ---
-layout: post
-location: Berlin
-title: Running Love2D from Sublime Text 2 on Windows
-excerpt: I wanted to use Sublime Text 2 for game programming in Lua with Love2D. It turns out that it's pretty easy to setup a custom build system for ST2.
+layout: "post"
+location: "Berlin"
+title: "Running Love2D from Sublime Text 2 on Windows"
+excerpt: "I wanted to use Sublime Text 2 for game programming in Lua with Love2D. It turns out that it's pretty easy to setup a custom build system for ST2."
 aliases: ["2012/12/12/running-love2d-from-sublimetext2-on-windows/"]
 ---
 

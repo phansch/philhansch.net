@@ -1,7 +1,7 @@
 ---
-title: Automating your deployments from Travis to Heroku
-layout: post
-excerpt: Setting up automated deployments from Travis to Heroku for Rails applications.
+title: "Automating your deployments from Travis to Heroku"
+layout: "post"
+excerpt: "Setting up automated deployments from Travis to Heroku for Rails applications."
 aliases: ["2014/02/17/travis-heroku-rails/"]
 ---
 

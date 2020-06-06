@@ -1,8 +1,8 @@
 ---
-date: 2012-01-23 14:26:51
-layout: post
-slug: trying-something-new-for-30-days
-title: Trying something new for 30 days
+date: "2012-01-23 14:26:51"
+layout: "post"
+slug: "trying-something-new-for-30-days"
+title: "Trying something new for 30 days"
 wordpress_id: 1293
 aliases: ["2012/01/23/trying-something-new-for-30-days/"]
 ---

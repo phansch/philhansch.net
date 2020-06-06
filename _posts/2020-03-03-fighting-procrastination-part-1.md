@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: "post"
 title: "Fighting my procrastination: Part 1"
-excerpt: Firefox extensions and /etc/hosts.
+excerpt: "Firefox extensions and /etc/hosts."
 aliases: ["2020/03/03/fighting-procrastination-part-1/"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2012-02-03 12:24:48
-layout: post
-slug: the-rift-macro-system
-title: The Rift macro system
+date: "2012-02-03 12:24:48"
+layout: "post"
+slug: "the-rift-macro-system"
+title: "The Rift macro system"
 wordpress_id: 1300
 aliases: ["2012/02/03/the-rift-macro-system/"]
 ---

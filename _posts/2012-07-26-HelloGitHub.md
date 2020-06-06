@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Hello GitHub!
+layout: "post"
+location: "Berlin"
+title: "Hello GitHub!"
 aliases: ["2012/07/26/HelloGitHub/"]
 ---
 I came here after using Wordpress for over two years. 

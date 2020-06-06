@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Testing your Jekyll Website with Capybara
-excerpt: Make sure your blog keeps working!
+layout: "post"
+title: "Testing your Jekyll Website with Capybara"
+excerpt: "Make sure your blog keeps working!"
 aliases: ["2017/03/13/testing-jekyll-websites/"]
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Hackership Week 3
-layout: post
+title: "Hackership Week 3"
+layout: "post"
 tags: ["hackership"]
-excerpt: November is almost over. And so is the third week of Hackership. Check out what I worked on this week.
+excerpt: "November is almost over. And so is the third week of Hackership. Check out what I worked on this week."
 aliases: ["2013/12/02/hackership-week3/"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-12-11 16:10:44
-layout: post
-slug: getting-started-with-cplusplus
-title: Getting started with C++
+date: "2010-12-11 16:10:44"
+layout: "post"
+slug: "getting-started-with-cplusplus"
+title: "Getting started with C++"
 wordpress_id: 871
 aliases: ["2010/12/11/getting-started-with-cplusplus/"]
 ---

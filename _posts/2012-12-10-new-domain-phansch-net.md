@@ -1,8 +1,8 @@
 ---
-layout: post
-location: Berlin
-title: New domain phansch.net
-excerpt: I no longer own my old domain. The new domain is phansch.net
+layout: "post"
+location: "Berlin"
+title: "New domain phansch.net"
+excerpt: "I no longer own my old domain. The new domain is phansch.net"
 aliases: ["2012/12/10/new-domain-phansch-net/"]
 ---
 

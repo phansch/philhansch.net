@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-09-04 17:17:07
-layout: post
-slug: mein-einstieg-in-cplusplus
-title: Mein Einstieg in C++
+date: "2010-09-04 17:17:07"
+layout: "post"
+slug: "mein-einstieg-in-cplusplus"
+title: "Mein Einstieg in C++"
 wordpress_id: 584
 aliases: ["2010/09/04/mein-einstieg-in-cplusplus/"]
 ---

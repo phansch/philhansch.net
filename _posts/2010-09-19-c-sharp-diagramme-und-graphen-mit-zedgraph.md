@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-09-19 16:14:28
-layout: post
-slug: c-sharp-diagramme-und-graphen-mit-zedgraph
-title: C# - Diagramme und Graphen mit ZedGraph
+date: "2010-09-19 16:14:28"
+layout: "post"
+slug: "c-sharp-diagramme-und-graphen-mit-zedgraph"
+title: "C# - Diagramme und Graphen mit ZedGraph"
 wordpress_id: 611
 aliases: ["2010/09/19/c-sharp-diagramme-und-graphen-mit-zedgraph/"]
 ---

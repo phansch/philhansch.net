@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2011-06-29 16:37:34
-layout: post
-slug: blog-hiatus
-title: Blog Hiatus
+date: "2011-06-29 16:37:34"
+layout: "post"
+slug: "blog-hiatus"
+title: "Blog Hiatus"
 wordpress_id: 1024
 aliases: ["2011/06/29/blog-hiatus/"]
 ---

@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2012-02-04 12:00:52
-layout: post
-slug: updated-rift-macro-translator-for-rift-1-7
-title: Updated Rift macro translator for Rift 1.7
+date: "2012-02-04 12:00:52"
+layout: "post"
+slug: "updated-rift-macro-translator-for-rift-1-7"
+title: "Updated Rift macro translator for Rift 1.7"
 wordpress_id: 1318
 aliases: ["2012/02/04/updated-rift-macro-translator-for-rift-1-7/"]
 ---

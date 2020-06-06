@@ -1,8 +1,8 @@
 ---
-date: 2012-02-22 15:00:57
-layout: post
-slug: exploration-and-jumping-puzzles-in-guild-wars-2
-title: Exploration and jumping puzzles in Guild Wars 2
+date: "2012-02-22 15:00:57"
+layout: "post"
+slug: "exploration-and-jumping-puzzles-in-guild-wars-2"
+title: "Exploration and jumping puzzles in Guild Wars 2"
 wordpress_id: 133
 plyturonnet: true
 aliases: ["2012/02/22/exploration-and-jumping-puzzles-in-guild-wars-2/"]

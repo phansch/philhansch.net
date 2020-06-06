@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Updates to plyturon.net, phansch.de and this blog
+layout: "post"
+location: "Berlin"
+title: "Updates to plyturon.net, phansch.de and this blog"
 aliases: ["2012/12/08/Updates-to-plyturon-net-phansch-de-and-this-blog/"]
 ---
 

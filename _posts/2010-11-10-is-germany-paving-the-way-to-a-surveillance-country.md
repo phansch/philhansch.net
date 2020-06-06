@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-11-10 13:56:49
-layout: post
-slug: is-germany-paving-the-way-to-a-surveillance-country
-title: Is Germany paving the way to a surveillance country?
+date: "2010-11-10 13:56:49"
+layout: "post"
+slug: "is-germany-paving-the-way-to-a-surveillance-country"
+title: "Is Germany paving the way to a surveillance country?"
 wordpress_id: 759
 aliases: ["2010/11/10/is-germany-paving-the-way-to-a-surveillance-country/"]
 ---

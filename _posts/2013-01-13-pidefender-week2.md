@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: PiDefender Week 2
+layout: "post"
+location: "Berlin"
+title: "PiDefender Week 2"
 excerpt: "Just a few graphical updates. Also no download this week."
 aliases: ["2013/01/13/pidefender-week2/"]
 ---

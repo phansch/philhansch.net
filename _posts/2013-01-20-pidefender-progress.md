@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: PiDefender Progress
+layout: "post"
+location: "Berlin"
+title: "PiDefender Progress"
 excerpt: "A little progress. Increased difficulty, a game ending and more"
 aliases: ["2013/01/20/pidefender-progress/"]
 ---

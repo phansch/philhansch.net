@@ -1,7 +1,7 @@
 ---
-title: This one is for everyone
-layout: post
-excerpt: How I turned my life around. About depression, video game addiction and social anxiety.
+title: "This one is for everyone"
+layout: "post"
+excerpt: "How I turned my life around. About depression, video game addiction and social anxiety."
 aliases: ["2013/12/29/for-everyone/"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-09-18 16:51:41
-layout: post
-slug: c-sharp-quiz-antworten-darstellen-teil-4
-title: C# Quiz - Antworten darstellen (Teil 4)
+date: "2010-09-18 16:51:41"
+layout: "post"
+slug: "c-sharp-quiz-antworten-darstellen-teil-4"
+title: "C# Quiz - Antworten darstellen (Teil 4)"
 wordpress_id: 311
 aliases: ["2010/09/18/c-sharp-quiz-antworten-darstellen-teil-4/"]
 ---

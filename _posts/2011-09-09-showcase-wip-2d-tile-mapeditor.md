@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2011-09-09 16:12:49
-layout: post
-slug: showcase-wip-2d-tile-mapeditor
-title: 'Showcase: WIP 2D Tile MapEditor'
+date: "2011-09-09 16:12:49"
+layout: "post"
+slug: "showcase-wip-2d-tile-mapeditor"
+title: "Showcase: WIP 2D Tile MapEditor"
 wordpress_id: 1066
 aliases: ["2011/09/09/showcase-wip-2d-tile-mapeditor/"]
 ---

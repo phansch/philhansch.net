@@ -1,8 +1,8 @@
 ---
-date: 2012-03-16 16:23:45
-layout: post
-slug: character-diversity-in-guild-wars-2
-title: Character diversity in Guild Wars 2
+date: "2012-03-16 16:23:45"
+layout: "post"
+slug: "character-diversity-in-guild-wars-2"
+title: "Character diversity in Guild Wars 2"
 wordpress_id: 540
 plyturonnet: true
 aliases: ["2012/03/16/character-diversity-in-guild-wars-2/"]

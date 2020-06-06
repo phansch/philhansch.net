@@ -1,8 +1,8 @@
 ---
 date: 2012-02-21 17:25:11
-layout: post
-slug: welcome-to-plyturon-net
-title: Welcome to plyturon.net
+layout: "post"
+slug: "welcome-to-plyturon-net"
+title: "Welcome to plyturon.net"
 wordpress_id: 6
 plyturonnet: true
 aliases: ["2012/02/21/welcome-to-plyturon-net/"]

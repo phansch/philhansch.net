@@ -1,7 +1,7 @@
 ---
-layout: post
-title: One Hundred Rust PRs later
-excerpt: A review of my past year with Rust.
+layout: "post"
+title: "One Hundred Rust PRs later"
+excerpt: "A review of my past year with Rust."
 aliases: ["2019/02/18/onehundred-rust-prs/"]
 ---
 

@@ -1,8 +1,8 @@
 ---
-date: 2012-03-14 10:44:09
-layout: post
-slug: livestream-interview-with-jon-peters-this-thursday-mmorpg-com
-title: Livestream interview with Jon Peters this Thursday [MMORPG.com]
+date: "2012-03-14 10:44:09"
+layout: "post"
+slug: "livestream-interview-with-jon-peters-this-thursday-mmorpg-com"
+title: "Livestream interview with Jon Peters this Thursday [MMORPG.com]"
 wordpress_id: 493
 plyturonnet: true
 aliases: ["2012/03/14/livestream-interview-with-jon-peters-this-thursday-mmorpg-com/"]

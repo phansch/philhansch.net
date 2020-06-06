@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2012-05-18 07:40:14
-layout: post
-slug: blog-moving
-title: Blog moving!
+date: "2012-05-18 07:40:14"
+layout: "post"
+slug: "blog-moving"
+title: "Blog moving!"
 wordpress_id: 1401
 aliases: ["2012/05/18/blog-moving/"]
 ---

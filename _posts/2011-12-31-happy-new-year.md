@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2011-12-31 13:29:37
-layout: post
-slug: happy-new-year
-title: Happy new year!
+date: "2011-12-31 13:29:37"
+layout: "post"
+slug: "happy-new-year"
+title: "Happy new year!"
 wordpress_id: 1217
 aliases: ["2011/12/31/happy-new-year/"]
 ---

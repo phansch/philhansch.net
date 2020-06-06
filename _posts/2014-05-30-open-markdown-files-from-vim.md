@@ -1,7 +1,7 @@
 ---
-title: Open Markdown files from vim
-layout: post
-excerpt: A quick guide on how to open Markdown or HTML files from vim in a non-disruptive way.
+title: "Open Markdown files from vim"
+layout: "post"
+excerpt: "A quick guide on how to open Markdown or HTML files from vim in a non-disruptive way."
 aliases: ["2014/05/30/open-markdown-files-from-vim/"]
 ---
 

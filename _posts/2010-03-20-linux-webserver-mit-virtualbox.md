@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-03-20 15:38:04
-layout: post
-slug: linux-webserver-mit-virtualbox
-title: Linux Webserver mit VirtualBox
+date: "2010-03-20 15:38:04"
+layout: "post"
+slug: "linux-webserver-mit-virtualbox"
+title: "Linux Webserver mit VirtualBox"
 wordpress_id: 159
 aliases: ["2010/03/20/linux-webserver-mit-virtualbox/"]
 ---

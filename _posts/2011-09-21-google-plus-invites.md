@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2011-09-21 17:18:44
-layout: post
-slug: google-plus-invites
-title: Google+ invites
+date: "2011-09-21 17:18:44"
+layout: "post"
+slug: "google-plus-invites"
+title: "Google+ invites"
 wordpress_id: 1145
 aliases: ["2011/09/21/google-plus-invites/"]
 ---

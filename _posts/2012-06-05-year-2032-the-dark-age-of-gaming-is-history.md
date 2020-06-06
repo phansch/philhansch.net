@@ -1,8 +1,8 @@
 ---
-date: 2012-06-05 03:14:41
-layout: post
-slug: year-2032-the-dark-age-of-gaming-is-history
-title: 'Year 2032: The dark age of gaming is history'
+date: "2012-06-05 03:14:41"
+layout: "post"
+slug: "year-2032-the-dark-age-of-gaming-is-history"
+title: "Year 2032: The dark age of gaming is history"
 wordpress_id: 449
 plyturonnet: true
 aliases: ["2012/06/05/year-2032-the-dark-age-of-gaming-is-history/"]

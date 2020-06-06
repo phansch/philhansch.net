@@ -1,8 +1,8 @@
 ---
-date: 2012-03-05 14:00:45
-layout: post
-slug: this-week-in-guildwars2-w9
-title: This Week In Guild Wars 2 - W9
+date: "2012-03-05 14:00:45"
+layout: "post"
+slug: "this-week-in-guildwars2-w9"
+title: "This Week In Guild Wars 2 - W9"
 plyturonnet: true
 aliases: ["2012/03/05/this-week-in-guildwars2-w9/"]
 ---

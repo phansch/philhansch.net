@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Done with PiDefender
+layout: "post"
+location: "Berlin"
+title: "Done with PiDefender"
 excerpt: "PiDefender is complete! Now onto the next 1GAM challenge."
 aliases: ["2013/01/25/done-with-pidefender/"]
 ---

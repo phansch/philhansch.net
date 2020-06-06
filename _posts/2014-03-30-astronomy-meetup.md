@@ -1,7 +1,7 @@
 ---
-title: Seeing the natural night sky
-excerpt: Pictures can't capture the awesomeness that is the natural night sky.
-layout: post
+title: "Seeing the natural night sky"
+excerpt: "Pictures can't capture the awesomeness that is the natural night sky."
+layout: "post"
 aliases: ["2014/03/30/astronomy-meetup/"]
 ---
 

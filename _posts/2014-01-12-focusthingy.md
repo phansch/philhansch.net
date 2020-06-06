@@ -1,7 +1,7 @@
 ---
 title: "Sideproject: Focusthingy"
-layout: post
-excerpt: A small Javascript App using IndexedDB
+layout: "post"
+excerpt: "A small Javascript App using IndexedDB"
 aliases: ["2014/01/12/focusthingy/"]
 ---
 

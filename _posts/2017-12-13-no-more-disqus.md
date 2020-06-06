@@ -1,7 +1,7 @@
 ---
-layout: post
-title: No more Disqus comments
-excerpt: Disqus has been acquired by a marketing company.
+layout: "post"
+title: "No more Disqus comments"
+excerpt: "Disqus has been acquired by a marketing company."
 aliases: ["2017/12/13/no-more-disqus/"]
 ---
 

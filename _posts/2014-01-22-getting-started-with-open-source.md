@@ -1,7 +1,7 @@
 ---
-title: Getting started with open source
-layout: post
-excerpt: Last week I started working on open source projects. Here's what I learned
+title: "Getting started with open source"
+layout: "post"
+excerpt: "Last week I started working on open source projects. Here's what I learned"
 aliases: ["2014/01/22/getting-started-with-open-source/"]
 ---
 

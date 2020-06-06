@@ -1,7 +1,7 @@
 ---
-layout: post
-title: From Ruby to Rust
-excerpt: Learning Rust to dive deeper.
+layout: "post"
+title: "From Ruby to Rust"
+excerpt: "Learning Rust to dive deeper."
 aliases: ["2018/04/08/from-ruby-to-learning-rust/"]
 ---
 

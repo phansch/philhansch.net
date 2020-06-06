@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Hackership Week 4
+layout: "post"
+title: "Hackership Week 4"
 tags: ["hackership"]
-excerpt: This week I worked on implementing the models for lessons and practices so that data is available for every single practice.
+excerpt: "This week I worked on implementing the models for lessons and practices so that data is available for every single practice."
 aliases: ["2013/12/06/hackership-week4/"]
 ---
 

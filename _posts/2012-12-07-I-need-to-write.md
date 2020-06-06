@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: I need to write
+layout: "post"
+location: "Berlin"
+title: "I need to write"
 aliases: ["2012/12/07/I-need-to-write/"]
 ---
 

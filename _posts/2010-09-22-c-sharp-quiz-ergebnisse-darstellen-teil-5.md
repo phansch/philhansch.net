@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-09-22 16:52:22
-layout: post
-slug: c-sharp-quiz-ergebnisse-darstellen-teil-5
-title: C# Quiz - Ergebnisse darstellen (Teil 5)
+date: "2010-09-22 16:52:22"
+layout: "post"
+slug: "c-sharp-quiz-ergebnisse-darstellen-teil-5"
+title: "C# Quiz - Ergebnisse darstellen (Teil 5)"
 wordpress_id: 314
 aliases: ["2010/09/22/c-sharp-quiz-ergebnisse-darstellen-teil-5/"]
 ---

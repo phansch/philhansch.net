@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Fall Update
+layout: "post"
+location: "Berlin"
+title: "Fall Update"
 aliases: ["2012/09/24/fall-reading/"]
 ---
 

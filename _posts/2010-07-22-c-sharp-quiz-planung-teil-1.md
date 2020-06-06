@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-07-22 16:54:43
-layout: post
-slug: c-sharp-quiz-planung-teil-1
-title: C# Quiz - Planung (Teil 1)
+date: "2010-07-22 16:54:43"
+layout: "post"
+slug: "c-sharp-quiz-planung-teil-1"
+title: "C# Quiz - Planung (Teil 1)"
 wordpress_id: 292
 aliases: ["2010/07/22/c-sharp-quiz-planung-teil-1/"]
 ---

@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2012-01-03 14:47:10
-layout: post
-slug: plans-and-goals-for-2012
-title: Plans and goals for 2012
+date: "2012-01-03 14:47:10"
+layout: "post"
+slug: "plans-and-goals-for-2012"
+title: "Plans and goals for 2012"
 wordpress_id: 869
 aliases: ["2012/01/03/plans-and-goals-for-2012/"]
 ---
