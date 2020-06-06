@@ -1,8 +1,8 @@
 ---
-date: 2012-07-14 18:00:13
-layout: post
-slug: new-krytan-translator
-title: New Krytan Translator
+date: "2012-07-14 18:00:13"
+layout: "post"
+slug: "new-krytan-translator"
+title: "New Krytan Translator"
 wordpress_id: 863
 plyturonnet: true
 aliases: ["2012/07/14/new-krytan-translator/"]

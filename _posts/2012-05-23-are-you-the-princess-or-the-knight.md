@@ -1,8 +1,8 @@
 ---
-date: 2012-05-23 19:47:56
-layout: post
-slug: are-you-the-princess-or-the-knight
-title: Are you the princess or the knight?
+date: "2012-05-23 19:47:56"
+layout: "post"
+slug: "are-you-the-princess-or-the-knight"
+title: "Are you the princess or the knight?"
 wordpress_id: 686
 plyturonnet: true
 aliases: ["2012/05/23/are-you-the-princess-or-the-knight/"]

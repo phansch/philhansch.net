@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Exploring Embedded Rust - Part 1
-excerpt: Starting to figure out embedded development.
+layout: "post"
+title: "Exploring Embedded Rust - Part 1"
+excerpt: "Starting to figure out embedded development."
 aliases: ["2020/01/14/exploring-embedded-rust-part-1/"]
 ---
 

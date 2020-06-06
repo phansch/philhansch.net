@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title: "Monthly review: February"
 excerpt: "Improving diagnostics and fighting impostor syndrome."
 tags: ["monthly-review"]

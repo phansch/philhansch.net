@@ -1,8 +1,8 @@
 ---
-date: 2012-06-03 17:10:25
-layout: post
-slug: self-improvement-week-3
-title: Self Improvement Week 3
+date: "2012-06-03 17:10:25"
+layout: "post"
+slug: "self-improvement-week-3"
+title: "Self Improvement Week 3"
 wordpress_id: 714
 plyturonnet: true
 aliases: ["2012/06/03/self-improvement-week-3/"]

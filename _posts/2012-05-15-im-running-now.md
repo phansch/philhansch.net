@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2012-05-15 16:48:13
-layout: post
-slug: im-running-now
-title: I'm running now!
+date: "2012-05-15 16:48:13"
+layout: "post"
+slug: "im-running-now"
+title: "I'm running now!"
 wordpress_id: 1386
 aliases: ["2012/05/15/im-running-now/"]
 ---

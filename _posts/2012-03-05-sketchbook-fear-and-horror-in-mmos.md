@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Fear and Horror in MMOs
+layout: "post"
+location: "Berlin"
+title: "Fear and Horror in MMOs"
 plyturonnet: true
 aliases: ["2012/03/05/sketchbook-fear-and-horror-in-mmos/"]
 ---

@@ -1,7 +1,7 @@
 ---
-title: Using tmux and tmuxinator
-layout: post
-excerpt: Awesome command line productivity with tmux and tmuxinator
+title: "Using tmux and tmuxinator"
+layout: "post"
+excerpt: "Awesome command line productivity with tmux and tmuxinator"
 aliases: ["2014/03/10/using-tmux-and-tmuxinator/"]
 ---
 

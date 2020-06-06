@@ -1,8 +1,8 @@
 ---
-date: 2009-06-25 20:13:18
-layout: post
-slug: aller-anfang-ist-schwer
-title: Aller Anfang ist schwer
+date: "2009-06-25 20:13:18"
+layout: "post"
+slug: "aller-anfang-ist-schwer"
+title: "Aller Anfang ist schwer"
 wordpress_id: 12
 aliases: ["2009/06/25/aller-anfang-ist-schwer/"]
 ---

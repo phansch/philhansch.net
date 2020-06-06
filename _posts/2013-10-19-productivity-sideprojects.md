@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title: "Productivity sideprojects"
 aliases: ["2013/10/19/productivity-sideprojects/"]
 ---

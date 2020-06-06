@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title: "Monthly review: December"
 excerpt: "Patreon &amp; productive procrastination."
 tags: ["monthly-review"]

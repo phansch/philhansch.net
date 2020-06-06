@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Worthwhile bugfixing
+layout: "post"
+title: "Worthwhile bugfixing"
 aliases: ["2013/11/03/bugfixing/"]
 ---
 

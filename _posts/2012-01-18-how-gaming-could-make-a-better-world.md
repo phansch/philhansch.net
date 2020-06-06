@@ -1,8 +1,8 @@
 ---
-date: 2012-01-18 10:59:38
-layout: post
-slug: how-gaming-could-make-a-better-world
-title: 'How gaming could make a better world '
+date: "2012-01-18 10:59:38"
+layout: "post"
+slug: "how-gaming-could-make-a-better-world"
+title: "How gaming could make a better world"
 wordpress_id: 1280
 aliases: ["2012/01/18/how-gaming-could-make-a-better-world/"]
 ---

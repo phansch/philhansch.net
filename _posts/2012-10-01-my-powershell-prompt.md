@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: My PowerShell prompt
+layout: "post"
+location: "Berlin"
+title: "My PowerShell prompt"
 aliases: ["2012/10/01/my-powershell-prompt/"]
 ---
 

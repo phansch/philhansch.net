@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2011-09-29 09:00:12
-layout: post
-slug: good-news-i-am-moving-to-berlin-and-getting-into-the-games-industry
-title: 'Good news: I am moving to Berlin! And getting into the games industry!?'
+date: "2011-09-29 09:00:12"
+layout: "post"
+slug: "good-news-i-am-moving-to-berlin-and-getting-into-the-games-industry"
+title: "Good news: I am moving to Berlin! And getting into the games industry!?"
 wordpress_id: 1192
 aliases: ["2011/09/29/good-news-i-am-moving-to-berlin-and-getting-into-the-games-industry/"]
 ---

@@ -1,7 +1,7 @@
 ---
-title: What I don't know
-layout: post
-excerpt: A list of things I don't know.
+title: "What I don't know"
+layout: "post"
+excerpt: "A list of things I don't know."
 aliases: ["2014/02/03/what-i-dont-know/"]
 ---
 

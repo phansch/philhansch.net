@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title: "Monthly review: October"
 excerpt: "Clippy &amp; Setting up various sponsoring profiles."
 tags: ["monthly-review"]

@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: One Game A Month 2013
+layout: "post"
+location: "Berlin"
+title: "One Game A Month 2013"
 excerpt: "I will be participating in the One Game A Month challenge this year. A few thoughts on planning and finishing a game. See you next Sunday!"
 aliases: ["2013/01/01/one-game-a-month-2013/"]
 ---

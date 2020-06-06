@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: PiDefender Week 1
+layout: "post"
+location: "Berlin"
+title: "PiDefender Week 1"
 excerpt: "This is PiDefender. My first entry for One Game A Month."
 aliases: ["2013/01/06/pidefender-week1/"]
 ---

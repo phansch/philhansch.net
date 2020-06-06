@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Fixing a Clippy crash
-excerpt: Learning a lot about rustc internals.
+layout: "post"
+title: "Fixing a Clippy crash"
+excerpt: "Learning a lot about rustc internals."
 aliases: ["2018/10/10/fixing-a-clippy-crash/"]
 ---
 

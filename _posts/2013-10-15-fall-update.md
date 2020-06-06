@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Fall update
+layout: "post"
+location: "Berlin"
+title: "Fall update"
 excerpt: "Things happenend. Here's what I've been up to in the past few months."
 aliases: ["2013/10/15/fall-update/"]
 ---

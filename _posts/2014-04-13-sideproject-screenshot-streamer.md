@@ -1,7 +1,7 @@
 ---
 title: "Sideproject: Screenshot Streamer"
-layout: post
-excerpt: My most recent side project. An image streaming server using Sinatra.
+layout: "post"
+excerpt: "My most recent side project. An image streaming server using Sinatra."
 aliases: ["2014/04/13/sideproject-screenshot-streamer/"]
 ---
 

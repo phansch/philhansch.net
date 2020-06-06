@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title: "Monthly review: November"
 excerpt: "Vacations and Clippy improvements."
 tags: ["monthly-review"]

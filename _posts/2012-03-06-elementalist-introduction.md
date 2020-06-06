@@ -1,8 +1,8 @@
 ---
-date: 2012-03-06 18:00:33
-layout: post
-slug: elementalist-introduction
-title: Elementalist Introduction
+date: "2012-03-06 18:00:33"
+layout: "post"
+slug: "elementalist-introduction"
+title: "Elementalist Introduction"
 wordpress_id: 283
 plyturonnet: true
 aliases: ["2012/03/06/elementalist-introduction/"]

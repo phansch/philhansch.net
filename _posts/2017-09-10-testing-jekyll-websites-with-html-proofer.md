@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Testing your Jekyll Website with HTMLProofer
-excerpt: Dealing with link rot and broken HTML.
+layout: "post"
+title: "Testing your Jekyll Website with HTMLProofer"
+excerpt: "Dealing with link rot and broken HTML."
 aliases: ["2017/09/10/testing-jekyll-websites-with-html-proofer/"]
 ---
 

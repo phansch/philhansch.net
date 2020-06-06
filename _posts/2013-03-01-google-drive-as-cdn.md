@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Rheda-Wiedenbrück
-title: Google Drive as a CDN
+layout: "post"
+location: "Rheda-Wiedenbrück"
+title: "Google Drive as a CDN"
 excerpt: "This post describes how to use Google Drive for hosting static content like images or downloads."
 aliases: ["2013/03/01/google-drive-as-cdn/"]
 ---

@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Accepting sponsorship
-excerpt: You can sponsor my open source work now.
+layout: "post"
+title: "Accepting sponsorship"
+excerpt: "You can sponsor my open source work now."
 aliases: ["2019/10/21/sponsoring/"]
 ---
 

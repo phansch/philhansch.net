@@ -1,8 +1,8 @@
 ---
-date: 2012-03-05 22:19:17
-layout: post
-slug: pc-gamer-shows-off-graphics-settings-for-guild-wars-2-beta
-title: PC Gamer shows off graphics settings for Guild Wars 2 Beta
+date: "2012-03-05 22:19:17"
+layout: "post"
+slug: "pc-gamer-shows-off-graphics-settings-for-guild-wars-2-beta"
+title: "PC Gamer shows off graphics settings for Guild Wars 2 Beta"
 wordpress_id: 347
 plyturonnet: true
 aliases: ["2012/03/05/pc-gamer-shows-off-graphics-settings-for-guild-wars-2-beta/"]

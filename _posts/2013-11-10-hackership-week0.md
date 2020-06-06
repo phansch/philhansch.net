@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: "post"
 tags: ["hackership"]
-title: Hackership Batch 0
+title: "Hackership Batch 0"
 excerpt: "Although I sort of talked about this on twitter already, I am happy to announce that I got accepted to Hackership."
 aliases: ["2013/11/10/hackership-week0/"]
 ---

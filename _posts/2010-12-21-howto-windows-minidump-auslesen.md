@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-12-21 16:46:02
-layout: post
-slug: howto-windows-minidump-auslesen
-title: 'Howto: Windows Minidump auslesen'
+date: "2010-12-21 16:46:02"
+layout: "post"
+slug: "howto-windows-minidump-auslesen"
+title: "Howto: Windows Minidump auslesen"
 wordpress_id: 789
 aliases: ["2010/12/21/howto-windows-minidump-auslesen/"]
 ---

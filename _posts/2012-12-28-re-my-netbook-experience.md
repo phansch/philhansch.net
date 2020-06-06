@@ -1,6 +1,6 @@
 ---
-layout: post
-location: Rheda-Wiedenbrück
+layout: "post"
+location: "Rheda-Wiedenbrück"
 title: "RE: My netbook experience"
 excerpt: "I have been using Linux Mint and XMonad on my netbook for a while now. This is a review of how I ended up with my current setup and what is left to improve."
 aliases: ["2012/12/28/re-my-netbook-experience/"]

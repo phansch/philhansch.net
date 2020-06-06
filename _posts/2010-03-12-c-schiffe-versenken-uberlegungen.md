@@ -1,9 +1,9 @@
 ---
 comments: false
-date: 2010-03-12 17:50:05
-layout: post
-slug: c-schiffe-versenken-uberlegungen
-title: C# Schiffe Versenken - Ueberlegungen (Teil 1)
+date: "2010-03-12 17:50:05"
+layout: "post"
+slug: "c-schiffe-versenken-uberlegungen"
+title: "C# Schiffe Versenken - Ueberlegungen (Teil 1)"
 wordpress_id: 209
 aliases: ["2010/03/12/c-schiffe-versenken-uberlegungen/"]
 ---

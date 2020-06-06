@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-11-04 22:20:31
-layout: post
-slug: pillen-geister-und-elektromusik
-title: Pillen, Geister und Elektromusik - Teil 1
+date: "2010-11-04 22:20:31"
+layout: "post"
+slug: "pillen-geister-und-elektromusik"
+title: "Pillen, Geister und Elektromusik - Teil 1"
 aliases: ["2010/11/04/pillen-geister-und-elektromusik/"]
 ---
 

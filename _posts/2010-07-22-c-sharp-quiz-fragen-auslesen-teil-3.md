@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-07-22 20:00:09
-layout: post
-slug: c-sharp-quiz-fragen-auslesen-teil-3
-title: C# Quiz - Fragen auslesen (Teil 3)
+date: "2010-07-22 20:00:09"
+layout: "post"
+slug: "c-sharp-quiz-fragen-auslesen-teil-3"
+title: "C# Quiz - Fragen auslesen (Teil 3)"
 wordpress_id: 309
 aliases: ["2010/07/22/c-sharp-quiz-fragen-auslesen-teil-3/"]
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title: "Monthly review: March and April"
 excerpt: "Pandemic procrastination."
 tags: ["monthly-review"]

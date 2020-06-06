@@ -1,6 +1,6 @@
 ---
 title: "A better Pry prompt for the Rails console"
-layout: post
+layout: "post"
 excerpt: "A quick way to make your everyday work with Ruby on Rails a bit more safe."
 aliases: ["2017/02/12/a-better-pry-prompt-for-rails-console/"]
 ---

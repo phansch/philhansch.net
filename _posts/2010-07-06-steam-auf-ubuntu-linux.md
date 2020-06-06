@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-07-06 22:28:31
-layout: post
-slug: steam-auf-ubuntu-linux
-title: Steam auf Ubuntu Linux
+date: "2010-07-06 22:28:31"
+layout: "post"
+slug: "steam-auf-ubuntu-linux"
+title: "Steam auf Ubuntu Linux"
 wordpress_id: 471
 aliases: ["2010/07/07/steam-auf-ubuntu-linux/"]
 ---

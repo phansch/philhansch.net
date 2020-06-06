@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2009-08-31 14:45:43
-layout: post
-slug: berufskolleg-c-aufgabe
-title: Berufskolleg - C# Aufgabe
+date: "2009-08-31 14:45:43"
+layout: "post"
+slug: "berufskolleg-c-aufgabe"
+title: "Berufskolleg - C# Aufgabe"
 wordpress_id: 111
 aliases: ["2009/08/31/berufskolleg-c-aufgabe/"]
 ---

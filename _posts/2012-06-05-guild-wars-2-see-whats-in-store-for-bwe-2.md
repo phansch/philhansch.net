@@ -1,8 +1,8 @@
 ---
-date: 2012-06-05 13:32:52
-layout: post
-slug: guild-wars-2-see-whats-in-store-for-bwe-2
-title: '[Guild Wars 2] See what''s in store for BWE #2'
+date: "2012-06-05 13:32:52"
+layout: "post"
+slug: "guild-wars-2-see-whats-in-store-for-bwe-2"
+title: "[Guild Wars 2] See what''s in store for BWE #2"
 wordpress_id: 814
 plyturonnet: true
 aliases: ["2012/06/05/guild-wars-2-see-whats-in-store-for-bwe-2/"]

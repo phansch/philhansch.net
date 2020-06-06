@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-07-22 19:09:16
-layout: post
-slug: c-sharp-quiz-vorbereitung-teil-2
-title: C# Quiz - Vorbereitung (Teil 2)
+date: "2010-07-22 19:09:16"
+layout: "post"
+slug: "c-sharp-quiz-vorbereitung-teil-2"
+title: "C# Quiz - Vorbereitung (Teil 2)"
 wordpress_id: 349
 aliases: ["2010/07/22/c-sharp-quiz-vorbereitung-teil-2/"]
 ---

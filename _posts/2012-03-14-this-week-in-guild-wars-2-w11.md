@@ -1,8 +1,8 @@
 ---
-date: 2012-03-14 11:30:31
-layout: post
-slug: this-week-in-guild-wars-2-w11
-title: This week in Guild Wars 2 - W11
+date: "2012-03-14 11:30:31"
+layout: "post"
+slug: "this-week-in-guild-wars-2-w11"
+title: "This week in Guild Wars 2 - W11"
 wordpress_id: 482
 plyturonnet: true
 aliases: ["2012/03/14/this-week-in-guild-wars-2-w11/"]

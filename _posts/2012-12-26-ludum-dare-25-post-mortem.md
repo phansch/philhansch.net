@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Rheda-Wiedenbrück
-title: Ludum Dare 25 Post Mortem
+layout: "post"
+location: "Rheda-Wiedenbrück"
+title: "Ludum Dare 25 Post Mortem"
 excerpt: "A recap of my first Ludum Dare game jam."
 aliases: ["2012/12/26/ludum-dare-25-post-mortem/"]
 ---

@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2010-12-31 14:34:23
-layout: post
-slug: pillen-geister-und-elektromusik-teil-2
-title: Pillen, Geister und Elektromusik - Teil 2
+date: "2010-12-31 14:34:23"
+layout: "post"
+slug: "pillen-geister-und-elektromusik-teil-2"
+title: "Pillen, Geister und Elektromusik - Teil 2"
 wordpress_id: 992
 aliases: ["2010/12/31/pillen-geister-und-elektromusik-teil-2/"]
 ---

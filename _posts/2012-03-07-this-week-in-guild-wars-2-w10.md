@@ -1,6 +1,6 @@
 ---
-date: 2012-03-07 08:40:00
-layout: post
+date: "2012-03-07 08:40:00"
+layout: "post"
 slug: this-week-in-guild-wars-2-w10
 title: This Week In Guild Wars 2 - W10
 wordpress_id: 181

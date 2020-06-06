@@ -1,7 +1,7 @@
 ---
-layout: post
-location: Berlin
-title: Setup done
+layout: "post"
+location: "Berlin"
+title: "Setup done"
 aliases: ["2012/07/28/Setup-done/"]
 ---
 

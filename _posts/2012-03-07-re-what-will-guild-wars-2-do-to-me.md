@@ -1,8 +1,8 @@
 ---
-date: 2012-03-07 19:53:01
-layout: post
-slug: re-what-will-guild-wars-2-do-to-me
-title: 'RE: What will Guild Wars 2 do to me?'
+date: "2012-03-07 19:53:01"
+layout: "post"
+slug: "re-what-will-guild-wars-2-do-to-me"
+title: "RE: What will Guild Wars 2 do to me?"
 wordpress_id: 371
 plyturonnet: true
 aliases: ["2012/03/07/re-what-will-guild-wars-2-do-to-me/"]

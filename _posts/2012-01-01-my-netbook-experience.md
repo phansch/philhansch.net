@@ -1,9 +1,9 @@
 ---
 comments: true
-date: 2012-01-01 14:25:36
-layout: post
-slug: my-netbook-experience
-title: My netbook experience
+date: "2012-01-01 14:25:36"
+layout: "post"
+slug: "my-netbook-experience"
+title: "My netbook experience"
 wordpress_id: 1236
 aliases: ["2012/12/28/re-my-netbook-experience/"]
 ---
