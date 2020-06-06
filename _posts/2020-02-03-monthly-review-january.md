@@ -12,7 +12,7 @@ aliases: ["2020/02/03/monthly-review-january/"]
 I'm incredibly thankful to the following people for sponsoring my open source
 work this past month: [@repi], [@oli-obk] and [@yaahc].
 
-If you like what I'm doing and want to support my work, please [consider sponsoring](https://phansch.net/thanks) :heart:
+If you like what I'm doing and want to support my work, please [consider sponsoring](https://phansch.net/thanks) 💛
 
 ## What I've worked on
 

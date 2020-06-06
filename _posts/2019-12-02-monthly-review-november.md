@@ -12,7 +12,7 @@ aliases: ["2019/12/02/monthly-review-november/"]
 Thanks to [@oli-obk] and [@yaahc], for their continuous support!
 
 There haven't been any new sponsors this month. If you want to support my work,
-please [consider sponsoring](https://phansch.net/thanks) :heart:
+please [consider sponsoring](https://phansch.net/thanks) 🎉
 
 ## What I've worked on
 
@@ -38,7 +38,7 @@ To put down some precise goals:
 * I want to finish [my fork][fork] of [the-super-tiny-compiler][upstream]
   written in Rust to help my understanding of compilers.
 * I want to try and review some of the open Clippy PRs  
-  (there's been a lot of activity :tada:).
+  (there's been a lot of activity 🎉).
 * I want to create more flashcards with the things I'm learning. I've been
   hovering at 50+ cards, but I want to double that this month.
 

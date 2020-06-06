@@ -9,7 +9,7 @@ aliases: ["2019/11/03/monthly-review-october/"]
 
 ## New Sponsors
 
-Thanks to [@oli-obk] and [@yaahc], my very first sponsors :tada:
+Thanks to [@oli-obk] and [@yaahc], my very first sponsors 🎉
 
 ## What I've worked on
 
