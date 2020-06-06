@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.0'
-gem 'jemoji'
 
 gem 'rb-readline'
 

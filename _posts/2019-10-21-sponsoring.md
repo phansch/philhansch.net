@@ -5,7 +5,7 @@ excerpt: You can sponsor my open source work now.
 aliases: ["2019/10/21/sponsoring/"]
 ---
 
-I have just set up a [sponsorship profile][profile] on GitHub :tada:
+I have just set up a [sponsorship profile][profile] on GitHub 🎉
 
 The past two years I have been working on Clippy in my free time, sometimes
 before and sometimes after my full-time programming job. To date I have

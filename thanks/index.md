@@ -3,7 +3,7 @@ layout: page
 title: Thanks!
 ---
 
-# :tada: Thank you :tada:
+# 🎉 Thank you 🎉
 
 I'm incredibly thankful to the following people and organizations for their support. This allows me to work on open source software like Clippy and Rust and make more developers and users happy.
 
