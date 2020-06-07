@@ -13,7 +13,7 @@ class Build
   end
 
   def heading(text)
-    "\n\e[1;33m[Travis CI] #{text}\e[m\n"
+    "\n\e[1;33m[CI] #{text}\e[m\n"
   end
 
   def handle_results
@@ -36,8 +36,6 @@ if ENV['RUN'] == 'html_proofer'
 end
 
 if ENV['RUN'] == 'test'
-  require 'bundler/setup'
-  require 'capybara/dsl'
   build.run_job('test', 'bundle exec rake test')
   build.run_job('codespell', 'codespell _posts --skip "2012-05-18*.md","2009*.md","2010*.md","2011*.md" -L mut')
 end
