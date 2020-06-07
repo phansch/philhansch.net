@@ -15,6 +15,8 @@ Execute the tests with:
 
     rake test
 
+### Serving
+
 Run Jekyll with:
 
     jekyll serve --watch --incremental
