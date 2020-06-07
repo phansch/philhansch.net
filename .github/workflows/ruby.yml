@@ -28,7 +28,9 @@ jobs:
         sudo apt update
         sudo apt install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev
     - name: Install dependencies
-      run: bundle install
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
     - name: Run tests
       run: script/ci.rb
       env:
