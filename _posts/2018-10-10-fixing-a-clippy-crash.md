@@ -343,7 +343,7 @@ and putting all the information together.
   for each method in the implementation.
   <br><br>
   <cite>
-    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/traits/enum.Vtable.html">rustc::traits::vtable</a>
+    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_infer/traits/enum.ImplSource.html">rustc::traits::vtable</a>
   </cite>
   </blockquote>
 </div>
