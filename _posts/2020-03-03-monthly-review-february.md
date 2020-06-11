@@ -29,23 +29,23 @@ I've been learning about name resolution in rustc because I've been looking into
 making some improvements to a rustc diagnostic that is emitted exactly during
 name resolution. So that instead of this:
 
-{% highlight rust %}
+```rust
 12 |  let _ = HashNap::new();
    |          ^^^^^^^
    |          |
    |          use of undeclared type or module `HashNap`
-{% endhighlight %}
+```
 
 You will get an additional suggestion of the most likely alternative:
 
 
-{% highlight rust %}
+```rust
 12 |  let _ = HashNap::new();
    |          ^^^^^^^
    |          |
    |          use of undeclared type or module `HashNap`
    |          help: a struct with a similar name exists: `HashMap`
-{% endhighlight %}
+```
 
 This PR has taken most of my time and energy in February. I want to finish it
 this month and continue with work around name resolution.

@@ -17,7 +17,7 @@ into Clippy and maybe serve as motivation if things get difficult.
 The crash has been reported in [this Clippy issue][clippy_issue].
 It is demonstrated with the following valid Rust program:
 
-{% highlight rust %}
+```rust
 trait Foo<'a, A> {}
 
 impl<'b, T> Foo<'b, T> for T {}
@@ -25,17 +25,17 @@ impl<'b, T> Foo<'b, T> for T {}
 fn func<'b, S: Foo<'b, ()>>(_item: S) {}
 
 fn main() {}
-{% endhighlight %}
+```
 
 When executed with rustc, it compiles, but it produces the following ICE when it
 is executed with Clippy:
 
-{% highlight rust %}
+```rust
 error: internal compiler error: librustc/ty/relate.rs:700: impossible case reached
 thread 'main' panicked at 'Box<Any>', librustc_errors/lib.rs:554:9
 stack backtrace:
 <snip>
-{% endhighlight %}
+```
 
 ## Traits.. generics.. lifetimes!? Oh no
 
@@ -49,28 +49,28 @@ It's safe to say that, at this point, I don't really understand what this
 program means. Let's figure it out step by step.
 
 
-{% highlight rust %}
+```rust
 trait Foo<'a, A> {}
-{% endhighlight %}
+```
 
 This is a trait called `Foo` with no associated items. `Foo` is also generic
 over any type `A` and it declares a lifetime parameter `'a`. By itself, this
 does not mean anything, but it allows for potential implementors of this trait
 to use the lifetime `'a` and the generic type `A`.
 
-{% highlight rust %}
+```rust
 impl<'b, T> Foo<'b, T> for T {}
-{% endhighlight %}
+```
 
 Here we define an implementation of our trait `Foo` for any type `T`. Again, we
 declare a lifetime `'b` and a generic type `T` so that we can use them to implement
 `Foo`. This `impl` also declares no associated items.
 
 
-{% highlight rust %}
+```rust
 // func takes item of type S which has to implement `Foo`
 fn func<'b>(_item: impl Foo<'b, ()>) {}
-{% endhighlight %}
+```
 
 The last line contains the cause of the Clippy crash. Again we declare that the
 function is going to use a lifetime `'b`. We then define a parameter that can
@@ -80,7 +80,7 @@ be any type that implements `Foo` with the lifetime of `'b` and a type of `()`.
 
 The backtrace contains some first pointers where we can have a further look.
 
-{% highlight rust %}
+```rust
 error: internal compiler error: librustc/ty/relate.rs:705: impossible case reached
 
 thread 'main' panicked at 'Box<Any>', librustc_errors/lib.rs:599:9
@@ -133,34 +133,34 @@ stack backtrace:
   63: <clippy_lints::needless_pass_by_value::NeedlessPassByValue as rustc::lint::LateLintPass<'a, 'tcx>>
     ::check_fn
              at clippy_lints/src/needless_pass_by_value.rs:175
-{% endhighlight %}
+```
 
 Let's go through the backtrace from top to bottom.
 
-{% highlight rust %}
+```rust
 error: internal compiler error: librustc/ty/relate.rs:705: impossible case reached
-{% endhighlight %}
+```
 
 This tells us where the crash was reported from inside rustc. I'm noting this
 down to have a look at the code later.
 
 Next follow 30 to 40 lines of plumbing, like:
 
-{% highlight rust %}
+```rust
   39: rustc::ty::query::plumbing::<impl rustc::ty::context::TyCtxt<'a, 'gcx, 'tcx>>::get_query
-{% endhighlight %}
+```
 
 For now, I think all these lines are irrelevant to the crash in Clippy.
 
 Further down we find more useful information:
 
-{% highlight rust %}
+```rust
   56: clippy_lints::utils::implements_trait
              at clippy_lints/src/utils/mod.rs:258
   57: <clippy_lints::needless_pass_by_value::NeedlessPassByValue as rustc::lint::LateLintPass<'a, 'tcx>>
     ::check_fn::{{closure}}
              at clippy_lints/src/needless_pass_by_value.rs:178
-{% endhighlight %}
+```
 
 This tells us from where Clippy invoked the chain of methods that caused the
 Crash. In other words, one of these places is probably using rustc internals
@@ -172,7 +172,7 @@ It also shows which lint caused the crash to happen.
 don't consume those arguments. Clippy should suggest to pass these arguments by
 reference instead:
 
-{% highlight rust %}
+```rust
 fn foo(v: Vec<i32>) {
     assert_eq!(v.len(), 42);
 }
@@ -182,13 +182,13 @@ fn foo(v: Vec<i32>) {
 fn foo(v: &[i32]) {
     assert_eq!(v.len(), 42);
 }
-{% endhighlight %}
+```
 
 And indeed, in our crashing example, we pass the argument by value:
 
-{% highlight rust %}
+```rust
 fn func<'b, S: Bar<'b, ()>>(_item: S) {}
-{% endhighlight %}
+```
 
 We are now sure that this code should trigger the `needless_pass_by_value` lint
 but it crashes instead. Next, we are going to try and find out more about what's
@@ -205,7 +205,7 @@ We are going to add the code to the `run-pass` test suite of Clippy. The
 
 Here's our failing code:
 
-{% highlight rust %}
+```rust
 // tests/run-pass/ice-2831.rs
 #![allow(dead_code)]
 
@@ -214,13 +214,13 @@ impl<'b, T> Bar<'b, T> for T {}
 fn funk<'b, S: Bar<'b, ()>>(_item: S) {}
 
 fn main() {}
-{% endhighlight %}
+```
 
 We can now run the test easily using:
 
-{% highlight shell %}
+```shell
 RUST_BACKTRACE=1 TESTNAME=run-pass/ice-2831 cargo test --test compile-test
-{% endhighlight %}
+```
 
 As expected, this fails to compile and crashes with the backtrace from above.
 Good!
@@ -234,7 +234,7 @@ values printed to stdout.
 In this case we want to know what we pass through to rustc before
 `predicate_must_hold` is called:
 
-{% highlight rust %}
+```rust
 /// Check whether a type implements a trait.
 /// See also `get_trait_def_id`.
 pub fn implements_trait<'a, 'tcx>(
@@ -254,19 +254,19 @@ pub fn implements_trait<'a, 'tcx>(
     // NOTE: Crash happens after `predicate_must_hold` is called
     cx.tcx.infer_ctxt().enter(|infcx| infcx.predicate_must_hold(&obligation))
 }
-{% endhighlight %}
+```
 
 Using the command from above, this will recompile the changed code and execute
 our test. Here is the result:
 
-{% highlight rust %}
+```rust
 cx.param_env: ParamEnv { caller_bounds: [
     Binder(TraitPredicate(<S as Bar<'b, ()>>)), Binder(TraitPredicate(<S as std::marker::Sized>))
   ], reveal: UserFacing }
 ty: &S
 obligation: Obligation(predicate=Binder(TraitPredicate(<&S as Bar<()>>)),depth=0)
 ty_params: [()]
-{% endhighlight %}
+```
 
 # Understanding the context
 
@@ -343,7 +343,7 @@ and putting all the information together.
   for each method in the implementation.
   <br><br>
   <cite>
-    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/traits/enum.Vtable.html">rustc::traits::vtable</a>
+    Source: <a href="https://doc.rust-lang.org/nightly/nightly-rustc/rustc_infer/traits/enum.ImplSource.html">rustc::traits::vtable</a>
   </cite>
   </blockquote>
 </div>
@@ -351,26 +351,26 @@ and putting all the information together.
 With all that in mind, let's review our debug output again:
 
 
-{% highlight rust %}
+```rust
 cx.param_env: ParamEnv { caller_bounds: [
     Binder(TraitPredicate(<S as Bar<'b, ()>>)), Binder(TraitPredicate(<S as std::marker::Sized>))
   ], reveal: UserFacing }
 ty: &S
 obligation: Obligation(predicate=Binder(TraitPredicate(<&S as Bar<()>>)),depth=0)
 ty_params: [()]
-{% endhighlight %}
+```
 
 What's especially interesting about our debug output is that the `Obligation`
 contains a `TraitPredicate` that is different to the `Obligation` in the
 `ParamEnv`:
 
-{% highlight rust %}
+```rust
 // Our self-built TraitPredicate:
 TraitPredicate(<&S as Bar<()>>)
 
 // The TraitPredicate in ParamEnv:
 TraitPredicate(<S as Bar<'b, ()>>)
-{% endhighlight %}
+```
 
 The reason for that is probably that we build the `Obligation` in the lint code
 ourselves, while the `ParamEnv` is the one of the actual test case.
@@ -396,7 +396,7 @@ Obligation should contain the lifetime, too:
 With that information, the fix was only a few hours away and turned out as a 9
 line change:
 
-{% highlight diff %}
+```diff
 diff --git a/clippy_lints/src/needless_pass_by_value.rs b/clippy_lints/src/needless_pass_by_value.rs
 index 980e2c28a..73d59d7a3 100644
 --- a/clippy_lints/src/needless_pass_by_value.rs
@@ -421,7 +421,7 @@ index 980e2c28a..73d59d7a3 100644
                          )
                      }),
                  )
-{% endhighlight %}
+```
 
 You may wonder how this is fixing the issue exactly. We first removed the
 [input_types()][input_types] call. This means we have to find a replacement to
@@ -431,7 +431,7 @@ reference `t`.
 Let's have a look at the source of `input_types()` and see how it gets the type
 parameters of the trait reference:
 
-{% highlight rust %}
+```rust
 pub fn input_types<'a>(&'a self) -> impl DoubleEndedIterator<Item=Ty<'tcx>> + 'a {
     // Select only the "input types" from a trait-reference. For
     // now this is all the types that appear in the
@@ -439,7 +439,7 @@ pub fn input_types<'a>(&'a self) -> impl DoubleEndedIterator<Item=Ty<'tcx>> + 'a
     // associated types.
     self.substs.types()
 }
-{% endhighlight %}
+```
 
 [Substs][substs] is what we're looking for. It contains the different parameters
 of the type, including lifetimes. For example the `substs` of a `HashMap<i32,

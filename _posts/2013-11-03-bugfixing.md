@@ -16,7 +16,7 @@ That was my first thought.
 It might be useful to know what the test and `get_recent` look like.
 
 Here's a breakdown of the spec:
-{%highlight ruby%}
+```ruby
 before do
   # Create a basic temporary journal file
   @journal_file = Tempfile.new('jou_test')
@@ -30,11 +30,11 @@ it "returns a string with entries from today" do
   @journal.add("ho!")
   @journal.get_recent(1).should == "### #{@today}\n * hi!\n * ho!\n\n"
 ends
-{%endhighlight%}
+```
 
 And `get_recent`:
 
-{%highlight ruby%}
+```ruby
 def get_recent(limit = 5)
   out = ""
 
@@ -49,7 +49,7 @@ def get_recent(limit = 5)
 
   out
 end
-{%endhighlight%}
+```
 
 My first guess was that the failing test was caused by using `==`. Luckily I've heard about 
 different [equality matchers in rspec](https://www.relishapp.com/rspec/rspec-expectations/v/2-0/docs/matchers/equality-matchers) before. I looked them up and it turns out that using `==` is 

@@ -15,13 +15,13 @@ To make this a bit more flexible, on Debian based systems you can use `:!sensibl
 
 Now, there's one thing that is getting in the way: You still have to press enter to get back to vim. So, the next step is to prepend a `:silent execute` to our command:
 
-{% highlight vim %}
+```vim
   :silent execute "!sensible-browser %"
-{% endhighlight %}
+```
 
 This should work on most systems. However if your vim turns blank when executing your command, you will have to force a redraw afterwards with `:redraw!`. You could also hit CTRL+L to achieve the same thing, however we can use `:redraw!` in combination with the other command:
 
-{% highlight vim %}
+```vim
 function! OpenCurrentFileInBrowser()
   " Open current file in browser
   :silent execute "!sensible-browser %"
@@ -29,18 +29,18 @@ function! OpenCurrentFileInBrowser()
   " Fix empty vim window by forcing a redraw
   :redraw!
 endfu
-{% endhighlight %}
+```
 
 Now we can conveniently bind it to a shortcut:
 
-{% highlight vim %}
+```vim
 augroup filetype_markdown
   au!
   au BufNewFile,BufRead *.md set filetype=markdown
 
   au FileType markdown nnoremap <leader>f :call OpenCurrentFileInBrowser()<cr>
 augroup END
-{% endhighlight %}
+```
 
 ------
   
@@ -55,14 +55,14 @@ For Firefox there's pretty much only [Markdown Viewer](https://addons.mozilla.or
 
 Add the following to `mimeTypes.rdf` to make it recognize .md files as text/plain:
 
-{% highlight xml %}
+```xml
 <RDF:Description RDF:about="urn:mimetype:text/plain"
         NC:value="text/plain"
         NC:fileExtensions="md"
         NC:description="Text Document">
     <NC:handlerProp RDF:resource="urn:mimetype:handler:text/plain"/>
 </RDF:Description>
-{% endhighlight %}
+```
 
 <small>[Source: Getting Markdown Viewer To Display HTML Formatted Markdown Content in Firefox Under Linux](http://www.ryanchapin.com/fv-b-4-737/Getting-Markdown-Viewer-To-Display-HTML-Formatted-Markdown-Content-in-Firefox-Under-Linux.html)</small>
 

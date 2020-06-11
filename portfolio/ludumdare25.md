@@ -24,7 +24,7 @@ Additionally I recorded a timelapse during the weekend which is available [here]
 
 ## Code snippets
 
-{% highlight lua %}
+```lua
 {% raw %}
 function Shot:update()
     local moveX = math.cos(self.rotation + initialShipRotation) * speed * dt
@@ -51,12 +51,12 @@ function Shot:checkCollision(freighter)
         self.y < f_y2 and shot_y2 > freighter.y
 end
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Projectile movement, bounds checking and collision detection for projectiles <-> enemies.
 
 ----
 
-{% highlight lua %}
+```lua
 {% raw %}
 function Player:update(dt)
     --update rotation
@@ -92,5 +92,5 @@ function Player:update(dt)
     self:slowdown(dt)
 end
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Player movement and projectile movement calls.

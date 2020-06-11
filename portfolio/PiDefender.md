@@ -24,7 +24,7 @@ order: 7
 
 ## Code snippets
 
-{% highlight lua %}
+```lua
 function Cannon:update(dt, circleradius)
     self.circleRadius = circleradius
 
@@ -59,6 +59,6 @@ function Cannon:update(dt, circleradius)
     end
 
 end
-{% endhighlight %}
+```
 
 <span class="glyphicon glyphicon-chevron-right"></span> Cannon movement and <abbr title="Area of effect">Aoe</abbr> handling.

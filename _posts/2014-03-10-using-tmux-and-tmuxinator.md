@@ -32,7 +32,7 @@ To switch between panes use <kbd>ctrl</kbd> + <kbd>b</kbd> + <kbd>o</kbd>
 ## Tmux configuration
 Tmux configuration is saved in `~/.tmux.conf`. I recommend adding the following lines to your configuration since the defaults aren't really nice.
 
-{% highlight conf %}
+```conf
 # Renumber windows sequentially after closing any of them.
 # Otherwise if you close the second tab of three, you end
 # up with tabs numbered 1 and 3.
@@ -44,14 +44,14 @@ setw -g pane-base-index 1
 
 # Allows for faster key repetition
 set -s escape-time 0
-{% endhighlight %}
+```
 
 Also, [here](https://gist.github.com/MohamedAlaa/2961058) is a great cheatsheet for the most important tmux shortcuts.
 
 ## Save time with tmuxinator
 Tmux comes with an extensive command line interface, but it can be a little bit difficult to figure out. Tmuxinator makes use of the commands that tmux comes with, but it extracts all the complexity into a single yaml file:
 
-{% highlight yaml %}
+```yaml
 name: railsproject
 root: ~/code/railsproject
 
@@ -66,7 +66,7 @@ windows:
       - tail -f log/test.log
   - server: rails s
   - heroku: heroku logs -t
-{% endhighlight %}
+```
 
 With this file in place, you can now run `mux railsproject` and everything will be started automatically.
 

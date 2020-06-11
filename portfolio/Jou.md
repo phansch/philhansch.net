@@ -35,7 +35,7 @@ Adding a journal entry is as simple as:
 
 ## Code snippets
 
-{% highlight ruby %}
+```ruby
 {% raw %}
 # Reads the markdown file and converts it to a hash
 def serialize
@@ -57,7 +57,7 @@ def serialize
   end
 end
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Reading the markdown file and storing it in a hash.
 
 ----

@@ -12,15 +12,15 @@ All share the same prompt.
 
 In development:
 
-{% highlight ruby %}
+```ruby
 [1] pry(main)> User.destroy_all
-{% endhighlight %}
+```
 
 In production:
 
-{% highlight ruby %}
+```ruby
 [2] pry(main)> DataCollector.collect
-{% endhighlight %}
+```
 
 
 It would be really good to know **what** environment each rails console is operating on. While it is printed on the start of the rails console session, it usually quickly scrolls off the screen.
@@ -34,27 +34,27 @@ Even if we have working backups, we can still work on preventing accidents. Luck
 A closer look at the [documentation](https://www.rubydoc.info/github/pry/pry/Pry/Helpers/Text) shows that we can easily make text bold and colored in the prompt:
 
 
-{% highlight ruby %}
+```ruby
 Pry::Helpers::Text.red('I am red.')
 Pry::Helpers::Text.bold('I am bold.')
-{% endhighlight %}
+```
 
 We get the project name using:
 
-{% highlight ruby %}
+```ruby
 File.basename(Rails.root)
-{% endhighlight %}
+```
 
 
 The pry prompt can be overridden in the `.pryrc` with a custom proc:
 
-{% highlight ruby %}
+```ruby
 Pry.config.prompt = proc { |obj, nest_level, pry| 'NicerPrompt'}
-{% endhighlight %}
+```
 
 Using the above, this is what I am using for all my personal and work projects:
 
-{% highlight ruby %}
+```ruby
 def formatted_env
   case Rails.env
   when 'production'
@@ -76,7 +76,7 @@ end
 if defined?(Rails)
   Pry.config.prompt = proc { |obj, nest_level, _| "[#{app_name}][#{formatted_env}] #{obj}:#{nest_level}> " }
 end
-{% endhighlight %}
+```
 
 Here is what it looks like:
 

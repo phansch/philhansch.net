@@ -21,7 +21,7 @@ While the app works, it could use some more work: There are no tests for the Sin
 
 ## Code snippets
 
-{% highlight ruby %}
+```ruby
 {% raw %}
 get '/' do
   @images = images
@@ -45,12 +45,12 @@ get '/connect', provides: 'text/event-stream' do
   end
 end
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> The routes of the Sinatra app.
 
 ---
 
-{% highlight javascript %}
+```js
 {% raw %}
 (function ( $ ) {
   $.fn.moveImages = function(options) {
@@ -97,12 +97,12 @@ end
   };
 }( jQuery ));
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> The jQuery plugin to move around the images.
 
 ---
 
-{% highlight javascript %}
+```js
 {% raw %}
 describe("adding the first image", function() {
   var fixture;
@@ -130,5 +130,5 @@ describe("adding the first image", function() {
   });
 });
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Jasmine tests for the jQuery plugin.

@@ -13,14 +13,14 @@ Nachdem wir die [Fragen anzeigen lassen](http://phansch.net/2010/07/22/c-sharp-q
 Die Antworten sind ebenfalls im .xml Format gespeichert:
 
     
-{% highlight csharp %}
+```cs
 <antworten>
   <antwort id="1">Fast immer</antwort>
   <antwort id="2">Oft</antwort>
   <antwort id="3">Manchmal</antwort>
   <antwort id="4">Ganz selten</antwort>
 </antworten>
-{% endhighlight %}
+```
 
 Genauso wie die Fragen, sollen sich die Antworten anpassen und erweitern lassen.
 
@@ -31,7 +31,7 @@ Genauso wie die Fragen, sollen sich die Antworten anpassen und erweitern lassen.
 Im letzten Teil haben wir die Basisklasse _QuizXml_ erstellt. Diese können wir jetzt wieder für die Antworten verwenden.
 Das Grundgerüst sieht so aus:
 
-{% highlight csharp %}
+```cs
 class Answers : QuizXml
 {
     private string[] str_answers;
@@ -49,11 +49,11 @@ class Answers : QuizXml
 
     private void ToRadioButton() { }
 }
-{% endhighlight %}
+```
 
 Der Konstruktor der abgeleiteten Klasse _Answers_ legt sämtliche Properties fest und ruft die Methode _PopulateArray()_ auf. Außerdem wird das Array initialisiert und selbiges in RadioButtons konvertiert.
 
-{% highlight csharp %}
+```cs
 public Answers()
 {
     base.arr_data = new string[1];
@@ -67,11 +67,11 @@ public Answers()
 
     this.ToRadioButton();
 }
-{% endhighlight %}
+```
 
 Neu ist eigentlich nur die Methode _ToRadioButton()_:
 
-{% highlight csharp %}
+```cs
 private void ToRadioButton()
 {
     rdb_answers = new RadioButton[base.Count];
@@ -86,14 +86,14 @@ private void ToRadioButton()
         index++;
     }
 }
-{% endhighlight %}
+```
 
 Hier wird für jede vorhandene Antwort ein neuer _RadioButton_ erzeugt. Außerdem wird ein _EventHandler_ für das _Click_-Event festgelegt.
 
 Die Eigenschaft _ArrAnswers_ gibt das komplette RadioButton Array zurück:
 
     
-{% highlight csharp %}
+```cs
 /// <summary>
 /// Returns an array of RadioButton Controls
 /// </summary>
@@ -104,7 +104,7 @@ public RadioButton[] ArrAnswers
         return rdb_answers;
     }
 }
-{% endhighlight %}
+```
 
 
 
@@ -113,9 +113,9 @@ public RadioButton[] ArrAnswers
 
 Die Anpassung der Form ist recht einfach. Wir fügen der Methode Form1_Load() folgende Zeile hinzu:
 
-{% highlight csharp %}
+```cs
 this.Controls.AddRange(a.ArrAnswers);
-{% endhighlight %}
+```
 
 <!--[![button_next](http://wpimages.phansch.de/2010/06/button_next.png)](http://wpimages.phansch.de/2010/06/button_next.png)-->
 
@@ -127,17 +127,17 @@ Der EventHandler aktiviert den Button _button_next_ wieder. Außerdem werden wir
 
 In der Methode Form1_Load fügen wir jedem RadioButton einen Click-Eventhandler hinzu:
 
-{% highlight csharp %}
+```cs
 //Add an eventhandler for each radiobutton
 foreach (RadioButton rdb in a.ArrAnswers)
 {
     rdb.Click += Handler;
 }
-{% endhighlight %}
+```
 
 Die Methode Handler aktiviert den Weiter-Button wieder wenn ein Click-Event von einem der RadioButtons ausgeht.
     
-{% highlight csharp %}
+```cs
 /// <summary>
 /// Eventhandler for the Radiobuttons.
 /// </summary>
@@ -147,11 +147,11 @@ private void Handler(object sender, EventArgs e)
 {
     button_next.Enabled = true;
 }
-{% endhighlight %}
+```
 
 Nun muss noch die Methode button_next_Click() erweitert werden. Dort wird die vorherige Antwort und der Weiter-Button wieder deaktiviert:
 
-{% highlight csharp %}
+```cs
 private void button_next_Click(object sender, EventArgs e)
 {
     UpdateQuestion();
@@ -168,10 +168,10 @@ private void button_next_Click(object sender, EventArgs e)
 
     button_next.Enabled = false;
 }
-{% endhighlight %}
+```
 Um zu verhinden, dass nach der letzten Frage die Antworten angezeigt werden, müssen wir die Methoden _EndReached()_ und _Restart()_ erweitern:
-    
-{% highlight csharp %}
+
+```cs
 private void EndReached()
 {
     //.
@@ -197,7 +197,7 @@ private void Restart()
         rdb.Visible = true;
     }
 }
-{% endhighlight %}
+```
 
 
 Das war's auch schon. Wir können nun beliebige Fragen und Antworten ausgeben lassen und den Test wiederholen. Damit haben wir schon über die Hälfte unserer Anforderungen an das Programm erfüllt. Nun fehlt nur noch eine grafische Darstellung der Testergebnisse.

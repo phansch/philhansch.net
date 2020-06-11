@@ -62,7 +62,7 @@ You can write your content as a separate file and have reveal.js load it at runt
 
 At the end of your page you need to initialize reveal by running the following code. Note that all config values are optional and will default as specified below.
 
-```javascript
+```js
 Reveal.initialize({
 
 	// Display controls in the bottom right corner
@@ -117,7 +117,7 @@ Note that the new default vertical centering option will break compatibility wit
 
 The configuration can be updated after initialization using the ```configure``` method:
 
-```javascript
+```js
 // Turn autoSlide off
 Reveal.configure({ autoSlide: 0 });
 
@@ -130,7 +130,7 @@ Reveal.configure({ autoSlide: 5000 });
 
 Reveal.js doesn't _rely_ on any third party scripts to work but a few optional libraries are included by default. These libraries are loaded as dependencies in the order they appear, for example:
 
-```javascript
+```js
 Reveal.initialize({
 	dependencies: [
 		// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
@@ -171,7 +171,7 @@ All presentations have a normal size, that is the resolution at which they are a
 
 See below for a list of configuration options related to sizing, including default values:
 
-```javascript
+```js
 Reveal.initialize({
 
 	...
@@ -196,7 +196,7 @@ Reveal.initialize({
 
 If you're unhappy with any of the default keyboard bindings you can override them using the ```keyboard``` config option:
 
-```javascript
+```js
 Reveal.configure({
   keyboard: {
     13: 'next', // go to the next slide when the ENTER key is pressed
@@ -211,7 +211,7 @@ Reveal.configure({
 
 The ``Reveal`` class provides a JavaScript API for controlling navigation and reading state:
 
-```javascript
+```js
 // Navigation
 Reveal.slide( indexh, indexv, indexf );
 Reveal.left();
@@ -242,7 +242,7 @@ Reveal.isPaused();
 
 The 'ready' event is fired when reveal.js has loaded all (synchronous) dependencies and is ready to start navigating.
 
-```javascript
+```js
 Reveal.addEventListener( 'ready', function( event ) {
 	// event.currentSlide, event.indexh, event.indexv
 } );
@@ -254,7 +254,7 @@ An 'slidechanged' event is fired each time the slide is changed (regardless of s
 
 Some libraries, like MathJax (see [#226](https://github.com/hakimel/reveal.js/issues/226#issuecomment-10261609)), get confused by the transforms and display states of slides. Often times, this can be fixed by calling their update or render function from this callback.
 
-```javascript
+```js
 Reveal.addEventListener( 'slidechanged', function( event ) {
 	// event.previousSlide, event.currentSlide, event.indexh, event.indexv
 } );
@@ -267,7 +267,7 @@ If you set ``data-state="somestate"`` on a slide ``<section>``, "somestate" will
 
 Furthermore you can also listen to these changes in state via JavaScript:
 
-```javascript
+```js
 Reveal.addEventListener( 'somestate', function() {
 	// TODO: Sprinkle magic
 }, false );
@@ -372,7 +372,7 @@ When a slide fragment is either shown or hidden reveal.js will dispatch an event
 
 Some libraries, like MathJax (see #505), get confused by the initially hidden fragment elements. Often times this can be fixed by calling their update or render function from this callback.
 
-```javascript
+```js
 Reveal.addEventListener( 'fragmentshown', function( event ) {
 	// event.fragment = the fragment DOM element
 } );
@@ -403,7 +403,7 @@ By default, Reveal is configured with [highlight.js](http://softwaremaniacs.org/
 Press "Esc" or "o" keys to toggle the overview mode on and off. While you're in this mode, you can still navigate between slides,
 as if you were at 1,000 feet above your presentation. The overview mode comes with a few API hooks:
 
-```javascript
+```js
 Reveal.addEventListener( 'overviewshown', function( event ) { /* ... */ } );
 Reveal.addEventListener( 'overviewhidden', function( event ) { /* ... */ } );
 
@@ -508,7 +508,7 @@ This will only display in the notes window.
 
 In some cases it can be desirable to run notes on a separate device from the one you're presenting on. The Node.js-based notes plugin lets you do this using the same note definitions as its client side counterpart. Include the required scripts by adding the following dependencies:
 
-```javascript
+```js
 Reveal.initialize({
 	...
 
@@ -549,7 +549,7 @@ If you want to use the speaker notes plugin with your master presentation then m
 You can then access your master presentation at ```http://localhost:1947```
 
 Example configuration:
-```javascript
+```js
 Reveal.initialize({
 	// other options...
 
@@ -577,7 +577,7 @@ Reveal.initialize({
 Served from a publicly accessible static file server. Examples include: GitHub Pages, Amazon S3, Dreamhost, Akamai, etc. The more reliable, the better. Your audience can then access the client presentation via ```http://example.com/path/to/presentation/client/index.html```, with the configuration below causing them to connect to the socket.io server as clients.
 
 Example configuration:
-```javascript
+```js
 Reveal.initialize({
 	// other options...
 
@@ -615,7 +615,7 @@ You are very welcome to point your presentations at the Socket.io server running
 The socket.io server can play the role of static file server for your client presentation, as in the example at [http://revealjs.jit.su](http://revealjs.jit.su). (Open [http://revealjs.jit.su](http://revealjs.jit.su) in two browsers. Navigate through the slides on one, and the other will update to match.) 
 
 Example configuration:
-```javascript
+```js
 Reveal.initialize({
 	// other options...
 
@@ -638,7 +638,7 @@ Reveal.initialize({
 It can also play the role of static file server for your master presentation and client presentations at the same time (as long as you don't want to use speaker notes). (Open [http://revealjs.jit.su](http://revealjs.jit.su) in two browsers. Navigate through the slides on one, and the other will update to match. Navigate through the slides on the second, and the first will update to match.) This is probably not desirable, because you don't want your audience to mess with your slides while you're presenting. ;)
 
 Example configuration:
-```javascript
+```js
 Reveal.initialize({
 	// other options...
 
