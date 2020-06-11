@@ -15,7 +15,7 @@ Most of them were part of of my Hackership series where I sometimes linked to lo
 
 Before I dealt with all the broken links, I started to integrate HTMLProofer into the test suite by adding a custom Rake task:
 
-{% highlight ruby %}
+```ruby
 task :html_proofer do
   build_dir = File.join(File.dirname(__FILE__), '_site')
   unless File.directory?('test/_site')
@@ -33,7 +33,7 @@ task :html_proofer do
   }
   HTMLProofer.check_directory(build_dir, opts).run
 end
-{% endhighlight %}
+```
 
 Using `rake html_proofer` it builds the site and runs HTMLProofer with the given options on the Jekyll output.
 You can check the Travis CI integration in [script/ci.rb](https://github.com/phansch/phansch.github.com/blob/master/script/ci.rb) and [.travis.yml](https://github.com/phansch/phansch.github.com/blob/master/.travis.yml).

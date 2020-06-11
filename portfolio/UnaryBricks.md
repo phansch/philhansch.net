@@ -17,7 +17,7 @@ A very basic Breakout clone.
 
 ## Code snippets
 
-{% highlight lua %}
+```lua
 function Ball:update(paddle, level)
     self.x = self.x + self.xdir * Game.dt * speed
     self.y = self.y + self.ydir * Game.dt * speed
@@ -75,5 +75,5 @@ function Ball:update(paddle, level)
         end
     end
 end
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Ball movement and collision detection.

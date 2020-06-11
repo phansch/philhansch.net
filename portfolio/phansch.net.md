@@ -18,7 +18,7 @@ Development of changes or new features happens in different branches, depending 
 
 ## Code snippets
 
-{% highlight html %}
+```html
 {% raw %}
   <div class="row">
     {% for page in site.pages %}
@@ -68,12 +68,12 @@ Development of changes or new features happens in different branches, depending 
     {% endfor %}
   </div>
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Generates the preview-boxes on the portfolio start page. This is iterating through all pages and creates a new thumbnail box if the page is of a specific scope and category.
 
 ----
 
-{% highlight html %}
+```html
 {% raw %}
 {% if page.exe %}
   <p>The fastest way to get the game running is to download the compiled .exe file below.</p>
@@ -109,6 +109,6 @@ Development of changes or new features happens in different branches, depending 
   Download the latest source or clone/fork the project on GitHub.
 {% endif %}
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> Generates *Download* section below.
 

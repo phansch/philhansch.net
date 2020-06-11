@@ -133,7 +133,7 @@ ED8DAF
 ## Converters in Ruby
 
 Unicode to UTF
-{%highlight ruby%}
+```ruby
 unicode = "\ud36f"
 utf = ""
 
@@ -142,10 +142,11 @@ unicode.each_byte do |byte|
 end
 
 puts "UTF: " + utf
-{%endhighlight%}
+```
 
 UTF to Unicode
-{%highlight ruby%}
+
+```ruby
 unicode = "\ud36f"
 utf = ""
 
@@ -154,5 +155,5 @@ unicode.each_byte do |byte|
 end
 
 puts "UTF: " + utf
-{%endhighlight%}
+```
 

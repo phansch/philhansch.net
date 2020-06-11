@@ -16,7 +16,8 @@ In case you already know about customizing the PowerShell, you can get the file 
 This is the default git shell prompt. As you can see, the path takes about 75% of the prompt's width. Let's change that.
 
 Admittedly, until today I didn't know a lot about PowerShell. So, after a bit research, I found an article on [prompt shortening](http://winterdom.com/powershell/2008/08/13/mypowershellprompt.html). The following two functions need to be placed into `%USERPROFILE%\Documents\WindowsPowerShell\GitHub.PowerShell_profile.ps1`
-{% highlight powershell %}
+
+```ps1
 function shorten-path([string] $path) { 
 	$loc = $path.Replace($HOME, '~') 
 	# remove prefix for UNC paths 
@@ -33,7 +34,7 @@ function prompt {
 	write-host (shorten-path (pwd).Path) -n -f White
 	write-host '}' -n -f Yellow
 	return ' ' 
-}{% endhighlight %}
+}```
 
 `shorten-path()` takes care of shortening the path in a GVim manner and replacing the user profile path with a `~`.  
 `prompt()` is a built-in function that is used to format the prompt.  
@@ -43,7 +44,7 @@ function prompt {
 While this was working, it turned out that this got rid of the branch status. Luckily, someone wrote an article about [displaying git data in the prompt](http://tiredblogger.wordpress.com/2009/08/21/using-git-and-everything-else-through-powershell/). 
 I spent a good hour playing around with the code and eventually I got PowerShell to display the data again.
 
-{% highlight powershell %}
+```ps1
 function prompt {
     if(Test-Path .git) {
         # retrieve branch name
@@ -78,7 +79,7 @@ function prompt {
     }
 
     return " "
-}{% endhighlight %}
+}```
 
 
 ##PowerShell Properties

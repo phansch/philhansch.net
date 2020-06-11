@@ -16,7 +16,7 @@ Es hat sich einiges getan. Unter anderen verfügen die Geister nun über eine au
 Die Geister Wegfindung ist sehr einfach gehalten.
 Befindet sich ein Geist auf einer Kreuzung, wird eine zufällige Richtung ausgewählt. Ausgenommen ist dabei die Richtung aus der der Geist gekommen ist.
 
-{% highlight csharp %}
+```cs
 public void GetPossibleDirections(Map map)
 {
     _possibleDirections.Clear();
@@ -46,7 +46,7 @@ public void GetPossibleDirections(Map map)
         _possibleDirections.Remove(Direction.Up);
     }
 }
-{% endhighlight %}
+```
 Natürlich ist das noch keine große Herausforderung für den Spieler. Im Original hat jeder Geist seine eigene Persönlichkeit, so dass er zum Beispiel auf die Nähe Pacmans reagiert. 
 Dazu gibt es einige wunderbare Artikel im Netz:
 	
@@ -65,7 +65,7 @@ Die erstbeste Methode zur Kollisionserkennung auf die man stößt wenn man nach 
 
 Anhand des Bildes kann man das leicht erklären. Der Gegner (rot) befindet sich auf dem Weg nach oben und ist Pacman schon fast ein ganzes Feld voraus. Da sich jedoch die Rechtecke beider Objekte berühren, kommt es zur Kollision.
 
-{% highlight csharp %}
+```cs
 public bool GetsEaten_Hardcore(List<ghost>)
 {
     foreach (Ghost g in ghosts)
@@ -77,11 +77,11 @@ public bool GetsEaten_Hardcore(List<ghost>)
     }
     return false;
 }
-{% endhighlight %}
+```
 
 Eine andere Möglichkeit: Während des Spiels wird von der Spielfigur und den Gegnern jeweils das aktuelle Feld erfasst. Befindet sich ein Geist mit Pacman auf demselben Feld, kommt es zu einer Kollision.
 
-{% highlight csharp %}
+```cs
 public bool GetsEaten_Liberal(List<ghost>)
 {
     foreach (Ghost g in ghosts)
@@ -93,7 +93,7 @@ public bool GetsEaten_Liberal(List<ghost>)
     }
     return false;
 }
-{% endhighlight %}
+```
 
 
 
@@ -109,15 +109,17 @@ Einen optimalen Lösungsweg habe ich hiermit noch nicht gefunden. Ich werde mich
 In der jetzigen Version kann Pacman die Gegner für eine bestimmte Zeit verlangsamen indem er eine große Pille sammelt. Ist die festgelegte Zeit abgelaufen, haben die Gegner wieder ihre ursprüngliche Geschwindigkeit.
 
 Alles fängt damit an, dass Pacman eine große Pille sammelt:
-{% highlight csharp %}
+
+```cs
 if ((pointsGained = _pacman.EatBigPill(_map) == 30)
 {
     GameData.AteBigPill = true;
 }
-{% endhighlight %}
+```
 
 Die Methode `Update_Ghosts()` überprüft ob `GameData.AteBigPill == true` ist und ändert entsprechend die Geschwindigkeit der Gegner.
-{% highlight csharp %}
+
+```cs
 //Slow each ghost for GHOST_SLOWTIME in seconds if pacman ate a big pill
 if (GameData.AteBigPill == true)
 {
@@ -141,4 +143,4 @@ else if(GameData.AteBigPill == false)
         g.Speed = MovingCreature.MovementSpeed.Fast; //Remove effect
     }
 }
-{% endhighlight %}
+```

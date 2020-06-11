@@ -61,19 +61,11 @@ kbd {
   white-space:nowrap;
 }
 
-figure {
-  margin-top: 2.5em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
+pre {
+  margin: 0;
   border-top: 2px solid $brand-primary;
-}
-
-.highlight > pre {
   display: block;
   padding: 1em 1.5em;
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 20px;
   line-height: 1.42857;
   overflow: auto;

@@ -1,14 +1,14 @@
 require 'test_helper'
 
 class BlogPostTest < CapybaraTestCase
-  def test_latest_post_no_backtick_formatting
-    posts_with_backticks = all_posts.select do |f|
+  def test_latest_post_no_highlight_formatting
+    posts_with_highlight = all_posts.select do |f|
       content = File.read(f)
-      content.include?("```")
+      content.include?("{% highlight")
     end
 
-    assert posts_with_backticks.empty?,
-      "The following file(s) contain ```. Replace them with `{% highlight xxx %}`:\n#{posts_with_backticks.join("\n")}"
+    assert posts_with_highlight.empty?,
+      "The following file(s) contain {% highlight xxx %}. Replace them with: ```xxx:\n#{posts_with_highlight.join("\n")}"
   end
 
   def test_time_to_read

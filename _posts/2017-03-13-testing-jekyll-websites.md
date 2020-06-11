@@ -14,7 +14,7 @@ After I fixed the broken permalinks I decided to add some basic Capybara tests, 
 ## The setup
 The setup is pretty basic for now with `capybara`, `rack`, `rake` and most importantly `rack-jekyll`:
 
-{% highlight ruby %}
+```ruby
 # Gemfile
 source 'https://rubygems.org'
 
@@ -26,11 +26,11 @@ group :test do
   gem 'rack-jekyll'
   gem 'rake'
 end
-{% endhighlight %}
+```
 
 The `test_helper` tells `Capybara.app` to use `Rack::Jekyll` to serve a Rack version of our Jekyll site for our tests.
 
-{% highlight ruby %}
+```ruby
 # test/test_helper.rb
 require 'minitest/autorun'
 
@@ -48,10 +48,11 @@ class CapybaraTestCase < MiniTest::Test
     Capybara.use_default_driver
   end
 end
-{% endhighlight %}
+```
 
 With the `test_helper` configured we can now start writing Capybara tests as usual:
-{% highlight ruby %}
+
+```ruby
 # test/features/this_blog_post_test.rb
 require 'test_helper'
 
@@ -62,7 +63,7 @@ class ThisBlogPostTest < CapybaraTestCase
       'writing Capybara tests as usual:')
   end
 end
-{% endhighlight %}
+```
 
 ## What to test
 This of course depends on your website. For me I identified a few things:

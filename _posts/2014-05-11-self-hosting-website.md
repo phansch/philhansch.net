@@ -15,7 +15,7 @@ That includes stuff like Google Mail, Google Calendar, GoogleDocs/Dropbox and ma
 As a first step, one thing I recently did was moving my blog away from GitHub Pages. This blog is now hosted on my own server. This costs a little money, but I have full control over the environment. The setup is different for each provider, but essentially it's a git post-receive hook that triggers jekyll to build the page:
 
 
-{% highlight bash %}
+```bash
 # $HOME/website.git/.git/hooks/post-receive
 GIT_REPO=$HOME/website.git
 TMP_GIT_CLONE=$HOME/tmp/website
@@ -26,7 +26,8 @@ git clone $GIT_REPO $TMP_GIT_CLONE
 $(which jekyll) build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
 rm -Rf $TMP_GIT_CLONE
 exit
-{% endhighlight %}
+```
+
 More information about deploying with jekyll can be found [here](http://jekyllrb.com/docs/deployment-methods/).
 
 The biggest advantage I see is being able to customize the post-receive hook. There are so many possibilities, like automatically posting a tweet once a post is published.

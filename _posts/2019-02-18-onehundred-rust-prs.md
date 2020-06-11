@@ -45,12 +45,12 @@ whether I had the grit to stay with a longer-term project.
 At the beginning of January 2018, my first big Clippy contribution was [a
 Lint][2340] that detects empty lines after outer attributes, such as:
 
-{% highlight rust %}
+```rust
 #[deny(missing_docs)]
 
 fn something_to_document() { ... }
 fn more_to_document() { ... }
-{% endhighlight %}
+```
 
 The rationale for this lint is that the attribute was *probably* meant to be an
 inner attribute because it has empty lines that follow. In the process of

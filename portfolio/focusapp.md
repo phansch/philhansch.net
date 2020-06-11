@@ -22,7 +22,7 @@ The project was my excuse to practice some Javascript as well as applying the pr
 
 ## Code snippets
 
-{% highlight javascript %}
+```js
 {% raw %}
 focusApp.indexedDB.updateTask = function(taskText) {
   var db = focusApp.indexedDB.db;
@@ -39,6 +39,6 @@ focusApp.indexedDB.updateTask = function(taskText) {
   };
 };
 {% endraw %}
-{% endhighlight %}
+```
 <span class="glyphicon glyphicon-chevron-right"></span> This function is responsible for saving a modified task text.
 

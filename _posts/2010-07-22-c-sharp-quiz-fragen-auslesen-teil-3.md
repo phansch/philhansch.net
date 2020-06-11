@@ -26,7 +26,7 @@ Nun brauchen wir eine Klasse, die die Fragen ausließt.
 
 Diese Klasse hat zunächst folgendes Grundgerüst:
 
-{% highlight csharp  %}
+```cs
 using System;
 using System.Xml.Linq;
 using System.Linq;
@@ -72,12 +72,12 @@ namespace CSharpQuiz
         public string this[int index] { get; }
     }
 }
-{% endhighlight %}
+```
 
 Der Konstruktor der abgeleiteten Klasse _Questions_ legt sämtliche Properties fest und ruft die Methode _PopulateArray()_ auf. Außerdem wird das Array initialisiert:
 
     
-{% highlight csharp  %}
+```cs
 public Questions()
 {
     base.arr_data = new string[1];
@@ -89,13 +89,13 @@ public Questions()
 
     this.arr_questions = base.arr_data;
 }
-{% endhighlight %}
+```
 
 
 Die Methode _PopulateArray()_ liest die Fragen mittels *LINQ to XML* aus:
 
     
-{% highlight csharp  %}
+```cs
 /// <summary>
 /// Fills the array with the questions, found in the.xml file
 /// </summary>
@@ -116,13 +116,13 @@ public virtual void PopulateArray()
         this.arr_data[_id] = _id + ". " + _question;
     }
 }
-{% endhighlight %}
+```
 
 
 Damit das Array nicht überläuft, wird die Methode _ExpandArray()_ aufgerufen. Die sorgt dafür, dass das Array um ein Element vergrößert wird.
 
     
-{% highlight csharp  %}
+```cs
 /// <summary>
 /// Expands the array by one
 /// </summary>
@@ -137,12 +137,12 @@ private void ExpandArray()
     //Temporary array gets assigned to the original array
     this.arr_data = tempArray;
 }
-{% endhighlight %}
+```
 
 Die Eigenschaft _Count_ gibt nur die Größe des Arrays zurück:
 
     
-{% highlight csharp  %}
+```cs
 /// <summary>
 /// Returns the number of questions wich are stored in the .xml file
 /// </summary>
@@ -153,12 +153,12 @@ public int Count
         return arr_questions.Length;
     }
 }
-{% endhighlight %}
+```
 
 Zuletzt brauchen wir noch den Indexer:
 
     
-{% highlight csharp  %}
+```cs
 /// <summary>
 /// Returns a question
 /// </summary>
@@ -171,7 +171,7 @@ public string this[int index]
         return arr_questions[index];
     }
 }
-{% endhighlight %}
+```
 
 ## Anwendung der Klasse im Fragebogen
 
@@ -179,17 +179,17 @@ public string this[int index]
 Aufgrund des Indexers können wir die Frage 1 mittels
 
     
-{% highlight csharp  %}
+```cs
 Questions q = new Questions();
 label_frage.Text = q[1];
-{% endhighlight %}
+```
 
 aufrufen. Der übergebene Wert steht für eine ID aus der Fragen.xml Datei. Deshalb müssen wir nicht bei 0 anfangen, sondern können die erste Frage auch mit _f[1]_ ausgeben lassen. Wir benötigen auch einen _FragenIndex_, der zu Anfang auf 1 gesetzt wird.
 
 Die Methode ShowQuestion() lässt eine bestimmte Frage ausgeben und erhöht danach den FragenIndex. Wenn das Ende erreicht ist, wird die Methode _EndReached()_ aufgerufen.
 
     
-{% highlight csharp  %}
+```cs
 private void ShowQuestion()
 {
     Questions questions = new Questions();
@@ -213,7 +213,7 @@ private void EndReached()
     label_question.Text = "Ende des Fragebogens erreicht.";
     button_restart.Visible = true;
 }
-{% endhighlight %}
+```
 
 
 Wann soll nun eine neue Frage geladen werden?
@@ -235,8 +235,7 @@ Den Wiederholen Button setzen wir zunächst über die IDE auf _Visible = false_.
 
 Jetzt brauchen wir nur noch die Methode _Restart()_:
 
-    
-{% highlight csharp  %}
+```cs
 private void Restart()
 {
     questionIndex = 1;
@@ -244,8 +243,7 @@ private void Restart()
     button_restart.Visible = false;
     ShowQuestion();
 }
-{% endhighlight %}
-
+```
 
 _Restart()_ wird über das Click-Event des Restart-Buttons aufgerufen.
 

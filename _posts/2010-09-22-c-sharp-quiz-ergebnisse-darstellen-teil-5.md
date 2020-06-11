@@ -26,18 +26,18 @@ Wir stehen jetzt vor **2 Teilproblemen**:
 Das sammeln der Ergebnisse ist überraschend einfach.
 
 Wir legen eine neue Membervariable an:
-{% highlight csharp  %}
+```cs
 private double[] answerCount; //Contains the choices
-{% endhighlight %}
+```
 
 Diese wird dann in der Methode Form1_Load initialisiert:
 
 
     
-{% highlight csharp  %}
+```cs
 //Initialize the array (size = total possible answers)
 answerCount = new double[a.Count];
-{% endhighlight %}
+```
 
 
 Der Gedanke ist recht simpel:
@@ -47,7 +47,7 @@ Wenn nun eine Antwort bestätigt wird (_button_next_Click_) können wir den Wert
 Wir erweitern nun die IF Abfrage in der Methode button_next_Click():
 
     
-{% highlight csharp  %}
+```cs
 if (rdb.Checked == true)
 {
     //Save the answer
@@ -59,7 +59,7 @@ if (rdb.Checked == true)
     rdb.Checked = false;
     break;
 }
-{% endhighlight %}
+```
 
 So können wir für jede Antwortmöglichkeit bequem die Anzahl der Antworten feststellen.
 
@@ -85,7 +85,7 @@ Soweit zur Vorbereitung des Diagramms. Nun fehlen uns noch 2 Methoden und entspr
 Der erste Schritt ist die Initialisierung des Diagramms. Hier werden sämtliche Startattribute festgelegt.
 
     
-{% highlight csharp  %}
+```cs
 private void InitChart(ZedGraphControl zgc)
 {
     GraphPane myPane = zgc.GraphPane;
@@ -113,10 +113,10 @@ private void InitChart(ZedGraphControl zgc)
     //Refresh the graph
     zgc.AxisChange();
 }
-{% endhighlight %}
+```
 
 Diese Methode wird nur einmal aufgerufen:
-{% highlight csharp  %}
+```cs
 private void Form1_Load(object sender, EventArgs e)
 {
     ..
@@ -125,7 +125,7 @@ private void Form1_Load(object sender, EventArgs e)
     //Initialize the chart
     InitChart(zedGraphControl1);
 }
-{% endhighlight %}
+```
 Wenn wir das Programm so ausführen erhalten wir folgendes Bild:
 <!--[![Initialisiertes Diagramm ohne Balken](http://wpimages.phansch.de/2010/06/quiz_teil5_2-300x124.png)](http://wpimages.phansch.de/2010/06/quiz_teil5_2.png)-->
 
@@ -134,7 +134,7 @@ Wenn wir das Programm so ausführen erhalten wir folgendes Bild:
 
 
 Nun fehlen nur noch die Balken, welche die Anzahl der Antworten repräsentieren.
-{% highlight csharp  %}
+```cs
 private void UpdateChart(ZedGraphControl zgc)
 {
     GraphPane myPane = zgc.GraphPane;
@@ -150,12 +150,11 @@ private void UpdateChart(ZedGraphControl zgc)
     zgc.AxisChange();
     zgc.Refresh();
 }
-{% endhighlight %}
+```
 
 Aufgerufen wir UpdateChart() im button_next_Click-Eventhandler:
 
-    
-{% highlight csharp  %}
+```cs
 private void button_next_Click(object sender, EventArgs e)
 {
     ..
@@ -175,7 +174,7 @@ private void button_next_Click(object sender, EventArgs e)
     ..
     ..
     }
-{% endhighlight %}
+```
 
 
 Das war es auch schon. Leider ist die fertige Lösung nicht mehr als Download verfügbar.

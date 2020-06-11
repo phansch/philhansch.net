@@ -15,46 +15,46 @@ As we are using HAProxy, we can't just run `sudo certbot --haproxy` like for ngi
 
 We also want to include the certbot command in a script later on, so we need to supply all further options via the command line. The basic certbot command we will use, looks like this:
 
-{% highlight shell %}
+```sh
 certbot certonly --standalone --agree-tos --non-interactive \
 -m yourmail@host.org -d domain
-{% endhighlight %}
+```
 
 If you try to run the command on the machine where HAProxy is running, it will tell you that port 80 is already in use, because that's the port HAProxy is listening on.
 To circumvent that, we will have to tell the standalone server to use another port:
 
-{% highlight shell %}
+```sh
 certbot certonly --standalone --agree-tos --non-interactive \
 -m yourmail@host.org -d domain --preferred-challenges http \
 --http-01-port 9785
-{% endhighlight %}
+```
 
 We will also have to tell certbot to keep the certificate until it expires and that it should be renewed when we add new domains to it:
 
-{% highlight shell %}
+```sh
 certbot certonly --standalone --agree-tos --non-interactive \
 -m yourmail@host.org -d domain --preferred-challenges http \
 --http-01-port 9785 --renew-with-new-domains \
 --keep-until-expiring
-{% endhighlight %}
+```
 
 With the certbot part out of the way, we can continue with the HAProxy configuration.
 
 ## HAProxy configuration
 
 For HAProxy, we begin with setting up a minimal SSL configuration for our example frontend:
-{% highlight config %}
+```conf
 frontend www-https
   bind *:443 ssl crt /etc/haproxy/ssl-certs/cert.pem
   reqadd X-Forwarded-Proto:\ https
-{% endhighlight %}
+```
 
 
 We will also tell HAProxy to direct all requests to the standalone webserver to the correct port of the standalone webserver.
 
 Our frontend is now done and looks like this:
 
-{% highlight config %}
+```conf
 
 frontend www-https
   bind *:443 ssl crt /etc/haproxy/ssl-certs/cert.pem
@@ -67,14 +67,14 @@ frontend www-https
 
   # ... etc.
 
-{% endhighlight %}
+```
 
 The letsencrypt backend sets the server to the local certbot standalone server:
 
-{% highlight shell %}
+```sh
 backend letsencrypt
    server letsencrypt 127.0.0.1:9785
-{% endhighlight %}
+```
 
 Be sure to validate the config with `haproxy -c -f /path/to/your/haproxy.cfg` to check for mistakes.
 
@@ -86,7 +86,7 @@ The next step is to create a script that will execute the certbot command and co
 
 The script will be called `cert_renew` and it will take a list of domains as an argument.
 
-{% highlight shell %}
+```sh
 #!/bin/bash
 
 # This script takes a list of domains as arguments
@@ -116,7 +116,7 @@ cat fullchain.pem privkey.pem > "$haproxy_cert_dir/cert.pem"
 
 echo "Reloading haproxy"
 sudo systemctl reload haproxy
-{% endhighlight %}
+```
 
 Using it like `cert_renew domain1.org domain2.net` will setup one certificate for both domains at `/etc/haproxy/ssl-certs/cert.pem` and reload HAProxy.
 
@@ -124,9 +124,9 @@ Using it like `cert_renew domain1.org domain2.net` will setup one certificate fo
 
 Next, we will save the script at `/usr/local/bin/cert_renew` and setup the cronjob, so that it runs twice per day:
 
-{% highlight cronjob %}
+```conf
 5 7,17 * * * root /bin/bash -c '/usr/local/bin/cert_renew domain1.io 2>&1 | /usr/bin/logger -t certbot'
-{% endhighlight %}
+```
 
 With that done, we only have to change the cronjob entry when we add new domains and never have to worry about expiring certificates again.
 
