@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>{{ config.title }}</title>
+ <link href="{{ feed_url | safe }}" rel="self" type="application/atom+xml"/>
+ <link href="{{ config.base_url | safe }}/"/>
+ <generator uri="https://www.getzola.org/">Zola</generator>
+ <updated>{{ last_updated | date(format="%+") }}</updated>
+ <id>{{ feed_url | safe }}</id>
+ <author>
+   <name>{{ config.extra.author.name }}</name>
+   <email>{{ config.extra.author.email }}</email>
+ </author>
+
+ {%- for post in pages %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ post.permalink | safe }}"/>
+   <published>{{ post.date | date(format="%+") }}</published>
+   <updated>{{ post.date | date(format="%+") }}</updated>
+   <id>{{ post.permalink | safe }}</id>
+   <content type="html">{{ post.content | safe }}</content>
+ </entry>
+ {%- endfor %}
+</feed>
+

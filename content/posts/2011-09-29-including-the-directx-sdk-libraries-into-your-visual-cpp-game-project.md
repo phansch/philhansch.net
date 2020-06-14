@@ -1,0 +1,50 @@
++++
+comments = true
+template = "post.html"
+slug = "including-the-directx-sdk-libraries-into-your-visual-cpp-game-project"
+title = "Including the DirectX SDK libraries into your Visual C++ game project"
+wordpress_id = 1149
+aliases = ["2011/09/29/including-the-directx-sdk-libraries-into-your-visual-cpp-game-project/"]
++++
+
+If you are new to DirectX game programming, you might have come across this pitfall:
+
+
+
+You added the DirectX header to your main file and it didn't compile because the files couldn't be found.
+
+    
+    #include <d3d11.h>
+    #include <d3dx11.h>
+    #include <d3dx10.h>
+
+Fortunately, solving this problem is relatively straightforward.
+
+## Downloading the DirectX SDK
+
+
+You will need the DirectX SDK Libraries from Microsoft. These contain the aforementioned header files and libraries. Download the latest DirectX SDK from [here](http://msdn.microsoft.com/en-us/directx/aa937788).
+When the download is complete, proceed by installing the DirectX SDK. Make sure you remember the installation location as you will need this later.
+
+
+## Installing the DirectX SDK
+
+
+<!--![Installing DirectX](http://wpimages.phansch.de/2011/09/installation.png)-->
+
+
+## Add references to your project settings
+
+
+<!--![Adding the include path](http://wpimages.phansch.de/2011/09/include_path-300x212.png)-->
+
+In order to tell Visual Studio that your game requires DirectX, you will have to add the DirectX libraries and header files to your project.
+	
+  1. Open your project setting
+  2. Navigate to _VC++ Directories_
+  3. On the right, select _Includepaths_
+  4. A new window will open, that lets you new include paths. Add a new include path by hitting the _New Row_ button in the top right.
+  5. Now you will have to navigate to your DirectX SDK installation directory and select the Include folder.
+
+<!--![Include path](http://wpimages.phansch.de/2011/09/include_path2.png)-->
+Do the same for the library path and you project should compile properly.

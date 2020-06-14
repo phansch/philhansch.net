@@ -1,0 +1,14 @@
+{% import "macros.html" as macros %}
+{% extends "page.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% set rust_timeline = g_timeline | filter(attribute="language",value="Rust") %}
+  {% for entry in rust_timeline %}
+    <article class="timeline-entry code">
+      {{ macros::timeline_item_code(item=[entry]) }}
+    </article>
+  {% endfor %}
+{% endblock content %}
+

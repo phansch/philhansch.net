@@ -1,0 +1,63 @@
+{% macro timeline_item_code(item) %}
+  {% set projects = load_data(path="content/projects.json") %}
+  {% set project = projects | filter(attribute="name",value=item[0].project) | first %}
+
+  {% if project is object %}
+    {{ item[0].date }}: Made a contribution to <a href="{{ project.url }}">{{ project.name }}</a>
+  {% else %}
+
+  {% set message = "Given project does not exist in projects.json: '" ~ item[0].project ~ "'" %}
+    {{ throw(message=message) }}
+  {% endif %}
+
+  <div class="body">
+    <span class="greater-than">⧽</span> {{ item[0].explanation }}
+    <div class="comment_look">
+      <span class="type">code</span> •
+      <span class="language">{{ item[0].language }}</span> •
+      <a href="{{ item[0].url }}">Link to PR</a> •
+      <a href="{{ item[0].url }}/files">Link to changes</a>
+    </div>
+  </div>
+{% endmacro timeline_item_code %}
+
+{% macro timeline_item_docs(item) %}
+  {% set projects = load_data(path="content/projects.json") %}
+  {% set project = projects | filter(attribute="name",value=item[0].project) | first %}
+
+  {% if project is object %}
+    {{ item[0].date }}: Made a contribution to <a href="{{ project.url }}">{{ project.name }}</a>
+  {% else %}
+
+  {% set message = "Given project does not exist in projects.json: '" ~ item[0].project ~ "'" %}
+    {{ throw(message=message) }}
+  {% endif %}
+
+  <div class="body">
+    <span class="greater-than">⧽</span> {{ item[0].explanation }}
+    <div class="comment_look">
+      <span class="type">docs</span> •
+      <span class="language">{{ item[0].language }}</span> •
+      <a href="{{ item[0].url }}">Link to PR</a> •
+      <a href="{{ item[0].url }}/files">Link to changes</a>
+    </div>
+  </div>
+{% endmacro timeline_item_docs %}
+
+{% macro timeline_item_reading(item) %}
+{{ item[0].date }}: {{ item[0].action }} <em>'{{ item[0].title }}'</em>
+
+<div class="body">
+  <p>by {{ item[0].author }} ({{ item[0].pages}} pages)</p>
+</div>
+{% endmacro timeline_item_reading %}
+
+{% macro timeline_item_post(item) %}
+  {{ item[0].date | date(format='%Y-%m-%d') }}: Published new blog post: '<a href="{{ item[0].permalink }}">{{ item[0].title }}</a>'
+
+  <div class="body">
+    {% if item[0].extra.excerpt %}
+      <span class="greater-than">⧽</span> {{ item[0].extra.excerpt }}
+    {% endif %}
+  </div>
+{% endmacro timeline_item_post %}

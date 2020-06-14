@@ -1,9 +1,6 @@
-_site/*
-_theme_packages/*
-test/_site/*
-_testsite/
 vendor/
 .bundle
+public/
 
 Thumbs.db
 .DS_Store
@@ -12,4 +9,3 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
-.jekyll-cache

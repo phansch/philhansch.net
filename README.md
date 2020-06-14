@@ -4,7 +4,7 @@
 [![Sponsor
 count](https://img.shields.io/badge/sponsors-3-brightgreen)](https://phansch.net/thanks)
 
-This is the data for my blog. It uses Jekyll to generate a static website whenever I push new content to GitHub.
+This is the data for my blog. It uses [Zola] to generate a static website whenever I push new content to GitHub.
 
 ## Development
 
@@ -18,6 +18,8 @@ Execute the tests with:
 
 Run Jekyll with:
 
-    jekyll serve --watch --incremental
+    zola serve
 
-and open the website on [localhost:4000](http://localhost:4000).
+and open the website on [127.0.0.1:4000](http://127.0.0.1:1111).
+
+[Zola]: https://www.getzola.org/
