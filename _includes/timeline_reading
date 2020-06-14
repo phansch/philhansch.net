@@ -1,5 +1,0 @@
-{{ item.date }}: {{ item.action }} <strong><em>'{{ item.title }}'</em></strong>
-
-<div class="body">
-  <p>by {{ item.author }} ({{ item.pages}} pages)</p>
-</div>
