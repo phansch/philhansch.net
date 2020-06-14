@@ -106,7 +106,7 @@
   {
     "type": "code",
     "project": "rust-clippy",
-    "explanation": "Reenable rustfmt integration test",
+    "explanation": "Re-enable rustfmt integration test",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/5474",
     "date": "2020-04-16"
