@@ -1392,14 +1392,6 @@
     "date": "2019-01-03"
   },
   {
-    "type": "docs",
-    "project": "internals.rust-lang.org",
-    "explanation": "Posted a proposal for lint configuration files",
-    "language": "Rust",
-    "url": "https://internals.rust-lang.org/t/proposal-cargo-lint-configuration/9135/3",
-    "date": "2019-01-03"
-  },
-  {
     "type": "code",
     "project": "compiletest-rs",
     "explanation": "Integrate rustfix into compiletest-rs",
