@@ -18,6 +18,6 @@ However, this post is not about that. It's about a different pattern: **Expose Y
 
 The idea about exposing your ignorance is to put away your pride. To make a list of things you don't know.
 
-Check out my list [here](/learn/).
+Check out my list ~~[here](#)~~.
 
 Creating my list has helped me realize where I need to dig deeper. For example, notice the lack of items on my Ruby and Rails list. You could say that I know a lot about Rails because the list is very short. But in reality, I  haven't really dug deep into Rails and it shows in the lack of specific questions.
