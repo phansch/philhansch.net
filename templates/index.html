@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block title %}{{ section.title }}{% endblock title %}
+
+{% block content %}
+  {{ section.content | safe}}
+  {% include "timeline.html" %}
+{% endblock content %}

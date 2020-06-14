@@ -1,0 +1,30 @@
+{% extends "page.html" %}
+
+{% block content %}
+  {{ page.content | safe }}
+
+  {% set books = load_data(path="content/books.json") %}
+
+  <h3>Books I'm going to read next</h3>
+
+  {% for book in books %}
+    {% if not book.readDate %}
+    <p class="book">
+      <em>{{ book.title }}</em>
+      <br />by {{ book.author }} &sdot; {{ book.pages }} Pages
+    </p>
+    {% endif %}
+  {% endfor %}
+
+  <h3>Books I've read / still reading</h3>
+
+  {% for book in books %}
+    {% if book.readDate %}
+    <p class="book">
+      <em>{{ book.title }}</em> in {{ book.readDate }}
+      <br />by {{ book.author }} &sdot; {{ book.pages }} Pages
+    </p>
+    {% endif %}
+  {% endfor %}
+
+{% endblock content %}

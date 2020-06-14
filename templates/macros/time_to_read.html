@@ -1,0 +1,8 @@
+{% macro time_to_read(content) %}
+  {% set words = content | wordcount %}
+  {% set reading_time = words / 200 | round %}
+  {% if reading_time == 0 %}
+    {% set reading_time = 1 %}
+  {% endif %}
+  {{ reading_time }}  min read
+{% endmacro time_to_read %}

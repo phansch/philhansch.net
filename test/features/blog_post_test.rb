@@ -12,12 +12,12 @@ class BlogPostTest < CapybaraTestCase
   end
 
   def test_time_to_read
-    visit '2017/02/12/a-better-pry-prompt-for-rails-console'
+    visit 'posts/a-better-pry-prompt-for-rails-console'
     assert page.has_content? '2 min read'
   end
 
   def test_date_format
-    visit '2014/04/13/sideproject-screenshot-streamer'
+    visit 'posts/sideproject-screenshot-streamer'
     assert page.has_content? '13 Apr 2014'
   end
 
@@ -33,6 +33,6 @@ class BlogPostTest < CapybaraTestCase
   private
 
   def all_posts
-    @_all_posts ||= Dir['_posts/*.md']
+    @_all_posts ||= Dir['content/posts/*.md']
   end
 end

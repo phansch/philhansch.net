@@ -1,5 +1,0 @@
-{% assign readingTime = string.content || split:' '  || size || divided_by: 200 %} 
-{% if readingTime == 0 %}
-{% assign readingTime = 1 %}
-{% endif %}
-{{ readingTime }}  min read

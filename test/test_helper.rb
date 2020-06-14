@@ -38,12 +38,12 @@ class StaticSite
 end
 
 # Make sure the static site is built
-`jekyll build` unless File.directory?('_site')
+`zola build` unless File.directory?('public')
 
 Capybara.app = Rack::Builder.new do
   map '/' do
     use Rack::Lint
-    run StaticSite.new(File.join(File.dirname(__FILE__), '..', '_site'))
+    run StaticSite.new(File.join(File.dirname(__FILE__), '..', 'public'))
   end
 end.to_app
 

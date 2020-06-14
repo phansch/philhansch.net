@@ -1,0 +1,8 @@
+{% set g_timeline = load_data(path="content/timeline.json") %}
+<div class="onehundred-widget">
+  <div class="progressbar">
+    <div class="value" style="width: {{ g_timeline | filter(attribute="language",value=language) | length }}%; max-width: 100%">
+      <div class="text">{{ g_timeline | filter(attribute="language",value=language) | length }} / 100</div>
+    </div>
+  </div>
+</div>

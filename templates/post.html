@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% import "macros/time_to_read.html" as macros %}
+
+{% block title %}{{ page.title }}{% endblock title %}
+
+{% block post_headers %}
+<meta name="twitter:site" content="phansch.net">
+<meta name="twitter:creator" content="@phansch">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ config.base_url }}/assets/images/twitter-card-image.jpg">
+{% endblock post_headers %}
+
+{% block content %}
+  <div class="post">
+    <article class="col">
+      <h1>{{ page.title }}</h1>
+      <p class="meta">
+      — <em>{{ page.date | date(format="%d %b %Y") }}</em>,
+      <em>{{ macros::time_to_read(content=page.content) }}</em>
+      </p>
+      {{ page.content | safe }}
+    </article>
+    <hr />
+    <div class="about-the-author">
+      <img src="/assets/images/avatar.jpeg" height="200px" alt="avatar" class="avatar" />
+      <div>
+        <h2>Philipp Hansch</h2>
+        <h4 class="subtitle">Full Stack Developer</h4>
+        <p>
+        Philipp is a full stack developer currently heavily involved with Rust. Most notably he's a member of the Clippy team where he helps with bugfixing and documentation. You can follow him on <a href="https://twitter.com/{{ config.extra.author.twitter }}">Twitter</a> and find him on <a href="https://github.com/{{ config.extra.author.github }}">GitHub</a> as well as <a href="https://patreon.com/{{ config.extra.author.patreon }}">Patreon</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
