@@ -21,7 +21,7 @@ I didn't get a lot of stuff done last week. And I only managed to squeeze in 24 
 
 ## Running the game ##
 1. If you don't have Love2D installed, download it [here](http://love2d.org/) and install it first.
-2. Download the [.love](/assets/dl/1GAM/Jan/PiDefender-Week3.love) file.
+2. ~~Download the [.love](#) file~~.
 
 To run the game:
 

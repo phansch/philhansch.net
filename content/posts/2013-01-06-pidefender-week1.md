@@ -20,7 +20,7 @@ The game is obviously a work in progress. Both graphics wise and gameplay wise. 
 
 ## Running the game ##
 1. If you don't have Love2D installed, download it [here](http://love2d.org/) and install it first.
-2. Download the [.love](/assets/dl/1GAM/Jan/PiDefender.love) file.
+2. ~~Download the [.love](#) file~~.
 
 To run the game:
 

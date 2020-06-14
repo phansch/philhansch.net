@@ -45,7 +45,7 @@ PiDefender is a top-down space shooter. The player controls a cannon by moving t
 
 ## Running the game ##
 1. If you don't have Love2D installed, download it [here](http://love2d.org/) and install it first.
-2. Download the [.love](/assets/dl/1GAM/Jan/PiDefender-Final.love) file.
+2. ~~Download the [.love](#) file~~.
 
 To run the game:
 
