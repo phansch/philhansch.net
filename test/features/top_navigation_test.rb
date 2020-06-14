@@ -16,6 +16,6 @@ class TopNavigationTest < CapybaraTestCase
   def test_blog_link
     visit '/'
     click_link 'Blog'
-    assert page.has_content? 'min read'
+    assert page.has_content? 'Monthly review'
   end
 end
