@@ -16,7 +16,11 @@
     <article class="col h-entry">
       <h1 class="p-name">{{ page.title }}</h1>
       <p class="meta">
-      — <em><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date(format="%d %b %Y") }}</time></em>,
+      — <a href="{{ page.permalink }}" class="u-url" title="Permalink">
+          <em>
+            <time class="dt-published" datetime="{{ page.date }}">{{ page.date | date(format="%d %b %Y") }}</time>
+          </em>
+      </a>,
       <em>{{ macros::time_to_read(content=page.content) }}</em>
       </p>
       <div class="e-content">{{ page.content | safe }}</div>
