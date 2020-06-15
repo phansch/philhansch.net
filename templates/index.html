@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% import "macros.html" as macros %}
+{% import "macros/timeline.html" as macros_t %}
 
 {% block title %}{{ section.title }}{% endblock title %}
 
 {% block content %}
   {{ section.content | safe}}
-  {% include "timeline.html" %}
+  {{ macros_t::timeline(g_timeline=g_timeline, limit=10) }}
 {% endblock content %}
