@@ -13,13 +13,13 @@
 
 {% block content %}
   <div class="post">
-    <article class="col">
-      <h1>{{ page.title }}</h1>
+    <article class="col h-entry">
+      <h1 class="h-name">{{ page.title }}</h1>
       <p class="meta">
-      — <em>{{ page.date | date(format="%d %b %Y") }}</em>,
+      — <em><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date(format="%d %b %Y") }}</time></em>,
       <em>{{ macros::time_to_read(content=page.content) }}</em>
       </p>
-      {{ page.content | safe }}
+      <div class="e-content">{{ page.content | safe }}</div>
     </article>
     <hr />
     <div class="about-the-author">
