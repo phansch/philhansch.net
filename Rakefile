@@ -17,7 +17,8 @@ task :html_proofer do
     check_favicon: true,
     check_html: true,
     http_status_ignore: [999, 503, 429, 0],
-    typhoeus: { ssl_verifyhost: 0, ssl_verifypeer: false, timeout: 30 }
+    typhoeus: { ssl_verifyhost: 0, ssl_verifypeer: false, timeout: 30 },
+    url_swap: { /^https:\/\/phansch.net/ => '' }
   }
   HTMLProofer.check_directory('public', opts).run
 end
