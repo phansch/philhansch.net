@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Updates `_data/timeline.json` with the latest data
+# Updates `content/timeline.json` with the latest data
 # Usage: GH_TOKEN=xxxx ./update_timeline.sh
 
 set -euo pipefail
@@ -20,13 +20,13 @@ END
 )
 cd ~/code/prs
 json=$(LIMIT=20 cargo run -q | jq "$jq_transform")
-cd ~/code/phansch.github.com
-rm -rf /tmp/phansch.github.com
-mkdir /tmp/phansch.github.com
-touch /tmp/phansch.github.com/blog_timeline_update.json
-echo "$json" > /tmp/phansch.github.com/blog_timeline_update.json
-cat _data/timeline.json >> /tmp/phansch.github.com/blog_timeline_update.json
-cp /tmp/phansch.github.com/blog_timeline_update.json _data/timeline.json
+cd ~/code/phansch.net
+rm -rf /tmp/phansch.net
+mkdir /tmp/phansch.net
+touch /tmp/phansch.net/blog_timeline_update.json
+echo "$json" > /tmp/phansch.net/blog_timeline_update.json
+cat content/timeline.json >> /tmp/phansch.net/blog_timeline_update.json
+cp /tmp/phansch.net/blog_timeline_update.json content/timeline.json
 
 # TODO manually after running this
 # 1. Review all the 'language' values.
