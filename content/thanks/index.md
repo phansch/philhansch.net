@@ -9,6 +9,9 @@ I'm incredibly thankful to the following people and organizations for their supp
 {{ sponsorbadge_github() }} {{ sponsorbadge_patreon() }} {{ sponsorbadge_paypal() }}
 </div>
 
+Alternatively, have a look at my public [Bandcamp wishlist] where you can
+instead support bands and musicians I listen to.
+
 ## Supporters
 
 * [@oli-obk](https://github.com/oli-obk)
@@ -25,3 +28,5 @@ Everyone below 50€/mo
 -----
 
 This page is updated every first Monday of the month.
+
+[Bandcamp wishlist]: https://bandcamp.com/philhansch/wishlist
