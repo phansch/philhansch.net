@@ -2,6 +2,38 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "Deprecate regex_macro lint",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5760",
+    "date": "2020-07-01"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Cleanup: Use rustc's `same_type` for our `same_tys`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5528",
+    "date": "2020-06-06"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Add regression test for `string_lit_as_bytes` issue",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5672",
+    "date": "2020-06-02"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Add regression test for endless loop / update `pulldown_cmark`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5673",
+    "date": "2020-06-01"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "Make empty_line_after_outer_attr an early lint",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/5609",
