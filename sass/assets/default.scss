@@ -41,7 +41,7 @@ hr {
 kbd {
   padding:0.1em 0.6em;
   border:1px solid #ccc;
-  font-size:11px;
+  font-size:0.8rem;
   font-family:Arial,Helvetica,sans-serif;
   background-color:#f7f7f7;
   color:#333;
@@ -56,6 +56,7 @@ kbd {
   text-shadow:0 1px 0 #fff;
   line-height:1.4;
   white-space:nowrap;
+  vertical-align: middle;
 }
 
 pre {
@@ -81,7 +82,6 @@ p code, li code {
   border-radius: 3px;
   font-family: monospace;
   font-weight: normal;
-  font-size: 1.3rem;
   color: $brand-primary;
   padding: .10em .25em;
 }
