@@ -16,7 +16,7 @@ Execute the tests with:
 
 ### Serving
 
-Run Jekyll with:
+Run Zola with:
 
     zola serve
 
