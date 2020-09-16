@@ -12,6 +12,6 @@ In a rut? Maybe have a look at some of this:
 
 ---
 
-> A person is being lazy if he is able to carry out some activity that he ought to carry out, but is disinclined to do so because of the effort involved. Instead, he carries out the activity perfunctorily; or engages in some other, less strenous or less boring activity; or remains idle. In short, he is being lazy if his motivation to spare himself effort trumps his motivation to do the right or expected thing.
+> A person is being lazy if he is able to carry out some activity that he ought to carry out, but is disinclined to do so because of the effort involved. Instead, he carries out the activity perfunctorily; or engages in some other, less strenuous or less boring activity; or remains idle. In short, he is being lazy if his motivation to spare himself effort trumps his motivation to do the right or expected thing.
 
 Don't avoid discomfort.
