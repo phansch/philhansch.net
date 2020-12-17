@@ -30,7 +30,7 @@ I joined a group which was planning a booking system in Python/Django and I quic
 
 The second day started off with a presentation about deliberate practice:
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/28166973" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="true"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ellenkoenig/deliberate-practice-hackership" title="Deliberate practice hackership" target="_blank">Deliberate practice hackership</a> </strong> from <strong><a href="http://www.slideshare.net/ellenkoenig" target="_blank">Ellen Koenig</a></strong> </div>
+(Unfortunately the slides have been removed a few years later)
 
 After that, it was my turn to give an introduction to learning journals and my tool [jou](http://github.com/phansch/jou). I decided to give [reveal.js](http://lab.hakim.se/reveal-js/) a try for that. I should have prepared a little better since the most important slide didn't show up at all. That caught me by surprise and I was lost for a moment. Also, I probably need more practice with public speaking. Anyway, the (now fixed) slides can be found [here](http://phansch.net/slides/learning_journals).
 
