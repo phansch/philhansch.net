@@ -2,6 +2,54 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "UI Tests: Separate suspicious_else_formatting tests",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6473",
+    "date": "2020-12-19"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Fix blessing of new reference files",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6471",
+    "date": "2020-12-19"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Rewrite update-all-references bash scripts in Rust",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6413",
+    "date": "2020-12-12"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Remove lazy_static completely and use once_cell feature instead",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6163",
+    "date": "2020-10-12"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Replace some lazy_static usage with once_cell feature",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6120",
+    "date": "2020-10-07"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Remove old Symbol reexport",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/5856",
+    "date": "2020-08-04"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "Deprecate regex_macro lint",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/5760",
