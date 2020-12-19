@@ -7,7 +7,7 @@ aliases = ["2014/04/13/sideproject-screenshot-streamer/"]
 excerpt = "My most recent side project. An image streaming server using Sinatra."
 +++
 
-Time for another side project! This is a project for the upcoming [Ludum Dare game making competition](http://www.ludumdare.com/compo/).
+Time for another side project! This is a project for the upcoming [Ludum Dare game making competition](https://ldjam.com/events/ludum-dare/rules).
 
 ## What this is about
 
