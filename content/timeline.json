@@ -2,6 +2,14 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "Don't trigger large_enum_variant in external macros",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6485",
+    "date": "2020-12-22"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "UI Tests: Separate suspicious_else_formatting tests",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/6473",
