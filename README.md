@@ -1,6 +1,6 @@
 # phansch.net
 
-![Build Status](https://github.com/phansch/phansch.github.com/workflows/Ruby/badge.svg)
+[![Build Status](https://github.com/phansch/phansch.github.com/workflows/Ruby/badge.svg)](https://github.com/phansch/phansch.net/actions)
 [![Sponsor
 count](https://img.shields.io/badge/sponsors-4-brightgreen)](https://phansch.net/thanks)
 
