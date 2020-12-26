@@ -14,6 +14,7 @@ highlight_code = true
 build_search_index = false
 
 generate_feed = true
+feed_filename = "atom.xml"
 
 [extra]
 # Put all your custom variables here
