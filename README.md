@@ -2,7 +2,7 @@
 
 ![Build Status](https://github.com/phansch/phansch.github.com/workflows/Ruby/badge.svg)
 [![Sponsor
-count](https://img.shields.io/badge/sponsors-3-brightgreen)](https://phansch.net/thanks)
+count](https://img.shields.io/badge/sponsors-4-brightgreen)](https://phansch.net/thanks)
 
 This is the data for my blog. It uses [Zola] to generate a static website whenever I push new content to GitHub.
 
