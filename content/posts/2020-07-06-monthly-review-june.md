@@ -18,7 +18,7 @@ means](https://phansch.net/thanks) 🧡
 
 ## What I've worked on
 
-Four code contribution got merged this month:
+Four code contributions got merged this month:
 
 * [Add regression test for endless loop][#5673]
 * [Add regression test for `string_lit_as_bytes` issue ][#5672]
