@@ -19,7 +19,7 @@
    <published>{{ post.date | date(format="%+") }}</published>
    <updated>{{ post.date | date(format="%+") }}</updated>
    <id>{{ post.permalink | safe }}</id>
-   <content type="html">{{ post.content | safe }}</content>
+   <content type="html"><a href="{{ post.permalink | safe}}">View post on phansch.net</a></content>
  </entry>
  {%- endfor %}
 </feed>
