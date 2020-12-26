@@ -12,6 +12,10 @@ I'm incredibly thankful to the following people and organizations for their supp
 Alternatively, have a look at my public [Bandcamp wishlist] where you can
 instead support bands and musicians I listen to.
 
+## Bronze Sponsors
+
+* [Embark Studios](https://github.com/EmbarkStudios)
+
 ## Supporters
 
 * [@oli-obk](https://github.com/oli-obk)
@@ -19,11 +23,11 @@ instead support bands and musicians I listen to.
 * [@repi](https://github.com/repi)
 
 <!---
-Everyone below 50€/mo
-
-## Bronze sponsors
-## Silver sponsors
 ## Gold sponsors
+## Silver sponsors
+## Bronze sponsors
+
+Everyone below 50€/mo
 -->
 -----
 
