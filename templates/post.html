@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% import "macros/time_to_read.html" as macros %}
+{% import "macros/time_to_read.html" as util %}
+{% import "macros/toc.html" as macros %}
 
 {% block title %}{{ page.title }}{% endblock title %}
 
@@ -21,9 +22,9 @@
             <time class="dt-published" datetime="{{ page.date }}">{{ page.date | date(format="%d %b %Y") }}</time>
           </em>
       </a>,
-      <em>{{ macros::time_to_read(content=page.content) }}</em>
+      <em>{{ util::time_to_read(content=page.content) }}</em>
       </p>
-      <div class="e-content">{{ page.content | safe }}</div>
+      <div class="e-content">{{ macros::replace_toc(resource=page) | safe }}</div>
     </article>
     <hr />
     <div class="about-the-author">

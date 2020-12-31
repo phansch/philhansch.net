@@ -11,8 +11,7 @@ excerpt = "Learning a lot about rustc internals."
 way. I hope this blog post will be useful for other people diving
 into Clippy and maybe serve as motivation if things get difficult.
 
-* TOC
-{:toc}
+[TOC]
 
 # Meet the crash
 
