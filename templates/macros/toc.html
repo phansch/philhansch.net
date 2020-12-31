@@ -1,0 +1,30 @@
+{# Based on https://zola.discourse.group/t/choose-table-of-content-position/506/4 #}
+
+{%- macro toc(toc, level, depth) %}
+{%- if level == 1 %}
+<div class="toc">
+<h3>Table of contents</h3>
+{%- endif %}
+<ol class="h{{ level }}">
+{%- for h in toc %}
+    <li>
+        <a href="{{ h.permalink | safe }}">{{ h.title }}</a>
+        {% if h.children and level <= depth -%}
+            {{ macros::toc(toc=h.children, level=level+1, depth=depth) }}
+        {%- endif %}
+    </li>
+    {%- endfor %}
+</ol>
+{%- if level == 1 %}
+</div>
+{%- endif %}
+{%- endmacro %}
+
+
+{%- macro replace_toc(resource) %}
+  {%- set content = resource.content %}
+  {%- if content is containing("[TOC]") %}
+    {%- set content = content | replace(from="[TOC]", to=macros::toc(toc=resource.toc, level=1, depth=resource.extra.toc_depth | default(value=6))) %}
+  {%- endif -%}
+  {{ content | safe }}
+{%- endmacro %}
