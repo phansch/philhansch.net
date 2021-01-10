@@ -2,6 +2,46 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "Fix derive and macro related false positives in `field_reassign_with_default`",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6553",
+    "date": "2021-01-06"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Tiny Symbol cleanup",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6551",
+    "date": "2021-01-05"
+  },
+  {
+    "type": "code",
+    "project": "highfive",
+    "explanation": "Add myself to Clippy reviewers again",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/highfive/pull/303",
+    "date": "2021-01-04"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
+    "explanation": "Fix blessing of test output in subdirectories",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6525",
+    "date": "2021-01-04"
+  },
+  {
+    "type": "code",
+    "project": "compiletest-rs",
+    "explanation": "Run `cargo test` on CI",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/229",
+    "date": "2021-01-03"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "Update CHANGELOG for Rust 1.50",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/6520",
