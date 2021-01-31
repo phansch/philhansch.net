@@ -1,6 +1,14 @@
 [
   {
     "type": "code",
+    "project": "rust-clippy",
+    "explanation": "clippy_dev: Pass stderr to CommandFailed",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6656",
+    "date": "2021-01-31"
+  },
+  {
+    "type": "code",
     "project": "rust",
     "explanation": "compiletest: Add two more unit tests",
     "language": "Rust",
