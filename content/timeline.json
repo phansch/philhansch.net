@@ -1,6 +1,14 @@
 [
   {
     "type": "code",
+    "project": "rust",
+    "explanation": "compiletest: Add two more unit tests",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust/pull/81428",
+    "date": "2021-01-28"
+  },
+  {
+    "type": "code",
     "project": "rust-clippy",
     "explanation": "Fix derive and macro related false positives in `field_reassign_with_default`",
     "language": "Rust",
