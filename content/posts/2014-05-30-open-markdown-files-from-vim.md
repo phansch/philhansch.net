@@ -66,6 +66,6 @@ Add the following to `mimeTypes.rdf` to make it recognize .md files as text/plai
 </RDF:Description>
 ```
 
-<small>[Source: Getting Markdown Viewer To Display HTML Formatted Markdown Content in Firefox Under Linux](http://www.ryanchapin.com/fv-b-4-737/Getting-Markdown-Viewer-To-Display-HTML-Formatted-Markdown-Content-in-Firefox-Under-Linux.html)</small>
+<small>[Source: Getting Markdown Viewer To Display HTML Formatted Markdown Content in Firefox Under Linux](https://www.ryanchapin.com/getting-markdown-viewer-to-display-html-formatted-markdown-content-in-firefox-under-linux/)</small>
 
 Now restart your browser and give it a try.
