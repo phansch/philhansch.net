@@ -120,4 +120,5 @@ Zuletzt wird das ZedGraphControl aktualisiert um die neuen Daten anzuzeigen.
 Beispiel als Download: <!--[ZedGraphExample](http://wpimages.phansch.de/2010/09/ZedGraphExample.zip). (Benötigt wird [Visual C# 2010 Express](http://www.microsoft.com/express/Downloads/#2010-Visual-CS))--> Beispiel entfernt.
 
 Weiterführende Links:
-[http://www.codeproject.com/KB/graphics/zedgraph.aspx](http://www.codeproject.com/KB/graphics/zedgraph.aspx)
+
+* [https://www.codeproject.com/Articles/5431/A-flexible-charting-library-for-NET](https://www.codeproject.com/Articles/5431/A-flexible-charting-library-for-NET)
