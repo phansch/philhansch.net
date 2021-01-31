@@ -4,6 +4,10 @@
     "url": "https://github.com/rust-embedded/discovery"
   },
   {
+    "name": "highfive",
+    "url": "https://github.com/rust-lang/highfive"
+  },
+  {
     "name": "http-types",
     "url": "https://github.com/http-rs/http-types"
   },
