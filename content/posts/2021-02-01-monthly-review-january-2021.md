@@ -45,7 +45,15 @@ In addition to that I currently have two open pull requests in `compiletest-rs`:
 
 Finally, I started a new Rust side project: [webdriver-install]. As the name
 suggests it manages the installation, updating and removal of webdrivers, such
-as `chromedriver`. Currently it supports the installation of `chromedriver` and
+as `chromedriver`.
+
+<div style="text-align: center">
+  <a href="https://github.com/phansch/webdriver-install">
+    <img src="/assets/images/posts/2021/webdriver-install.png" alt="screenshot" />
+  </a>
+</div>
+
+Currently it supports the installation of `chromedriver` and
 `geckodriver` on Windows, MacOS and Linux. It comes both as a Rust library as
 well as a CLI for usage in non-Rust environments.
 
@@ -55,6 +63,12 @@ Two really important things happened for the Clippy team this month:
 
 * We now have a [Roadmap for 2021](https://github.com/rust-lang/rust-clippy/blob/master/doc/roadmap-2021.md) 🎉
 * We started doing bi-weekly meetings [on Zulip](https://rust-lang.zulipchat.com/#narrow/stream/257328-clippy/topic/Meeting.202021-01-26)
+
+<div style="text-align: center">
+  <a href="/assets/images/posts/2021/first-clippy-meeting.png">
+    <img src="/assets/images/posts/2021/first-clippy-meeting.png" alt="screenshot" />
+  </a>
+</div>
 
 I believe this is going to be great for long-term contributor retention and
 finding more team members. The bi-weekly meetings may also improve my personal
