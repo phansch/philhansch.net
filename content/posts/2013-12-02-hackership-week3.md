@@ -22,7 +22,7 @@ On **Wednesday** one thing I was trying to figure out was: <q>What exactly Rails
 **Thursday** started in the evening for me. I mainly did some CoffeeScript refactoring. Here are some interesting resources I found helpful:
 
 
-#### [js2coffee.org](http://js2coffee.org)
+#### [js2.coffee](http://js2.coffee/)
 
 This is a CoffeeScript to JavaScript converter. I used it to covert my original JavaScript to CoffeeScript.
 
