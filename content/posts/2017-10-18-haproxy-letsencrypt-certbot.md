@@ -136,6 +136,6 @@ With that done, we only have to change the cronjob entry when we add new domains
 
 This post builds on a few other blog posts which have been really helpful. These are:
 
-* [This great post](https://blog.bigdinosaur.org/finally-moving-to-letsencrypt-with-haproxy-varnish-and-nginx.html) by Lee Hutchinson
+* [This great post](https://blog.bigdinosaur.org/finally-moving-to-letsencrypt-with-haproxy-varnish-and-nginx/) by Lee Hutchinson
 * [Scott Helme's post](https://scotthelme.co.uk/lets-encrypt-smart-renew/) and the comments below
 * [This post](https://skarlso.github.io/2017/02/15/how-to-https-with-hugo-letsencrypt-haproxy/) by Skarlso, too
