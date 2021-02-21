@@ -2,6 +2,38 @@
   {
     "type": "code",
     "project": "rust-clippy",
+    "explanation": "Upgrade compiletest-rs to 0.6 and tester to 0.9",
+    "language": "Rust",
+    "url": "https://github.com/rust-lang/rust-clippy/pull/6743",
+    "date": "2021-02-15"
+  },
+  {
+    "type": "code",
+    "project": "compiletest-rs",
+    "explanation": "Add basic `bless` support",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/231",
+    "date": "2021-02-10"
+  },
+  {
+    "type": "code",
+    "project": "rustc-test",
+    "explanation": "Allow multiple test filters",
+    "language": "Rust",
+    "url": "https://github.com/messense/rustc-test/pull/8",
+    "date": "2021-02-10"
+  },
+  {
+    "type": "code",
+    "project": "compiletest-rs",
+    "explanation": "Move to GitHub Actions",
+    "language": "Rust",
+    "url": "https://github.com/laumann/compiletest-rs/pull/232",
+    "date": "2021-02-09"
+  },
+  {
+    "type": "code",
+    "project": "rust-clippy",
     "explanation": "clippy_dev: Pass stderr to CommandFailed",
     "language": "Rust",
     "url": "https://github.com/rust-lang/rust-clippy/pull/6656",
