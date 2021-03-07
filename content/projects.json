@@ -24,6 +24,10 @@
     "url": "https://github.com/EmbarkStudios/rust-ecosystem"
   },
   {
+    "name": "rustc-test",
+    "url": "https://github.com/messense/rustc-test"
+  },
+  {
     "name": "annotate-snippets-rs",
     "url": "https://github.com/rust-lang/annotate-snippets-rs"
   },

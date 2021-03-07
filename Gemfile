@@ -7,4 +7,5 @@ group :test do
   gem 'html-proofer'
   gem 'rack'
   gem 'rake'
+  gem 'pry'
 end

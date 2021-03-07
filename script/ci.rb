@@ -37,7 +37,7 @@ end
 
 if ENV['RUN'] == 'test'
   build.run_job('test', 'bundle exec rake test')
-  build.run_job('codespell', 'codespell content --skip "2012-05-18*.md","2009*.md","2010*.md","2011*.md" -L mut')
+  build.run_job('codespell', 'codespell content --skip "2012-05-18*.md","2009*.md","2010*.md","2011*.md" -L mut -L crate')
 end
 
 build.handle_results
