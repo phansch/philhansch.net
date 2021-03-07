@@ -27,7 +27,7 @@ In production:
 
 It would be really good to know **what** environment each rails console is operating on. While it is printed on the start of the rails console session, it usually quickly scrolls off the screen.
 
-What if we accidentally removed the users on the wrong system? Sure, everyone has working backups, database replication and is also testing them regulary, right?
+What if we accidentally removed the users on the wrong system? Sure, everyone has working backups, database replication and is also testing them regularly, right?
 
 Even if we have working backups, we can still work on preventing accidents. Luckily we have complete control over the pry prompt through the [`.pryrc` configuration file](https://github.com/pry/pry/wiki/Customization-and-configuration#Config_prompt).
 

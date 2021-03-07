@@ -23,7 +23,7 @@ There will be [daily stand-ups](http://en.wikipedia.org/wiki/Stand-up_meeting) a
 [Hackerschool New York](https://www.hackerschool.com/about) is a very similar program and has been running for three years already.
 
 ## What and how I want to learn
-Primarily I want to learn Ruby on Rails and proper Test Driven Development. I already have an idea on how to get started with this. I will spend the first two or three days working through [this](http://ruby.railstutorial.org/) Ruby on Rails tutorial. After that, I will start to work on the actual project where I can apply all the things from the tutorial. Additionally I am going to use [Anki](http://ankisrs.net/) cards for stuff that is hard to remember. I will also try to maintain a learning journal to regulary review my learning progress.
+Primarily I want to learn Ruby on Rails and proper Test Driven Development. I already have an idea on how to get started with this. I will spend the first two or three days working through [this](http://ruby.railstutorial.org/) Ruby on Rails tutorial. After that, I will start to work on the actual project where I can apply all the things from the tutorial. Additionally I am going to use [Anki](http://ankisrs.net/) cards for stuff that is hard to remember. I will also try to maintain a learning journal to regularly review my learning progress.
 
 ## The actual project
 
