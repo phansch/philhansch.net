@@ -70,7 +70,7 @@ end
 ## What to test
 This of course depends on your website. For me I identified a few things:
 
-* The [frontpage](/) (which is a bit outdated) should have the link to my [CV](https://gitlab.com/phansch/latex-resume/raw/master/resume-philipp-hansch.pdf)
+* The [frontpage](/) (which is a bit outdated) should have the link to my [CV](https://gitlab.com/phansch/latex-resume/raw/main/resume-philipp-hansch.pdf)
 * Clicking on the archive link should bring me to the archive
 * [/archive](/archive) should contain the first and last post
 * The dates on [/archive](/archive) should be in the correct format
@@ -80,4 +80,4 @@ This of course depends on your website. For me I identified a few things:
 * The main navigation items go to pages with the correct content
 * The [atom feed](/atom.xml) should be a valid atom feed
 
-Apart from the atom feed validation this is all straight Capybara using `has_content` and some basic Ruby for the time check. You can find all the tests [here](https://github.com/phansch/phansch.github.com/tree/master/test/).
+Apart from the atom feed validation this is all straight Capybara using `has_content` and some basic Ruby for the time check. You can find all the tests [here](https://github.com/phansch/phansch.github.com/tree/main/test/).
