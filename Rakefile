@@ -12,7 +12,7 @@ task default: :test
 task :html_proofer do
   `zola build` unless File.directory?('public')
   opts = {
-    url_ignore: [/\#$/, /localhost/, /rubydoc/, /viewdns/],
+    url_ignore: [/\#$/, /localhost/, /rubydoc/, /viewdns/, /paypalme/],
     file_ignore: [/slides/],
     allow_hash_href: true,
     check_favicon: true,
