@@ -38,7 +38,7 @@ end
 ```
 
 Using `rake html_proofer` it builds the site and runs HTMLProofer with the given options on the Jekyll output.
-You can check the Travis CI integration in [script/ci.rb](https://github.com/phansch/phansch.github.com/blob/master/script/ci.rb) and [.travis.yml](https://github.com/phansch/phansch.github.com/blob/master/.travis.yml).
+You can check the Travis CI integration in [script/ci.rb](https://github.com/phansch/phansch.github.com/blob/main/script/ci.rb) and [.travis.yml](https://github.com/phansch/phansch.github.com/blob/main/.travis.yml).
 
 If you run into SSL issues with HTMLProofer, you may have to [install](https://github.com/typhoeus/typhoeus/issues/568) `libcurl4-openssl-dev` on Travis.
 

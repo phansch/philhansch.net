@@ -70,7 +70,7 @@ end
 ## What to test
 This of course depends on your website. For me I identified a few things:
 
-* The [frontpage](/) (which is a bit outdated) should have the link to my [CV](https://gitlab.com/phansch/latex-resume/raw/main/resume-philipp-hansch.pdf)
+* The [frontpage](/) (which is a bit outdated) should have the link to my [CV](https://github.com/phansch/cv/raw/main/resume-philipp-hansch.pdf)
 * Clicking on the archive link should bring me to the archive
 * [/archive](/archive) should contain the first and last post
 * The dates on [/archive](/archive) should be in the correct format

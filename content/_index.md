@@ -11,7 +11,7 @@ title = "Philipp Hansch - Ruby, Rust and more"
   <table id="index-link-table">
     <tr>
       <td>
-        <a href="https://github.com/phansch/cv/raw/master/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
+        <a href="https://github.com/phansch/cv/raw/main/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
       </td>
       <td>
         <a href="http://github.com/phansch">GitHub</a>

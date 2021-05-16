@@ -18,7 +18,7 @@ Here's what I've planned in order to complete the challenge.
 3. Every Sunday, a new game update is published on this blog. The game should be in a playable state without any obvious bugs.
 4. Use game jams whenever possible.
 5. Use the GitHub Issue System for monitoring my progress. I have a milestone for 1GAM setup [here](https://github.com/phansch/phansch.github.com/issues?milestone=2&page=1&state=open).
-5. Tech: For now it's [Lua](http://www.lua.org) + [Love2D](http://love2d.org) + [hump](http://vrld.github.com/hump/).
+5. Tech: For now it's [Lua](http://www.lua.org) + [Love2D](http://love2d.org) + [hump](https://hump.readthedocs.io/en/latest/).
 
 
 See you next Sunday!
