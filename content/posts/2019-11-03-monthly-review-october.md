@@ -43,7 +43,7 @@ want to try and see how I can help out with the effort over at
 [sponsoring blog post]: https://phansch.net/2019/10/21/sponsoring/
 [thanks page]: https://phansch.net/thanks/
 [sponsorship profile]: https://github.com/sponsors/phansch
-[paypal.me profile]: https://www.paypal.me/philhansch
+[paypal.me profile]: https://www.paypal.com/paypalme/philhansch
 [@oli-obk]: https://github.com/oli-obk
 [@yaahc]: https://github.com/yaahc
 [annotate]: https://github.com/rust-lang/annotate-snippets-rs/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc
