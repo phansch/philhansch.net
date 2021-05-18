@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    # Every day at 3am UTC
-    - cron: '0 3 * * *'
+    # Every Friday at 3am UTC
+    - cron: '0 3 * * 6'
 
 jobs:
   html_proofer:
