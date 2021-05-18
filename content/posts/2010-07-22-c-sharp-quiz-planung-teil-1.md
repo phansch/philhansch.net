@@ -7,7 +7,7 @@ wordpress_id = 292
 aliases = ["2010/07/22/c-sharp-quiz-planung-teil-1/"]
 +++
 
-Vorwort: _Für diese Reihe wird Visual C# Express 2010 oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur für Visual C# Express 2010 verfügbar sein._
+Vorwort: _Für diese Reihe wird Visual C# Express 2010 oder [MonoDevelop](https://www.monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur für Visual C# Express 2010 verfügbar sein._
 
 In der Schule hatten wir in Programmieren ein C#-Quiz zu erstellen. Dies war durchaus eine anspruchsvolle Aufgabe mit mehreren Hürden die es zu meistern galt.
 

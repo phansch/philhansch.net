@@ -7,7 +7,7 @@ wordpress_id = 209
 aliases = ["2010/03/12/c-schiffe-versenken-uberlegungen/"]
 +++
 
-Vorwort: _Für diese Reihe wird Visual  C# Express 2008 oder [MonoDevelop](http://monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur  für Visual C# Express verfügbar sein.
+Vorwort: _Für diese Reihe wird Visual  C# Express 2008 oder [MonoDevelop](https://www.monodevelop.com/) benötigt. Screenshots, Codesnippets und Solutions werden vorerst nur  für Visual C# Express verfügbar sein.
 
 [Schiffeversenken](http://de.wikipedia.org/wiki/Schiffe_versenken) ist ein tolles Spiel. Jeder kennt es und jeder mag es.
 Da liegt es eigentlich nur nahe, das Spiel als Programmieraufgabe zu verwenden.
