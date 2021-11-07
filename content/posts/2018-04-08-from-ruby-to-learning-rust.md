@@ -25,7 +25,7 @@ The language itself covers many new concepts that I didn't have to deal with in 
 
 At the beginning of December I started with [Advent of Code](https://github.com/phansch/aoc). It was fun, but AoC was a bit tough with time constraints and the fact that I never really did Rust before, contributed to me giving up. After partly finishing the first week I decided not to continue.
 
-Instead, I started with the [Exercism exercises](http://exercism.io/languages/rust/exercises) for Rust. Currently I'm about halfway done with all the exercises.
+Instead, I started with the [Exercism exercises](https://exercism.org/tracks/rust) for Rust. Currently I'm about halfway done with all the exercises.
 Almost all of them have a focus on mathematical problems and algorithms, which makes them perfect for learning about iterators and collections.
 
 While doing these practice exercises can be fun, I was also looking to contribute something useful to the community and getting my hands on some real-world Rust code.

@@ -24,7 +24,7 @@ On **Wednesday** one thing I was trying to figure out was: <q>What exactly Rails
 
 #### [js2.coffee](http://js2.coffee/)
 
-This is a CoffeeScript to JavaScript converter. I used it to covert my original JavaScript to CoffeeScript.
+This is a CoffeeScript to JavaScript converter. I used it to convert my original JavaScript to CoffeeScript.
 
 #### [Smooth CoffeeScript - Interactive Edition](http://autotelicum.github.io/Smooth-CoffeeScript/interactive/interactive-coffeescript.html)
 
