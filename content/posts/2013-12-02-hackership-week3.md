@@ -35,7 +35,7 @@ Smooth CoffeeScript is an interactive book on CoffeeScript. I found the [chapter
 This book contains a very helpful section on the syntax of CoffeeScript and also a short introduction to Classes.
 
 
-**Friday** is not an official Hackership day, but there was a lot of interest in an Arduino Workshop. So, we started at 12. Since there was an Arduino Workshop the previous Friday which I didn't attend, I had to setup my environment first which went surprisingly smooth. Making the LED's blink was just a matter of about half an hour. I didn't stop at making one LED blink. There was a very difficult practice which required a lot of conncetors and resistors. Making sure that everything is connected correctly was not an easy task. The task was to create an LED array to display a certain image. The image was set in a 2D array in the source file. This was a really fun exercise and eventually I got it to work, yay!
+**Friday** is not an official Hackership day, but there was a lot of interest in an Arduino Workshop. So, we started at 12. Since there was an Arduino Workshop the previous Friday which I didn't attend, I had to setup my environment first which went surprisingly smooth. Making the LED's blink was just a matter of about half an hour. I didn't stop at making one LED blink. There was a very difficult practice which required a lot of connectors and resistors. Making sure that everything is connected correctly was not an easy task. The task was to create an LED array to display a certain image. The image was set in a 2D array in the source file. This was a really fun exercise and eventually I got it to work, yay!
 
 ---
 

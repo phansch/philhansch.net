@@ -56,7 +56,7 @@ trait Foo<'a, A> {}
 
 This is a trait called `Foo` with no associated items. `Foo` is also generic
 over any type `A` and it declares a lifetime parameter `'a`. By itself, this
-does not mean anything, but it allows for potential implementors of this trait
+does not mean anything, but it allows for potential implementers of this trait
 to use the lifetime `'a` and the generic type `A`.
 
 ```rust
