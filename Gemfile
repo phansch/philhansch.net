@@ -7,5 +7,6 @@ group :test do
   gem 'html-proofer'
   gem 'rack'
   gem 'rake'
+  gem 'rexml'
   gem 'pry'
 end
