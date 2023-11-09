@@ -65,11 +65,11 @@
   },
   {
     "name": "mdBook",
-    "url": "https://github.com/rust-lang-nursery/mdBook"
+    "url": "https://github.com/rust-lang/mdBook"
   },
   {
     "name": "reference",
-    "url": "https://github.com/rust-lang-nursery/reference"
+    "url": "https://github.com/rust-lang/reference"
   },
   {
     "name": "rust",
@@ -81,11 +81,11 @@
   },
   {
     "name": "rustc-dev-guide",
-    "url": "https://github.com/rust-lang-nursery/rustc-dev-guide"
+    "url": "https://github.com/rust-lang/rustc-dev-guide"
   },
   {
     "name": "rustfix",
-    "url": "https://github.com/rust-lang-nursery/rustfix"
+    "url": "https://github.com/rust-lang/rustfix"
   },
   {
     "name": "rustfmt",
