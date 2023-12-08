@@ -1068,7 +1068,7 @@
     "project": "mdBook",
     "explanation": "Don't let robots index the print.html",
     "language": "Rust",
-    "url": "https://github.com/rust-lang-nursery/mdBook/pull/844",
+    "url": "https://github.com/rust-lang/mdBook/pull/844",
     "date": "2019-05-07"
   },
   {
@@ -1932,7 +1932,7 @@
     "project": "reference",
     "explanation": "Improved a link between pages",
     "language": "Rust",
-    "url": "https://github.com/rust-lang-nursery/reference/pull/436",
+    "url": "https://github.com/rust-lang/reference/pull/436",
     "date": "2018-09-28"
   },
   {
@@ -1988,7 +1988,7 @@
     "project": "rustc-dev-guide",
     "explanation": "Added a section about using incremental compilation",
     "language": "Rust",
-    "url": "https://github.com/rust-lang-nursery/rustc-dev-guide/pull/199",
+    "url": "https://github.com/rust-lang/rustc-dev-guide/pull/199",
     "date": "2018-09-11"
   },
   {
@@ -2084,7 +2084,7 @@
     "project": "rustc-dev-guide",
     "explanation": "Added an example of how type inference works",
     "language": "Rust",
-    "url": "https://github.com/rust-lang-nursery/rustc-dev-guide/pull/136",
+    "url": "https://github.com/rust-lang/rustc-dev-guide/pull/136",
     "date": "2018-05-21"
   },
   {

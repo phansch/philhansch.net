@@ -7,13 +7,13 @@ plyturonnet = true
 aliases = ["2012/03/07/this-week-in-guild-wars-2-w10/"]
 +++
 
-Time flies. It's been almost over two weeks now since the first round of the beta application ended. Still, a lot has happened in the previous days. Here's the usual round-up, **updated once every day at around 8am GMT!** 
+Time flies. It's been almost over two weeks now since the first round of the beta application ended. Still, a lot has happened in the previous days. Here's the usual round-up, **updated once every day at around 8am GMT!**
 
 
 #### Friday, March 09
 
 
-GuildCast: Trinity Killer **Site offline**  
+GuildCast: Trinity Killer **Site offline**
 • The people from GuildCast take on the subject of the _missing_ holy trinity in Guild Wars 2 and how it actually works in the game.
 
 [TotalBiscuit: GW2 Beta - Underwater Overview](http://www.youtube.com/watch?v=KtohZlY8CbA)
@@ -55,7 +55,7 @@ GuildCast: Trinity Killer **Site offline**
 [ZAM: An Interview With Guild Wars 2's Jon Peters](http://legacy.zam.com/story.html?story=29213)
 • ZAM.com sat down with Guild Wars 2's Jon Peters to talk about competitive PvP, combat, and GW2's eSports aspirations
 
-Boons & Conditions Podcast #1: Mono Intro **Site offline**  
+Boons & Conditions Podcast #1: Mono Intro **Site offline**
 • The premiere episode of the BnC podcast. Their introductory podcast is all about the recent press beta event and the new information on attributes and traits.
 
 [MMORPG.com: The Warrior Preview (dead link)](#)
@@ -79,19 +79,19 @@ link)](#)
 [MMORPG.com: The Necromancer Preview (dead link)](#)
 • David North from MMORPG.com takes a look at his favourite profession from Guild Wars 1: The Necromancer.
 
-[Yogscast: Norn Levelling Series Part 2](http://www.youtube.com/watch?v=IMmtrJk1a0M)
+[Yogscast: Norn Levelling Series Part 2](https://www.youtube.com/watch?v=IMmtrJk1a0M)
 • Lewis and Simon continue their adventure into the frosty Norn wastelands.
 
-[Tales of Tyria Podcast #21: Build Wars 2](http://www.youtube.com/watch?v=cqEm2ilVkPQ)
+[Tales of Tyria Podcast #21: Build Wars 2](https://www.youtube.com/watch?v=cqEm2ilVkPQ)
 • In this weeks ToT podcast Bridger and friends are talking about WvW, game economics, attributes and traits.
 
 [GuildMag: Heroes Are Made, Not Born](http://www.guildmag.com/heroes-are-made-not-born)
-• [@jcotney](http://twitter.com/jcotney) talks about the additional attributes, the trait system and gives an example on a possible Mesmer build.
+• [@jcotney](https://twitter.com/jcotney) talks about the additional attributes, the trait system and gives an example on a possible Mesmer build.
 
-[Tyria Talk: SWTOR vs. GW2 ](http://www.youtube.com/watch?v=ddz0uJYwjaI)
+[Tyria Talk: SWTOR vs. GW2 ](https://www.youtube.com/watch?v=ddz0uJYwjaI)
 • In his newest episode of Tyria Talk, Richie is talking about the differences between levelling in SW:TOR and GuildWars2.
 
-[TapRepeatedly: Necromancer PvP](http://www.youtube.com/watch?v=P0ay5np0078)
+[TapRepeatedly: Necromancer PvP](https://www.youtube.com/watch?v=P0ay5np0078)
 • Lewis B from TapRepeatedly shows off his Necromancer PVP skills in this 40 minute video on Youtube.
 
 
