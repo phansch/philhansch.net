@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-class AliasesTest < MiniTest::Test
+class AliasesTest < Minitest::Test
   def test_aliases
     Dir.glob('_posts/*.md').each do |post_path|
       post_lines = File.readlines(post_path)
