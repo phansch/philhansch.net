@@ -50,7 +50,7 @@ end.to_app
 Capybara.default_driver   =  :rack_test
 Capybara.javascript_driver = :webkit
 
-class CapybaraTestCase < MiniTest::Test
+class CapybaraTestCase < Minitest::Test
   include Capybara::DSL
 
   def teardown
