@@ -2,10 +2,10 @@ $brand-primary: #f82525;
 $brand-secondary: #e0e4cc;
 $font-stack: sans-serif;
 $primary-color: #ffffff;
-$text-color: #626262;
-$link-color: rgb(87, 163, 232);
+$text-color: #cccccc;
+$link-color: #8cc2dd;
 $link-hover: #808080;
-$background-color: #f2f2f2;
+$background-color: #222222;
 
 $light-border-color: #ddd;
 
@@ -21,6 +21,7 @@ a {
 body {
   padding: 0;
   margin: 0;
+  color: $text-color;
 }
 
 
@@ -109,7 +110,7 @@ h3 {
 }
 
 a {
-  color: #008cba;
+  color: $link-color;
 }
 
 /* top-bar */
