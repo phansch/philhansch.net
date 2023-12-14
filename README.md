@@ -20,6 +20,6 @@ Run Zola with:
 
     zola serve
 
-and open the website on [127.0.0.1:4000](http://127.0.0.1:1111).
+and open the website on [127.0.0.1:1111](http://127.0.0.1:1111).
 
 [Zola]: https://www.getzola.org/
