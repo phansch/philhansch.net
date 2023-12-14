@@ -13,17 +13,17 @@ Things changed a lot but I didn't feel in the mood to really keep the blog up-to
 ## One Game A Month
 I haven't finished any new games after February. I had a [side-scroller](https://gitlab.com/phansch/shootingstar/tree/master) in the works but that project is still way too over ambitious in terms of content creation. I'm not sure if I will get around to finishing that one. I might start a new game from scratch instead.
 
-## Guild Wars 2 
-This topic is really hard for me to talk about because it really messed with my goals and plans for this year. Let this be a warning for future me. After finishing the winter semester at university I lost interest in creating games and started playing games instead. I was caught up in Guild Wars 2 again. The last time was crazy too. I even [had]({% post_url 2012-03-16-character-diversity-in-guild-wars-2 %}) a [blog]({% post_url 2012-03-05-sketchbook-fear-and-horror-in-mmos %}) [dedicated]({% post_url 2012-03-07-this-week-in-guild-wars-2-w10 %}) [to]({% post_url 2012-03-06-elementalist-introduction %}) [the]({% post_url 2012-03-05-this-week-in-guildwars2-w9 %}) [game]({% post_url 2012-03-14-this-week-in-guild-wars-2-w11 %}) before it came out.
+## Guild Wars 2
+This topic is really hard for me to talk about because it really messed with my goals and plans for this year. Let this be a warning for future me. After finishing the winter semester at university I lost interest in creating games and started playing games instead. I was caught up in Guild Wars 2 again. The last time was crazy too. I even [had](@/posts/2012-03-16-character-diversity-in-guild-wars-2.md) a [blog](@/posts/2012-03-05-sketchbook-fear-and-horror-in-mmos.md) [dedicated](@/posts/2012-03-07-this-week-in-guild-wars-2-w10.md) [to](@/posts/2012-03-06-elementalist-introduction.md) [the](@/posts/2012-03-05-this-week-in-guildwars2-w9.md) [game](@/posts/2012-03-14-this-week-in-guild-wars-2-w11.md) before it came out.
 
 This time it took up 5 months of the year. I slowly grew more and more attached to my character. Until there was a point where it only made sense to keep playing. "Otherwise the time I spent playing before that would have obviously been wasted", I reasoned. Meeting a group of nice players and slowly starting to carry responsibility for in-game stuff made it worse.
 
 Luckily there came a point where I grew sick of it. That was at at the end of August. I still remember that moment. I wish I knew what triggered it. It might have taken a few minutes, but I slowly lost all sense of attachment to my characters. It's as if there was a dense cover of fog suddenly removed from my vision. A few days after that I brought myself to delete my Guild Wars 2 characters as well as all my EVE Online characters. I never want to touch MMOs again.
 
 ## Ruby
-It took me a week to get things going again. I started learning Ruby. Because, why not? The first tutorial I took was the one at [Codeschool](https://www.codeschool.com/courses/try-ruby). After that I stuck with Codeschool and continued with the Ruby courses. However, I felt as if those tutorials skipped a lot of Ruby fundamentals. 
+It took me a week to get things going again. I started learning Ruby. Because, why not? The first tutorial I took was the one at [Codeschool](https://www.codeschool.com/courses/try-ruby). After that I stuck with Codeschool and continued with the Ruby courses. However, I felt as if those tutorials skipped a lot of Ruby fundamentals.
 
-After the first month I un-enrolled from Codeschool to continue with *[Projects](https://gitlab.com/phansch/100-projects/tree/master)*. Projects is a GitHub repository consisting of over 100 programming projects compiled by GitHub user [thekarangoel](https://github.com/thekarangoel). I'm not done with Projects yet but I decided it was about time to give Test Driven Development a try: [Learn Ruby (Solutions)](https://gitlab.com/phansch/learn_ruby_solutions/tree/master) from [testfirst.org/learn_ruby](http://testfirst.org/learn_ruby). I never wrote tests before, so this was a really fun learning experience. 
+After the first month I un-enrolled from Codeschool to continue with *[Projects](https://gitlab.com/phansch/100-projects/tree/master)*. Projects is a GitHub repository consisting of over 100 programming projects compiled by GitHub user [thekarangoel](https://github.com/thekarangoel). I'm not done with Projects yet but I decided it was about time to give Test Driven Development a try: [Learn Ruby (Solutions)](https://gitlab.com/phansch/learn_ruby_solutions/tree/master) from [testfirst.org/learn_ruby](http://testfirst.org/learn_ruby). I never wrote tests before, so this was a really fun learning experience.
 
 ---
 
@@ -42,7 +42,7 @@ As you might have noticed, the website underwent quite some changes:
  * Feedburner RSS feed has been replaced with a simple [atom.xml](http://phansch.net/atom.xml)
 
 ## Netbook / Toolset changes
-So, this is the third and last part of my netbook experience. My requirements have changed a lot since I [first]({% post_url 2012-01-01-my-netbook-experience %}) wrote about it. I also modified the setup I described in the [second post]({% post_url 2012-12-28-re-my-netbook-experience %}) a bit.
+So, this is the third and last part of my netbook experience. My requirements have changed a lot since I [first](@/posts/2012-01-01-my-netbook-experience.md) wrote about it. I also modified the setup I described in the [second post](@/posts/2012-12-28-re-my-netbook-experience.md) a bit.
 
 After using it for roughly two years, my netbook felt very underpowered. The processor was weak and watching HD videos was a thing of the past. The battery was dead and the touchpad was broken. Coupled with the fact that I'm not seriously playing games anymore, I want to get rid of my PC as well.
 
