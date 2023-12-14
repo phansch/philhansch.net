@@ -20,10 +20,10 @@
     <nav class="my-top-bar">
       {% if current_path is defined %}
         <a title="About"{% if current_path == "/" %} class="active"{% endif%} href="/" rel="author">About</a> ╵
-        <a title="Blog"{% if current_path == "writing/" or "posts" in current_path %} class="active"{% endif%} href="/writing">Blog</a> ╵
-        <a title="Reading List"{% if current_path == "reading/" %} class ="active"{% endif %} href="/reading">Reading</a> ╵
-        <a title="100+ Rust PRs"{% if current_path == "onehundred/rust/" %} class="active"{% endif%} href="/onehundred/rust">100+ Rust PRs</a> ╵
-        <a title="Sponsor me"{% if current_path == "thanks/" %} class="active"{% endif%} href="/thanks">Sponsor me</a>
+        <a title="Blog"{% if current_path == "/writing/" or "posts" in current_path %} class="active"{% endif%} href="/writing">Blog</a> ╵
+        <a title="Reading List"{% if current_path == "/reading/" %} class ="active"{% endif %} href="/reading">Reading</a> ╵
+        <a title="100+ Rust PRs"{% if current_path == "/onehundred/rust/" %} class="active"{% endif%} href="/onehundred/rust">100+ Rust PRs</a> ╵
+        <a title="Sponsor me"{% if current_path == "/thanks/" %} class="active"{% endif%} href="/thanks">Sponsor me</a>
       {% else %}
         {#
           This conditional is required because `current_path` is not defined in the 404 template
