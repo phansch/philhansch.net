@@ -14,7 +14,7 @@ work this past month: [@repi], [@oli-obk] and [@yaahc].
 
 If you like what I'm doing and want to support my work, please consider
 sponsoring me on [Patreon][patreon] or [via other
-means](https://phansch.net/thanks) 🧡
+means](@/thanks/index.md) 🧡
 
 ## What I've worked on
 
