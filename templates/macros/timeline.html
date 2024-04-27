@@ -20,6 +20,8 @@
 	{{ macros::timeline_item_docs(item=[entry]) }}
       {% elif entry_type == "reading" %}
 	{{ macros::timeline_item_reading(item=[entry]) }}
+      {% elif entry_type == "plaintext" %}
+	{{ macros::timeline_item_plaintext(item=[entry]) }}
       {% endif %}
     </article>
   {% endfor %}

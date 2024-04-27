@@ -52,6 +52,10 @@
 </div>
 {% endmacro timeline_item_reading %}
 
+{% macro timeline_item_plaintext(item) %}
+  {{ item[0].date | date(format='%Y-%m-%d') }}: {{ item[0].text | safe }}
+{% endmacro timeline_item_plaintext %}
+
 {% macro timeline_item_post(item) %}
   {{ item[0].date | date(format='%Y-%m-%d') }}: Published new blog post: '<a href="{{ item[0].permalink }}">{{ item[0].title }}</a>'
 
