@@ -5,7 +5,7 @@ title = "Fall update"
 aliases = ["2013/10/15/fall-update/"]
 
 [extra]
-excerpt = "Things happenend. Here's what I've been up to in the past few months."
+excerpt = "Things happened. Here's what I've been up to in the past few months."
 +++
 
 Things changed a lot but I didn't feel in the mood to really keep the blog up-to date. Now I'll have to pay for it. This will be quite a lengthy post. I'll go over the recent website changes first, then go on with my second foray into Guild Wars 2. I also started learning Ruby, so I'll go into more detail further down. And there's also an update about my netbook experience. Here's what happened in chronological order.
