@@ -196,6 +196,10 @@ article {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
   }
+  a > img.center {
+    display: block;
+    margin: 0 auto;
+  }
   .emoji {
     vertical-align: middle;
   }
