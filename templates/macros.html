@@ -65,3 +65,13 @@
     {% endif %}
   </div>
 {% endmacro timeline_item_post %}
+
+{% macro timeline_item_note(item) %}
+  {{ item[0].date | date(format='%Y-%m-%d') }}: Published new note: '<a href="{{ item[0].permalink }}">{{ item[0].title }}</a>'
+
+  <div class="body">
+    {% if item[0].extra.excerpt %}
+      <span class="greater-than">⧽</span> {{ item[0].extra.excerpt }}
+    {% endif %}
+  </div>
+{% endmacro timeline_item_note %}
