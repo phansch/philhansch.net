@@ -2,20 +2,27 @@
 
 {% macro timeline(g_timeline, limit=-1) %}
   {% set posts = get_section(path="posts/_index.md") %}
-  {% set timeline_with_posts = g_timeline | concat(with=posts.pages) %}
+  {% set notes = get_section(path="notes/_index.md") %}
+  {% set timeline_with_posts = g_timeline | concat(with=posts.pages) | concat(with=notes.pages) %}
   {% set timeline_with_posts = timeline_with_posts | sort(attribute="date") | reverse %}
   {% if limit > -1 %}
     {% set timeline_with_posts = timeline_with_posts | slice(end=10) %}
   {% endif %}
 
   {% for entry in timeline_with_posts %}
-    {% set entry_type = entry.type | default(value="post") %}
+    {% set entry_type = entry.type | default(value="post_or_note") %}
 
     <article class="timeline-entry {{ entry_type }}">
       {% if entry_type == "code" %}
 	{{ macros::timeline_item_code(item=[entry]) }}
-      {% elif entry_type == "post" %}
-	{{ macros::timeline_item_post(item=[entry]) }}
+      {% elif entry_type == "post_or_note" %}
+        {% set ancestors = get_section(path=entry.ancestors[1]) %}
+        {% set type = ancestors.components[0] %}
+        {% if type == "posts" %}
+          {{ macros::timeline_item_post(item=[entry]) }}
+        {% elif type == "notes" %}
+          {{ macros::timeline_item_note(item=[entry]) }}
+        {% endif %}
       {% elif entry_type == "docs" %}
 	{{ macros::timeline_item_docs(item=[entry]) }}
       {% elif entry_type == "reading" %}
