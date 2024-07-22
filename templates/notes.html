@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "macros/post_meta.html" as macros %}
+
+{% block content %}
+  <h2>{{ section.title }}</h2>
+    {% for note in section.pages %}
+      {{ macros::post_meta(resource=note) }}
+      <h3>{{ note.title }}</h3>
+      {{ note.content | safe}}
+      <hr />
+    {% endfor %}
+{% endblock content %}
