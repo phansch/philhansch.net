@@ -14,10 +14,6 @@ $light-border-color: #ddd;
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   padding: 0;
   margin: 0;
@@ -111,6 +107,7 @@ h3 {
 
 a {
   color: $link-color;
+  text-underline-position: under;
 }
 
 .inline-hr {
