@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% import "macros/post_meta.html" as macros %}
 
+{% block title %}{{ section.title }}{% endblock title %}
+
 {% block content %}
   <h2>{{ section.title }}</h2>
     {% for note in section.pages %}
