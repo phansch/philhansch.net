@@ -152,6 +152,12 @@ nav#work, nav#social {
   }
 }
 
+.note {
+  border-bottom: 1px solid var(--light-border-color);
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
 .post {
   .about-the-author {
     h2, h4 {

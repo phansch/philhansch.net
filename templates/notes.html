@@ -6,9 +6,12 @@
 {% block content %}
   <h2>{{ section.title }}</h2>
     {% for note in section.pages %}
-      {{ macros::post_meta(resource=note) }}
-      <h3>{{ note.title }}</h3>
-      {{ note.content | safe}}
-      <hr />
+      <div class="note">
+        <article class="col h-entry">
+          {{ macros::post_meta(resource=note) }}
+          <h3 class="p-name">{{ note.title }}</h3>
+          <div class="e-content">{{ note.content | safe}}</div>
+        </article>
+      </div>
     {% endfor %}
 {% endblock content %}
