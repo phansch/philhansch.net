@@ -16,6 +16,9 @@ title = "Philipp Hansch - Ruby, Rust and more"
       <td>
         <a href="http://github.com/phansch">GitHub</a>
       </td>
+      <td>
+        <a href="https://app.thestorygraph.com/profile/philh">What I'm reading</a>
+      </td>
     </tr>
   </table>
 </div>
