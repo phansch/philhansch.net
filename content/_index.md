@@ -8,20 +8,19 @@ title = "Philipp Hansch - Ruby, Rust and more"
     Feel free to take a look at my <a title="My blog" href="http://philhansch.net/archive/">writings</a> and <a href="https://github.com/phansch/cv/blob/main/resume-philipp-hansch.pdf">resumé</a> as well.
   </div>
 
-  <table id="index-link-table">
-    <tr>
-      <td>
-        <a href="https://github.com/phansch/cv/raw/main/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
-      </td>
-      <td>
-        <a href="http://github.com/phansch">GitHub</a>
-      </td>
-      <td>
-        <a href="https://app.thestorygraph.com/profile/philh">What I'm reading</a>
-      </td>
-    </tr>
-  </table>
-</div>
+  <nav id="work">
+    <a href="https://github.com/phansch/cv/raw/main/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
+    <hr class="inline-hr" />
+    <a href="http://github.com/phansch">GitHub</a>
+  </nav>
+  <nav id="social">
+    <a href="/notes/">Notes</a>
+    <hr class="inline-hr" />
+    <a href="https://mastodon.social/@phansch">Mastodon</a>
+    <hr class="inline-hr" />
+    <a href="https://app.thestorygraph.com/profile/philh">What I'm reading</a>
+  </nav>
+
 
 <h2>Recent</h2>
 

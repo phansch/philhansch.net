@@ -113,6 +113,20 @@ a {
   color: $link-color;
 }
 
+.inline-hr {
+  display: inline-block;
+  border: 0;
+  border-left: .3rem solid $brand-primary;
+  margin: 0;
+  align-self: center;
+  height: .3rem;
+}
+nav#work, nav#social {
+  display: flex;
+  column-gap: 0.5em;
+  margin-top: 15px;
+}
+
 /* top-bar */
 .my-top-bar {
   text-align: center;
