@@ -1,13 +1,16 @@
-$brand-primary: #f82525;
-$brand-secondary: #e0e4cc;
-$font-stack: sans-serif;
-$primary-color: #ffffff;
-$text-color: #cccccc;
-$link-color: #8cc2dd;
-$link-hover: #808080;
-$background-color: #222222;
+:root {
+  --brand-primary: #f82525;
+  --brand-secondary: #e0e4cc;
+  --primary-color: #ffffff;
+  --text-color: #cccccc;
+  --link-color: #8cc2dd;
+  --link-hover: #808080;
+  --background-color: #222222;
 
-$light-border-color: #ddd;
+  --light-border-color: #ddd;
+
+  --font-stack: sans-serif;
+}
 
 /* Basic reset */
 * {
@@ -17,20 +20,20 @@ $light-border-color: #ddd;
 body {
   padding: 0;
   margin: 0;
-  color: $text-color;
+  color: var(--text-color);
 }
 
 
 /* Actual Style/Layout */
 body {
-  background-color: $background-color;
-  font: normal 100% $font-stack;
+  background-color: var(--background-color);
+  font: normal 100% var(--font-stack);
   font-size: 20px;
   line-height: 1.4;
 }
 
 hr {
-  border: solid $light-border-color;
+  border: solid var(--light-border-color);
   border-width: 1px 0 0;
   margin: 15px 0;
 }
@@ -58,7 +61,7 @@ kbd {
 
 pre {
   margin: 0;
-  border-top: 2px solid $brand-primary;
+  border-top: 2px solid var(--brand-primary);
   display: block;
   padding: 1em 1.5em;
   font-size: 20px;
@@ -79,7 +82,7 @@ p code, li code {
   border-radius: 3px;
   font-family: monospace;
   font-weight: normal;
-  color: $brand-primary;
+  color: var(--brand-primary);
   padding: .10em .25em;
 }
 
@@ -88,16 +91,16 @@ p code, li code {
   padding-top: 6px;
   padding-bottom: 6px;
   background: #282828;
-  border-top: 1px dashed $brand-secondary;
+  border-top: 1px dashed var(--brand-secondary);
 }
 
 h1 {
-  font-family: $font-stack;
+  font-family: var(--font-stack);
   font-weight: bold;
 }
 
 h2 {
-  font-family: $font-stack;
+  font-family: var(--font-stack);
   font-weight: normal;
 }
 
@@ -106,14 +109,14 @@ h3 {
 }
 
 a {
-  color: $link-color;
+  color: var(--link-color);
   text-underline-position: under;
 }
 
 .inline-hr {
   display: inline-block;
   border: 0;
-  border-left: .3rem solid $brand-primary;
+  border-left: .3rem solid var(--brand-primary);
   margin: 0;
   align-self: center;
   height: .3rem;
@@ -128,8 +131,8 @@ nav#work, nav#social {
 .my-top-bar {
   text-align: center;
   margin: 0 auto;
-  border-bottom: 2px solid $brand-primary;
-  // background-color: $brand-primary;
+  border-bottom: 2px solid var(--brand-primary);
+  // background-color: var(--brand-primary);
   padding-bottom: 7px;
   padding-top: 5px;
 
@@ -141,9 +144,9 @@ nav#work, nav#social {
 
   a {
     // color: #222;
-    color: $text-color;
+    color: var(--text-color);
     &.active {
-      color: $brand-primary;
+      color: var(--brand-primary);
       text-decoration: underline;
     }
   }
@@ -163,7 +166,7 @@ nav#work, nav#social {
     .avatar {
       float: left;
       margin-right: 10px;
-      border: 2px solid $brand-primary;
+      border: 2px solid var(--brand-primary);
       border-radius: 5px;
     }
     // padding: 5px 20px;
@@ -180,9 +183,9 @@ nav#work, nav#social {
       color: grey;
     }
     .explain {
-      border-top: 1px solid $light-border-color;
-      border-bottom: 1px solid $light-border-color;
-      background: $brand-secondary;
+      border-top: 1px solid var(--light-border-color);
+      border-bottom: 1px solid var(--light-border-color);
+      background: var(--brand-secondary);
       padding: 1em 1.5em;
     }
   }
@@ -201,7 +204,7 @@ article {
   }
 
   a > img {
-    border: 1px solid $brand-primary;
+    border: 1px solid var(--brand-primary);
     border-radius: 3px;
     margin-right: 10px;
     -moz-border-radius: 3px;
@@ -239,15 +242,15 @@ section.main {
   }
 
   a.body-text {
-    color: $text-color;
-    &:hover { color: $text-color; }
+    color: var(--text-color);
+    &:hover { color: var(--text-color); }
   }
 
   blockquote {
     cite {
       a {
-        color: $link-color;
-        &:hover { color: $link-color; }
+        color: var(--link-color);
+        &:hover { color: var(--link-color); }
       }
     }
   }
@@ -275,7 +278,7 @@ section.main {
   }
 
   #index-top {
-    font-family: $font-stack;
+    font-family: var(--font-stack);
     font-size: 24px;
   }
 
@@ -302,7 +305,7 @@ footer {
 
   #footer-content {
     padding-top: 10px;
-    border-top: 1px solid $brand-primary;
+    border-top: 1px solid var(--brand-primary);
     text-align: center;
     line-height: 160%;
     margin: 0px auto;
@@ -322,7 +325,7 @@ footer {
 
 .timeline-entry {
   line-height: 1.0;
-  border-left: 2px solid $brand-primary;
+  border-left: 2px solid var(--brand-primary);
   border-radius: 4px;
   margin-top: 15px;
   padding-left: 10px;
@@ -360,12 +363,12 @@ footer {
     background-color: black;
     padding: 1px;
     .value {
-      background-color: $brand-primary;
+      background-color: var(--brand-primary);
       height: 25px;
       .text {
         text-align: center;
         font-size: 0.9em;
-        color: $primary-color;
+        color: var(--primary-color);
       }
     }
   }
