@@ -13,6 +13,15 @@
   --font-stack: sans-serif;
 }
 
+// Light theme overrides (dark is default)
+@media(prefers-color-scheme: light) {
+  :root {
+    --color-bg: #cccccc;
+    --color-fg: #222222;
+    --color-link: #45a7d8;
+  }
+}
+
 /* Basic reset */
 * {
   box-sizing: border-box;
