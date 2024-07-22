@@ -1,11 +1,12 @@
 :root {
-  --brand-primary: #f82525;
-  --brand-secondary: #e0e4cc;
-  --primary-color: #ffffff;
-  --text-color: #cccccc;
-  --link-color: #8cc2dd;
+  --color-primary: #f82525;
+  --color-secondary: #e0e4cc;
   --link-hover: #808080;
-  --background-color: #222222;
+
+  --color-bg: #222222;
+  --color-fg: #cccccc;
+  --color-link: #8cc2dd;
+  --white: #ffffff;
 
   --light-border-color: #ddd;
 
@@ -20,13 +21,13 @@
 body {
   padding: 0;
   margin: 0;
-  color: var(--text-color);
+  color: var(--color-fg);
 }
 
 
 /* Actual Style/Layout */
 body {
-  background-color: var(--background-color);
+  background-color: var(--color-bg);
   font: normal 100% var(--font-stack);
   font-size: 20px;
   line-height: 1.5;
@@ -61,7 +62,7 @@ kbd {
 
 pre {
   margin: 0;
-  border-top: 2px solid var(--brand-primary);
+  border-top: 2px solid var(--color-primary);
   display: block;
   padding: 1em 1.5em;
   font-size: 20px;
@@ -82,7 +83,7 @@ p code, li code {
   border-radius: 3px;
   font-family: monospace;
   font-weight: normal;
-  color: var(--brand-primary);
+  color: var(--color-primary);
   padding: .10em .25em;
 }
 
@@ -91,7 +92,7 @@ p code, li code {
   padding-top: 6px;
   padding-bottom: 6px;
   background: #282828;
-  border-top: 1px dashed var(--brand-secondary);
+  border-top: 1px dashed var(--color-secondary);
 }
 
 h1 {
@@ -109,14 +110,14 @@ h3 {
 }
 
 a {
-  color: var(--link-color);
+  color: var(--color-link);
   text-underline-position: under;
 }
 
 .inline-hr {
   display: inline-block;
   border: 0;
-  border-left: .3rem solid var(--brand-primary);
+  border-left: .3rem solid var(--color-primary);
   margin: 0;
   align-self: center;
   height: .3rem;
@@ -131,8 +132,8 @@ nav#work, nav#social {
 .my-top-bar {
   text-align: center;
   margin: 0 auto;
-  border-bottom: 2px solid var(--brand-primary);
-  // background-color: var(--brand-primary);
+  border-bottom: 2px solid var(--color-primary);
+  // background-color: var(--color-primary);
   padding-bottom: 7px;
   padding-top: 5px;
 
@@ -144,9 +145,9 @@ nav#work, nav#social {
 
   a {
     // color: #222;
-    color: var(--text-color);
+    color: var(--color-fg);
     &.active {
-      color: var(--brand-primary);
+      color: var(--color-primary);
       text-decoration: underline;
     }
   }
@@ -172,7 +173,7 @@ nav#work, nav#social {
     .avatar {
       float: left;
       margin-right: 10px;
-      border: 2px solid var(--brand-primary);
+      border: 2px solid var(--color-primary);
       border-radius: 5px;
     }
     // padding: 5px 20px;
@@ -191,7 +192,7 @@ nav#work, nav#social {
     .explain {
       border-top: 1px solid var(--light-border-color);
       border-bottom: 1px solid var(--light-border-color);
-      background: var(--brand-secondary);
+      background: var(--color-secondary);
       padding: 1em 1.5em;
     }
   }
@@ -210,7 +211,7 @@ article {
   }
 
   a > img {
-    border: 1px solid var(--brand-primary);
+    border: 1px solid var(--color-primary);
     border-radius: 3px;
     margin-right: 10px;
     -moz-border-radius: 3px;
@@ -248,15 +249,15 @@ section.main {
   }
 
   a.body-text {
-    color: var(--text-color);
-    &:hover { color: var(--text-color); }
+    color: var(--color-fg);
+    &:hover { color: var(--color-fg); }
   }
 
   blockquote {
     cite {
       a {
-        color: var(--link-color);
-        &:hover { color: var(--link-color); }
+        color: var(--color-link);
+        &:hover { color: var(--color-link); }
       }
     }
   }
@@ -287,20 +288,6 @@ section.main {
     font-family: var(--font-stack);
     font-size: 24px;
   }
-
-  #index-link-table {
-    margin-top: 30px;
-    width: 100%;
-
-    a {
-      font-size: 1.2rem;
-    }
-
-    td {
-      text-align: center;
-      width: 33%;
-    }
-  }
 }
 
 footer {
@@ -311,27 +298,21 @@ footer {
 
   #footer-content {
     padding-top: 10px;
-    border-top: 1px solid var(--brand-primary);
+    border-top: 1px solid var(--color-primary);
     text-align: center;
     line-height: 160%;
     margin: 0px auto;
     p {
       font-size: 13px;
       letter-spacing: 4px;
-      font-family: Helvetica, sans-serif;
-      color: #666666;
-      a {
-        color: #808080;
-        text-decoration: none;
-        &:hover { color: #57a3e8; }
-      }
+      color: var(--light-border-color);
     }
   }
 }
 
 .timeline-entry {
   line-height: 1.0;
-  border-left: 2px solid var(--brand-primary);
+  border-left: 2px solid var(--color-primary);
   border-radius: 4px;
   margin-top: 15px;
   padding-left: 10px;
@@ -369,12 +350,12 @@ footer {
     background-color: black;
     padding: 1px;
     .value {
-      background-color: var(--brand-primary);
+      background-color: var(--color-primary);
       height: 25px;
       .text {
         text-align: center;
         font-size: 0.9em;
-        color: var(--primary-color);
+        color: var(--white);
       }
     }
   }
