@@ -8,7 +8,7 @@ title = "One Hundred (and more) Rust PRs"
 Hi there! In 2018 I decided to set up this little thing where I track my
 progress of learning Rust and contributing to its ecosystem.  In March 2019 I
 completed the first 100 pull requests and I wrote about it
-[here](https://phansch.net/2019/02/18/onehundred-rust-prs/).
+[here](@/posts/2019-02-18-onehundred-rust-prs.md).
 
 ### Why 100?
 

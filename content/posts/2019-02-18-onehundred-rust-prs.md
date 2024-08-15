@@ -10,7 +10,7 @@ excerpt = "A review of my past year with Rust."
 It's hard for me to believe but it's already been **over a year** since I
 seriously committed to learning Rust and I have now reached my initial goal of
 100 open source contributions to the Rust ecosystem. You can see the full list
-[here](https://phansch.net/onehundred/rust/).
+[here](@/onehundred/rust.md).
 
 {{ timeline_progressbar(language="Rust") }}
 
@@ -149,4 +149,4 @@ On to the next hundred contributions!
 [hubcaps_pr]: https://github.com/softprops/hubcaps/pull/142
 [yay]: https://github.com/rust-lang/rust-clippy/pull/2763
 [compiletesttest]: https://github.com/rust-lang/rust/pull/56792
-[my_post]: https://phansch.net/2018/10/10/fixing-a-clippy-crash/
+[my_post]: @/posts/2018-10-10-fixing-a-clippy-crash.md

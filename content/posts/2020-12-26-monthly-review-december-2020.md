@@ -22,7 +22,7 @@ source work this past month: [@repi], [@oli-obk] and [@yaahc].
 
 If you like what I'm doing and want to support my work as well, please consider
 sponsoring me on [Patreon][patreon] or [via other
-means](https://phansch.net/thanks) 🧡
+means](@/thanks/index.md) 🧡
 
 ## What I've worked on
 
@@ -73,7 +73,7 @@ Apart from that I'm going to re-add myself to the reviewer rotation for Clippy
 and start reviewing larger pull requests again.
 
 <!-- begin links sponsor section-->
-[thanks page]: https://phansch.net/thanks/
+[thanks page]: @/thanks/index.md
 [Patreon]: https://www.patreon.com/philhansch
 [embark]: https://github.com/EmbarkStudios
 [@oli-obk]: https://github.com/oli-obk
