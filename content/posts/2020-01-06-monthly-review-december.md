@@ -13,7 +13,7 @@ excerpt = "Patreon &amp; productive procrastination."
 I'm incredibly thankful to the following people for sponsoring my open source
 work this past month: [@repi], [@oli-obk] and [@yaahc].
 
-If you like what I'm doing and want to support my work, please [consider sponsoring](https://phansch.net/thanks) ♥
+If you like what I'm doing and want to support my work, please [consider sponsoring](@/thanks/index.md) ♥
 
 ## What I've worked on
 
@@ -23,7 +23,7 @@ directory, you could most likely tell that it had been recently cleaned and
 organized …again. Hello procrastination!
 
 Looking at [the November
-review](https://phansch.net/2019/12/02/monthly-review-november/), I have to
+review](@/posts/2019-12-02-monthly-review-november.md), I have to
 admit that I didn't follow through with all the goals I wrote down:
 
 * I absolutely did not continue with the tiny compiler. I'm currently stuck on

@@ -55,7 +55,7 @@ post **monthly reviews** publicly here on the blog. These reviews will include:
 </div>
 
 If you have any questions or feedback, I'm happy to talk on Twitter or in
-private at [dev@phansch.net](mailto:dev@phansch.net).
+private at [dev@philhansch.net](mailto:dev@philhansch.net).
 
 [profile]: https://github.com/users/phansch/sponsorship
 [onehundred]: /onehundred/rust/

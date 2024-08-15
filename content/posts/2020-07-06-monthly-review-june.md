@@ -57,7 +57,6 @@ key placement. I've since changed that and hope it will be better this way.
 
 
 <!-- begin links sponsor section-->
-[thanks page]: https://phansch.net/thanks/
 [Patreon]: https://www.patreon.com/philhansch
 [@oli-obk]: https://github.com/oli-obk
 [@yaahc]: https://github.com/yaahc

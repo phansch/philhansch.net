@@ -13,7 +13,7 @@ excerpt = "Embedded Rust, Notification Guilt & Clippy."
 I'm incredibly thankful to the following people for sponsoring my open source
 work this past month: [@repi], [@oli-obk] and [@yaahc].
 
-If you like what I'm doing and want to support my work, please [consider sponsoring](https://phansch.net/thanks) 💛
+If you like what I'm doing and want to support my work, please [consider sponsoring](@/thanks/index.md) 💛
 
 ## What I've worked on
 
@@ -53,8 +53,7 @@ For this February I have the following goals:
 * A second embedded rust post
 * [Improving a diagnostic][diag] in rustc
 
-[sponsoring blog post]: https://phansch.net/2019/10/21/sponsoring/
-[thanks page]: https://phansch.net/thanks/
+[sponsoring blog post]: @/posts/2019-10-21-sponsoring.md
 [sponsorship profile]: https://github.com/sponsors/phansch
 [paypal.me profile]: https://www.paypal.me/philhansch
 [@oli-obk]: https://github.com/oli-obk
