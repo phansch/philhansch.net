@@ -21,7 +21,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 author.name = "Philipp Hansch"
-author.email = "hi@phansch.net"
+author.email = "hi@philhansch.net"
 author.twitter = "philhansch"
 author.patreon = "philhansch"
 author.github = "phansch"
