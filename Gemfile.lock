@@ -70,7 +70,7 @@ GEM
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.9.0)
-    rexml (3.3.8)
+    rexml (3.3.9)
     ruby-rc4 (0.1.5)
     timers (4.3.5)
     ttfunk (1.8.0)
