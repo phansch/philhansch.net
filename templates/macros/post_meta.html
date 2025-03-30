@@ -3,7 +3,7 @@
   <p class="meta">
   — <a href="{{ resource.permalink }}" class="u-url" title="Permalink">
       <em>
-        <time class="dt-published" datetime="{{ resource.date }}">{{ resource.date | date(format="%d %b %Y") }}</time>
+        <time class="dt-published" datetime="{{ resource.date }}">{{ resource.date | date(format="%Y-%m-%d") }}</time>
       </em>
   </a>,
   <em>{{ util::time_to_read(content=resource.content) }}</em>
