@@ -5,9 +5,9 @@
 {% block title %}{{ page.title }}{% endblock title %}
 
 {% block post_headers %}
-<meta name="og:title" content="{{ page.title }}">
-<meta name="og:url" content="{{page.permalink}}">
-<meta name="og:image" content="{{ config.base_url }}assets/images/avatar.jpeg">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:url" content="{{page.permalink}}">
+<meta property="og:image" content="{{ config.base_url }}assets/images/avatar.jpeg">
 {% endblock post_headers %}
 
 {% block content %}
