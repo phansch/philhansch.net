@@ -23,7 +23,6 @@ title = "Philipp Hansch - Ruby, Rust and more"
 
 <h2>Recent</h2>
 
-You can find my **in-progress** Rust work in [**this GitHub project**][ghproject].  
-Below is a list of my last 10 merged pull requests.
+New notes, blog posts, OSS contributions, etc:
 
 [ghproject]: https://github.com/users/phansch/projects/3#column-6248321

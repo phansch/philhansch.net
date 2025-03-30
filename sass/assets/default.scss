@@ -139,8 +139,8 @@ nav#work, nav#social {
 
 /* top-bar */
 .my-top-bar {
-  text-align: center;
   margin: 0 auto;
+  max-width: 48rem;
   border-bottom: 2px solid var(--color-primary);
   // background-color: var(--color-primary);
   padding-bottom: 7px;
@@ -150,7 +150,7 @@ nav#work, nav#social {
   font-family: monospace;
   line-height: 1.0;
 
-  font-size: 30px;
+  font-size: 20px;
 
   a {
     // color: #222;
@@ -295,7 +295,6 @@ section.main {
 
   #index-top {
     font-family: var(--font-stack);
-    font-size: 24px;
   }
 }
 
@@ -306,26 +305,22 @@ footer {
   padding-bottom: 30px;
 
   #footer-content {
-    padding-top: 10px;
     border-top: 1px solid var(--color-primary);
     text-align: center;
     line-height: 160%;
     margin: 0px auto;
     p {
-      font-size: 13px;
-      letter-spacing: 4px;
+      font-family: monospace;
       color: var(--light-border-color);
     }
   }
 }
 
 .timeline-entry {
-  line-height: 1.0;
   border-left: 2px solid var(--color-primary);
-  border-radius: 4px;
   margin-top: 15px;
   padding-left: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top: 5px;
   .greater-than {
     color: #777777;

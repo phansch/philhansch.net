@@ -6,7 +6,7 @@
   {% set timeline_with_posts = g_timeline | concat(with=posts.pages) | concat(with=notes.pages) %}
   {% set timeline_with_posts = timeline_with_posts | sort(attribute="date") | reverse %}
   {% if limit > -1 %}
-    {% set timeline_with_posts = timeline_with_posts | slice(end=10) %}
+    {% set timeline_with_posts = timeline_with_posts | slice(end=limit) %}
   {% endif %}
 
   {% for entry in timeline_with_posts %}
