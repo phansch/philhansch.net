@@ -1,6 +1,6 @@
 :root {
   --color-primary: #f82525;
-  --color-secondary: #e0e4cc;
+  --color-secondary: #393939;
   --link-hover: #808080;
 
   --color-bg: #222222;
@@ -19,6 +19,7 @@
     --color-bg: #cccccc;
     --color-fg: #222222;
     --color-link: #45a7d8;
+    --color-secondary: #e0e4cc;
   }
 }
 
@@ -94,14 +95,6 @@ p code, li code {
   font-weight: normal;
   color: var(--color-primary);
   padding: .10em .25em;
-}
-
-.language-rust + .playground {
-  padding-left: 1.1em;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  background: #282828;
-  border-top: 1px dashed var(--color-secondary);
 }
 
 h1 {
