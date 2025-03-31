@@ -5,11 +5,11 @@ title = "Philipp Hansch - Ruby, Rust and more"
 <div id="index-top">
   <div class="h-card">
     👋 Hi, I'm <a class="p-name u-url" rel="me" href="https://philhansch.net">Philipp Hansch</a>, a software developer <s>currently focusing on <a href="https://rust-lang.org">Rust</a> where I have contributed over 200 pull requests to <a href="https://github.com/rust-lang/rust-clippy">Clippy</a> and associated tooling</s>. I appreciate clean and well tested code and enjoy playing with new technology.
-    Feel free to take a look at my <a title="My blog" href="http://philhansch.net/archive/">writings</a> and <a href="https://github.com/phansch/cv/blob/main/resume-philipp-hansch.pdf">resumé</a> as well.
+    Feel free to take a look at my <a title="My blog" href="http://philhansch.net/archive/">writings</a> and <a href="/resume-philipp-hansch.pdf">resumé</a> as well.
   </div>
 
   <nav id="work">
-    <a href="https://github.com/phansch/cv/raw/main/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
+    <a href="/resume-philipp-hansch.pdf">Resumè / CV (pdf)</a>
     <hr class="inline-hr" />
     <a href="https://github.com/phansch">GitHub</a>
     <hr class="inline-hr" />
