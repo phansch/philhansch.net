@@ -1,9 +1,6 @@
 # philhansch.net
 
 [![Build Status](https://github.com/phansch/philhansch.net/workflows/Ruby/badge.svg)](https://github.com/phansch/philhansch.net/actions)
-[![Sponsor
-count](https://img.shields.io/badge/sponsors-4-brightgreen)](https://philhansch.net/thanks)
-
 This is the data for my blog. It uses [Zola] to generate a static website whenever I push new content to GitHub.
 
 ## Development
