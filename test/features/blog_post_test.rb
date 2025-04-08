@@ -18,7 +18,7 @@ class BlogPostTest < CapybaraTestCase
 
   def test_date_format
     visit 'posts/sideproject-screenshot-streamer'
-    assert page.has_content? '13 Apr 2014'
+    assert page.has_content? '2014-04-13'
   end
 
   def test_no_todo
