@@ -1,7 +1,7 @@
 # philhansch.net
 
 [![Build Status](https://github.com/phansch/philhansch.net/workflows/Ruby/badge.svg)](https://github.com/phansch/philhansch.net/actions)
-This is the data for my blog. It uses [Zola] to generate a static website whenever I push new content to GitHub.
+This is the data for my blog. It uses [Zola] to generate a static website whenever I push new content to [Codeberg](https://codeberg.org/philhansch/philhansch.net).
 
 ## Development
 
