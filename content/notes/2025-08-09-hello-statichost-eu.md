@@ -4,7 +4,7 @@ title = "Hello statichost.eu and Codeberg, bye GitHub"
 
 In 2012 I moved my website
 [from Wordpress to GitHub](@/posts/2012-07-26-HelloGitHub.md). And today,
-13 years later I moved it to
+13 years later, I moved it to
 [Codeberg](https://codeberg.org/philhansch/philhansch.net) and
 [statichost.eu](https://statichost.eu). I had a git mirror up on Codeberg for
 a few months already, and today I moved over the hosting to statichost.eu as
