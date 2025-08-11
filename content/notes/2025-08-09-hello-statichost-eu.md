@@ -15,7 +15,7 @@ This was all inspired by a blog post from stardust:
 Thanks to that post, this just took 20 minutes. Not including procrastinating
 to update the DNS settings.
 
-CI is currently not running on pushes, but using a simple git pre-commit
+CI is currently not running on pushes, but using a simple git pre-commit hook
 locally should be enough for now.
 
 In any case, I want to keep this short. I'm currently trying very hard to use
