@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>C# - Diagramme und Graphen mit ZedGraph</title>
+
+    <meta name="author" content="Philipp Hansch" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="alternate" type="application/atom+xml" title="philhansch.net - Feed" href="http://philhansch.net/atom.xml" />
+    <link rel="stylesheet" type="text/css" href="/assets/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/default.css" />
+    
+<meta property="og:title" content="C# - Diagramme und Graphen mit ZedGraph">
+<meta property="og:url" content="https:&#x2F;&#x2F;philhansch.net&#x2F;posts&#x2F;c-sharp-diagramme-und-graphen-mit-zedgraph&#x2F;">
+<meta property="og:image" content="https:&#x2F;&#x2F;philhansch.net&#x2F;assets/images/avatar.jpeg">
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+  <body>
+    <nav class="my-top-bar">
+      
+        <a title="About" href="/" rel="author">About</a> ╵
+        <a title="Blog" class="active" href="/writing">Blog</a> ╵
+        <a title="100+ Rust PRs" href="/onehundred/rust">100+ Rust PRs</a> ╵
+      
+    </nav>
+
+    <a id="top"></a>
+
+    <section class="main">
+      
+  <div class="post">
+    <article class="col h-entry">
+      <h1 class="p-name">C# - Diagramme und Graphen mit ZedGraph</h1>
+      
+  <p class="meta">
+  — <a href="https:&#x2F;&#x2F;philhansch.net&#x2F;posts&#x2F;c-sharp-diagramme-und-graphen-mit-zedgraph&#x2F;" class="u-url" title="Permalink">
+      <em>
+        <time class="dt-published" datetime="2010-09-19">2010-09-19</time>
+      </em>
+  </a>,
+  <em>
+  
+  
+  
+  3  min read
+</em>
+  </p>
+
+      <div class="e-content"><p><strong>Note</strong>: Die ZedGraph Website existiert leider nicht mehr, deshalb habe ich die links entfernt.
+Für die Darstellung von Graphen und Diagrammen in einer Form gibt es verschiedene Werkzeuge. Der Großteil der Angebote ist allerdings nicht kostenlos oder nur gering konfigurierbar. Auf der Suche nach weiteren Bibliotheken bin ich auf <strong>ZedGraph</strong> gestoßen.</p>
+<p>ZedGraph ist eine freie Bibliothek zum Erstellen von flexiblen Diagrammen und Graphen. Mit ZedGraph lassen sich alle Formen von 2D Diagrammen darstellen. Die Diagramme bieten Optionen zum Zoomen, drucken, kopieren und speichern.</p>
+<p>Während die ZedGraph Wiki bereits viele Beispiele bietet, werde ich ebenfalls die Grundfunktionen von ZedGraph anhand eines kleinen Beispiels erläutern.</p>
+<h2 id="darstellung-von-zufalligen-zahlen-als-streudiagramm">Darstellung von zufälligen Zahlen als Streudiagramm</h2>
+<p>Um ZedGraph benutzen zu können, muss die aktuelle Bibliothek <a href="http://sourceforge.net/projects/zedgraph/files/">hier</a> heruntergeladen und entpackt werden.
+Wir erstellen zunächst ein neues Windows Forms Projekt. Als erstes fügen wir einen Verweis zur <em>ZedGraph.dll</em> hinzu. Dazu kopieren wir zunächst die ZedGraph.dll in das <em>bin/Debug</em> Verzeichnis unseres Projektes.</p>
+<!--[![ZedGraph.dll im bin/Debug Verzeichnis](http://wpimages.phansch.de/2010/09/zedgraph_1.png)](http://wpimages.phansch.de/2010/09/zedgraph_1.png)-->
+<p>Anschließend fügen wir im Projekt-Explorer einen Verweis zur ZedGraph.dll hinzu (<a href="http://msdn.microsoft.com/de-de/library/wkze6zky.aspx">how-to</a>).</p>
+<p>Mit</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>using ZedGraph;
+</span></code></pre>
+<p>können wir jetzt auf sämtliche Funktionen von ZedGraph zurückgreifen. Um das <em>ZedGraphControl</em> nutzen können, müssen wir das Element noch der <a href="http://msdn.microsoft.com/en-us/library/ms165355%28VS.80%29.aspx">Toolbox hinzufügen</a>. An dieser Stelle werde wir das Formdesign nicht näher betrachten. Wir gehen direkt in den Code.</p>
+<p>Zunächst haben wir zwei Klassen auf die wir zurückgreifen:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>        Random rNum = new Random();
+</span><span>        PointPairList randomData = new PointPairList();
+</span></code></pre>
+<p><a href="http://msdn.microsoft.com/en-us/library/system.random.aspx">Random</a> ist Teil des .net Frameworks und gibt uns eine zufällige Zahl zurück.
+<a href="http://zedgraph.sourceforge.net/documentation/html/T_ZedGraph_PointPairList.htm">PointPairList</a> ist eine Klasse der ZedGraph Bibliothek und ist eine Liste von PointPair Objekten.</p>
+<p>Nun die Methode zum Erzeugen von 200 zufälligen Zahlen:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>private void button_update_Click(object sender, EventArgs e)
+</span><span>{
+</span><span>    randomData.Clear(); //Remove old data
+</span><span>
+</span><span>    int i = 0;
+</span><span>
+</span><span>    do
+</span><span>    {
+</span><span>        i++;
+</span><span>
+</span><span>        //Add random new data to the PointPairList
+</span><span>        randomData.Add(rNum.Next(1, 255), rNum.Next(1, 255));
+</span><span>    }
+</span><span>    while (i &lt; 199);
+</span><span>
+</span><span>    //Update the chart
+</span><span>    CreateChart(zedGraphControl1);
+</span><span>}
+</span></code></pre>
+<p>Und die Methode CreateChart:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>private void CreateChart(ZedGraphControl zgc)
+</span><span>{
+</span><span>    GraphPane myPane = zgc.GraphPane;
+</span><span>
+</span><span>    //Needed for redrawing the chart, to remove old curves
+</span><span>    myPane.CurveList.Clear();
+</span><span>
+</span><span>    //Add the data
+</span><span>    LineItem myCurve = myPane.AddCurve(&quot;Random Values&quot;, randomData,
+</span><span>                                        Color.Black);
+</span><span>
+</span><span>    //Customize the graph
+</span><span>    myCurve.Line.IsVisible = false; //Hide line-connections
+</span><span>    myCurve.Symbol.Type = SymbolType.Circle;
+</span><span>    myCurve.Symbol.Size = 2f;
+</span><span>    myCurve.Symbol.Fill.Type = FillType.Solid;
+</span><span>    myCurve.Symbol.IsAntiAlias = true; //Makes the circles smoother
+</span><span>
+</span><span>    //Refresh the graph in order to show the new data
+</span><span>    zgc.AxisChange();
+</span><span>    zgc.Refresh();
+</span><span>}
+</span></code></pre>
+<p>Zunächst erstellen wir einen Verweis auf das ZedGraphControl. Mit <em>myPane</em> könnten wir auf die zahlreichen Properties zugreifen.
+Wir nutzen es in diesem Beispiel aber nur um alte Daten im Falle einen Updates zu entfernen.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>LineItem myCurve = myPane.AddCurve(&quot;Random Values&quot;, randomData,
+</span><span>                                    Color.Black);
+</span></code></pre>
+<p>Hier erzeugen wir das Objekt <em>myCurve</em>. Es wird mit einem LineItem Objekt gefüllt, welches die Daten enthält die wir zuvor erzeugt haben.</p>
+<p>Anschließend werden noch einige Anpassungen an der Darstellung vorgenommen:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>myCurve.Symbol.Type = SymbolType.Circle;
+</span><span>myCurve.Symbol.Size = 2f;
+</span><span>myCurve.Symbol.Fill.Type = FillType.Solid;
+</span></code></pre>
+<p>Diese Einstellungen sorgen dafür, dass die Datensymbole 2 Punkte große, gefüllte Kreise sind.</p>
+<p>Zuletzt wird das ZedGraphControl aktualisiert um die neuen Daten anzuzeigen.</p>
+<p>Beispiel als Download: <!--[ZedGraphExample](http://wpimages.phansch.de/2010/09/ZedGraphExample.zip). (Benötigt wird [Visual C# 2010 Express](http://www.microsoft.com/express/Downloads/#2010-Visual-CS))--> Beispiel entfernt.</p>
+<p>Weiterführende Links:</p>
+<ul>
+<li><a href="https://www.codeproject.com/Articles/5431/A-flexible-charting-library-for-NET">https://www.codeproject.com/Articles/5431/A-flexible-charting-library-for-NET</a></li>
+</ul>
+</div>
+    </article>
+    <hr />
+    <div class="about-the-author">
+      <img src="/assets/images/avatar.jpeg" height="200px" alt="avatar" class="avatar" />
+      <div>
+        <h2>Philipp Hansch</h2>
+        <h4 class="subtitle">Software Developer</h4>
+        <p>
+        Philipp is a software developer <s>currently heavily involved with Rust. Most notably he's a member of the Clippy team where he helps with bugfixing and documentation.</s> You can follow him on <a href='https://mastodon.social/@phansch'>Mastodon</a> and find him on <a href='https://github.com/{{ config.extra.author.github }}'>GitHub</a> as well as <a href='https://patreon.com/{{ config.extra.author.patreon }}'>Patreon</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+    </section>
+
+    <footer>
+  <div id="footer-content">
+    <p>
+      <a href="mailto:hi@philhansch.net" rel="me" title="hi@philhansch.net">mail</a> ::
+      <a href="https://mastodon.social/@phansch" rel="me">mastodon</a> ::
+      <a href="https://codeberg.org/philhansch" rel="me" title="Code">codeberg</a> ::
+      <a href="https://lobste.rs/~philhansch">lobste.rs</a> ::
+      <a href="/archive/" title="More posts">archive</a> ::
+      <a href="/atom.xml" title="RSS">feed</a> ::
+      <a href="https://gist.github.com/phansch/db18a595d2f5f1ef16646af72fe1fb0e" title="Improved YARD Cheatsheet">yard cheatsheet</a>
+    </p>
+    <p>
+      No ads, no trackers, no javascript.<br>
+      Further, no AI was used in the making of this website.
+    </p>
+    <p id="license">
+      Philipp Hansch © 2009-2025
+      <a href="/license">BY-NC 4.0 (+MIT)</a>
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="assets/images/cc.svg" alt=""></a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Howto: Windows Minidump auslesen</title>
+
+    <meta name="author" content="Philipp Hansch" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="alternate" type="application/atom+xml" title="philhansch.net - Feed" href="http://philhansch.net/atom.xml" />
+    <link rel="stylesheet" type="text/css" href="/assets/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/default.css" />
+    
+<meta property="og:title" content="Howto: Windows Minidump auslesen">
+<meta property="og:url" content="https:&#x2F;&#x2F;philhansch.net&#x2F;posts&#x2F;howto-windows-minidump-auslesen&#x2F;">
+<meta property="og:image" content="https:&#x2F;&#x2F;philhansch.net&#x2F;assets/images/avatar.jpeg">
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+  <body>
+    <nav class="my-top-bar">
+      
+        <a title="About" href="/" rel="author">About</a> ╵
+        <a title="Blog" class="active" href="/writing">Blog</a> ╵
+        <a title="100+ Rust PRs" href="/onehundred/rust">100+ Rust PRs</a> ╵
+      
+    </nav>
+
+    <a id="top"></a>
+
+    <section class="main">
+      
+  <div class="post">
+    <article class="col h-entry">
+      <h1 class="p-name">Howto: Windows Minidump auslesen</h1>
+      
+  <p class="meta">
+  — <a href="https:&#x2F;&#x2F;philhansch.net&#x2F;posts&#x2F;howto-windows-minidump-auslesen&#x2F;" class="u-url" title="Permalink">
+      <em>
+        <time class="dt-published" datetime="2010-12-21">2010-12-21</time>
+      </em>
+  </a>,
+  <em>
+  
+  
+  
+  3  min read
+</em>
+  </p>
+
+      <div class="e-content"><p><em>Anmerkung: Screenshots wurden entfernt und der Artikel ist nicht mehr aktuell.</em></p>
+<p>Vor kurzem hat mich unter Windows 7 zum ersten mal ein BSOD erwischt. Das ist, zumindest bei mir, eine sehr seltene Angelegenheit. Leider war ich beim auftauchen des Bluescreens so perplex und habe die Fehlermeldung nicht wahrgenommen. Was also machen?
+Es gibt verschiedene Möglichkeiten die Infos aus dem Bluescreen nachträglich einzusehen.</p>
+<ol>
+<li>Eventviewer</li>
+<li>WinDbg</li>
+</ol>
+<h2 id="eventlog">EventLog</h2>
+<p>Die erste Möglichkeit besteht darin, das EventLog von Windows zu durchsuchen.</p>
+<p>Das EventLog speichert verschiedene Arten von Ereignissen während des Windows Betriebes auf. Die Ereignisse sind in drei Kategorien aufgeteilt: <strong>Information</strong>, <strong>Warnung</strong>, <strong>Fehler</strong>. Diese Informationen werden ständig im Hintergrund gesammelt und im EventLog aufbereitet dargestellt. Aufgerufen wird das EventLog wie folgt:</p>
+<ol>
+<li>Start -&gt; Ausführen</li>
+<li>"eventvwr" eingeben</li>
+<li>Mit OK bestätigen</li>
+</ol>
+<p>Ein Bluescreen sollte unter die Kategorie "Fehler" bzw. "Kritisch" fallen. Mit einem Doppelklick auf das entsprechende Event und einem nachfolgendem Klick auf "Details" erhält man folgende Ansicht:</p>
+<!--[![Detailansicht im Eventfenster](http://wpimages.phansch.de/2010/11/Bluescreen_01-300x205.png)](http://wpimages.phansch.de/2010/11/Bluescreen_01.png)-->
+<p>Sowohl mit der Event-ID als auch dem BugCheckCode lassen sich über Google meistens weitere Informationen finden.</p>
+<h2 id="windbg">WinDbg</h2>
+<p>Wenn die gefundenen Informationen nicht reichen und der Bluescreen nicht beseitigt werden konnte, gibt es noch eine weitere Möglichkeit um der Ursache auf die Spur zu kommen.
+Mit WinDbg lassen sich sogenannte Minidumps analysieren. Minidumps werden im Falle eines Bluescreens unter C:\Windows\Minidump angelegt.
+Natürlich ist WinDbg sehr komplex. Für unser Problem reicht es jedoch, wenn wir die Schritte kennen um einen Bluescreen-Minidump zu analysieren.</p>
+<h3 id="windbg-installieren">WinDbg installieren</h3>
+<p>Für WinDbg werden die Windows Debugging Tools benötigt. Bei der Installation muss allerdings nur WinDbg installiert werden.</p>
+<p>Bei der Installation ist es wichtig, die Debugging Tools auszuwählen:</p>
+<!--[![Debugging Tools auswählen](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11-300x288.png)](http://wpimages.phansch.de/2010/12/windowsSDKinstall_11.png)-->
+<p>WinDbg kann anschließend über das Programmmenü gestartet werden:</p>
+<!--[![WinDbg starten](http://wpimages.phansch.de/2010/12/startWinDbg.png)](http://wpimages.phansch.de/2010/12/startWinDbg.png)-->
+<h3 id="windbg-benutzen-um-minidump-auszulesen">WinDbg benutzen um Minidump auszulesen</h3>
+<p>Zunächst ist es nötig die Windows Symbols herunterzuladen welche das debuggen überhaupt erst ermöglichen.
+Dazu gehen wir in WinDbg auf "File -&gt; Symbol File Path.." und geben folgendes ein:</p>
+<p><code>SRV*c:\symbols*http://msdl.microsoft.com/download/symbols</code></p>
+<p>Nun sollten wir den Workspace speichern um den Symbolpfad beim erneuten Start des Programms nicht nochmal eingeben zu müssen.
+Um den Workspace zu speichern gehen wir auf "File -&gt; Save Workspace".</p>
+<p>Als nächstes lokalisieren wir den zu analysierenden Minidump. Normalerweise wird dieser unter <code>%systemroot%\Minidump</code> gespeichert. Der Minidump ist nach dem Datum, einer zufälligen Nummer und einer fortlaufenden Nummer benannt.</p>
+<p>In meinem Beispiel heißt der Minidump "111010-27456-01.dmp".</p>
+<p>Um den Minidump auszulesen öffnen wir ihn in WinDbg über "File -&gt; Open Crash Dump". Bei der Frage, ob wir den Worksapce speichern möchten, wählen wir "No".</p>
+<p>Nun befinden wir uns in der Debugging Ansicht. Es wird zunächst eine weile dauern bis die Symboldateien heruntergeladen wurden.
+Wenn der Download abgeschlossen ist, sieht das Debuggingfenster so aus:</p>
+<!--[![Download der Symbole komplett](http://wpimages.phansch.de/2010/12/winDbg_debug1-150x150.png)](http://wpimages.phansch.de/2010/12/winDbg_debug1.png)-->
+<p>Wir können bereits sehen wodurch der Fehler ausgelöst wurde: "Probably caused by : ntkrnlmp.exe"
+Um weitere Informationen zu bekommen, geben wir unten in der Kommandozeile den Befehl <code>!analyze -v</code> ein.</p>
+<p>Dies analysiert den Fehler bis ins Detail:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>    BAD_POOL_CALLER (c2)
+</span><span>The current thread is making a bad pool request.  Typically this is at a bad IRQL level or double freeing the same allocation, etc.
+</span><span>Arguments:
+</span><span>Arg1: 000000000000000b, type of pool violation the caller is guilty of.
+</span><span>Arg2: fffffa8005338728
+</span><span>Arg3: 0000000005338720
+</span><span>Arg4: fffffa8005338f38
+</span><span>
+</span><span>Debugging Details:
+</span><span>
+</span><span>FAULTING_IP: 
+</span><span>nt!ExDeleteResourceLite+199
+</span><span>fffff800`02c690f9 eba0            jmp     nt!ExDeleteResourceLite+0x13b (fffff800`02c6909b)  
+</span><span>
+</span><span>    BUGCHECK_STR:  0xc2_b
+</span><span>
+</span><span>CUSTOMER_CRASH_COUNT:  1  
+</span><span>
+</span><span>    DEFAULT_BUCKET_ID:  VISTA_DRIVER_FAULT
+</span><span>
+</span><span>PROCESS_NAME:  System
+</span><span>
+</span><span>CURRENT_IRQL:  0  
+</span><span>
+</span><span>LAST_CONTROL_TRANSFER:  from fffff80002daf6b8 to fffff80002c7c740
+</span><span>
+</span><span>STACK_TEXT:  
+</span><span>[...]
+</span><span>
+</span><span>STACK_COMMAND:  kb
+</span><span>
+</span><span>FOLLOWUP_IP: 
+</span><span>nt!ExDeleteResourceLite+199
+</span><span>fffff800`02c690f9 eba0            jmp     nt!ExDeleteResourceLite+0x13b (fffff800`02c6909b)
+</span><span>
+</span><span>SYMBOL_STACK_INDEX:  2
+</span><span>
+</span><span>SYMBOL_NAME:  nt!ExDeleteResourceLite+199
+</span><span>
+</span><span>FOLLOWUP_NAME:  MachineOwner
+</span><span>
+</span><span>MODULE_NAME: nt
+</span><span>
+</span><span>    IMAGE_NAME:  ntkrnlmp.exe
+</span><span>
+</span><span>DEBUG_FLR_IMAGE_TIMESTAMP:  4c1c44a9
+</span><span>
+</span><span>FAILURE_BUCKET_ID:  X64_0xc2_b_nt!ExDeleteResourceLite+199
+</span><span>
+</span><span>BUCKET_ID:  X64_0xc2_b_nt!ExDeleteResourceLite+199
+</span><span>
+</span><span>Followup: MachineOwner
+</span></code></pre>
+<p>Mithilfe der eingerückten Informationen können wir zum Beispiel über Google weitere Infos bekommen. In diesem Fall hat ein neuer Audiotreiber das Problem behoben.</p>
+<p>Ich hoffe dieser Post war einer Hilfe und konnte eventuelle Probleme beheben.
+*[BSOD]: Bluescreen of death</p>
+</div>
+    </article>
+    <hr />
+    <div class="about-the-author">
+      <img src="/assets/images/avatar.jpeg" height="200px" alt="avatar" class="avatar" />
+      <div>
+        <h2>Philipp Hansch</h2>
+        <h4 class="subtitle">Software Developer</h4>
+        <p>
+        Philipp is a software developer <s>currently heavily involved with Rust. Most notably he's a member of the Clippy team where he helps with bugfixing and documentation.</s> You can follow him on <a href='https://mastodon.social/@phansch'>Mastodon</a> and find him on <a href='https://github.com/{{ config.extra.author.github }}'>GitHub</a> as well as <a href='https://patreon.com/{{ config.extra.author.patreon }}'>Patreon</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+    </section>
+
+    <footer>
+  <div id="footer-content">
+    <p>
+      <a href="mailto:hi@philhansch.net" rel="me" title="hi@philhansch.net">mail</a> ::
+      <a href="https://mastodon.social/@phansch" rel="me">mastodon</a> ::
+      <a href="https://codeberg.org/philhansch" rel="me" title="Code">codeberg</a> ::
+      <a href="https://lobste.rs/~philhansch">lobste.rs</a> ::
+      <a href="/archive/" title="More posts">archive</a> ::
+      <a href="/atom.xml" title="RSS">feed</a> ::
+      <a href="https://gist.github.com/phansch/db18a595d2f5f1ef16646af72fe1fb0e" title="Improved YARD Cheatsheet">yard cheatsheet</a>
+    </p>
+    <p>
+      No ads, no trackers, no javascript.<br>
+      Further, no AI was used in the making of this website.
+    </p>
+    <p id="license">
+      Philipp Hansch © 2009-2025
+      <a href="/license">BY-NC 4.0 (+MIT)</a>
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="assets/images/cc.svg" alt=""></a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
