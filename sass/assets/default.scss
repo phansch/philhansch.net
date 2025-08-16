@@ -23,6 +23,19 @@
   }
 }
 
+#license {
+  img {
+    height: 20px;
+    vertical-align: bottom;
+  }
+}
+
+@media(prefers-color-scheme: dark) {
+  #license img[src*="svg"] {
+    filter: invert(1);
+  }
+}
+
 /* Basic reset */
 * {
   box-sizing: border-box;
@@ -302,7 +315,7 @@ footer {
     margin: 0px auto;
     p {
       font-family: monospace;
-      color: var(--light-border-color);
+      color: var(--color-fg);
     }
   }
 }
