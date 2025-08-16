@@ -10,4 +10,4 @@ After some deliberation, I decided to license all text and assets as **CC BY-NC*
 and the code behind the website as **MIT**.
 
 This is now reflected in LICENSE files in the repository and on a [new
-licensing page](@/license.md)
+licensing page](@/license.md) as well as in the footer.
