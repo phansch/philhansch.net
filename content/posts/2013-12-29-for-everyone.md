@@ -51,6 +51,7 @@ Hackership ended before Christmas and it was the best thing that could happen to
 ## Thank you to everyone I've met in the last two months. You are all amazing!
 
 <img src="/assets/images/posts/2013-12-29-for-everyone/yay.png" class="img-thumbnail" alt="not hopeless bullshit" />
+<small>Source: Allie Brosh - https://hyperboleandahalf.blogspot.com/2013/05/depression-part-two.html</small>
 
 If you read through this incredibly long blog post, I want to thank you for taking the time to read it. You might also like what I post on [Twitter](https://twitter.com/philhansch).
 
